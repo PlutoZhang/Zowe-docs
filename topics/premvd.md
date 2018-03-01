@@ -2,4 +2,4 @@
 
 
 
-**Parent topic:** [Planning the installation](../topics/planinstall.md)
+**Parent topic:** [Planning for installation](../topics/planinstall.md)
