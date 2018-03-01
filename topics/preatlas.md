@@ -28,4 +28,4 @@ The following information is required during the installation process. Make the 
 
 -   \(Optional\) The SDSF java installation directory, for example, `/usr/lpp/sdsf/java`.
 
-**Parent topic:** [Planning the installation](../topics/planinstall.md)
+**Parent topic:** [Planning for installation](../topics/planinstall.md)

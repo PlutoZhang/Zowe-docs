@@ -4,8 +4,8 @@ Before you start the installation, assess your environment to ensure that it mee
 
 -   **[Prerequisites for Atlas](../topics/preatlas.md)**  
 
--   **[Prerequisites for MVD](../topics/premvd.md.md)**  
+-   **[Prerequisites for MVD](../topics/premvd.md)**  
 
 -   **[Prerequisites for CLI](../topics/precli.md)**  
 
-**Parent topic:** [Installing Atlas](../topics/install.md)
+**Parent topic:** [Installing Giza](../topics/install.md)
