@@ -3,6 +3,7 @@
 Before installing Atlas, check whether your environment meets the following requirements to ensure a successful installation.
 
 -   Atlas must be installed on z/OS® version 2.1 or later.
+-   Atlas requires a 64-bit Java™ 8 JRE or later
 -   [IBM® z/OS Management Facility \(z/OSMF\)](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm) must be installed and running. z/OSMF is a prerequisite for the Atlas microservice.
 
     Atlas uses the RESTFILES and RESTJOBS services of z/OSMF to access data sets, z/OS UNIX™ System Services \(USS\) files, and job spool files. Therefore, these services must be correctly configured and available when Atlas is running.
