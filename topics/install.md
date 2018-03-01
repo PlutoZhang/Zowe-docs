@@ -1,4 +1,4 @@
-# Installing Atlas
+# Installing Giza
 
 This chapter describes how to install Atlas.
 
