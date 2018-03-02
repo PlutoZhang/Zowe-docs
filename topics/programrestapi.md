@@ -11,4 +11,4 @@ Here is sample code written in JavaScript™ using features from ES6 to send a `
 -   **[Extended API sample in JavaScript](../topics/extendedapisample.md)**  
 Here is an extended API sample that is written using JavaScript™ with features from ES62015 \(map\).
 
-**Parent topic:** [Programming Atlas](../topics/extend.md)
+**Parent topic:** [Extending Giza](../topics/extend.md)
