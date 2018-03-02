@@ -3,7 +3,7 @@
 Use Dataset APIs to create, read, update, delete, and list data sets. See the following table for the operations available in Dataset APIs and their scenarios and prerequisites.
 
 |REST API|Description|Prerequisites|
-|--------|-----------|--------|-------------|
+|--------|-----------|-------------|
 |`GET /Atlas/api/datasets/{filter}`|Get a list of data sets by filter. Use this API to get a starting list of data sets, for example, **userid.\*\***.|z/OSMF restfiles|
 |`GET /Atlas/api/datasets/{dsn}/attributes`|Retrieve attributes of a data set\(s\). If you have a data set name, use this API to determine attributes for a data set name. For example, it is a partitioned data set.|z/OSMF restfiles|
 |`GET /Atlas/api/datasets/{dsn}/members`|Get a list of members for a partitioned data set. Use this API to get a list of members of a partitioned data set.|z/OSMF restfiles|
