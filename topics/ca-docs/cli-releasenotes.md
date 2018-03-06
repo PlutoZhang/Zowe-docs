@@ -30,7 +30,7 @@ for Brightside CLI:
   - [Brightside CLI Capabilities](#brightside-cli-capabilities)
   - [Supported Platforms](#supported-platforms)
   - [Brightside CLI Early Access Preview](#brightside-cli-early-access-preview)
-  - [Participate in the Brightside CLI Community](#participate-in-the-brightside-cli-community)
+  - [Participate in the Brightside CLI Community](#participate-in-the-brightside-cli-community)
   - [Known Issues](#known-issues)
   - [Third-Party Software Agreements](#third-party-software-agreements)
 
