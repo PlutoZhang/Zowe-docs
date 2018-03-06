@@ -37,11 +37,11 @@ for Brightside CLI:
 **Note:** For installation, upgrade, and software requirements, see
 [Installing.](Installing_429364995.html)
 
-## Solution Video
+# Solution Video
 
 Watch this short video about how Brightside CLI works. 
 
-## Brightside CLI Capabilities
+# Brightside CLI Capabilities
 
 With Brightside CLI, you can interact with z/OS remotely in the
 following ways:
@@ -73,7 +73,7 @@ For more information about the available functionality in Brightside
 CLI, see [Brightside CLI Command
 Groups](Brightside-CLI-Command-Groups_447395688.html).
 
-## Supported Platforms
+# Supported Platforms
 
 **Workstations:** You can install Brightside CLI on any Windows, macOS,
 and Linux operating system that supports Node.js version 6 or
@@ -89,7 +89,7 @@ Support (LTS) version.
 and tested to integrate with z/OS Management Facility (z/OSMF) running
 on IBM version 2.2 z/OS mainframe systems.
 
-## Brightside CLI Early Access Preview
+# Brightside CLI Early Access Preview
 
 The Brightside CLI Early Access Preview lets early adopters preview
 Brightside CLI. The Release Notes describes new features as they become
@@ -100,7 +100,7 @@ updates. For information about how to determine your current Brightside
 CLI version and apply updates, see [Install Brightside
 CLI.](Install-Brightside-CLI_429364999.html)
 
-### Experimental Commands
+# Experimental Commands
 
 The Brightside CLI Early Access Preview contains features that are still
 under development and have not been tested to GA quality. You can enable
@@ -113,7 +113,7 @@ commands. 
 For more information, see [Enable and Disable Experimental
 Commands](Enable-and-Disable-Experimental-Commands_433363274.html).
 
-## Participate in the Brightside CLI Community
+# Participate in the Brightside CLI Community
 
 We want to know what you think about Brightside CLI. You can become a
 part of the Brightside CLI community by participating in the [Brightside
@@ -138,10 +138,9 @@ Alternatively, you can add comments at the bottom of this DocOps page to
 provide feedback on your experience with the product and
 documentation.
 
-## Known Issues<span id="ReleaseNotes-knownIssues" class="confluence-anchor-link"></span>
+# Known Issues
 
-The following issues are known to exist in this release
-of Brightside CLI:
+The following issues are known to exist in this release of Brightside CLI:
 
   - **Additional syntax required to complete macOS and Linux
     installations.**  
@@ -194,7 +193,7 @@ To report documentation issues or make suggestions, place your
 comments in the Comments section at the bottom of the applicable
 documentation page.
 
-## Third-Party Software Agreements
+# Third-Party Software Agreements
 
  Brightside CLI uses the following third-party
 software:  
