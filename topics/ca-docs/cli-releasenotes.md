@@ -27,7 +27,7 @@ The following sections explain the key features and details
 for Brightside CLI:
 
   - [Solution Video](#solution-video)
-  - [Brightside CLI Capabilities](#brightside-cli-capabilities)
+  - [Brightside CLI Capabilities](#brightside-cli-capabilities)
   - [Supported Platforms](#supported-platforms)
   - [Brightside CLI Early Access Preview](#brightside-cli-early-access-preview)
   - [Participate in the Brightside CLI Community](#participate-in-the-brightside-cli-community)
