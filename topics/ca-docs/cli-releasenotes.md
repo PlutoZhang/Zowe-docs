@@ -27,10 +27,10 @@ The following sections explain the key features and details
 for Brightside CLI:
 
   - [Solution Video](#solution-video)
-  - [Brightside CLI Capabilities](#brightside-cli-capabilities)
+  - [Brightside CLI Capabilities](#brightside-cli-capabilities)
   - [Supported Platforms](#supported-platforms)
   - [Brightside CLI Early Access Preview](#brightside-cli-early-access-preview)
-  - [Participate in the Brightside CLI Community](#participate-in-the-brightside-cli-community)
+  - [Participate in the Brightside CLI Community](#participate-in-the-brightside-cli-community)
   - [Known Issues](#known-issues)
   - [Third-Party Software Agreements](#third-party-software-agreements)
 
@@ -85,9 +85,9 @@ and other prerequisites on your personal computer or workstation. We
 recommend that you update Node.js regularly to the latest Long Term
 Support (LTS) version.
 
-<span class="anchor">**Mainframe systems:** Brightside CLI was designed
+**Mainframe systems:** Brightside CLI was designed
 and tested to integrate with z/OS Management Facility (z/OSMF) running
-on IBM version 2.2 z/OS mainframe systems.</span>
+on IBM version 2.2 z/OS mainframe systems.
 
 ## Brightside CLI Early Access Preview
 
