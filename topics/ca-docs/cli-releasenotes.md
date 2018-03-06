@@ -187,8 +187,7 @@ of Brightside CLI:
     first in the path is used. To correct this behavior, change the
     order of the programs in the path so that Node.js appears first.
 
-To report product defects, visit [Brightside CLI project on
-validate.ca.com](https://validate.ca.com/project/version/item.html?cap=13283cc32fd9439c85aeb18bba4ac1f6&arttypeid=%7B4109d6e9-6c06-448b-8eb2-6601a5616391%7D&artid=%7B5ACC31C0-2176-437F-B06B-8C572D48C76C%7D) and
+To report product defects, visit [Brightside CLI project on validate.ca.com](https://validate.ca.com/project/version/item.html?cap=13283cc32fd9439c85aeb18bba4ac1f6&arttypeid=%7B4109d6e9-6c06-448b-8eb2-6601a5616391%7D&artid=%7B5ACC31C0-2176-437F-B06B-8C572D48C76C%7D) and
 click **Defects** from the **Feedback** menu.
 
 To report documentation issues or make suggestions, place your
@@ -238,11 +237,8 @@ software:
 **Note:** All trademarks, trade names, service marks, and logos
 referenced herein belong to their respective companies.
 
-To read each complete license, <span class="confluence-link">[download
-the attached zip
-file](attachments/417294291/448246817.zip)</span>[. ](https://docops.ca.com/)
+To read each complete license, [download the attached zip file](attachments/417294291/448246817.zip).
 
 **Note:** For all Early Access Preview releases of Brightside CLI,
-download the TPSRs from the [Brightside CLI project on
-validate.ca.com](https://validate.ca.com/project/version/item.html?cap=13283cc32fd9439c85aeb18bba4ac1f6&arttypeid=%7B4109d6e9-6c06-448b-8eb2-6601a5616391%7D&artid=%7B5ACC31C0-2176-437F-B06B-8C572D48C76C%7D).
+download the TPSRs from the [Brightside CLI project on validate.ca.com](https://validate.ca.com/project/version/item.html?cap=13283cc32fd9439c85aeb18bba4ac1f6&arttypeid=%7B4109d6e9-6c06-448b-8eb2-6601a5616391%7D&artid=%7B5ACC31C0-2176-437F-B06B-8C572D48C76C%7D).
 
