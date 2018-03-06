@@ -1,4 +1,4 @@
-# Brightside CLI : Legal Notices
+# Legal Notices
 
 This Documentation, which includes embedded help systems and
 electronically distributed materials, (hereinafter referred to as the
