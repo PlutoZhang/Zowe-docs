@@ -30,7 +30,7 @@ Brightside CLI contains the following command groups:
 
 <div class="toc-macro rbtoc1519943048671">
 
-  - [ca-disk](#BrightsideCLICommandGroups-ca-disk)
+  - [ca-disk](#ca-disk)
   - [cics](#BrightsideCLICommandGroups-cics)
   - [compiler](#BrightsideCLICommandGroups-compiler)
   - [config](#BrightsideCLICommandGroups-config)
@@ -46,9 +46,9 @@ Brightside CLI contains the following command groups:
   - [zos-files](#BrightsideCLICommandGroups-zos-files)
   - [zos-jobs](#BrightsideCLICommandGroups-zos-jobs)
   - [zos-ssh](#BrightsideCLICommandGroups-zos-ssh)
-  - [zos-tso](#BrightsideCLICommandGroups-zos-tso)
-  - [zos-utils](#BrightsideCLICommandGroups-zos-utils)
-  - [zosmf](#BrightsideCLICommandGroups-zosmf)
+  - [zos-tso](#zos-tso)
+  - [zos-utils](#zos-utils)
+  - [zosmf](#zosmf)
 
 ## ca-disk
 
