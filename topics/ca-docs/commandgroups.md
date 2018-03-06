@@ -1,53 +1,6 @@
-<div id="page">
 
-<div id="main" class="aui-page-panel">
 
-<div class="aui-page-panel-nav">
-
-<div class="aui-navgroup-inner">
-
-<div id="tabs-nav" class="aui-tabs horizontal-tabs">
-
-  - [**Contents**](#tabs-navigation)
-  - [**Search**](#tabs-search)
-
-<div id="tabs-navigation" class="tabs-pane active-pane" data-current-page-id="447395688">
-
-</div>
-
-<div id="tabs-search" class="tabs-pane">
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="section aui-page-panel-content">
-
-<div id="main-header">
-
-<div id="breadcrumb-section">
-
-1.  <span> [Brightside CLI](index.html) </span>
-2.  <span> [Using](Using_429365002.html)
-</span>
-
-</div>
-
-# <span id="title-text"> Brightside CLI : Brightside CLI Command Groups </span>
-
-</div>
-
-<div id="content" class="view">
-
-<div class="page-metadata">
-
-</div>
-
-<div id="main-content" class="wiki-content group">
+# Brightside CLI Command Groups
 
 Brightside CLI contains command groups that focus on specific business
 processes that you (application developers and systems programmers)
@@ -69,21 +22,10 @@ using the commands in each group. For more information, see [How to
 Display Brightside CLI
 Help](How-to-Display-Brightside-CLI-Help_429365003.html). 
 
-<div class="confluence-information-macro confluence-information-macro-warning">
-
-<span class="aui-icon aui-icon-small aui-iconfont-error confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
-**Important\!** Before you issue these commands, ensure that you create
+**Important:** Before you issue these commands, ensure that you create
 and [validate your zosmf profile](Validate-Installation_430335233.html)
 so that Brightside CLI can communicate with z/OS systems.
 
-</div>
-
-</div>
-
-  
 Brightside CLI contains the following command groups:
 
 <div class="toc-macro rbtoc1519943048671">
@@ -108,8 +50,6 @@ Brightside CLI contains the following command groups:
   - [zos-utils](#BrightsideCLICommandGroups-zos-utils)
   - [zosmf](#BrightsideCLICommandGroups-zosmf)
 
-</div>
-
 ## ca-disk
 
 The ca-disk command group is an [experimental command
@@ -127,20 +67,8 @@ With the ca-disk command group, you can perform the following tasks:
     Backup and
     Restore](https://docops.ca.com/ca-disk-backup-and-restore/12-5/en).
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about ca-disk syntax, actions, and
 options, open Brightside CLI, and issue the following command:
-
-`bright ca-disk -h`
-
-</div>
-
-</div>
 
 ## cics
 
@@ -159,20 +87,10 @@ With the cics command group, you can perform the following tasks:
   - Submit batch utilities such as
 DFHCSDUP.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about cics syntax, actions, and options,
 open Brightside CLI, and issue the following command:
 
 `bright cics -h`
-
-</div>
-
-</div>
 
 ## compiler
 
@@ -187,20 +105,10 @@ With the compiler command group, you can perform the following tasks:
     HLASM (IBM High Level Assembler) source code on mainframe
 systems.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about compiler syntax, actions, and
 options, open Brightside CLI, and issue the following command:
 
 `bright compiler -h`
-
-</div>
-
-</div>
 
 ## config
 
@@ -216,20 +124,10 @@ With the config command group, you can perform the following tasks:
   - Enable and disable experimental features and
 commands.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about config syntax, actions, and
 options, open Brightside CLI, and issue the following command:
 
 `bright config -h`
-
-</div>
-
-</div>
 
 ## contribute
 
@@ -241,20 +139,10 @@ With the contribute command group, you can perform the following tasks:
   - Submit feedback to the Brightside CLI engineering
 team.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about contribute syntax, actions, and
 options, open Brightside CLI, and issue the following command:
 
 `bright contribute -h`
-
-</div>
-
-</div>
 
 ## db2
 
@@ -273,20 +161,10 @@ can perform the following tasks:
     also specify a basic zosmf
 profile. 
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about db2 syntax, actions, and options,
 open Brightside CLI, and issue the following command:
 
 `bright db2 -h`
-
-</div>
-
-</div>
 
 ## endevor 
 
@@ -304,20 +182,10 @@ you can perform the following tasks:
   - Generate, delete, and move CA Endevor
 elements.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about endevor syntax, actions, and
 options, open Brightside CLI, and issue the following command:
 
 `bright endevor -h`
-
-</div>
-
-</div>
 
 ## help
 
@@ -336,18 +204,8 @@ With the help command group, you can perform the following tasks:
   - Search all Brightside CLI help text for a specific term or
 phrase.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information, see [How to Display Brightside CLI
 Help](How-to-Display-Brightside-CLI-Help_429365003.html).
-
-</div>
-
-</div>
 
 ## ipcs
 
@@ -362,20 +220,10 @@ z/OS. With the ipcs command group, you can perform the following tasks:
     specific
 data.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about ipcs syntax, actions, and options,
 open Brightside CLI, and issue the following command:
 
 `bright ipcs -h`
-
-</div>
-
-</div>
 
 ## profiles
 
@@ -398,12 +246,6 @@ With the profiles command group, you can perform the following tasks:
     information, see [Validate
     Installation](Validate-Installation_430335233.html).
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For general information about profiles, open Brightside CLI,
 and issue the following command:
 
@@ -413,10 +255,6 @@ For more information about profiles syntax, actions, and options, open
 Brightside CLI, and issue the following commands:
 
 `bright profiles -h`
-
-</div>
-
-</div>
 
 ## projects
 
@@ -438,20 +276,10 @@ With the projects command group, you can perform the following tasks:
   - Synchronize element listings and upload elements to your
 project.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about projects syntax, actions, and
 options, open Brightside CLI, and issue the following command:
 
 `bright projects -h`
-
-</div>
-
-</div>
 
 ## provisioning
 
@@ -473,20 +301,10 @@ tasks:
     corresponding values) on named, published cloud
 instances.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about provisioning syntax, actions, and
 options, open Brightside CLI, and issue the following command:
 
 `bright provisioning -h`
-
-</div>
-
-</div>
 
 ## zos-console
 
@@ -497,39 +315,19 @@ console.
 With the zos-console command group, you can perform the following
 tasks:
 
-<div class="confluence-information-macro confluence-information-macro-warning">
-
-<span class="aui-icon aui-icon-small aui-iconfont-error confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
-**Important\!**<span> Before you issue z/OS console commands with
+**Important!**<span> Before you issue z/OS console commands with
 Brightside CLI, security administrators should ensure that they provide
 access to commands that are appropriate for your organization.</span>
-
-</div>
-
-</div>
 
   - Issue commands to the z/OS console.
   - Collect command responses and continue to collect solicited command
     responses
 on-demand.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about zos-console syntax, actions, and
 options, open Brightside CLI, and issue the following command:
 
 `bright zos-console -h`
-
-</div>
-
-</div>
 
 ## zos-files
 
@@ -551,12 +349,6 @@ With the zos-files command group, you can perform the following tasks:
   - List data sets, print data sets, and search the contents of a data
     set. 
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about zos-console syntax, actions, and
 options, open Brightside CLI, and issue the following command:
 
@@ -565,10 +357,6 @@ options, open Brightside CLI, and issue the following command:
 See [Submit a Job and Print Job
 Output](Submit-a-Job-and-Print-Job-Output_441193420.html) for a use-case
 that demonstrates some zos-files commands.
-
-</div>
-
-</div>
 
 ## zos-jobs
 
@@ -589,12 +377,6 @@ With the zos-jobs command group, you can perform the following tasks:
     you must also specify a basic zosmf
 profile. 
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about zos-jobs syntax, actions, and
 options, open Brightside CLI, and issue the following command:
 
@@ -603,10 +385,6 @@ options, open Brightside CLI, and issue the following command:
 See [Submit a Job and Print the Job
 Output](Submit-a-Job-and-Print-Job-Output_441193420.html) for a use case
 that demonstrates some zos-jobs commands.
-
-</div>
-
-</div>
 
 ## zos-ssh
 
@@ -619,20 +397,10 @@ With the zos-ssh command group, you can perform the following tasks:
   - Issue USS commands via SSH (secure
 shell) protocol. 
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about zos-ssh syntax, actions, and
 options, open Brightside CLI and issue the following command:
 
 `bright zos-ssh -h`
-
-</div>
-
-</div>
 
 ## zos-tso
 
@@ -646,20 +414,10 @@ With the zos-tso command group, you can perform the following tasks:
   - Review TSO command response data in Brightside
 CLI.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about zos-tso syntax, actions, and
 options, open Brightside CLI, and issue the following command:
 
 `bright zos-tso -h `
-
-</div>
-
-</div>
 
 ## zos-utils
 
@@ -675,20 +433,10 @@ With the zos-utils command group, you can perform the following tasks:
   - Overwrite content in a data set with the IMASZAP
 utility.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about zos-utils syntax, actions, and
 options, open Brightside CLI, and issue the following command:
 
 `bright zos-utils -h `
-
-</div>
-
-</div>
 
 ## zosmf
 
@@ -708,90 +456,8 @@ With the zosmf command group, you can perform the following tasks:
     plugins installed on your
 system.
 
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
 **Note:** For more information about zosmf syntax, actions, and options,
 open Brightside CLI, and issue the following command:
 
 `bright zosmf -h `
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-  - <span id="n-417294290">[Brightside CLI](index.html)</span>
-      - <span id="n-417294291">[Release
-        Notes](Release-Notes_417294291.html)</span>
-    <!-- end list -->
-      - <span id="n-429364995">[Installing](Installing_429364995.html)</span>
-          - <span id="n-433363261">[Overview of the z/OS Management
-            Facility Configuration Process](433363261.html)</span>
-              - <span id="n-433363262">[Configure z/OS Management
-                Facility](433363262.html)</span>
-            <!-- end list -->
-              - <span id="n-433363263">[Configure z/OS Management
-                Facility Security](433363263.html)</span>
-            <!-- end list -->
-              - <span id="n-433363264">[Configure z/OS Management
-                Facility Cloud Provisioning](433363264.html)</span>
-            <!-- end list -->
-              - <span id="n-433363265">[Configure z/OS Management
-                Facility Cloud Provisioning
-                Security](433363265.html)</span>
-        <!-- end list -->
-          - <span id="n-429364999">[Install Brightside
-            CLI](Install-Brightside-CLI_429364999.html)</span>
-        <!-- end list -->
-          - <span id="n-430335233">[Validate
-            Installation](Validate-Installation_430335233.html)</span>
-              - <span id="n-433363269">[Identify and Correct Problems
-                Detected by the Validate Profile
-                Command](Identify-and-Correct-Problems-Detected-by-the-Validate-Profile-Command_433363269.html)</span>
-    <!-- end list -->
-      - <span id="n-429365002">[Using](Using_429365002.html)</span>
-          - <span id="n-429365003">[How to Display Brightside CLI
-            Help](How-to-Display-Brightside-CLI-Help_429365003.html)</span>
-        <!-- end list -->
-          - <span id="n-447395688">[Brightside CLI Command
-            Groups](Brightside-CLI-Command-Groups_447395688.html)</span>
-        <!-- end list -->
-          - <span id="n-433363274">[Enable and Disable Experimental
-            Commands](Enable-and-Disable-Experimental-Commands_433363274.html)</span>
-        <!-- end list -->
-          - <span id="n-441193419">[Brightside CLI
-            Scenarios](Brightside-CLI-Scenarios_441193419.html)</span>
-              - <span id="n-441193420">[Submit a Job and Print Job
-                Output](Submit-a-Job-and-Print-Job-Output_441193420.html)</span>
-    <!-- end list -->
-      - <span id="n-38207496">[Legal
-        Notices](Legal-Notices_38207496.html)</span>
-
-<div id="footer">
-
-<div class="section footer-body">
-
-Copyright © 2018 CA. All rights reserved.
-
-<div class="footer-logo">
-
-</div>
-
-Document generated on Mar 01, 2018 17:24.
-
-</div>
-
-</div>
-
-</div>
