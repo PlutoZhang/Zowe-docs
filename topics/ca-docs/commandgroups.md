@@ -227,7 +227,7 @@ open Brightside CLI, and issue the following command:
 
 ## profiles
 
-The projects command group is an [experimental command
+The profiles command group is an [experimental command
 group](Enable-and-Disable-Experimental-Commands_433363274.html) that
 lets you create, manage, and validate profiles for use with other
 Brightside CLI command groups. Profiles allow you to issue commands to
