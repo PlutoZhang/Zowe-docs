@@ -29,8 +29,8 @@ for Brightside CLI:
   - [Solution Video](#solution-video)
   - [Brightside CLI Capabilities](#brightside-cli-capabilities)
   - [Supported Platforms](#supported-platforms)
-  - [Brightside CLI Early Access Preview](#brightside-cli-earley-access-preview)
-  - [Participate in the Brightside CLI Community ](#participate-in-the-brightside-cli-community)
+  - [Brightside CLI Early Access Preview](#brightside-cli-early-access-preview)
+  - [Participate in the Brightside CLI Community](#participate-in-the-brightside-cli-community)
   - [Known Issues](#known-issues)
   - [Third-Party Software Agreements](#third-party-software-agreements)
 
