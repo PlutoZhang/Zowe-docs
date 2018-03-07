@@ -1,14 +1,14 @@
 # Uninstalling Atlas
 
 To uninstall Atlas, take the following steps:
-2.  Stop your Atlas Liberty server by running the following operator command:
+1.  Stop your Atlas Liberty server by running the following operator command:
 
     ```
     P FEKATLS
     ```
 
-3.  Delete the FEKATLS member from your system PROCLIB data set.
-4.  Remove RACF® \(or equivalent\) definitions with the following command:
+2.  Delete the FEKATLS member from your system PROCLIB data set.
+3.  Remove RACF® \(or equivalent\) definitions with the following command:
 
     ```
     RDELETE STARTED (FEKATLS.*)
@@ -16,7 +16,7 @@ To uninstall Atlas, take the following steps:
     REMOVE (userid) GROUP(IZUUSER)
     ```
 
-5.  Delete the z/OS® UNIX™ System Services Atlas directory and files from the Atlas installation directory by using the following command:
+4.  Delete the z/OS® UNIX™ System Services Atlas directory and files from the Atlas installation directory by using the following command:
 
     ```
     rm -R /var/atlas

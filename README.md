@@ -22,7 +22,7 @@
     -   [Troubleshooting installation and configuration](topics/troubleshoot.md) (All)
 -   [Using Giza](topics/using.md) (All)
     -   [Using MVD](topics/usingmvd.md) (Rocket)
-        - [Using Web Explorers](topics/usingwebexplorers.md) (IBM)
+        - [Using Web UI](topics/usingwebui.md) (IBM)
     -   [Using REST APIs](topics/usingrestapis.md) (IBM)
         -   [Using Atlas APIs and z/OS MF APIS](topics/usingatlasrestapis.md) (IBM)
             -   [Dataset APIs](topics/datasetapis.md) (IBM)

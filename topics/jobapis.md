@@ -1,8 +1,8 @@
 # Job APIs
 
-Use Jobs APIs to view the information and files of jobs, and submit and cancel jobs. See the following table for the operations available in Job APIs and their scenarios and prerequisites.
+Use Jobs APIs to view the information and files of jobs, and submit and cancel jobs. See the following table for the operations available in Job APIs and their descriptions and prerequisites.
 
-|REST API|Description|Prerequisites|
+|REST API|Description|Prerequisite|
 |--------|-----------|-------------|
 |`GET /Atlas/api/jobs`|Get a list of jobs. Use this API to get a list of job names that match a given prefix, owner, or both.|z/OSMF restjobs|
 |`GET /Atlas/api/jobs/{jobName}/ids`|Get a list of job identifiers for a given job name. If you have a list of existing job names, use this API to get a list of job instances for a given job name.|z/OSMF restjobs|

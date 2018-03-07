@@ -1,8 +1,8 @@
 # Persistent Data APIs
 
-Use Persistent Data APIs to create, read, update, delete metadata from persistent repository. See the following table for the operations available in Persistent Data APIs and their scenario and prerequisites.
+Use Persistent Data APIs to create, read, update, delete metadata from persistent repository. See the following table for the operations available in Persistent Data APIs and their descriptions and prerequisites.
 
-|REST API|Description|Prerequisites|
+|REST API|Description|Prerequisite|
 |--------|-----------|-------------|
 |`PUT /Atlas/api/data`|Update metadata in persistent repository for a given resource and attribute name. With Atlas, you can store and retrieve persistent data by user, resource name, and attribute. A resource can have any number of attributes and associated values. Use this API to set a value for a single attribute of a resource. You can specify the resource and attribute names.|None|
 |`POST /Atlas/api/data`|Create metadata in persistent repository for one or more resource/attribute elements. Use this API to set a group of resource or attributes values.|None|
