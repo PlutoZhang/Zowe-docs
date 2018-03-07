@@ -1,42 +1,4 @@
-<div id="page">
-
-<div id="main" class="aui-page-panel">
-
-<div class="aui-page-panel-nav">
-
-<div class="aui-navgroup-inner">
-
-<div id="tabs-nav" class="aui-tabs horizontal-tabs">
-
-  - [**Contents**](#tabs-navigation)
-  - [**Search**](#tabs-search)
-
-<div id="tabs-navigation" class="tabs-pane active-pane" data-current-page-id="429364999">
-
-</div>
-
-<div id="tabs-search" class="tabs-pane">
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="section aui-page-panel-content">
-
-<div id="main-header">
-
-<div id="breadcrumb-section">
-
-1.  <span> [Brightside CLI](index.html) </span>
-2.  <span> [Installing](Installing_429364995.html) </span>
-
-</div>
-
-# <span id="title-text"> Brightside CLI : Install Brightside CLI </span>
+#cInstall Brightside CLI </span>
 
 </div>
 
