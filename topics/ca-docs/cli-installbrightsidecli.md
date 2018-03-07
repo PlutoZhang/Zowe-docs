@@ -1,4 +1,4 @@
-#cInstall Brightside CLI </span>
+# Install Brightside CLI
 
 </div>
 
