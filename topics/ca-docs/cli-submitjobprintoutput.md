@@ -67,7 +67,7 @@ profiles to target different systems.
     JCL and the compiler options in your IDE to edit the code.
     
     a.  Issue the following command to edit the compiler
-        options:
+        options:  
         ```
         ca-code-default bright zos-files edit data-set "USERID.public.compile.jcl($mtlopt)" --ec code --kw -e jcl
         ```
