@@ -128,7 +128,7 @@ To install Atlas, complete the following steps:
 
 7.  Add Atlas users to the z/OSMF users group \(IZUUSER\).
 
-    Atlas uses z/OSMF to access data sets, z/OS UNIX System Services files, and job spool files. To use these z/OSMF services, Atlas users must be authorized to z/OSMF resources. For more information, see the IBM z/OS Management Facility Configuration Guide, Appendix A.
+    Atlas uses z/OSMF to access data sets, z/OS UNIX System Services files, and job spool files. To use these z/OSMF services, Atlas users must be authorized to z/OSMF resources. For more information, see the *IBM z/OS Management Facility Configuration Guide*, Appendix A.
 
     To add Atlas users to the z/OSMF IZUUSER group, use RACF or equivalent. For example,
 
@@ -146,7 +146,7 @@ To install Atlas, complete the following steps:
 
     To start Atlas automatically at IPL, add the `START` command to your active COMMNDxx parmlib member.
 
-9. Change your language in Atlas by adding the following line to the `jvm.options` file, for example,
+9. Optional: Change your language in Atlas by adding the following line to the `jvm.options` file, for example,
 
     ```
     -Duser.language=de
@@ -154,6 +154,7 @@ To install Atlas, complete the following steps:
 
     where `de` can be replaced with other language codes.
 
+**What to do next**
 
 Verify whether Atlas is successfully installed. For more information, see [Verifying installation](verifyinstall.md).
 

@@ -1,8 +1,8 @@
 # z/OS System APIs
 
-Use z/OS system APIs to view information about CPU, PARMLIB, SYSPLEX, USER. See the following table for available operations and their scenario and prerequisites.
+Use z/OS system APIs to view information about CPU, PARMLIB, SYSPLEX, USER. See the following table for available operations and their descriptions and prerequisites.
 
-|REST API|Description|Prerequisites|
+|REST API|Description|Prerequisite|
 |--------|-----------|-------------|
 |`GET /Atlas/api/zos/cpu`|Get current system CPU usage. Use this API to get the current system CPU usage and other current system statistics.|None|
 |`GET /Atlas/api/zos/parmlib`|Get system PARMLIB information. Use this API to get the PARMLIB data set concatenation of the target z/OS system.|None|

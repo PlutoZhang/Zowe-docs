@@ -50,7 +50,7 @@ If Atlas REST APIs do not work, check the following items:
 
     https://your.server:securezosmfport/zosmf/restjobs/jobs
 
-    where the *securezosmfport* is 443 by default. You can verify the port number by checking the *izu.https.port* variable assignment in the z/OSMF bootstrap.properties file.
+    where the *securezosmfport* is 443 by default. You can verify the port number by checking the *izu.https.port* variable assignment in the z/OSMF `bootstrap.properties` file.
 
     If calling the z/OSMF RESTJOBS API directly fails, fix z/OSMF before Atlas can use these APIs successfully.
 
@@ -64,11 +64,11 @@ If Atlas REST APIs do not work, check the following items:
 
     https://your.server:securezosmfport/zosmf/restfiles/ds?dslevel=userid.**
 
-    where the *securezosmfport* is 443 by default. You can verify the port number by checking the *izu.https.port* variable assignment in the z/OSMF bootstrap.properties file.
+    where the *securezosmfport* is 443 by default. You can verify the port number by checking the *izu.https.port* variable assignment in the z/OSMF `bootstrap.properties` file.
 
     If calling the z/OSMF RESTFILES API directly fails, fix z/OSMF before Atlas can use these APIs successfully.
 
-    **Tip:** The z/OSMF installation step of creating a valid IZUFPROC procedure in your system PROCLIB might be missed. For more information, see the z/OSMF Configuration Guide.
+    **Tip:** The z/OSMF installation step of creating a valid IZUFPROC procedure in your system PROCLIB might be missed. For more information, see the *z/OSMF Configuration Guide*.
 
     The IZUFPROC member resides in your system PROCLIB, which is similar to the following sample:
 

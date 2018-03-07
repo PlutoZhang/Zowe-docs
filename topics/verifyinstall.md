@@ -4,7 +4,7 @@ After Atlas is installed and the FEKATLS procedure is started, you can verify th
 
 https://*your.server*:*atlasport*/Atlas/api/system/version
 
-where *your.server* matches the host name or IP address of your z/OS® system where Atlas is installed, and *atlasport* matches the port number that is chosen during installation. You can verify the port number in the server.xml file that is located in the Atlas installation directory, which is */var/atlas/wlp/usr/servers/Atlas/server.xml* by default. Look for the httpsPort assignment in the server.xml file, for example: httpPort="7443".
+where *your.server* matches the host name or IP address of your z/OS® system where Atlas is installed, and *atlasport* matches the port number that is chosen during installation. You can verify the port number in the server.xml file that is located in the Atlas installation directory, which is */var/atlas/wlp/usr/servers/Atlas/server.xml* by default. Look for the httpsPort assignment in the *server.xml* file, for example: httpPort="7443".
 
 **Important:** This URL is case-sensitive.
 
