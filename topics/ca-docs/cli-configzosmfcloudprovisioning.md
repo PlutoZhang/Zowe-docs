@@ -217,10 +217,9 @@ With Software Services, you can perform the following tasks:
     DFH_APPROVER_SECURITY
     ```
     
-   - **Provision software from templates**
-    
-    This task lets you create an instance of the software. To provision software from templates, the user ID for the user that is performing this task must be defined as a consumer of the template. By default, members of the Landlord and the Domain Administrator groups are
-    defined as consumers of the templates.
+  - **Provision software from templates**
+
+    This task lets you create an instance of the software. To provision software from templates, the user ID for the user that is performing this task must be defined as a consumer of the template. By default, members of the Landlord and the Domain Administrator groups are defined as consumers of the templates.
 
   - **Manage software instances**
     
