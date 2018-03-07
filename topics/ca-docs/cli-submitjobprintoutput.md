@@ -26,18 +26,11 @@ The following diagram illustrates the tasks to perform in this scenario:
 </tbody>
 </table>
 
-## Prerequisites
+**Prerequisites**
 
-To complete this scenario, review the prerequisites that are described
-in [Brightside CLI Scenarios](Brightside-CLI-Scenarios_441193419.html).
+To complete this scenario, review the prerequisites that are described in [Brightside CLI Scenarios](Brightside-CLI-Scenarios_441193419.html).
 
 In addition to the prerequisites listed in [Brightside CLI Scenarios](Brightside-CLI-Scenarios_441193419.html), this scenario requires that you have a compile job, compiler options, and source code that resides in a mainframe data set.
-
-<div class="confluence-information-macro confluence-information-macro-tip">
-
-<span class="aui-icon aui-icon-small aui-iconfont-approve confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
 
 **Tip:**  The commands that are used in this scenario target the system
 that is specified in your Brightside CLI profile. You can switch
@@ -75,20 +68,9 @@ profiles to target different systems.
     
     a.  Issue the following command to edit the compiler
         options:
-            
         ```
         ca-code-default bright zos-files edit data-set "USERID.public.compile.jcl($mtlopt)" --ec code --kw -e jcl
         ```
-        
-        </div>
-        
-        </div>
-        
-        <div class="confluence-information-macro confluence-information-macro-tip">
-        
-        <span class="aui-icon aui-icon-small aui-iconfont-approve confluence-information-macro-icon"></span>
-        
-        <div class="confluence-information-macro-body">
         
         **Tip:** This example shows the command with the following
         command options:
@@ -107,11 +89,7 @@ profiles to target different systems.
         see more available options. For more information about getting
         help, see [How to Display Brightside CLI
         Help](How-to-Display-Brightside-CLI-Help_429365003.html).
-        
-        </div>
-        
-        </div>
-    
+          
     b.  Issue the following command to edit the job:
                 
         ``` ca-code-default
@@ -138,10 +116,9 @@ profiles to target different systems.
     "Edit a Job in Visual Studio Code - After")</span>  
     </span>
 
-6.   Issue the following command to submit the job that contains the modified JCL:
-      
-    ``` ca-code-default
-    bright zos-jobs submit ds "USERID.public.compile.jcl(enfmtlc)" -P
+6.  Issue the following command to submit the job that contains the modified JCL:  
+    ```
+    ca-code-default bright zos-jobs submit ds "USERID.public.compile.jcl(enfmtlc)" -P
     ```   
     **Tip:** This example shows the **-P** command option, which prints all spool output after the job completes.
        
