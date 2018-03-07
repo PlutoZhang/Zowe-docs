@@ -1,120 +1,23 @@
-<div id="page">
-
-<div id="main" class="aui-page-panel">
-
-<div class="aui-page-panel-nav">
-
-<div class="aui-navgroup-inner">
-
-<div id="tabs-nav" class="aui-tabs horizontal-tabs">
-
-  - [**Contents**](#tabs-navigation)
-  - [**Search**](#tabs-search)
-
-<div id="tabs-navigation" class="tabs-pane active-pane" data-current-page-id="433363263">
-
-</div>
-
-<div id="tabs-search" class="tabs-pane">
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="section aui-page-panel-content">
-
-<div id="main-header">
-
-<div id="breadcrumb-section">
-
-1.  <span> [Brightside CLI](index.html) </span>
-2.  <span> [Installing](Installing_429364995.html) </span>
-3.  <span> [Overview of the z/OS Management Facility Configuration
-    Process](433363261.html)
-</span>
-
-</div>
-
-# <span id="title-text"> Brightside CLI : Configure z/OS Management Facility Security </span>
-
-</div>
-
-<div id="content" class="view">
-
-<div class="page-metadata">
-
-</div>
-
-<div id="main-content" class="wiki-content group">
+# Configure z/OS Management Facility Security
 
 As a security administrator, complete the following z/OSMF security
 configuration tasks for your Brightside CLI implementation:
 
-<div class="toc-macro rbtoc1519943043315">
+  - [Configure z/OS REST Services SAF Security ](#Configurez/OSManagementFacilitySecurity-Configurez/OSRESTServicesSAFSecurity)
+  - [Configure z/OS Console REST Interface](#Configurez/OSManagementFacilitySecurity-Configurez/OSConsoleRESTInterface)
+  - [Configure z/OS Data Set and File REST Interface](#Configurez/OSManagementFacilitySecurity-Configurez/OSDataSetandFileRESTInterface)
+  - [Configure z/OSMF Plug-in Security](#Configurez/OSManagementFacilitySecurity-Configurez/OSMFPlug-inSecurity)
 
-  - [Configure z/OS REST Services SAF
-    Security ](#Configurez/OSManagementFacilitySecurity-Configurez/OSRESTServicesSAFSecurity)
-  - [Configure z/OS Console REST
-    Interface ](#Configurez/OSManagementFacilitySecurity-Configurez/OSConsoleRESTInterface)
-  - [Configure z/OS Data Set and File REST
-    Interface](#Configurez/OSManagementFacilitySecurity-Configurez/OSDataSetandFileRESTInterface)
-  - [Configure
-    z/OSMF Plug-in Security](#Configurez/OSManagementFacilitySecurity-Configurez/OSMFPlug-inSecurity)
-
-</div>
-
-<div class="confluence-information-macro confluence-information-macro-warning">
-
-<span class="aui-icon aui-icon-small aui-iconfont-error confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
-**Important\!** The [IBM® z/OS Management
-Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
-guide on the IBM Knowledge Center is your primary source of information
-about how to install and configure z/OSMF. Throughout the IBM
-procedures, we provide Brightside CLI-specific tips or<span>
-requirements. We recommend that you open IBM documentation in a separate
-browser tab.</span>
-
-</div>
-
-</div>
+**Important!** The [IBM® z/OS Management Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
+guide on the IBM Knowledge Center is your primary source of information about how to install and configure z/OSMF. Throughout the IBM procedures, we provide Brightside CLI-specific tips or requirements. We recommend that you open IBM documentation in a separate browser tab.
 
 ## Configure z/OS REST Services SAF Security 
 
-A security administrator must configure security to allow z/OSMF System
-Authorization Authority (SAF) access to the resources that Brightside
-CLI requires. Brightside CLI uses REST endpoints that are associated
-with each z/OSMF REST API. After you complete all z/OSMF and z/OSMF
-cloud provisioning configurations, you can[ issue the validate profile
-command ](Identify-and-Correct-Problems-Detected-by-the-Validate-Profile-Command_433363269.html)to
-verify that Brightside CLI can communicate with z/OS systems through the
-REST
-APIs. 
+A security administrator must configure security to allow z/OSMF System Authorization Authority (SAF) access to the resources that Brightside CLI requires. Brightside CLI uses REST endpoints that are associated with each z/OSMF REST API. After you complete all z/OSMF and z/OSMF cloud provisioning configurations, you can [issue the validate profile command](Identify-and-Correct-Problems-Detected-by-the-Validate-Profile-Command_433363269.html) to verify that Brightside CLI can communicate with z/OS systems through the REST APIs. 
 
-<div class="confluence-information-macro confluence-information-macro-warning">
+**Important!** Before you allow users to issue z/OS console commands with Brightside CLI, security administrators should ensure that they provide access to commands that are appropriate for their organization.
 
-<span class="aui-icon aui-icon-small aui-iconfont-error confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
-**Important\!** Before you allow users to issue z/OS console commands
-with Brightside CLI, security administrators should ensure that they
-provide access to commands that are appropriate for their organization.
-
-</div>
-
-</div>
-
-The following table details the required z/OSMF REST services and
-examples of the Brightside CLI features they enable. If the profile
-validation command returns any errors, use this table to find IBM
-documentation for the z/OSMF REST APIs.
+The following table details the required z/OSMF REST services and examples of the Brightside CLI features they enable. If the profile validation command returns any errors, use this table to find IBM documentation for the z/OSMF REST APIs.
 
 <div class="table-wrap">
 
@@ -199,191 +102,41 @@ documentation for the z/OSMF REST APIs.
 </tbody>
 </table>
 
-</div>
+## Configure z/OS Console REST Interface
 
-## <span>Configure z/OS Console REST Interface </span>
+Review the following recommendations for configuring the security for z/OS console REST services:
 
-Review the following recommendations for configuring the security for
-z/OS console REST services:
+  - Add the `COMMON_TSO` statement to the `IZUPRMxx` parmlib member to customize the z/OSMF options for the logon procedure. 
+  - Define a value of at least 50000 KB as the size of the address space for the user's logon procedure. To help you prevent system memory exception errors from occurring, confirm that this value is acceptable in your environment. 
+  - Ensure that the members in your z/OSMF user security group can issue `TSO` and `CONSOLE` commands. IBM provides RACF statements for user group `IZUUSER`. To prevent all z/OSMF users from issuing `TSO` and `CONSOLE` commands, you can create more z/OSMF user groups for more granular security.
+  - Ensure that the `OPERCMD` class is active and that your MVS commands are protected. MVS commands include, but are not limited to, the `MVS` and `MVS.MCSOPER` resource prefixes.
+  - Ensure that the z/OSMF user security groups can access (authorized) the logon procedure name and account number that is specified in the `COMMON_TSO` statement.
+  - Define a `TSO` segment for all the z/OSMF users.
 
-  - Add the `COMMON_TSO` statement to the `IZUPRMxx` parmlib member to
-    customize the z/OSMF options for the logon procedure.
-  - Define a value of at least 50000 KB as the size of the address space
-    for the user's logon procedure. To help you prevent system memory
-    exception errors from occurring, confirm that this value
-    is acceptable in your environment. 
-  - Ensure that the members in your z/OSMF user security group can
-    issue `TSO` and `CONSOLE` commands. IBM provides RACF statements
-    for user group `IZUUSER`. To prevent all z/OSMF users from
-    issuing `TSO` and `CONSOLE` commands, you can create more z/OSMF
-    user groups for more granular security.
-  - Ensure that the `OPERCMD` class is active and that your MVS commands
-    are protected. MVS commands include, but are not limited to,
-    the `MVS` and `MVS.MCSOPER` resource prefixes.
-  - Ensure that the <span class="ph">z/OSMF</span> user security groups
-    can access (authorized) the logon procedure name and account number
-    that is specified in the `COMMON_TSO` statement.
-  - Define a `TSO` segment for all
-    the <span class="ph">z/OSMF</span> users.
+**Note:** For detailed instructions for how to configure the z/OS console REST services, see [Updating your system for the z/OS console REST interface](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/izuconfig_CommonLogonProcSetup.htm) on the IBM Knowledge Center.
 
-<div class="confluence-information-macro confluence-information-macro-note">
+## Configure z/OS Data Set and File REST Interface
 
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
+Review the following recommendations for configuring z/OS the security for data set and file REST services:
 
-<div class="confluence-information-macro-body">
+  - Add the `COMMON_TSO` statement to the `RESTAPI_FILE` parmlib member to customize the z/OSMF options for the logon procedure.
+  - Define a value of at least 65536 KB as the size of the address space for the user's logon procedure. To help you prevent system memory exception errors from occurring, confirm that this value is acceptable in your environment.
 
-**Note:** For detailed instructions for how to configure the z/OS
-console REST services, see [Updating your system for the z/OS console
-REST
-interface](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/izuconfig_CommonLogonProcSetup.htm) on
-the IBM Knowledge
-Center.
+  - Authorize z/OSMF user groups and the z/OSMF server to CEA TSO/E address space services.
 
-</div>
+  - Ensure that the <span class="ph">z/OSMF</span> user security groups can access (authorized) the logon procedure name and account number that is specified on the `COMMON_TSO` statement.
 
-</div>
+  - Define a `TSO` segment for all the span z/OSMF users.
 
-## <span><span>Configure z</span>/OS Data Set and File REST Interface</span>
+  - Define at least 20971520 KB (20 MB) the `IPCMSGQBYTES` option of your parmlib member named `BPXPRMxx`. IBM recommends this value to let TSO and z/OSMF communicate using z/OS USS interprocess communications.
 
-Review the following recommendations for configuring z/OS the security
-for data set and file REST services:
-
-  - Add the `COMMON_TSO` statement to the `RESTAPI_FILE` parmlib member
-    to customize the z/OSMF options for the logon procedure.
-
-  - Define a value of at least 65536 KB as the size of the address space
-    for the user's logon procedure. To help you prevent system memory
-    exception errors from occurring, confirm that this value
-    is acceptable in your environment.
-
-  - Authorize z/OSMF user groups and the z/OSMF server to CEA TSO/E
-    address space services.
-
-  - Ensure that the <span class="ph">z/OSMF</span> user security groups
-    can access (authorized) the logon procedure name and account number
-    that is specified on the `COMMON_TSO` statement.
-
-  - Define a `TSO` segment for all
-    the <span class="ph">z/OSMF</span> users.
-
-  - Define at least 20971520 KB (20 MB) the `IPCMSGQBYTES` option of
-    your parmlib member named `BPXPRMxx`. IBM recommends this value to
-    let TSO and z/OSMF communicate using z/OS USS interprocess
-    communications.
-
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
-**Note:** For detailed instructions for how to configure the z/OS data
-set and file REST services, see [Updating your system for the z/OS data
-set and file REST
-interface](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/izuconfig_LogonProcSetup.htm) on
-the IBM Knowledge Center.
-
-</div>
-
-</div>
+**Note:** For detailed instructions for how to configure the z/OS data set and file REST services, see [Updating your system for the z/OS data set and file REST interface](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/izuconfig_LogonProcSetup.htm) on the IBM Knowledge Center.
 
 ## Configure z/OSMF Plug-in Security
 
-Ensure that you implement all the required security for the plug-ins.
-For more information, see [Setting up security for the z/OSMF
-plug-ins](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_EstablishingSecurity.htm) on
-the IBM Knowledge
-Center.
-
-<div class="confluence-information-macro confluence-information-macro-note">
-
-<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
+Ensure that you implement all the required security for the plug-ins. For more information, see [Setting up security for the z/OSMF plug-ins](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_EstablishingSecurity.htm) on the IBM Knowledge Center.
 
 **Notes:**
 
-  - For systems that are secured by RACF, ensure that the TRUSTED
-    attribute is assigned to the CEA started task.
-  - If you want to implement the use of certificates to access
-    Brightside CLI, security administrators can configure the
-    certificates for Brightside CLI users. For more information, see
-    [Using the z/OSMF REST
-    services](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua700/IZUHPINFO_RESTServices.htm).
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-  - <span id="n-417294290">[Brightside CLI](index.html)</span>
-      - <span id="n-417294291">[Release
-        Notes](Release-Notes_417294291.html)</span>
-    <!-- end list -->
-      - <span id="n-429364995">[Installing](Installing_429364995.html)</span>
-          - <span id="n-433363261">[Overview of the z/OS Management
-            Facility Configuration Process](433363261.html)</span>
-              - <span id="n-433363262">[Configure z/OS Management
-                Facility](433363262.html)</span>
-            <!-- end list -->
-              - <span id="n-433363263">[Configure z/OS Management
-                Facility Security](433363263.html)</span>
-            <!-- end list -->
-              - <span id="n-433363264">[Configure z/OS Management
-                Facility Cloud Provisioning](433363264.html)</span>
-            <!-- end list -->
-              - <span id="n-433363265">[Configure z/OS Management
-                Facility Cloud Provisioning
-                Security](433363265.html)</span>
-        <!-- end list -->
-          - <span id="n-429364999">[Install Brightside
-            CLI](Install-Brightside-CLI_429364999.html)</span>
-        <!-- end list -->
-          - <span id="n-430335233">[Validate
-            Installation](Validate-Installation_430335233.html)</span>
-              - <span id="n-433363269">[Identify and Correct Problems
-                Detected by the Validate Profile
-                Command](Identify-and-Correct-Problems-Detected-by-the-Validate-Profile-Command_433363269.html)</span>
-    <!-- end list -->
-      - <span id="n-429365002">[Using](Using_429365002.html)</span>
-          - <span id="n-429365003">[How to Display Brightside CLI
-            Help](How-to-Display-Brightside-CLI-Help_429365003.html)</span>
-        <!-- end list -->
-          - <span id="n-447395688">[Brightside CLI Command
-            Groups](Brightside-CLI-Command-Groups_447395688.html)</span>
-        <!-- end list -->
-          - <span id="n-433363274">[Enable and Disable Experimental
-            Commands](Enable-and-Disable-Experimental-Commands_433363274.html)</span>
-        <!-- end list -->
-          - <span id="n-441193419">[Brightside CLI
-            Scenarios](Brightside-CLI-Scenarios_441193419.html)</span>
-              - <span id="n-441193420">[Submit a Job and Print Job
-                Output](Submit-a-Job-and-Print-Job-Output_441193420.html)</span>
-    <!-- end list -->
-      - <span id="n-38207496">[Legal
-        Notices](Legal-Notices_38207496.html)</span>
-
-<div id="footer">
-
-<div class="section footer-body">
-
-Copyright © 2018 CA. All rights reserved.
-
-<div class="footer-logo">
-
-</div>
-
-Document generated on Mar 01, 2018 17:24.
-
-</div>
-
-</div>
-
-</div>
+  - For systems that are secured by RACF, ensure that the TRUSTED attribute is assigned to the CEA started task.
+  - If you want to implement the use of certificates to access Brightside CLI, security administrators can configure the certificates for Brightside CLI users. For more information, see [Using the z/OSMF REST services](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua700/IZUHPINFO_RESTServices.htm).
