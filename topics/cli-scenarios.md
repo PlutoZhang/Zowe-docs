@@ -5,14 +5,13 @@ use Brightside CLI. In each use case, we walk you through the process of
 issuing Brightside CLI commands so that you can use various Brightside
 CLI features to accomplish common mainframe tasks.
 
-  - [Submit a Job and Print Job
-    Output](Submit-a-Job-and-Print-Job-Output_441193420.html)
+  - [Submit a Job and Print Job Output](Submit-a-Job-and-Print-Job-Output_441193420.html)
 
 ## Prerequisites
 
 The following prerequisites apply to all of the scenarios that are
 contained in this section. When a scenario contains prerequisites that
-are unique to the scenario, we note them directly in the article.</span>
+are unique to the scenario, we note them directly in the article.
 
   - z/OSMF installed and configured on the z/OS system that you want to
     access.
@@ -36,7 +35,6 @@ are unique to the scenario, we note them directly in the article.</span>
     
     Issue the `--help` command after any Brightside CLI command to see
     more available options. For more information about getting help, see
-    [How to Display Brightside CLI
-    Help](How-to-Display-Brightside-CLI-Help_429365003.html).
+    [How to Display Brightside CLI Help](topics/cli-howtodisplaybrightsidehelp.md).
     
     
