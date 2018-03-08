@@ -33,7 +33,7 @@
             -   [z/OS System APIs](topics/systemapis.md) (IBM)
         -   [Using MVD APIs](topics/usingmvdapis.md) (Rocket)
     -   [Using Atlas WebSocket services](topics/websocket.md) (IBM)
-    -   [Using Command Line Interface](topics/usingcli.md) (CA)
+    -   [Using Command Line Interface](topics/cli-usingcli.md) (CA)
         -  [How to Display Brightside CLI Help](topics/cli-howtodisplaybrightsidehelp.md)
         -  [Brightside CLI Command Groups](topics/cli-commandgroups.md)
         -  [Enable and Disable Experimental Commands](topics/cli-enabledisablexperimentalcommands.md)
