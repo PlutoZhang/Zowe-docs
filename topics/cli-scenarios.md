@@ -5,7 +5,7 @@ use Brightside CLI. In each use case, we walk you through the process of
 issuing Brightside CLI commands so that you can use various Brightside
 CLI features to accomplish common mainframe tasks.
 
-  - [Submit a Job and Print Job Output](#submit-a-job-and-print- job-output)
+  - [Submit a Job and Print Job Output](#submit-a-job-and-print-job-output)
 
 ## Prerequisites
 
