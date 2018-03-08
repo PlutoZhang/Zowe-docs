@@ -35,6 +35,8 @@
     -   [Using Atlas WebSocket services](topics/websocket.md) (IBM)
     -   [Using Command Line Interface](topics/usingcli.md) (CA)
         -  [How to Display Brightside CLI Help](topics/cli-howtodisplaybrightsidehelp.md)
+        -  [Enable and Disable Experimental Commands](topics/cli-enabledisablexperimentalcommands.md)
+        -  [Brightside CLI Scenarios](topics/cli-scenarios.md)  
 -   [Extending Giza](topics/extend.md) (All)
     -   [Programming Atlas REST APIs](topics/programrestapi.md) (IBM)
         - [Sending a GET request in Java](topics/getrequestinjava.md) (IBM)
