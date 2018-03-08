@@ -83,10 +83,9 @@ profiles to target different systems.
 
 1.  Review the prerequisites.
 
-2.  Open a command line window and issue the following command to list
-    all data sets on a
-    system:   
-    ```ca-code-default bright zos-files list data-sets "USERID.*"```    
+2.  Open a command line window and issue the following command to list all data sets on a system:   
+    ```ca-code-default bright zos-files list data-sets "USERID.*"```
+
     **Tip:** Use an asterisk * to view all data sets under the specified HLQ (High-Level Qualifier).
     
     A list of data sets displays in Brightside CLI.
@@ -101,36 +100,19 @@ profiles to target different systems.
 4.  Issue the following commands to launch the members that contain the
     JCL and the compiler options in your IDE to edit the code.
     
-    a.  Issue the following command to edit the compiler
-        options:   
-
-        ```ca-code-default bright zos-files edit data-set "USERID.public.compile.jcl($mtlopt)" --ec code --kw -e jcl```
-        
+    a.  Issue the following command to edit the compiler options:   
+    ```bright zos-files edit data-set "USERID.public.compile.jcl($mtlopt)" --ec code --kw -e jcl```   
         **Tip:** This example shows the command with the following
-        command options:
-        
-          - Use the **--ec** option to launch the code in your IDE. For
-            example, **--ec code** launches Visual Studio Code. Refer to
-            your IDE documentation to learn the command line syntax to
-            launch your IDE.
-          - The **--kw** option allows Brightside CLI to watch the local
-            files on your personal computer and reflect your changes in
-            the mainframe data set.
-          - The **-e** option specifies the file extension that you want
-            to store the data in locally. For example, `.jcl`.
-        
-        Issue the `--help `command after any Brightside CLI command to
-        see more available options. For more information about getting
-        help, see [How to Display Brightside CLI Help](How-to-Display-Brightside-CLI-Help_429365003.html).
+        command options:   
+        -  Use the **--ec** option to launch the code in your IDE. For example, **--ec code** launches Visual Studio Code. Refer to your IDE documentation to learn the command line syntax to launch your IDE.   
+        -  The **--kw** option allows Brightside CLI to watch the local files on your personal computer and reflect your changes in the mainframe data set.   
+        -  The **-e** option specifies the file extension that you want to store the data in locally. For example, `.jcl`.    
+        Issue the `--help `command after any Brightside CLI command to see more available options. For more information about getting help, see [How to Display Brightside CLI Help](How-to-Display-Brightside-CLI-Help_429365003.html).
           
-    b.  Issue the following command to edit the job:
-                
-        ``` ca-code-default
-        bright zos-files edit data-set "USERID.public.compile.jcl(enfmtlc)" --ec code --kw -e jcl
-        ```
-       
+    b.  Issue the following command to edit the job:   
+        ```ca-code-default bright zos-files edit data-set "USERID.public.compile.jcl(enfmtlc)" --ec code --kw -e jcl```   
         The files open in your IDE automatically, as illustrated by the following screen:
-        
+                      
         <span class="confluence-embedded-file-wrapper confluence-embedded-manual-size">![Edit
         jcl and compiler options to compile in 64-bit mode in Visual
         Studio Code](attachments/441193420/441193424.png
