@@ -35,6 +35,6 @@ are unique to the scenario, we note them directly in the article.
     
     Issue the `--help` command after any Brightside CLI command to see
     more available options. For more information about getting help, see
-    [How to Display Brightside CLI Help](topics/cli-howtodisplaybrightsidehelp.md).
+    [How to Display Brightside CLI Help](./topics/cli-howtodisplaybrightsidehelp.md).
     
     
