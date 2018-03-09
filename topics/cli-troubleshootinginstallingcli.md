@@ -1,3 +1,6 @@
+
+#Troubleshooting Installing Brightside CLI
+
 The following issues are known to exist when installing this release of Brightside CLI:
 
 -   **Additional syntax required to complete macOS and Linux installations.**
@@ -22,7 +25,3 @@ The following issues are known to exist when installing this release of Brightsi
 -   **`node.js` commands do not respond as expected.**
 
     When you try to issue node commands and you do not receive the expected output, there might be a program that is named node on your path. The Node.js installer automatically adds a program that is named node to your path. When there are pre-existing programs that are named node on your computer, the program that appears first in the path is used. To correct this behavior, change the order of the programs in the path so that Node.js appears first.
-
-To report product defects, visit Brightside CLI project on validate.ca.com and click Defects from the Feedback menu.
-
-To report documentation issues or make suggestions, place your comments in the Comments section at the bottom of the applicable documentation page.
