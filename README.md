@@ -19,6 +19,7 @@
     -   [Installing CLI](topics/cli-installcli.md) (CA)
     -   [Verifying Installation](topics/verifyinstall.md) (All)
         - [Validating Brightside CLI Installation](topics/cli-validateInstallation.md)
+        -[Identify and Correct Problems Detected by the Validate Profile Command](topics/cli-validateInstallationcorrectproblems.md)
     -   [Updating Giza](topics/applyservices.md) (All)
         -   [Updating Brightside CLI](topics/cli-updatingcli.md)
     -   [Uninstalling Giza](topics/uninstallingatlas.md) (All)
