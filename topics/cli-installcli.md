@@ -26,7 +26,7 @@ version.
 
 **Important!** You might encounter problems when you attempt to install
 Brightside CLI depending on your operating system and
-environment. For more information and workarounds, see [Known Issues.](Release-Notes_417294291.html#ReleaseNotes-knownIssues)
+environment. For more information and workarounds, see [Troubleshooting Installing Brightside CLI](cli-troubleshootinginstallingcli.md).
 
 **Follow these steps:**
 
