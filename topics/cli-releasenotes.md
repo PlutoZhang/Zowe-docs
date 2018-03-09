@@ -1,4 +1,4 @@
-# Release Notes
+# Overview of Brightside CLI
 
 Brightside Command Line Interface (Brightside CLI) lets
 application developers interact with the mainframe in a format that is
@@ -29,9 +29,7 @@ for Brightside CLI:
   - [Solution Video](#solution-video)
   - [Brightside CLI Capabilities](#brightside-cli-capabilities)
   - [Supported Platforms](#supported-platforms)
-  - [Brightside CLI Early Access Preview](#brightside-cli-early-access-preview)
-  - [Participate in the Brightside CLI Community](#participate-in-the-brightside-cli-community)
-  - [Known Issues](#known-issues)
+  - [Experimental Commands](#experimental-commands)
   - [Third-Party Software Agreements](#third-party-software-agreements)
 
 **Note:** For installation, upgrade, and software requirements, see
@@ -113,85 +111,6 @@ commands. 
 For more information, see [Enable and Disable Experimental
 Commands](Enable-and-Disable-Experimental-Commands_433363274.html).
 
-## Participate in the Brightside CLI Community
-
-We want to know what you think about Brightside CLI. You can become a
-part of the Brightside CLI community by participating in the [Brightside
-CLI project on
-validate.ca.com](https://validate.ca.com/project/version/item.html?cap=13283cc32fd9439c85aeb18bba4ac1f6&arttypeid=%7B4109d6e9-6c06-448b-8eb2-6601a5616391%7D&artid=%7B5ACC31C0-2176-437F-B06B-8C572D48C76C%7D).
-
-Visit the Brightside CLI project on Validate.ca.com and navigate to the
-relevant section where you can provide the following types of feedback:
-
-  - **Suggestions:** Provide general feedback and make suggestions for
-    product enhancements.
-
-  - **Questions:** Ask questions about the product.
-
-  - **Defect Reports:** Report defects that you encounter when using the
-    product.
-
-  - **User Forums:** Participate in forums with other Brightside
-    CLI early adopters.
-
-Alternatively, you can add comments at the bottom of this DocOps page to
-provide feedback on your experience with the product and
-documentation.
-
-## Known Issues
-
-The following issues are known to exist in this release of Brightside CLI:
-
-  - **Additional syntax required to complete macOS and Linux
-    installations.**  
-    Depending on how you configured Node.js on Linux or Mac, you might
-    need to add the prefix `sudo `before the `npm install -g` command or
-    the `npm uninstall -g` command. This step gives Node.js write access
-    to the installation directory.
-
-  - **The  `npm install -g` command might fail several times due to
-    an `EPERM` error (Windows).**
-    
-    This behavior is due to a problem with Node Package Manager (npm) on
-    Windows. There is an open issue on the npm GitHub repository to fix
-    the defect.
-    
-    If you encounter this problem, some users report that repeatedly
-    attempting to install Brightside CLI yields success. Some users also
-    report success using the following workarounds:
-    
-      - Issue the `npm cache clean` command.
-      - Uninstall and reinstall Brightside CLI. For more information,
-        see [Install BrightSide
-        CLI](Install-Brightside-CLI_429364999.html).
-      - Issue the `npm install -g brightside --no-optional` command.
-
-  - **The `npm install -g` command might fail due to an `npm ERR! Cannot
-    read property 'pause' of undefined` error.**
-    
-    This behavior is due to a problem with Node Package Manager (npm).
-    If you encounter this problem, revert to a previous version of npm
-    that does not contain this defect. To revert to a previous version
-    of npm, issue the following command:
-    
-    `npm install npm@5.3.0 -g`
-
-  - **Node.js commands do not respond as expected.**
-    
-    When you try to issue node commands and you do not receive the
-    expected output, there might be a program that is named *node* on
-    your path. The Node.js installer automatically adds a program that
-    is named *node* to your path. When there are pre-existing programs
-    that are named *node* on your computer, the program that appears
-    first in the path is used. To correct this behavior, change the
-    order of the programs in the path so that Node.js appears first.
-
-To report product defects, visit [Brightside CLI project on validate.ca.com](https://validate.ca.com/project/version/item.html?cap=13283cc32fd9439c85aeb18bba4ac1f6&arttypeid=%7B4109d6e9-6c06-448b-8eb2-6601a5616391%7D&artid=%7B5ACC31C0-2176-437F-B06B-8C572D48C76C%7D) and
-click **Defects** from the **Feedback** menu.
-
-To report documentation issues or make suggestions, place your
-comments in the Comments section at the bottom of the applicable
-documentation page.
 
 ## Third-Party Software Agreements
 
