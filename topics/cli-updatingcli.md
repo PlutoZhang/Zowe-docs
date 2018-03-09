@@ -1,4 +1,4 @@
-
+# Updating Brightside CLI
 Brightside CLI will have periodic updates. You can identify your current
 version and apply updates through the command line.
 
