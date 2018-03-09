@@ -8,23 +8,7 @@ In this scenario, you will list your data sets, specify data set members to edit
 
 The following diagram illustrates the tasks to perform in this scenario:
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><table>
-<caption> </caption>
-<tbody>
-<tr class="odd">
-<td><img src="attachments/441193420/441193422.png" class="gliffy-macro-image" /></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table>
+![Submit a Job and Print the Job Output](images/scenario/441193422.png "Submit a Job and Print the Job Output")
 
 **Prerequisites**
 
