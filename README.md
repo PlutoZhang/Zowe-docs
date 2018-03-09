@@ -19,7 +19,7 @@
     -   [Installing CLI](topics/cli-installcli.md) (CA)
     -   [Verifying installation](topics/verifyinstall.md) (All)
     -   [Updating Giza](topics/applyservices.md) (All)
-        -   [Updating Brightside CLI](cli-updatingcli.md)
+        -   [Updating Brightside CLI](topics/cli-updatingcli.md)
     -   [Uninstalling Giza](topics/uninstallingatlas.md) (All)
     -   [Troubleshooting installation and configuration](topics/troubleshoot.md) (All)
 -   [Using Giza](topics/using.md) (All)
