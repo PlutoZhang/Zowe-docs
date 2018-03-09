@@ -23,6 +23,7 @@
     -   [Uninstalling Giza](topics/uninstallingatlas.md) (All)
         -   [Uninstall Brightside CLI](topics/cli-uninstallcli.md)
     -   [Troubleshooting installation and configuration](topics/troubleshoot.md) (All)
+        -   [Troubleshooting Installing Brightside CLI](topics/cli-troubleshootinginstallingcli.md)
 -   [Using Giza](topics/using.md) (All)
     -   [Using MVD](topics/usingmvd.md) (Rocket)
         - [Using Web UI](topics/usingwebui.md) (IBM)

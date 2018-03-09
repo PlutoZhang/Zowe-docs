@@ -10,6 +10,7 @@ The following issues are known to exist when installing this release of Brightsi
 
     If you encounter this problem, some users report that repeatedly attempting to install Brightside CLI yields success. Some users also report success using the following workarounds:
     -   Issue the `npm cache clean` command.
+    -   Uninstall and reinstall Brightside CLI. For more information, see Install BrightSide CLI.
     -   Issue the `npm install -g brightside --no-optional` command.
 
 -   **The `npm install -g command` might fail due to an `npm ERR! Cannot read property 'pause' of undefined` error.**
