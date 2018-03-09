@@ -144,4 +144,4 @@ software:
 **Note:** All trademarks, trade names, service marks, and logos
 referenced herein belong to their respective companies.
 
-To read each complete license, [download the attached zip file](attachments/448246817.zip).
+To read each complete license, [download the attached zip file](/attachments/448246817.zip).
