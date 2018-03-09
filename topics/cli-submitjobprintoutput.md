@@ -8,7 +8,7 @@ In this scenario, you will list your data sets, specify data set members to edit
 
 The following diagram illustrates the tasks to perform in this scenario:
 
-![Submit a Job and Print the Job Output](images/scenario/441193422.png "Submit a Job and Print the Job Output")
+![Submit a Job and Print the Job Output](/images/scenario/441193422.png "Submit a Job and Print the Job Output")
 
 **Prerequisites**
 
