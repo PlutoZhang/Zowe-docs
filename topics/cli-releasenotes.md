@@ -87,17 +87,6 @@ Support (LTS) version.
 and tested to integrate with z/OS Management Facility (z/OSMF) running
 on IBM version 2.2 z/OS mainframe systems.
 
-## Brightside CLI Early Access Preview
-
-The Brightside CLI Early Access Preview lets early adopters preview
-Brightside CLI. The Release Notes describes new features as they become
-available.
-
-Brightside CLI is under continuous development and might have periodic
-updates. For information about how to determine your current Brightside
-CLI version and apply updates, see [Install Brightside
-CLI.](Install-Brightside-CLI_429364999.html)
-
 ## Experimental Commands
 
 The Brightside CLI Early Access Preview contains features that are still
