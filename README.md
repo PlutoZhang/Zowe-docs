@@ -16,7 +16,7 @@
         -   [Prerequisites for CLI](topics/precli.md) (CA)
     -   [Installing and configuring Atlas](topics/installingatlas.md) (IBM)
     -   [Installing and configuring virtual desktop](topics/installvirtualdesktop.md) (Rocket)
-    -   [Installing and configuring CLI](topics/installcli.md) (CA)
+    -   [Installing CLI](topics/cli-installcli.md) (CA)
     -   [Verifying installation](topics/verifyinstall.md) (All)
     -   [Updating Giza](topics/applyservices.md) (All)
     -   [Uninstalling Giza](topics/uninstallingatlas.md) (All)
