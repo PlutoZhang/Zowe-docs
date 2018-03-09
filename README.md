@@ -8,7 +8,7 @@
 -   [Introduction to Giza](topics/introduction.md) (All)
     - [What is Giza](topics/whatis.md) (All)
     - [Technical overview](topics/techoverview.md) (All)
-        -   Overview of Brightside CLI
+        -   [Overview of Brightside CLI](topics/cli-releasenotes.md)
 -   [Installing and configuring Giza](topics/installandconfig.md) (All)
     -   [Planning for installation](topics/planinstall.md) (All)
         -   [Prerequisites for Atlas](topics/preatlas.md) (IBM)
