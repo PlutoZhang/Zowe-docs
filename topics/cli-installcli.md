@@ -59,7 +59,7 @@ environment. For more information and workarounds, see [Troubleshooting Installi
     
     **Note:** On Linux systems, you might need to append `sudo` to your
     `npm` commands so that you can issue the install and uninstall
-    commands. For more information, see [Known Issues](Release-Notes_417294291.html#ReleaseNotes-knownIssues).
+    commands. For more information, see [Troubleshooting Installing Brightside CLI](cli-troubleshootinginstallingcli.md).
     
     Brightside CLI is installed on your PC.
 
@@ -86,7 +86,7 @@ environment. For more information and workarounds, see [Troubleshooting Installi
     systems programmer for analysis. Failures might indicate that your
     Brightside CLI profile is not configured correctly for your
     environment. For more information about how to use command,
-    see [Validate Installation](Validate-Installation_430335233.html).
+    see [Validating Installation](cli-validateInstallation.md).
 
 After you install and configure Brightside CLI, issue the `bright --help` command to view a list of available commands. For more
-information, see [How to Display Brightside CLI Help](How-to-Display-Brightside-CLI-Help_429365003.html).
+information, see [How to Display Brightside CLI Help](cli-howtodisplaybrightsidehelp.md).
