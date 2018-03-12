@@ -1,0 +1,1 @@
+# Verifying installation and configuration
