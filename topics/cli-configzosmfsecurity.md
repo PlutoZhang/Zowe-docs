@@ -3,17 +3,17 @@
 As a security administrator, complete the following z/OSMF security
 configuration tasks for your Brightside CLI implementation:
 
-  - [Configure z/OS REST Services SAF Security ](#Configurez/OSManagementFacilitySecurity-Configurez/OSRESTServicesSAFSecurity)
-  - [Configure z/OS Console REST Interface](#Configurez/OSManagementFacilitySecurity-Configurez/OSConsoleRESTInterface)
-  - [Configure z/OS Data Set and File REST Interface](#Configurez/OSManagementFacilitySecurity-Configurez/OSDataSetandFileRESTInterface)
-  - [Configure z/OSMF Plug-in Security](#Configurez/OSManagementFacilitySecurity-Configurez/OSMFPlug-inSecurity)
+  - [Configure z/OS REST Services SAF Security](#configure-zos-rest-services-saf-security)
+  - [Configure z/OS Console REST Interface](#configure-zos-console-rest-interface)
+  - [Configure z/OS Data Set and File REST Interface](#configure-zos-data-set-and-file-rest-interface)
+  - [Configure z/OSMF Plug-in Security](#configure-zosmfplug-insecurity)
 
 **Important!** The [IBM® z/OS Management Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
 guide on the IBM Knowledge Center is your primary source of information about how to install and configure z/OSMF. Throughout the IBM procedures, we provide Brightside CLI-specific tips or requirements. We recommend that you open IBM documentation in a separate browser tab.
 
 ## Configure z/OS REST Services SAF Security 
 
-A security administrator must configure security to allow z/OSMF System Authorization Authority (SAF) access to the resources that Brightside CLI requires. Brightside CLI uses REST endpoints that are associated with each z/OSMF REST API. After you complete all z/OSMF and z/OSMF cloud provisioning configurations, you can [issue the validate profile command](Identify-and-Correct-Problems-Detected-by-the-Validate-Profile-Command_433363269.html) to verify that Brightside CLI can communicate with z/OS systems through the REST APIs. 
+A security administrator must configure security to allow z/OSMF System Authorization Authority (SAF) access to the resources that Brightside CLI requires. Brightside CLI uses REST endpoints that are associated with each z/OSMF REST API. After you complete all z/OSMF and z/OSMF cloud provisioning configurations, you can [issue the validate profile command](cli-validateInstallationcorrectproblems.md) to verify that Brightside CLI can communicate with z/OS systems through the REST APIs. 
 
 **Important!** Before you allow users to issue z/OS console commands with Brightside CLI, security administrators should ensure that they provide access to commands that are appropriate for their organization.
 
@@ -120,6 +120,7 @@ Review the following recommendations for configuring the security for z/OS cons
 Review the following recommendations for configuring z/OS the security for data set and file REST services:
 
   - Add the `COMMON_TSO` statement to the `RESTAPI_FILE` parmlib member to customize the z/OSMF options for the logon procedure.
+
   - Define a value of at least 65536 KB as the size of the address space for the user's logon procedure. To help you prevent system memory exception errors from occurring, confirm that this value is acceptable in your environment.
 
   - Authorize z/OSMF user groups and the z/OSMF server to CEA TSO/E address space services.
