@@ -1,18 +1,8 @@
-# Overview of the z/OS Management Facility Configuration Process </span>
-
-</div>
-
-<div id="content" class="view">
-
-<div class="page-metadata">
-
-</div>
-
-<div id="main-content" class="wiki-content group">
+# Overview of the z/OS Management Facility Configuration Process
 
 Before application developers can use Brightside CLI to interact with
 z/OS systems, systems programmers and security administrators must
-install and configure IBM<span style="color: rgb(0,0,0);">®</span> z/OS
+install and configure IBM z/OS
 Management Facility (z/OSMF) in your environment.
 
 z/OSMF provides remote system management functions so that you can use
@@ -43,7 +33,7 @@ configurations.
 <tbody>
 <tr class="odd">
 <td>Systems Programmers</td>
-<td><a href="433363262.html">Configure z/OS Management Facility</a></td>
+<td><a href="cli-configzosmf.md">Configure z/OS Management Facility</a></td>
 <td><p>Describes how systems programmers perform the following z/OSMF configuration tasks:</p>
 <ul>
 <li>Obtain z/OSMF Installation and Configuration Materials</li>
@@ -53,7 +43,7 @@ configurations.
 </tr>
 <tr class="even">
 <td>Security Administrators</td>
-<td><a href="433363263.html">Configure z/OS Management Facility Security</a></td>
+<td><a href="cli-configzosmfsecurity.md">Configure z/OS Management Facility Security</a></td>
 <td><p>Describes how security administrators perform the following <span>z/OSMF</span> security configuration tasks:</p>
 <ul>
 <li>Configure z/OS REST Services SAF Security</li>
@@ -62,7 +52,7 @@ configurations.
 </tr>
 <tr class="odd">
 <td><p>Systems Programmers</p></td>
-<td><a href="433363264.html">Configure z/OS Management Facility Cloud Provisioning</a></td>
+<td><a href="cli-configzosmfcloudprovisioning.md">Configure z/OS Management Facility Cloud Provisioning</a></td>
 <td><p>Describes how systems programmers perform the following <span>z/OSMF</span> cloud provisioning configuration tasks:</p>
 <ul>
 <li>Install and Configure the IBM z/OS Provisioning Toolkit</li>
@@ -73,7 +63,7 @@ configurations.
 </tr>
 <tr class="even">
 <td>Security Administrators</td>
-<td><a href="433363265.html">Configure z/OS Management Facility Cloud Provisioning Security</a></td>
+<td><a href="cli-configzosmfcloudprovisioningsecurity.md">Configure z/OS Management Facility Cloud Provisioning Security</a></td>
 <td><p>Describes how systems programmers perform the following <span>z/OSMF</span> cloud provisioning security configuration tasks:</p>
 <ul>
 <li>Configure z/OSMF Cloud Provisioning to Use RACF Security</li>
