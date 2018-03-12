@@ -130,6 +130,6 @@ The process of creating tenants (where the domain ID is `IYUx`) establishes the
 
 ## Next Steps
 
-After you complete the security administration for z/OSMF and cloud provisioning, systems programmers, security administrators, and application developers can issue the validate profile command. The command tests the end-to-end solution to verify that Brightside CLI can communicate with z/OS systems properly. For more information, see [Identify and Correct Problems Detected by the Validate Profile Command](Identify-and-Correct-Problems-Detected-by-the-Validate-Profile-Command_433363269.html). 
+After you complete the security administration for z/OSMF and cloud provisioning, systems programmers, security administrators, and application developers can issue the validate profile command. The command tests the end-to-end solution to verify that Brightside CLI can communicate with z/OS systems properly. For more information, see [Identify and Correct Problems Detected by the Validate Profile Command](cli-validateInstallationcorrectproblems.md). 
 
 Work with a systems programmer to correct any problems in the profile validation report. When all tests receive an *OK* result, application developers can install Brightside CLI and issue commands on z/OS systems.
