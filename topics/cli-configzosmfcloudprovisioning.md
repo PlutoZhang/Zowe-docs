@@ -3,10 +3,10 @@
 As a systems programmer, complete the following z/OSMF cloud provisioning configurations tasks to supplement your Brightside CLI implementation with z/OSMF cloud provisioning:
 
 
-  - [Install and Configure the IBM z/OS Provisioning Toolkit](#Configurez/OSManagementFacilityCloudProvisioning-InstallandConfiguretheIBMz/OSProvisioningToolkit)
-  - [Configure z/OSMF Cloud Provisioning](#Configurez/OSManagementFacilityCloudProvisioning-Configurez/OSMFCloudProvisioning)
-  - [Set Up the z/OSMF Cloud Provisioning Service](#Configurez/OSManagementFacilityCloudProvisioning-SetUpthez/OSMFCloudProvisioningService)
-  - [Implement the z/OS Cloud Portal Plug-in](#Configurez/OSManagementFacilityCloudProvisioning-Implementthez/OSCloudPortalPlug-in)
+  - [Install and Configure the IBM z/OS Provisioning Toolkit](#install-and-configure-the-ibm-zos-provisioning-toolkit)
+  - [Configure z/OSMF Cloud Provisioning](#configure-zosmf-cloud-provisioning)
+  - [Set Up the z/OSMF Cloud Provisioning Service](#set-up-the-zosmf-cloudprovisioningservice)
+  - [Implement the z/OS Cloud Portal Plug-in](#implement-the-zos-cloud-portal-plug-in)
 
 **Important!** The [IBM z/OS Management Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
 guide on the IBM Knowledge Center is your primary source of information about how to install and configure z/OSMF. Throughout the IBM procedures, we provide Brightside CLI-specific tips or requirements. We recommend that you open IBM documentation in a separate browser tab.
@@ -15,7 +15,7 @@ guide on the IBM Knowledge Center is your primary source of information about ho
 **Tip:** Cloud provisioning is the process of providing resources to a cloud provider's customers. With z/OSMF cloud provisioning enabled, you can issue Brightside CLI commands to provision CICS, DB2, development environments, and more. To learn more about z/OSMF and cloud
 provisioning, see [What Cloud Provisioning is](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/izuconfig_CloudProvSecurityIntro.htm#SummaryCloudProvisioning) on the IBM Knowledge Center.
 
-For supplemental information about how security administrators configure the security for z/OSMF cloud provisioning, see [Configure z/OSMF Cloud Provisioning Security](433363265.html).
+For supplemental information about how security administrators configure the security for z/OSMF cloud provisioning, see [Configure z/OSMF Cloud Provisioning Security](cli-configzosmfcloudprovisioningsecurity.md).
 
 ## Install and Configure the IBM z/OS Provisioning Toolkit
 
@@ -27,8 +27,8 @@ IBM provides the z/OS Provisioning Toolkit with the following pax file: `zospt
 
 **Follow these steps:**
 
-1.  [Install the toolkit](#Configurez/OSManagementFacilityCloudProvisioning-InstalltheToolkit).
-2.  [Configure the z/OSMF properties file and templates](#Configurez/OSManagementFacilityCloudProvisioning-Configurethez/OSMFPropertiesFileandTemplates).
+1.  [Install the toolkit](#install-the-toolkit).
+2.  [Configure the z/OSMF properties file and templates](#configure-the-zosmfproperties-file-and-templates).
 
 ### Install the Toolkit
 
