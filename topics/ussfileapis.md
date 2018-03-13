@@ -2,7 +2,7 @@
 
 Use USS File APIs to read and list UNIX Files. See the following table for the available operations and their descriptions and prerequisites.
 
-|REST API|Description|Prerequisites|
+|REST API|Description|Prerequisite|
 |--------|-----------|-------------|
 |`POST /Atlas/api/uss/files`|Use this API to create new USS directories and files.|z/OSMF restfiles|
 |`DELETE /Atlas/api/uss/files{path}`|Use this API to delete USS directories and files.|z/OSMF resfiles|
