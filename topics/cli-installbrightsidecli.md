@@ -9,12 +9,11 @@ later.
 **Important!** Before you can use Brightside CLI to interact with the
 mainframe, a systems programmer must install and configure IBM z/OSMF in
 your environment. For more information about how systems programmers and
-security administrators perform the z/OSMF configuration, see [Overview
-of the z/OS Management Facility Configuration Process](433363261.html).
+security administrators perform the z/OSMF configuration, see [Overview of the z/OS Management Facility Configuration Process](cli-overviewzosmfconfig.md).
 
-  - [Install Brightside CLI](#InstallBrightsideCLI-Installbscli)
-  - [Update Brightside CLI](#InstallBrightsideCLI-UpdateBrightsideCLI)
-  - [Uninstall Brightside CLI](#InstallBrightsideCLI-UninstallBrightsideCLI)
+  - [Install Brightside CLI](#install-brightside-cli)
+  - [Update Brightside CLI](#update-brightside-cli)
+  - [Uninstall Brightside CLI](#uninstall-brightside-cli)
 
 ## Install Brightside CLI
 
@@ -33,7 +32,7 @@ version.
 
 **Important!** You might encounter problems when you attempt to install
 Brightside CLI depending on your operating system and
-environment. For more information and workarounds, see [Known Issues.](Release-Notes_417294291.html#ReleaseNotes-knownIssues)
+environment. For more information and workarounds, see [Troubleshooting Installing Brightside CL](cli-troubleshootinginstallingcli.md).
 
 **Follow these steps:**
 
