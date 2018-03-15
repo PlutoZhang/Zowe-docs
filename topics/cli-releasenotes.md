@@ -33,7 +33,7 @@ for Brightside CLI:
   - [Third-Party Software Agreements](#third-party-software-agreements)
 
 **Note:** For installation, upgrade, and software requirements, see
-[Installing.](Installing_429364995.html)
+[Installing](cli-installcli.md).
 
 ## Solution Video
 
@@ -69,7 +69,7 @@ following ways:
 
 For more information about the available functionality in Brightside
 CLI, see [Brightside CLI Command
-Groups](Brightside-CLI-Command-Groups_447395688.html).
+Groups](cli-commandgroups.md).
 
 ## Supported Platforms
 
@@ -98,7 +98,7 @@ default.
 commands. 
 
 For more information, see [Enable and Disable Experimental
-Commands](Enable-and-Disable-Experimental-Commands_433363274.html).
+Commands](cli-enabledisablexperimentalcommands.md).
 
 
 ## Third-Party Software Agreements
@@ -144,4 +144,4 @@ software:
 **Note:** All trademarks, trade names, service marks, and logos
 referenced herein belong to their respective companies.
 
-To read each complete license, [download the attached zip file](/attachments/448246817.zip).
+To read each complete license [right-click here to download the attached zip file](/attachments/448246817.zip).
