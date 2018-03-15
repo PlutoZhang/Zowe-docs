@@ -121,7 +121,7 @@ z/OSMF cloud provisioning requires and set up the z/OSMF cloud
 provisioning service.
   - [Required z/OS Components and Plug-ins](#zos-requirements-and-zosmf-plug-ins)
   - [How z/OSMF Resource Management Works](#how-zosmf-resource-management-works)
-  - [How z/OSMF Software Services Works](##how-zosmf-software-services-work)
+  - [How z/OSMF Software Services Works](#how-zosmf-software-services-work)
 
 ### z/OS Requirements and z/OSMF Plug-ins
 
@@ -256,7 +256,7 @@ As a systems programmer, you set up the cloud provisioning service in z/OSMF so 
 
     **Note:** For information about how security administrators configure the security
 for z/OSMF cloud provisioning, see [Configure z/OSMF Cloud Provisioning
-Security](433363265.html).
+Security](cli-configzosmfcloudprovisioningsecurity.md).
 
 ## Implement the z/OS Cloud Portal Plug-in
 
