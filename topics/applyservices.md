@@ -22,4 +22,4 @@ To replace the whole service package, take the following steps:
 
 After restarting the Atlas server, you can check the version of Atlas that you installed from the swagger interface, which is `Atlas/api/system/version` under System APIs.
 
-**Parent topic:** [Installing Atlas](../topics/install.md)
+**Parent topic:** [Updating Giza](../topics/update.md)
