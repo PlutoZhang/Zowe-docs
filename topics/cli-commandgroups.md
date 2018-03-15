@@ -6,9 +6,9 @@ Brightside CLI contains command groups that focus on specific business processes
 
 The command groups contain commands that let you perform actions on specific objects. For each action on an object, you can specify options that you apply as the Brightside CLI commands execute.
 
-In this article, we review all the Brightside CLI command groups and provide you with a brief synopsis of the tasks that you can perform using the commands in each group. For more information see [How to Display Brightside CLI Help](How-to-Display-Brightside-CLI-Help_429365003.html). 
+In this article, we review all the Brightside CLI command groups and provide you with a brief synopsis of the tasks that you can perform using the commands in each group. For more information see [How to Display Brightside CLI Help](cli-howtodisplaybrightsidehelp.md). 
 
-**Important:** Before you issue these commands, ensure that you create and [validate your zosmf profile](Validate-Installation_430335233.html) so that Brightside CLI can communicate with z/OS systems.
+**Important:** Before you issue these commands, ensure that you create and [validate your zosmf profile](cli-validateInstallation.md) so that Brightside CLI can communicate with z/OS systems.
 
 Brightside CLI contains the following command groups:
   - [ca-disk](#ca-disk)
@@ -46,7 +46,7 @@ With the ca-disk command group, you can perform the following tasks:
 
 ## cics
 
-The cics command group is an [experimental command group](Enable-and-Disable-Experimental-Commands_433363274.html) that lets you interact with CICS regions from a familiar command-line interface. 
+The cics command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with CICS regions from a familiar command-line interface. 
 
 With the cics command group, you can perform the following tasks:
 
@@ -62,7 +62,7 @@ With the cics command group, you can perform the following tasks:
 
 ## compiler
 
-The compiler command group is an [experimental command group](Enable-and-Disable-Experimental-Commands_433363274.html) that lets you compile code on mainframe systems. As a developer, you can use Brightside CLI to work on mainframe code locally and compile the code.
+The compiler command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you compile code on mainframe systems. As a developer, you can use Brightside CLI to work on mainframe code locally and compile the code.
 
 With the compiler command group, you can perform the following tasks:
 
@@ -100,7 +100,7 @@ With the contribute command group, you can perform the following tasks:
 
 ## db2
 
-The db2 command group is an [experimental command group](Enable-and-Disable-Experimental-Commands_433363274.html) that lets you interact with the IBM Db2 Databases.
+The db2 command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with the IBM Db2 Databases.
 
 To execute commands in the db2 command group, IBM Db2 Database must be installed and configured on your system. With the db2 command group, you can perform the following tasks:
 
@@ -114,7 +114,7 @@ To execute commands in the db2 command group, IBM Db2 Database must be installe
 
 ## endevor 
 
-The endevor command group is an [experimental command group](Enable-and-Disable-Experimental-Commands_433363274.html) that lets you interact with CA Endevor remotely.
+The endevor command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with CA Endevor remotely.
 
 To execute commands in the endevor command group, CA Endevor must be installed and configured on your system. With the endevor command group, you can perform the following tasks:
 
@@ -137,11 +137,11 @@ With the help command group, you can perform the following tasks:
   - Search all Brightside CLI help text for a specific term or
 phrase.
 
-**Note:** For more information, see [How to Display Brightside CLI Help](How-to-Display-Brightside-CLI-Help_429365003.html).
+**Note:** For more information, see [How to Display Brightside CLI Help](cli-howtodisplaybrightsidehelp.md).
 
 ## ipcs
 
-The ipcs command group is an [experimental command group](Enable-and-Disable-Experimental-Commands_433363274.html) that lets you interact with Interactive Problem Control System (IPCS) on z/OS. With the ipcs command group, you can perform the following tasks:
+The ipcs command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with Interactive Problem Control System (IPCS) on z/OS. With the ipcs command group, you can perform the following tasks:
 
   - Submit a command to IPCS and review the dump data in a data set of your choice. 
   - Parse the IPCS dump data with a JSON options document to isolate specific data.
@@ -152,15 +152,14 @@ The ipcs command group is an [experimental command group](Enable-and-Disable-Ex
 
 ## profiles
 
-The profiles command group is an [experimental command group](Enable-and-Disable-Experimental-Commands_433363274.html) that lets you create, manage, and validate profiles for use with other Brightside CLI command groups. Profiles allow you to issue commands to different systems quickly, without specifying your connection details with every command.
+The profiles command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you create, manage, and validate profiles for use with other Brightside CLI command groups. Profiles allow you to issue commands to different systems quickly, without specifying your connection details with every command.
 
 With the profiles command group, you can perform the following tasks:
 
   - Create, update, and delete profiles for anyBrightside CLI command group that supports profiles. 
   - Set the default profile to be used within any Brightside CLI command group.
   - List profile names and details for any Brightside CLI command group, including the default active profile.
-  - Validate profiles for other Brightside CLI command groups. For more information, see [Validate
-    Installation](Validate-Installation_430335233.html).
+  - Validate profiles for other Brightside CLI command groups. For more information, see [Validate Installation](cli-validateInstallation.md).
 
 **Note:** For general information about profiles, open Brightside CLI, and issue the following command:
 
@@ -172,7 +171,7 @@ For more information about profiles syntax, actions, and options, open Brightsid
 
 ## projects
 
-The projects command group is an [experimental command group](Enable-and-Disable-Experimental-Commands_433363274.html) that lets you interact with projects in CA Endevor, Git, or other version control software. If you use Git, a minimum of Git version 2.9 is required.
+The projects command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with projects in CA Endevor, Git, or other version control software. If you use Git, a minimum of Git version 2.9 is required.
 
 With the projects command group, you can perform the following tasks:
 
@@ -233,7 +232,7 @@ With the zos-files command group, you can perform the following tasks:
 
 `bright zos-files -h`
 
-See [Submit a Job and Print Job Output](Submit-a-Job-and-Print-Job-Output_441193420.html) for a use-case that demonstrates some zos-files commands.
+See [Submit a Job and Print Job Output](cli-submitjobprintoutput.md) for a use-case that demonstrates some zos-files commands.
 
 ## zos-jobs
 
@@ -252,11 +251,11 @@ With the zos-jobs command group, you can perform the following tasks:
 
 `bright zos-jobs -h`
 
-See [Submit a Job and Print the Job Output](Submit-a-Job-and-Print-Job-Output_441193420.html) for a use case that demonstrates some zos-jobs commands.
+See [Submit a Job and Print the Job Output](cli-submitjobprintoutput.md) for a use case that demonstrates some zos-jobs commands.
 
 ## zos-ssh
 
-The zos-ssh command group is an [experimental command group](Enable-and-Disable-Experimental-Commands_433363274.html) that lets you interact with UNIX System Services (USS) on z/OS systems.
+The zos-ssh command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with UNIX System Services (USS) on z/OS systems.
 
 With the zos-ssh command group, you can perform the following tasks:
 
@@ -281,7 +280,7 @@ With the zos-tso command group, you can perform the following tasks:
 
 ## zos-utils
 
-The zos-utils command group is an [experimental command group](Enable-and-Disable-Experimental-Commands_433363274.html) that lets you use common mainframe utilities remotely.
+The zos-utils command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you use common mainframe utilities remotely.
 
 With the zos-utils command group, you can perform the following tasks:
 
@@ -300,7 +299,7 @@ The zosmf command group lets you work with Brightside CLI profiles and get gene
 With the zosmf command group, you can perform the following tasks:
 
   - Create and manage your Brightside CLI zosmf profiles. You must have at least one zosmf profile to issue most commands. Issue the `bright help explain profiles` command in Brightside CLI to learn more about using profiles.
-  - Verify that your profiles are set up correctly to communicate with z/OSMF on your system. For more information, see [Validate Installation](Validate-Installation_430335233.html).
+  - Verify that your profiles are set up correctly to communicate with z/OSMF on your system. For more information, see [Validate Installation](cli-validateInstallation.md).
   - Get information about the current z/OSMF version, host, port, and plug-ins installed on your
 system.
 
