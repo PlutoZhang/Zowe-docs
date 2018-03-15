@@ -95,10 +95,10 @@ profiles to target different systems.
         see more available options. For more information about getting
         help, see [How to Display Brightside CLI Help](cli-howtodisplaybrightsidehelp.md).
           
-    b.  Issue the following command to edit the job:
-        ```bright zos-files edit data-set "USERID.public.compile.jcl(enfmtlc)" --ec code --kw -e jcl```
-
-        The files open in your IDE automatically, as illustrated by the following screen:     
+    b.  Issue the following command to edit the job:   
+        ```bright zos-files edit data-set "USERID.public.compile.jcl(enfmtlc)" --ec code --kw -e jcl```            
+        The files open in your IDE automatically, as illustrated by the following screen:
+             
     ![Edit jcl and compiler options to compile in 64-bit mode in Visual Studio Code](/images/scenario/441193424.png "Edit a Job in Visual Studio Code - Before")
   
 
