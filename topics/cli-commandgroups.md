@@ -33,7 +33,7 @@ Brightside CLI contains the following command groups:
 
 ## ca-disk
 
-The ca-disk command group is an [experimental command group](Enable-and-Disable-Experimental-Commands_433363274.html) that lets you interact with [CA Disk Backup and Restore](https://docops.ca.com/ca-disk-backup-and-restore/12-5/en) from a familiar command-line interface. To execute commands using the ca-disk command group, [CA Disk Backup and
+The ca-disk command group is an [experimental command group](./cli-enabledisablexperimentalcommands.md) that lets you interact with [CA Disk Backup and Restore](https://docops.ca.com/ca-disk-backup-and-restore/12-5/en) from a familiar command-line interface. To execute commands using the ca-disk command group, [CA Disk Backup and
 Restore](https://support.ca.com/cadocs/0/CA%20Disk%20%20Backup%20and%20Restore%2012%205-ENU/Bookshelf.html) must be installed on your system.
 
 With the ca-disk command group, you can perform the following tasks:
