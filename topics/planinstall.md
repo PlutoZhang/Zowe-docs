@@ -1,11 +1,10 @@
-# Planning for installation
+# Prerequisites
 
-Before you start the installation, assess your environment to ensure that it meets the requirements specified in this section.
+Before installing Giza, verify that your environment meets all of the prerequisites.
 
--   **[Prerequisites for Atlas](../topics/preatlas.md)**  
-
+-   **[Prerequisites for z/OSMF configuration](../topics/prezosmf.md)**  
 -   **[Prerequisites for MVD](../topics/premvd.md)**  
-
+-   **[Prerequisites for Atlas](../topics/preatlas.md)**  
 -   **[Prerequisites for CLI](../topics/precli.md)**  
 
-**Parent topic:** [Installing Giza](../topics/install.md)
+**Parent topic:** [Installing and configuring Giza](../topics/installandconfig.md)
