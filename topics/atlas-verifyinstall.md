@@ -1,4 +1,4 @@
-# Verifying installation
+# Verifying Atlas installation
 
 After Atlas is installed and the FEKATLS procedure is started, you can verify the installation from an internet browser by using the following URL:
 

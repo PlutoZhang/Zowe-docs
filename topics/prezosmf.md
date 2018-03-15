@@ -1,3 +1,3 @@
 # Prerequisites for z/OSMF configuration
 
-**Parent topic:** [Planning for installation](../topics/planinstall.md)
+**Parent topic:** [Prerequisites](../topics/planinstall.md)
