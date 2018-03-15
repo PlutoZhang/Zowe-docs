@@ -1,4 +1,4 @@
-# Troubleshooting installation and configuration
+# Troubleshooting Atlas installation and configuration
 
 If Atlas REST APIs do not work, check the following items:
 

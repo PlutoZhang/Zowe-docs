@@ -1,1 +1,1 @@
-# Introduction to Giza
+# Introducing Giza

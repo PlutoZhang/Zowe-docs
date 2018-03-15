@@ -14,11 +14,11 @@ This book contains an introduction and information for installing, configuring, 
 
 [Introducing Giza](introduction.md) explains what is Giza, how it works, and what it can do.
 
-[Installing and Configuring Giza](installandconfig.md) explains how to install, configure, and maintain Giza so that it can work. It also provides information about troubleshooting installation related problems.
+[Installing and configuring Giza](installandconfig.md) explains how to install, configure, and maintain Giza so that it can work. It also provides information about troubleshooting installation related problems.
 
 [Using Giza](using.md) explains how to use the features that Giza provides.
 
 ## How to send your feedback
-Your feedback is important in helping us to provide accurate, high-quality information. If you have comments about this documentation, raise an issue and send us a pull request.
+Your feedback is important in helping us to provide accurate and high-quality information. If you have comments about this documentation, raise an issue and send us a pull request.
 
 Be sure to include the version of the product, and, if applicable, the specific location (for example, the page number or section heading) of the text that you are commenting on.

@@ -2,10 +2,10 @@
 
 Installing Atlas involves obtaining the Atlas Archive, running the install script, and configuring files.
 
-Before installing Atlas, ensure that your environment meets the [system requirements](planinstall.md).
+Before installing Atlas, ensure that your environment meets the [prerequisites for Atlas](topics/atlas-prereqs.md).
 
 To install Atlas, complete the following steps:
-1.  Download the Atlas archive from the [IBM® Mainframe Developer Center](https://developer.ibm.com/mainframe/). The archive is about 200 MB.
+1.  Download the Atlas archive from the [IBM® Mainframe Developer Center](https://developer.ibm.com/mainframe/).
 2.  Extract the archive on your workstation and transfer the following files to z/OS® System:
 
     -   The Atlas PAX archive that contains Liberty Profile binaries and the Atlas application.
@@ -156,6 +156,6 @@ To install Atlas, complete the following steps:
 
 **What to do next**
 
-Verify whether Atlas is successfully installed. For more information, see [Verifying installation](verifyinstall.md).
+Verify whether Atlas is successfully installed. For more information, see [Verifying Atlas Installation](atlas-verifyinstal.md).
 
-**Parent topic:** [Installing Atlas](../topics/install.md)
+**Parent topic:** [Installing and configuring Giza](../topics/installandconfig.md)
