@@ -28,7 +28,7 @@
         - [Correcting problems detected by the validate profile command in Brightside CLI](topics/cli-validateInstallationcorrectproblems.md)
     -   [Updating Giza](topics/applyservices.md) (All)
     -   [Uninstalling Giza](topics/uninstallingatlas.md) (All)
-        -   [Uninstall Brightside CLI](topics/cli-uninstallcli.md)
+        -   [Uninstalling Brightside CLI](topics/cli-uninstallcli.md)
     -   [Troubleshooting installation and configuration](topics/troubleshoot.md) (All)
         -   [Troubleshooting installing Brightside CLI](topics/cli-troubleshootinginstallingcli.md)
 -   [Using Giza](topics/using.md) (Section owner: Miya)

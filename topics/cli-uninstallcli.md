@@ -1,4 +1,4 @@
-# Uninstall Brightside CLI
+# Uninstalling Brightside CLI
 
 To uninstall Brightside CLI, issue the following command:
 
