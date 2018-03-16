@@ -1,6 +1,6 @@
-# Experimenting with the sample application plug-in
+# Experimenting with the zLUX sample application plug-in
 
-Your Project Giza installation provides a sample application plug-in with which you can experiment.
+Your zLUX installation provides a sample application plug-in with which you can experiment.
 
 You can use the npm run build ornpm start command to build the sample appication plug-in. These commands are configured in package.json.
 
