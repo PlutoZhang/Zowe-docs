@@ -2,7 +2,7 @@
 
 Here is sample code to send a `GET` request to Atlas in Java™.
 
-```
+```java
 public class JobListener implements Runnable {
 
 
