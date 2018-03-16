@@ -119,16 +119,15 @@ After you complete these steps, you can use the provisioning toolkit to manage y
 As a systems administrator, you set up the components and plug-ins that
 z/OSMF cloud provisioning requires and set up the z/OSMF cloud
 provisioning service.
-  - [Required z/OS Components and Plug-ins](#Configurez/OSManagementFacilityCloudProvisioning-Requiredz/OSComponentsandPlug-ins)
-  - [System Requirements for z/OSMF Cloud Provisioning](#Configurez/OSManagementFacilityCloudProvisioning-SystemRequirementsforz/OSMFCloudProvisioning)
-  - [How z/OSMF Resource Management Works](#Configurez/OSManagementFacilityCloudProvisioning-Howz/OSMFResourceManagementWorks)
-  - [How z/OSMF Software Services Works](#Configurez/OSManagementFacilityCloudProvisioning-Howz/OSMFSoftwareServicesWorks)
+  - [Required z/OS Components and Plug-ins](#zos-requirements-and-zosmf-plug-ins)
+  - [How z/OSMF Resource Management Works](#how-zosmf-resource-management-works)
+  - [How z/OSMF Software Services Works](#how-zosmf-software-services-work)
 
 ### z/OS Requirements and z/OSMF Plug-ins
 
-For information about the components and plug-ins for z/OSMF cloud provisioning that are required for Brightside CLI, see [Configure z/OS Management Facility](433363262.html#Configurez/OSManagementFacility-pre).
+For information about the components and plug-ins for z/OSMF cloud provisioning that are required for Brightside CLI, see [Configure z/OS Management Facility](cli-configzosmf.md#install-and-configure-zosmf).
 
-### <span>View the z/OSMF Cloud Provisioning Branch</span>
+### View the z/OSMF Cloud Provisioning Branch
 
 The z/OSMF Cloud Provisioning branch in the z/OSMF navigation tree consists of **Resource Management** and **Software Services**. The information that displays on the navigation
 tree in IBM z/OS Management Facility behaves in a manner that is contingent upon the existence of user IDs in various cloud provisioning user groups. Consider the following requirements:
@@ -143,8 +142,8 @@ Administrators.
 
 **More information:**
 
-  - [How z/OSMF Resource Management Works](#Configurez/OSManagementFacilityCloudProvisioning-Howz/OSMFResourceManagementWorks)
-  - [How z/OSMF Software Services Works](#Configurez/OSManagementFacilityCloudProvisioning-Howz/OSMFSoftwareServicesWorks)
+  - [How z/OSMF Resource Management Works](#how-zosmf-resource-management-works)
+  - [How z/OSMF Software Services Works](#how-zosmf-software-services-work)
 
 ### How z/OSMF Resource Management Works
 
@@ -257,7 +256,7 @@ As a systems programmer, you set up the cloud provisioning service in z/OSMF so 
 
     **Note:** For information about how security administrators configure the security
 for z/OSMF cloud provisioning, see [Configure z/OSMF Cloud Provisioning
-Security](433363265.html).
+Security](cli-configzosmfcloudprovisioningsecurity.md).
 
 ## Implement the z/OS Cloud Portal Plug-in
 

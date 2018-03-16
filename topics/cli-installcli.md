@@ -8,8 +8,7 @@ later.
 **Important!** Before you can use Brightside CLI to interact with the
 mainframe, a systems programmer must install and configure IBM z/OSMF in
 your environment. For more information about how systems programmers and
-security administrators perform the z/OSMF configuration, see [Overview
-of the z/OS Management Facility Configuration Process](433363261.html).
+security administrators perform the z/OSMF configuration, see [Overview of the z/OS Management Facility Configuration Process](cli-overviewzosmfconfig.md).
 
 Node.js® is a JavaScript runtime environment on which we
 architected Brightside CLI. You use the Node.js package manager (npm)
