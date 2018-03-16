@@ -18,8 +18,8 @@ To uninstall Atlas, take the following steps:
 
 4.  Delete the z/OS® UNIX™ System Services Atlas directory and files from the Atlas installation directory by using the following command:
 
-    ```
-    rm -R /var/atlas
+    ```sh
+    rm -R /var/atlas #*Atlas Installation Directory*
     ```
 
     **Notes:**
