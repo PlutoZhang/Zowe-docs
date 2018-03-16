@@ -1,7 +1,5 @@
-# Using Atlas Web UI within MVD
-Atlas provides a sample web client that can be used to view and manipulate the Job Entry Subsystem (JES), data sets, z/OS UNIX System Services (USS), and System log. 
-
-The following views are available from the Atlas Web UI and are accesible via the Atlas icon located in the application draw of MVD (Navigation between views can be performed using the menu draw located in the top left corner of the Atlas Web UI:
+# Using Atlas Web UI
+Atlas provides a sample web client that can be used to view and manipulate JES, data sets, z/OS UNIX System Services (USS), and system logs. The following views are available from the Web UI:
 - **JES Explorer**
 
   Use this view to query JES jobs with filters, and view the related steps, files, and status. You can also purge jobs from this view.
