@@ -1,8 +1,8 @@
 # Setting the environment variables for plug-in development
 
-The UNIX environment variables must be set appropriately before you can use the Project Giza build procedures to develop your own plug-ins.
+The UNIX environment variables must be set appropriately before you can use the zLUX build procedures to develop your own plug-ins.
 
-When you restored the Project Giza archive during the installation and configuration process \([Setting up the Project Giza Node.js server and the ZLUX Secure Services address space on z/OS](mvd-instsetupeverythingonzos.md)\), MVD/build/env.sh was created. You can set the environment variables by editing the env.sh script and then executing it.
+When you restored the zLUX archive during the installation and configuration process \([Setting up the Giza Node server and the ZLUX Secure Services address space on z/OS](mvd-instsetupeverythingonzos.md)\), MVD/build/env.sh was created. You can set the environment variables by editing the env.sh script and then executing it.
 
 1.   Navigate to MVD/build and open env.sh for editing. 
 2.   At the top of env.sh, uncomment these lines: 

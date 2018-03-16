@@ -1,16 +1,16 @@
 # Verifying port number availablity
 
-Before you begin your Project Giza configuration, it is a good idea to verify the availability of the various port numbers the you will need to specify for Project Giza communications.
+Before you begin your zLUX configuration, it is a good idea to verify the availability of the various port numbers the you will need to specify for zLUX communications.
 
-Project Giza requires you to configure these port numbers in the zlux-example-server/config/zluxserver.json configuration file:
+zLUX requires you to configure these port numbers in the zlux-example-server/config/zluxserver.json configuration file:
 
--   `zssPort`, which is the port through which the Project Giza Node.js server communicates with the ZLUX Secure Services address space. By default, Project Giza uses port 8542 for this purpose.
--   An HTTP port for unencrypted access from the browser. By default, Project Giza uses port 8543 for this purpose.
--   An HTTPS port for encrypted access from the browser. By default, Project Giza uses port 8544 for this purpose.
+-   `zssPort`, which is the port through which the Giza Node server communicates with the ZLUX Secure Services address space. By default, zLUX uses port 8542 for this purpose.
+-   An HTTP port for unencrypted access from the browser. By default, zLUX uses port 8543 for this purpose.
+-   An HTTPS port for encrypted access from the browser. By default, zLUX uses port 8544 for this purpose.
 
 1.   Determine which port numbers are in use and which are reserved: 
     1.   Run TSO NETSTAT PORTLIST to display a list of reserved ports. 
     2.   Run TSO NETSTAT to display a list of ports that are in use. 
-2.   For the `zssPort`, HTTP and HTTPS ports, select port numbers that are not reserved or already in use. You will need to specify the selected port numbers to complete the procedure in [Setting up the Project Giza Node.js server and the ZLUX Secure Services address space on z/OS](mvd-instsetupeverythingonzos.md) topic. 
+2.   For the `zssPort`, HTTP and HTTPS ports, select port numbers that are not reserved or already in use. You will need to specify the selected port numbers to complete the procedure in [Setting up the Giza Node server and the ZLUX Secure Services address space on z/OS](mvd-instsetupeverythingonzos.md) topic. 
 
-After you have verified the availability of the port numbers that you will need to complete your Project Giza Node.js server and ZLUX Secure Services address space set up, you can go on to [Setting up the Project Giza Node.js server and the ZLUX Secure Services address space on z/OS](mvd-instsetupeverythingonzos.md).
+After you have verified the availability of the port numbers that you will need to complete your Giza Node server and ZLUX Secure Services address space set up, you can go on to [Setting up the Giza Node server and the ZLUX Secure Services address space on z/OS](mvd-instsetupeverythingonzos.md).
