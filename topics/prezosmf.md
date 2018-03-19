@@ -1,5 +1,6 @@
 # Prerequisites for z/OSMF configuration
 
+
 ## z/OSMF Prerequisites for Brightside CLI
 To use Brightside CLI, systems programmers and security administrators set up and configure IBM z/OS Management Facility (z/OSMF) so that Brightside CLI can communicate with z/OS systems. After the z/OSMF configuration tasks are complete, application developers can install Brightside CLI on their personal computer and issue a command to verify that the system is configured properly.
 
@@ -11,4 +12,5 @@ To use Brightside CLI, systems programmers and security administrators set up an
 * [Configure z/OS Management Facility Cloud Provisioning](cli-configzosmfcloudprovisioning.md)
 * [Configure z/OS Management Facility Cloud Provisioning Security](cli-configzosmfcloudprovisioningsecurity.md)
 
-**Parent topic:** [Planning for installation](../topics/planinstall.md)
+**Parent topic:** [Prerequisites](../topics/planinstall.md)
+
