@@ -71,21 +71,8 @@ For more information about the available functionality in Brightside
 CLI, see [Brightside CLI Command
 Groups](cli-commandgroups.md).
 
-## Supported Platforms
-
-**Workstations:** You can install Brightside CLI on any Windows, macOS,
-and Linux operating system that supports Node.js version 6 or
-later.
-
-**Note:** CA Technologies does not maintain the prerequisite software
-that Brightside CLI requires. You are responsible for updating Node.js
-and other prerequisites on your personal computer or workstation. We
-recommend that you update Node.js regularly to the latest Long Term
-Support (LTS) version.
-
-**Mainframe systems:** Brightside CLI was designed
-and tested to integrate with z/OS Management Facility (z/OSMF) running
-on IBM version 2.2 z/OS mainframe systems.
+## Prerequisites
+For information about prerequisite software and configuration for Brightside CLI, see [Prerequisites for Brightside CLI](precli.md)
 
 ## Experimental Commands
 

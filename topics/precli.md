@@ -1,10 +1,22 @@
 # Prerequisites for Brightside CLI
-To use Brightside CLI, systems programmers and security administrators set up and configure IBM z/OS Management Facility (z/OSMF) so that Brightside CLI can communicate with z/OS systems. After the z/OSMF configuration tasks are complete, application developers can install Brightside CLI on their personal computer and issue a command to verify that the system is configured properly.
 
-**Important!** The [IBM z/OS Management Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm) documentation on the IBM Knowledge Center is your primary source of information about how to install and configure z/OSMF. Throughout the IBM procedures, we provide Brightside CLI-specific tips or requirements. We recommend that you open IBM documentation in a separate browser tab.
+Meet the following prerequisites before you install Brightside CLI on your PC:
 
-* [Overview of the z/OS Management Facility Configuration Process](cli-overviewzosmfconfig.md)
-* [Configure z/OS Management Facility](cli-configzosmf.md)
-* [Configure z/OS Management Facility Security](cli-configzosmfsecurity.md)
-* [Configure z/OS Management Facility Cloud Provisioning](cli-configzosmfcloudprovisioning.md)
-* [Configure z/OS Management Facility Cloud Provisioning Security](cli-configzosmfcloudprovisioningsecurity.md)
+- Node.js® is a JavaScript runtime environment on which we
+architected Brightside CLI. You use the Node.js package manager (npm)
+to install Brightside CLI. After you install Node.js, you can then
+install Brightside CLI using the Node.js package
+manager. 
+
+- You can install Brightside CLI on any Windows, macOS, and Linux operating system that supports Node.js version 6 or
+later.
+
+- Brightside CLI was designed and tested to integrate with z/OS Management Facility (z/OSMF) running
+on IBM z/OS version 2.2 mainframe systems.
+
+**Note:** CA Technologies does not maintain the prerequisite software
+that Brightside CLI requires. You are responsible for updating Node.js
+and other prerequisites on your personal computer or workstation. We
+recommend that you update Node.js regularly to the latest Long Term
+Support (LTS) version.
+

@@ -1,4 +1,4 @@
-# Identify and Correct Problems Detected by the Validate Profile Command
+# Correcting Problems Detected by the Validate Profile Command in Brightside CLI
 
 Brightside CLI includes a profile validation command that runs a series
 of tests on z/OSMF REST APIs (and their endpoints) and prints a report
