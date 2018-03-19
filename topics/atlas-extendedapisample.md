@@ -2,7 +2,7 @@
 
 Here is an extended API sample that is written using JavaScript™ with features from ES62015 \(map\).
 
-```
+```js
 //////////////////////////////////////////////////////////////////////////////////////
 // Extended API Sample 
 // This Sample is written using Javascript with features from ES62015 (map).

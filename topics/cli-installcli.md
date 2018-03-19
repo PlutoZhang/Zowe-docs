@@ -16,7 +16,6 @@ to install Brightside CLI. After you install Node.js, you can then
 install Brightside CLI using the Node.js package
 manager. 
 
-
 **Note:** CA Technologies does not maintain the prerequisite
 software that Brightside CLI requires. You are responsible
 for updating Node.js and other prerequisites on your PC. We recommend
