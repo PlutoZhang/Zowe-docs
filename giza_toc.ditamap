@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
+ "ibm-map.dtd">
+<?Pub Sty _display FontColor="red"?>
+<?Pub Inc?>
+<map xml:lang="en-us">
+<title>Project Giza User's Guide</title>
+<topicref format="md" href="topics/aboutthisbook.md" scope="local">
+<topicref href="b.dita"
+navtitle="The title of the topic article appears here when you use the Insert – Topic Reference feature; or when you type a title in the navtitle attribute"
+type="topic"></topicref>
+<topicref
+navtitle="Remember to delete the tags provided in the template if they are not used">
+</topicref>
+</topicref>
+</map><?Pub Caret -3?>
+<?Pub *0000000699?>
