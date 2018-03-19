@@ -78,7 +78,7 @@ The config command group lets you display and configure Brightside CLI settings
 
 With the config command group, you can perform the following tasks:
 
-  - Display the location of the Brightside CLI configuration directory on your PC
+  - Display the location of the Brightside CLI configuration directory on your PC.
   - Display the status of experimental features and commands (enabled or disabled).
   - Enable and disable experimental features and commands.
 

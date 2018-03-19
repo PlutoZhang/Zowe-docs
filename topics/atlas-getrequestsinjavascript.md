@@ -2,7 +2,7 @@
 
 Here is sample code written in JavaScript™ using features from ES6 to send a `GET`request to Atlas.
 
-```
+```js
 const BASE_URL = 'hostname.com:port/Atlas/api';
 
 // Call the jobs GET api to get all jobs with the userID IBMUSER

@@ -2,7 +2,7 @@
 
 Here is sample code written in JavaScript™ using features from ES6 to send a `POST` request to Atlas.
 
-```
+```js
 // Call the jobs POST api to submit a job from a dataset (ATLAS.TEST.JCL(TSTJ0001))
 function submitJob(){
     let payload = "{\"file\":\"'ATLAS.TEST.JCL(TSTJ0001)'\"}";
