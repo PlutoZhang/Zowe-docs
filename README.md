@@ -30,7 +30,6 @@
         - [Identify and correct problems detected by the validate profile command](topics/cli-validateInstallationcorrectproblems.md)
     -   [Updating Giza](topics/update.md)
         -   [Updating Atlas](topics/atlas-update.md)
-        -   [Updating Brightside CLI](topics/cli-updatingcli.md)
     -   [Uninstalling Giza](topics/uninstall.md)
         -   [Uninstalling Atlas](topics/atlas-uninstall)
         -   [Uninstalling Brightside CLI](topics/cli-uninstallcli.md)
