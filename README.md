@@ -32,7 +32,7 @@
         -   [Updating Atlas](topics/atlas-update.md)
         -   [Updating Brightside CLI](topics/cli-updatingcli.md)
     -   [Uninstalling Giza](topics/uninstall.md)
-        -   [Uninstalling Atlas](topics/atlas-uninstall)
+        -   [Uninstalling Atlas](topics/atlas-uninstall.md)
         -   [Uninstalling Brightside CLI](topics/cli-uninstallcli.md)
     -   [Troubleshooting installation and configuration](topics/troubleshoot.md)
         -   [Troubleshooting installing Atlas installation](topics/atlas-troubleshoot.md)
