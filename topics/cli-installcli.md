@@ -1,30 +1,54 @@
 # Installing Brightside CLI
 As a systems programmer or application developer, you install Brightside
-CLI on your personal computer. You can install Brightside CLI on any
-personal computer that is running a Windows, Linux, macOS operating
+CLI on your PC. You can install Brightside CLI on any
+PC that is running a Windows, Linux, macOS operating
 system that supports Node.js version 6 or
-later.
+later. 
 
-**Important!** Before you can use Brightside CLI to interact with the
+
+**Notes:** 
+- Before you can use Brightside CLI to interact with the
 mainframe, a systems programmer must install and configure IBM z/OSMF in
 your environment. For more information about how systems programmers and
 security administrators perform the z/OSMF configuration, see [Overview of the z/OS Management Facility Configuration Process](cli-overviewzosmfconfig.md).
 
-Node.js® is a JavaScript runtime environment on which we
+- Node.js® is a JavaScript runtime environment on which we
 architected Brightside CLI. You use the Node.js package manager (npm)
 to install Brightside CLI. After you install Node.js, you can then
 install Brightside CLI using the Node.js package
 manager. 
 
-**Note:** CA Technologies does not maintain the prerequisite
+-  CA Technologies does not maintain the prerequisite
 software that Brightside CLI requires. You are responsible
 for updating Node.js and other prerequisites on your PC. We recommend
 that you update Node.js regularly to the latest Long Term Support (LTS)
 version.
 
-**Important!** You might encounter problems when you attempt to install
+- You might encounter problems when you attempt to install
 Brightside CLI depending on your operating system and
 environment. For more information and workarounds, see [Troubleshooting Installing Brightside CLI](cli-troubleshootinginstallingcli.md).
+
+## Obtain Installation Media
+Download the Project Giza installation media and transfer Brightside CLI files to client workstations to begin using the product at your site:
+
+**Follow these steps:**
+
+1. Download the Project Giza PAX file from SOME_LOCATION.
+
+2. Extract the Project Giza PAX file onto your mainframe system. The PAX contains the following files:
+    - brightside.tgz
+    - Atlas PAX
+    - MVD PAX
+    - doc.pdf
+
+3. Use FTP to distribute the brightside.tgz file to client workstations.
+
+Users can now install Brightside CLI on their PC.
+
+
+## Install Brightside CLI
+
+To use Brightside CLI on your PC, install the product from the installation media that is distributed at your site. 
 
 **Follow these steps:**
 
@@ -45,8 +69,7 @@ environment. For more information and workarounds, see [Troubleshooting Installi
     
     Node.js is installed on your PC.
 
-2.  Download the Brightside CLI installation package from the
-    **Downloads** section on [validate.ca.com.](https://validate.ca.com/project/version/item.html?cap=13283cc32fd9439c85aeb18bba4ac1f6&arttypeid=%7B4109d6e9-6c06-448b-8eb2-6601a5616391%7D&artid=%7B5ACC31C0-2176-437F-B06B-8C572D48C76C%7D)
+2.  Download and unzip the Brightside CLI installation media (tar.gz or .tgz file). 
 
 3.  Open a command line window. Browse to the directory where you
     downloaded the Brightside CLI installation package. Issue the
