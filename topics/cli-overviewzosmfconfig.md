@@ -1,4 +1,4 @@
-# Overview of the z/OS Management Facility Configuration Process
+# Overview of the z/OS Management Facility configuration process
 
 Before application developers can use Brightside CLI to interact with
 z/OS systems, systems programmers and security administrators must

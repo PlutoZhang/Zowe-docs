@@ -73,7 +73,7 @@ environment. For more information and workarounds, see [Troubleshooting Installi
     at the command group level. Most command groups require a "zosmf"
     Brightside profile.    
 
-5.  <span>To ensure that your Brightside CLI profile can communicate
+5.  To ensure that your Brightside CLI profile can communicate
     with z/OSMF on mainframe systems, issue the following z/OSMF profile
     validation command:    
    

@@ -11,7 +11,7 @@ tasks for your Brightside CLI implementation:
 Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
 guide on the IBM Knowledge Center is your primary source of information about how to install and configure z/OSMF. Throughout the IBM procedures, we provide Brightside CLI-specific tips or requirements. We recommend that you open IBM documentation in a separate browser tab.
 
-## Obtain z/OSMF Installation and Configuration Materials
+## Obtain z/OSMF installation and configuration materials
 
 Before you start the configuration process, we recommend that you
 review [Overview of z/OSMF](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_OverviewMain.htm) on
@@ -21,7 +21,7 @@ IBM](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r
 plan your installation and complete all the required
 steps. 
 
-## Install and Configure z/OSMF
+## Install and configure z/OSMF
 
 Brightside CLI was designed and tested to integrate with z/OS Management Facility (z/OSMF) running on IBM version 2.2 z/OS mainframe systems. To use Brightside CLI, ensure that your z/OS system meets the requirements that are described in the following table:
 
@@ -137,7 +137,7 @@ For more information, see <a href="https://www.ibm.com/support/knowledgecenter/e
 
 </div>
 
-## Select and Configure your z/OSMF Plug-ins
+## Select and configure your z/OSMF plug-ins
 
 Brightside CLI requires that z/OS Management Facility (z/OSMF) is
 installed with the following plug-ins:

@@ -1,4 +1,4 @@
-# Brightside CLI Scenarios
+# Brightside CLI scenarios
 
 This section contains sample scenarios that can help you learn how to use Brightside CLI. In each use case, we walk you through the process of issuing Brightside CLI commands so that you can use various Brightside CLI features to accomplish common mainframe tasks.
 
@@ -20,7 +20,7 @@ The following prerequisites apply to all of the scenarios that are contained in 
     
     Issue the `--help` command after any Brightside CLI command to see more available options. For more information about getting help, see [How to Display Brightside CLI Help](cli-howtodisplaybrightsidehelp.md).
 
-# Submit a Job and Print Job Output
+# Submit a job and print job output
 As an application developer, you want to change a compile/build job (for
 example, change it to compile in 64-bit mode), submit the job to build
 your source, and verify that the job output is

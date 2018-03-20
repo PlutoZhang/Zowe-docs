@@ -37,11 +37,11 @@ for Brightside CLI:
 - For installation, upgrade, and software requirements, see [Installing Brightside CLI](cli-installcli.md).
 
 
-## Solution Video
+## Solution video
 
 Watch this [short video](https://www.youtube.com/watch?v=0MvAv5ApolI) about how Brightside CLI works. 
 
-## Brightside CLI Capabilities
+## Brightside CLI capabilities
 
 With Brightside CLI, you can interact with z/OS remotely in the
 following ways:
@@ -76,7 +76,7 @@ Groups](cli-commandgroups.md).
 ## Prerequisites
 For information about prerequisite software and configuration for Brightside CLI, see [Prerequisites for Brightside CLI](precli.md)
 
-## Experimental Commands
+## Experimental commands
 
 The Brightside CLI Early Access Preview contains features that are still
 under development and have not been tested to GA quality. You can enable
@@ -90,7 +90,7 @@ For more information, see [Enable and Disable Experimental
 Commands](cli-enabledisablexperimentalcommands.md).
 
 
-## Third-Party Software Agreements
+## Third-party software agreements
 
  Brightside CLI uses the following third-party
 software:  

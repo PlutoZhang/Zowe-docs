@@ -1,4 +1,4 @@
-# Validating Installation
+# Validating installation
 
 After the systems programmer configures z/OSMF and application developers install Brightside CLI, issue the Brightside CLI profile validation command to verify that your z/OSMF profile will function properly. The Brightside CLI profile validation command runs a series of tests on z/OSMF APIs and prints a report that can help you identify problems with your profile and connection details.
 
@@ -10,7 +10,7 @@ Before you issue the z/OSMF profile validation command, ensure that the followi
   - Brightside CLI is installed.
   - You created at least one Brightside CLI `zosmf` profile that lets you access z/OSMF functionality on z/OS systems.
 
-## Command Syntax
+## Command syntax
 
 You issue the z/OSMF validate profile command to verify that your Brightside CLI mainframe security access has been properly configured and that your profile details are correct. With the command, you can verify your default profile or any other specific profile.
 
@@ -26,7 +26,7 @@ Issue the following command and specify a `profile_name` to verify that *a spec
 
 ```bright zosmf validate --bpn <profile_name>```
 
-## Profile Validation Results
+## Profile validation results
 
 When you issue the z/OSMF validate profile command, Brightside CLI runs a series of tests. The command presents you with a table that displays the test results. Review the table and report any
 failures or warnings to your systems programmer.

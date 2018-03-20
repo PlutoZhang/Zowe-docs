@@ -1,4 +1,4 @@
-# Configure z/OS Management Facility Security
+# Configure z/OS Management Facility security
 
 As a security administrator, complete the following z/OSMF security
 configuration tasks for your Brightside CLI implementation:
@@ -11,7 +11,7 @@ configuration tasks for your Brightside CLI implementation:
 **Important!** The [IBM® z/OS Management Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
 guide on the IBM Knowledge Center is your primary source of information about how to install and configure z/OSMF. Throughout the IBM procedures, we provide Brightside CLI-specific tips or requirements. We recommend that you open IBM documentation in a separate browser tab.
 
-## Configure z/OS REST Services SAF Security 
+## Configure z/OS REST services SAF security 
 
 A security administrator must configure security to allow z/OSMF System Authorization Authority (SAF) access to the resources that Brightside CLI requires. Brightside CLI uses REST endpoints that are associated with each z/OSMF REST API. After you complete all z/OSMF and z/OSMF cloud provisioning configurations, you can [issue the validate profile command](cli-validateInstallationcorrectproblems.md) to verify that Brightside CLI can communicate with z/OS systems through the REST APIs. 
 
@@ -102,7 +102,7 @@ The following table details the required z/OSMF REST services and examples of th
 </tbody>
 </table>
 
-## Configure z/OS Console REST Interface
+## Configure z/OS console REST interface
 
 Review the following recommendations for configuring the security for z/OS console REST services:
 
@@ -115,7 +115,7 @@ Review the following recommendations for configuring the security for z/OS cons
 
 **Note:** For detailed instructions for how to configure the z/OS console REST services, see [Updating your system for the z/OS console REST interface](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/izuconfig_CommonLogonProcSetup.htm) on the IBM Knowledge Center.
 
-## Configure z/OS Data Set and File REST Interface
+## Configure z/OS data set and file REST interface
 
 Review the following recommendations for configuring z/OS the security for data set and file REST services:
 
@@ -133,7 +133,7 @@ Review the following recommendations for configuring z/OS the security for data
 
 **Note:** For detailed instructions for how to configure the z/OS data set and file REST services, see [Updating your system for the z/OS data set and file REST interface](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/izuconfig_LogonProcSetup.htm) on the IBM Knowledge Center.
 
-## Configure z/OSMF Plug-in Security
+## Configure z/OSMF plug-in security
 
 Ensure that you implement all the required security for the plug-ins. For more information, see [Setting up security for the z/OSMF plug-ins](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_EstablishingSecurity.htm) on the IBM Knowledge Center.
 
