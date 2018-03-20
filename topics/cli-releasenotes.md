@@ -32,8 +32,10 @@ for Brightside CLI:
   - [Experimental Commands](#experimental-commands)
   - [Third-Party Software Agreements](#third-party-software-agreements)
 
-**Note:** For installation, upgrade, and software requirements, see
-[Installing](cli-installcli.md).
+**Notes:** 
+- For a technical overview about how Brightside CLI integrates with Project Giza, see [Technical Overview](techoverview.md).
+- For installation, upgrade, and software requirements, see [Installing Brightside CLI](cli-installcli.md).
+
 
 ## Solution Video
 
