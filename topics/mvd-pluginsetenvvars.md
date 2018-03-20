@@ -2,20 +2,12 @@
 
 The UNIX environment variables must be set appropriately before you can use the zLUX build procedures to develop your own plug-ins.
 
-When you restored the zLUX archive during the installation and configuration process \([Setting up the Giza Node server and the ZLUX Secure Services address space on z/OS](mvd-instsetupeverythingonzos.md)\), MVD/build/env.sh was created. You can set the environment variables by editing the env.sh script and then executing it.
+To set up the environment, the node must be accessible on the PATH. 
 
-1.   Navigate to MVD/build and open env.sh for editing. 
-2.   At the top of env.sh, uncomment these lines: 
 
-    ```
-    #export NODE_HOME=location-of-node-install-directory
-    #export NODE_LIB_HOME=value-of-COMPILER_INSTALL_HLQ-set-when-installing-node-for-z/OS
-    #export PATH=location-of-npm-and-other-required-binaries:$PATH:$NODE_HOME/bin
-    ```
+1.   To determine if the node is on the PATH, type "node --version" on the command line. If data is returned, the node is already on the PATH and no action is required.  
+2.   If nothing is returned from the command, you can set the PATH using the `NODE_HOME` variable. The `NODE_HOME` variable must be set to the directory of the node install. (You can use the export command to set the directory. For example: export `NODE_HOME`=node_installation_directory) Using this directory, the node will be included on the PATH in nodeServer.sh. (nodeServer.sh is located in zlux-example-server/bin). 
 
-3.   for the `NODE_HOME`, `NODE_LIB_HOME`, and `PATH` environment variables, replace the text that appears to the right of the equal sign \(`=`\) with the appropriate value for your environment. 
-4.   Save env.sh. 
-5.   From the MVD/build directory, use the source command in bash to run the modified evn.sh script: source env.sh 
-
+ 
 **Parent topic:** [Creating an application plug-in](mvd-plugincreateappplugin.md)
 
