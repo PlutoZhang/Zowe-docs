@@ -2,11 +2,11 @@
 
 Your zLUX installation provides a sample application plug-in with which you can experiment.
 
-You can use the npm run build ornpm start command to build the sample appication plug-in. These commands are configured in package.json.
+To build the sample app, node and npm must be included in the PATH. You can use the npm run build or npm start command to build the sample application plug-in. These commands are configured in package.json.
 
 **Note:** Be aware that whenver you change the source code for the sample application, you must subsequently rebuild the sample application.
 
-1.   Try adding an item to MVDCORE/EXAMPLES/sample-app/src/app/app.component.ts. The following figure shows the unmodified contents of app.component.ts:
+1.   Try adding an item to sample-app. The following figure shows the unmodified contents of app.component.ts:
 
     ```
     
@@ -29,7 +29,7 @@ You can use the npm run build ornpm start command to build the sample appication
     -   npm start to rebuild the application plug-in and wait for additional changes to app.component.ts.
 4.   Reload the web page. 
 5.   Whenever you make changes to the sample application source code, you must subsequently rebuild the application: 
-    1.   Navigate to the MVDCORE/EXAMPLES/sample-app subdirectory where you made the source code changes. 
+    1.   Navigate to the sample-app subdirectory where you made the source code changes. 
     2.   Issue this command: npm run build 
     3.   Reload the web page. 
 
