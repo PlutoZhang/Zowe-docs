@@ -18,7 +18,7 @@ Download the Project Giza installation media and transfer the Brightside CLI fil
 
 1. Download the Project Giza PAX file from SOME_LOCATION.
 
-2. Extract the Project Giza PAX file onto your mainframe system. The PAX contains the following files:
+2. Extract the contents of the Project Giza PAX file onto your mainframe system. The PAX contains the following files:
     - brightside.tgz
     - Atlas PAX
     - MVD PAX
@@ -26,7 +26,7 @@ Download the Project Giza installation media and transfer the Brightside CLI fil
 
 3. Use FTP to distribute the brightside.tgz file to client workstations.
 
-Users can now install Brightside CLI on their PC.
+    Users can now install Brightside CLI on their PC.
 
 
 ## Install Brightside CLI
