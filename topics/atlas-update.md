@@ -1,6 +1,6 @@
 # Updating Atlas
 
-You can monitor IBM® [Mainframe Developer Center](https://developer.ibm.com/mainframe/products/atlas/) for service availability of Atlas. When maintenance is available, you can apply the service to Atlas by replacing the WAR files only or the whole service package.
+You can monitor the [GitHub repository](https://github.com/gizafoundation/Downloads/releases) for service availability of Atlas. When maintenance is available, you can apply the service to Atlas by replacing the WAR files only or the whole service package.
 
 To replace the WAR files, take the following steps:
 
