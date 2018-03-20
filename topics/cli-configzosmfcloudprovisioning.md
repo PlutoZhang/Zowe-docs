@@ -3,7 +3,7 @@
 As a systems programmer, complete the following z/OSMF cloud provisioning configurations tasks to supplement your Brightside CLI implementation with z/OSMF cloud provisioning:
 
 
-  - [Install and Configure the IBM z/OS Provisioning Toolkit](#install-and-configure-the-ibm-zos-provisioning-toolkit)
+  - [Install and configure the IBM z/OS Provisioning Toolkit](#install-and-configure-the-ibm-zos-provisioning-toolkit)
   - [Configure z/OSMF Cloud Provisioning](#configure-zosmf-cloud-provisioning)
   - [Set Up the z/OSMF Cloud Provisioning Service](#set-up-the-zosmf-cloudprovisioningservice)
   - [Implement the z/OS Cloud Portal Plug-in](#implement-the-zos-cloud-portal-plug-in)

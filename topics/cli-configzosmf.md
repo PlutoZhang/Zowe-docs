@@ -3,9 +3,9 @@
 As a systems programmer, complete the following z/OSMF configuration
 tasks for your Brightside CLI implementation:
 
-  - [Obtain z/OSMF Installation and Configuration Materials](#obtain-zosmf-installation-and-configuration-materials)
-  - [Install and Configure z/OSMF](cli-configzosmf.md#install-and-configure-zosmf)  
-  - [Select and Configure your z/OSMF Plug-ins](#select-and-configure-your-zosmf-plug-ins)
+  - [Obtain z/OSMF installation and configuration materials](#obtain-zosmf-installation-and-configuration-materials)
+  - [Install and configure z/OSMF](cli-configzosmf.md#install-and-configure-zosmf)  
+  - [Select and configure your z/OSMF plug-ins](#select-and-configure-your-zosmf-plug-ins)
 
 **Important!** The [IBM z/OS Management
 Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)

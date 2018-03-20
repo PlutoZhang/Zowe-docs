@@ -5,31 +5,14 @@ PC that is running a Windows, Linux, macOS operating
 system that supports Node.js version 6 or
 later. 
 
+Before you install Brightside CLI, ensure that you meet the [Prerequisites](precli.md).
 
-**Notes:** 
-- Before you can use Brightside CLI to interact with the
-mainframe, a systems programmer must install and configure IBM z/OSMF in
-your environment. For more information about how systems programmers and
-security administrators perform the z/OSMF configuration, see [Overview of the z/OS Management Facility Configuration Process](cli-overviewzosmfconfig.md).
-
-- Node.js® is a JavaScript runtime environment on which we
-architected Brightside CLI. You use the Node.js package manager (npm)
-to install Brightside CLI. After you install Node.js, you can then
-install Brightside CLI using the Node.js package
-manager. 
-
--  CA Technologies does not maintain the prerequisite
-software that Brightside CLI requires. You are responsible
-for updating Node.js and other prerequisites on your PC. We recommend
-that you update Node.js regularly to the latest Long Term Support (LTS)
-version.
-
-- You might encounter problems when you attempt to install
+**Note:** You might encounter problems when you attempt to install
 Brightside CLI depending on your operating system and
 environment. For more information and workarounds, see [Troubleshooting Installing Brightside CLI](cli-troubleshootinginstallingcli.md).
 
 ## Obtain Installation Media
-Download the Project Giza installation media and transfer Brightside CLI files to client workstations to begin using the product at your site:
+Download the Project Giza installation media and transfer the Brightside CLI files to client workstations to begin using the product at your site:
 
 **Follow these steps:**
 
