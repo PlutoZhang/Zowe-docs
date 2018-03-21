@@ -9,6 +9,20 @@ To use this book, you must be familiar with Mainframe and z/OSMF configuration.
 ## Terminology used in this book
 Before getting started with Giza, please acquaint yourself with the following terms:
 
+**MVD Mainframe Virtual Desktop** - Virtual desktop, accessed through a web browser.
+
+**Giza Node Server** - Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components.
+
+**ZLUX Secure Services address space (ZSS)** - The server that provides secure REST services to support the Giza Node Server.
+
+**TN3270** - A limited license Giza plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running.
+
+**zLUX** -  Framework, MVD, plugin applications, TN3270 emulator, and Discovery.
+
+**Application** - A plug-in that is an application.
+
+**Discovery** - z/OS subsystems plug-in.
+
 ## How to use this book
 This book contains an introduction and information for installing, configuring, and using Giza.
 
