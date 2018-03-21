@@ -1,1 +1,1 @@
-# Installing and configuring virtual desktop
+# Installing and configuring zLUX
