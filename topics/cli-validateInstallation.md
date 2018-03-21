@@ -1,4 +1,4 @@
-# Validating installation
+# Validating Brightside CLI installations
 
 After the systems programmer configures z/OSMF and application developers install Brightside CLI, issue the Brightside CLI profile validation command to verify that your z/OSMF profile will function properly. The Brightside CLI profile validation command runs a series of tests on z/OSMF APIs and prints a report that can help you identify problems with your profile and connection details.
 
