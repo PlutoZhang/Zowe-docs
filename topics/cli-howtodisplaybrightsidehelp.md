@@ -1,8 +1,8 @@
-# How to Display Brightside CLI Help
+# How to display Brightside CLI help
 Brightside CLI contains a help system that is embedded directly into the CLI. When you want help with Brightside CLI, you issue various help commands that provide you with information about Brightside CLI, the usage, syntax, actions, and options. You can also display all help, group-level help, and information about the structure of Brightside CLI syntax.
 
   - [Get started With Brightside CLI syntax](#get-started-with-brightside-cli-syntax)
-  - [Display all hlp](#display-all-help)
+  - [Display all help](#display-all-help)
   - [Display group-level help](#display-group-level-help)
 
 ## Get started With Brightside CLI syntax

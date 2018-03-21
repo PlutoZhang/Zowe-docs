@@ -11,7 +11,7 @@ Before you install Brightside CLI, ensure that you meet the [Prerequisites](prec
 Brightside CLI depending on your operating system and
 environment. For more information and workarounds, see [Troubleshooting Installing Brightside CLI](cli-troubleshootinginstallingcli.md).
 
-## Obtain Installation Media
+## Obtain installation media
 Download the Project Giza installation media and transfer the Brightside CLI files to client workstations to begin using the product at your site.
 
 **Follow these steps:**

@@ -3,10 +3,10 @@
 As a security administrator, complete the following z/OSMF security
 configuration tasks for your Brightside CLI implementation:
 
-  - [Configure z/OS REST Services SAF Security](#configure-zos-rest-services-saf-security)
-  - [Configure z/OS Console REST Interface](#configure-zos-console-rest-interface)
-  - [Configure z/OS Data Set and File REST Interface](#configure-zos-data-set-and-file-rest-interface)
-  - [Configure z/OSMF Plug-in Security](#configure-zosmfplug-insecurity)
+  - [Configure z/OS REST services SAF security](#configure-zos-rest-services-saf-security)
+  - [Configure z/OS console REST interface](#configure-zos-console-rest-interface)
+  - [Configure z/OS data set and file REST interface](#configure-zos-data-set-and-file-rest-interface)
+  - [Configure z/OSMF plug-in security](#configure-zosmf-plug-in-security)
 
 **Important!** The [IBM® z/OS Management Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
 guide on the IBM Knowledge Center is your primary source of information about how to install and configure z/OSMF. Throughout the IBM procedures, we provide Brightside CLI-specific tips or requirements. We recommend that you open IBM documentation in a separate browser tab.
