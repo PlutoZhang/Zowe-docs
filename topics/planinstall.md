@@ -3,7 +3,7 @@
 Before installing Giza, verify that your environment meets all of the prerequisites.
 
 -   **[Prerequisites for z/OSMF configuration](../topics/prezosmf.md)**  
--   **[Prerequisites for MVD](../topics/premvd.md)**  
+-   **[Prerequisites for zLUX](../topics/premvd.md)**  
 -   **[Prerequisites for Atlas](../topics/preatlas.md)**  
 -   **[Prerequisites for CLI](../topics/precli.md)**  
 
