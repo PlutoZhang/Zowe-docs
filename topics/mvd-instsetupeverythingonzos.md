@@ -5,9 +5,9 @@ Setting up the Giza Node server and the ZLUX Secure Services address space on z/
 The zLUX archive is distributed as a pax archive. When you unpack the archive, both the Giza Node server and the ZLUX Secure Services \(ZSS\) are installed on the z/OS host.
 
 1.   If you have not already done so, follow the procedures in these prerequisite sections: 
-    -   [Verifying that your system meets the software requirements](mvd-verifysystemswreqs.md#)
-    -   [Confirming that Node.js is installed](mvd-instconfirmnodejsinstalled.md#)
-    -   [Verifying port number availability](mvd-instverifyportnumavailable.md#)
+    -   [Verifying that your system meets the software requirements](mvd-verifysystemswreqs.md)
+    -   [Confirming that Node.js is installed](mvd-instconfirmnodejsinstalled.md)
+    -   [Verifying port number availability](mvd-instverifyportnumavailable.md)
 2.   Use the cd command to navigate to the directory in which you want to restore the zLUX archive, or create a new directory for that purpose and navigate to the new directory. 
 3.   Execute the pax command with these specific options to restore the zLUX archive under the current directory: 
 
