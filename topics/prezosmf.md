@@ -16,7 +16,7 @@ operate Giza successfully.
 The z/OSMF product is required for Giza to run. The z/OSMF process differs
 depending on whether you have z/OS v2.2 or v2.3.
 
-Verify your system requirements:
+Follow these steps to verify your system requirements:
 
 1. For z/OS v2.2 or later, use any of the following options to determine which version is installed:
    - If you have access to the console, for example, in SDSF, issue the command:
@@ -48,22 +48,23 @@ Verify your system requirements:
 
      Release . : ISPF 7.3    --> z/OS v2.3
 
-2. For z/OS V2.2 users, take the following steps:
+2. Configure z/OSMF.
+
+   For z/OS V2.2 users, take the following steps to configure z/OSMF:
 
    z/OSMF is a base element of z/OS v2.2 and v2.3, so it should already be installed. However, it is not guaranteed to be configured and running on every z/OS V2.2 and V2.3 system.
 
    Configuring an instance of z/OSMF is done by running the IBM-supplied jobs IZUSEC and IZUMKFS, and then starting the z/OSMF server in the following order:
+
    1. Security setup (the IZUSEC job)
    2. Configuration (the IZUMKFS job)
-   3. Server initialization (the START command)
+   3. Server initialization (the START command)     
 
-3. For z/OS V2.3 users, be aware of the following notes:
-
-   In z/OS V2R3, the base element z/OSMF is started by default at system IPL. This means that z/OSMF is available for use as soon as the system is up. If you prefer not to have z/OSMF started automatically, you can disable the autostart function by checking for `START` commands for the z/OSMF started procedures in the COMMNDxx parmlib member.
+  For z/OS V2.3 users, the base element z/OSMF is started by default at system IPL. This means that z/OSMF is available for use as soon as the system is up. If you prefer not to have z/OSMF started automatically, you can disable the autostart function by checking for `START` commands for the z/OSMF started procedures in the COMMNDxx parmlib member.
 
    The z/OS Operator Consoles task is new in this release. Applications that depend on access to the operator console such as Brightside's RestConsoles API require version 2.3.
 
-4. Other requirements
+3. Verify other requirements.
    1. Perform any maintenance that is required by Node.js.
 
       Connect to your target z/OS system, for example, with ssh to port 22 to get a USS command window. Issue the command:
@@ -100,10 +101,11 @@ Verify your system requirements:
    df -k /usr/lpp/zosmf
    ```
    The output should be as follows:
-
-      Mounted on            Filesystem               Avail/Total
+      ```
+      Mounted on       Filesystem               Avail/Total
 
       /Z22C/usr/lpp/zosmf  (ZFS.S001.Z22C.ZOSMF)      26711/535680
+      ```
 
      From the output above, you can see that only 26.711 MB is available (because z/OSMF is already installed), but the total in that file system is 535.68 MB, so enough space was available when the file system was created.
 
@@ -116,7 +118,7 @@ Verify your system requirements:
 
      **Note**: Microsoft Internet Explorer is not yet supported at any version.
 
-   5. After configuring z/OSMF, verify the following items to ensure z/OSMF is ready for Giza.
+4. After configuring z/OSMF, verify the following items to ensure z/OSMF is ready for Giza.
 
       Check that the z/OSMF server and angel processes are running. From SDSF on z/OS, use the `DA` command or issue the following command on the command input line:
       ```
@@ -139,13 +141,9 @@ Verify your system requirements:
 
       You should see these lines:
 
-      `IZUG349I: The z/OSMF STANDALONE Server home page can be accessed at`
+      `IZUG349I: The z/OSMF STANDALONE Server home page can be accessed at  https://mvs.hursley.ibm.com:443/zosmf after the z/OSMF server is started on your system.`
 
-        `: https://mvs.hursley.ibm.com:443/zosmf`
-
-        `: after the z/OSMF server is started on your system.`
-
-      From the lines above, the port number is 443. You will need this later.
+      From the lines above, the port number is 443. You will need this port number later.
 
       Point your browser at the nominated z/OSMF STANDALONE Server home page and you should see its Welcome Page where you can log in.
 
@@ -165,8 +163,8 @@ Verify your system requirements:
            bright zosmf create bright-profile -H <hostname> -P <port>
            -u <userid> -p <password> -a GIZA --bpn brightprof
            ```
-           You should see response as follows:
-
+           You should see the response as follows:
+            ```
              Brightside CLI profile created successfully! Path:
              C:\Users\IBM_ADMIN\.brightside\profiles\zosmf\brightprof.yaml
 
@@ -180,6 +178,7 @@ Verify your system requirements:
              account:            GIZA
              auth:               <auth string>
              profileName:        brightprof
+             ```
 
            You can get context-sensitive help for any Brightside command by appending `-h` to it. For example,
 
@@ -217,18 +216,18 @@ Verify your system requirements:
 
 **References:**
 
-z/OSMF for v2.2:
+- z/OSMF for v2.2:
 
-- [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
+ - [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
 
-- [IBM z/OS Management Facility Configuration Guide]( https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_PartConfiguring.htm)
+ - [IBM z/OS Management Facility Configuration Guide]( https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_PartConfiguring.htm)
 
 
-z/OSMF for v2.3:
+- z/OSMF for v2.3:
 
-- [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm)
+ - [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm)
 
-- [IBM z/OS Management Facility Configuration Guide](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izua300/IZUHPINFO_PartConfiguring.htm)
+ - [IBM z/OS Management Facility Configuration Guide](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izua300/IZUHPINFO_PartConfiguring.htm)
 
 
 
