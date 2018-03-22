@@ -13,7 +13,9 @@ Before getting started with Giza, please acquaint yourself with the following te
 |--------|-----------|-------------|
 |Mainframe Virtual Desktop|MVD|Virtual desktop, accessed through a web browser.|
 |Atlas|-|A z/OS RESTful web service and deployment architecture for z/OS microservices.|
-|Brightside Command Line Interface|||
+|Brightside Command Line Interface|Brightide CLI|Brightside CLI lets application developers interact with the mainframe in a format that is natively familiar to them.  It lets application developers use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development.|
+|Command Groups|-|Brightside CLI contains command groups that focus on specific business processes that application developers and systems programmers perform during their day-to-day activities. |
+|Experimental Commands|-|Brightside CLI includes experimental commands that are currently in development and are not ready for general availability. Users can enable or disable these commands. Experimental commands are disabled by default.|
 ||zLUX|Framework, MVD, plugin applications, TN3270 emulator, and Discovery.|
 |ZLUX Secure Services address space|ZSS|The server that provides secure REST services to support the Giza Node Server.|
 |Giza Node Server||Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components.|
