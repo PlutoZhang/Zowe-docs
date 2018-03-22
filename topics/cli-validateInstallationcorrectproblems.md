@@ -42,8 +42,7 @@ information on which of the z/OSMF REST APIs Brightside CLI uses,
 see [Configure z/OS Management Facility Security](./cli-configzosmfsecurity.md). We provide links to IBM documentation for configuring each REST API. 
 
 For example, you receive a *Failed* result on the "Issue Console
-command" task. Refer to the list of REST APIs in [Configure z/OS
-Management Facility Security](433363263.html) and follow the links to
+command" task. Refer to the list of REST APIs in [Configure z/OS Management Facility Security](./cli-configzosmfsecurity.md) and follow the links to
 the corresponding IBM documentation for the z/OS console services API. 
 
 The following is an example of the output from the` `<span>`bright zosmf
