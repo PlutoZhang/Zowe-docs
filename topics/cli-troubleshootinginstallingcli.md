@@ -1,5 +1,5 @@
 
-# Troubleshooting Installing Brightside CLI
+# Troubleshooting installing Brightside CLI
 
 The following issues are known to exist when installing this release of Brightside CLI:
 

@@ -1,9 +1,9 @@
-# Configure z/OS Management Facility Cloud Provisioning </span>
+# Configure z/OS Management Facility Cloud Provisioning
 
 As a systems programmer, complete the following z/OSMF cloud provisioning configurations tasks to supplement your Brightside CLI implementation with z/OSMF cloud provisioning:
 
 
-  - [Install and Configure the IBM z/OS Provisioning Toolkit](#install-and-configure-the-ibm-zos-provisioning-toolkit)
+  - [Install and configure the IBM z/OS Provisioning Toolkit](#install-and-configure-the-ibm-zos-provisioning-toolkit)
   - [Configure z/OSMF Cloud Provisioning](#configure-zosmf-cloud-provisioning)
   - [Set Up the z/OSMF Cloud Provisioning Service](#set-up-the-zosmf-cloudprovisioningservice)
   - [Implement the z/OS Cloud Portal Plug-in](#implement-the-zos-cloud-portal-plug-in)
@@ -17,7 +17,7 @@ provisioning, see [What Cloud Provisioning is](https://www.ibm.com/support/knowl
 
 For supplemental information about how security administrators configure the security for z/OSMF cloud provisioning, see [Configure z/OSMF Cloud Provisioning Security](cli-configzosmfcloudprovisioningsecurity.md).
 
-## Install and Configure the IBM z/OS Provisioning Toolkit
+## Install and configure the IBM z/OS Provisioning Toolkit
 
 The [IBM® z/OS® Provisioning Toolkit](https://developer.ibm.com/mainframe/products/zospt/) is a
 command line utility that lets systems programmers and application developers provision z/OS *development* environments. The toolkit lets application developers with minimal z/OS specific administration skills provision and deprovision z/OS applications quickly. The toolkit also lets system programmers easily manage the provisioning process by preconfiguring the environments, control developer access through z/OS security, and set appropriate provisioning
@@ -30,7 +30,7 @@ IBM provides the z/OS Provisioning Toolkit with the following pax file: `zospt
 1.  [Install the toolkit](#install-the-toolkit).
 2.  [Configure the z/OSMF properties file and templates](#configure-the-zosmfproperties-file-and-templates).
 
-### Install the Toolkit
+### Install the toolkit
 
 You acquire the z/OS Provisioning Toolkit installation files directly from IBM. You must have an IBM account to download the files.
 
@@ -55,7 +55,7 @@ You acquire the z/OS Provisioning Toolkit installation files directly from I
 
 5.  Unpackage the pax file.
         
-    `ca-code-default pax -rf zospt_v#######.pax`
+    `pax -rf zospt_v#######.pax`
     
     The command creates a `zospt` directory.
 
@@ -63,7 +63,7 @@ You acquire the z/OS Provisioning Toolkit installation files directly from I
 
 7.  Add `zospt` to the `PATH`.  
     
-    `ca-code-default export PATH=$PATH:<zospt directory>/bin=`
+    `export PATH=$PATH:<zospt directory>/bin=`
         
     **Note:** The variable that is named `<zospt directory>` is the full path to the `zospt` installation directory.
       
@@ -71,7 +71,6 @@ You acquire the z/OS Provisioning Toolkit installation files directly from I
     the `etc` directory. For example:    
    
     ```
-    ca-code-default
     PATH=./:/bin:/usr/sbin:/usr/lpp/NFS:/usr/lpp/Printsrv/bin
     PATH=$PATH:/sys/s390util/bin
     PATH=$PATH:/var/zospt/zospt/bin
@@ -79,11 +78,11 @@ You acquire the z/OS Provisioning Toolkit installation files directly from I
 
 9.  Run z/OS Provisioning Toolkit. 
     
-    ```ca-code-default zospt --help```
+    ```zospt --help```
        
     If the installation was successful, the `zospt --help` output prints to the command line.
 
-### Configure the z/OSMF Properties File and Templates
+### Configure the z/OSMF properties file and templates
 
 After you install the toolkit, you configure the z/OSMF properties file and the sample templates. We extracted the following steps from the Readme file that IBM provides with the installation files and modified these steps as needed for your z/OSMF implementation.
 
@@ -93,13 +92,13 @@ After you install the toolkit, you configure the z/OSMF properties file and the 
 
 1.  Test that the properties file is configured properly:    
     
-    ```ca-code-default zospt ps```
+    ```zospt ps```
     
 2.  Configure the templates. The sample templates reside in the `zospt/templates` directory. To configure templates for your environment, copy the sample template directory into a new directory
     within the templates directory. For example, to copy the contents of the `..../zospt/templates/cics_53` directory to
     the `.../.zospt/templates/cics_53_copy` directory, issue the following command:    
        
-    ```ca-code-default cp -R /var/zospt/zospt/templates/cics_53/var/zospt/zospt/templates/cics_53_copy```      
+    ```cp -R /var/zospt/zospt/templates/cics_53/var/zospt/zospt/templates/cics_53_copy```      
 
 3.  Update (configure) the files and templates that you copied.
 
@@ -123,11 +122,11 @@ provisioning service.
   - [How z/OSMF Resource Management Works](#how-zosmf-resource-management-works)
   - [How z/OSMF Software Services Works](#how-zosmf-software-services-work)
 
-### z/OS Requirements and z/OSMF Plug-ins
+### z/OS requirements and z/OSMF plug-ins
 
 For information about the components and plug-ins for z/OSMF cloud provisioning that are required for Brightside CLI, see [Configure z/OS Management Facility](cli-configzosmf.md#install-and-configure-zosmf).
 
-### View the z/OSMF Cloud Provisioning Branch
+### View the z/OSMF Cloud Provisioning branch
 
 The z/OSMF Cloud Provisioning branch in the z/OSMF navigation tree consists of **Resource Management** and **Software Services**. The information that displays on the navigation
 tree in IBM z/OS Management Facility behaves in a manner that is contingent upon the existence of user IDs in various cloud provisioning user groups. Consider the following requirements:
@@ -145,7 +144,7 @@ Administrators.
   - [How z/OSMF Resource Management Works](#how-zosmf-resource-management-works)
   - [How z/OSMF Software Services Works](#how-zosmf-software-services-work)
 
-### How z/OSMF Resource Management Works
+### How z/OSMF Resource Management works
 
 As a systems programmer, Resource Management lets you provision domains, tenants, and resource pools. Resource Management also lets you create and maintain domains and tenants.
 
@@ -182,7 +181,7 @@ With Resource Management, you can perform the following tasks:
       - Add Template and Resource Pool    
       - Add users or user groups for the domain 
 
-### How z/OSMF Software Services Work
+### How z/OSMF Software Services works
 
 As a systems programmer, Software Services lets you create and manage templates and domains, and create, manage, and provision software instances.
 
@@ -203,13 +202,12 @@ With Software Services, you can perform the following tasks:
     Users that are designated as Service Providers prepare the templates. The user ID for the Service Provider must be identified as the Landlord or the Domain Administrator. The user ID for the Service Provider must also have read access to the following
     resource profile in the `ZMFAPLA` class:
     
-    ```ca-code-default <SAF-prefix>.ZOSMF.PROVISIONING.SOFTWARE_SERVICES```
+    ``` <SAF-prefix>.ZOSMF.PROVISIONING.SOFTWARE_SERVICES```
 
   - **Approve templates**  
     Users that are designated as Approvers for the domain or users that can be found in the following properties files for the CICS template can approve templates. Changes to the domain, tenant, template, or resource pools can change the status of templates, which in turn can cause approval records to require re-approval. For example, when z/OSMF recognizes changes to the WLM, the template added under the previous version of the WLM is invalidated until the WLM under z/OSMF is updated with the change.   
     
     ```
-    ca-code-default
     DFH_APPROVER_TSO
     DFH_APPROVER_ZFS
     DFH_APPROVER_CONSOLE
@@ -225,7 +223,7 @@ With Software Services, you can perform the following tasks:
     To manage software instances, the user ID for the user that is performing this task must be defined as a consumer of the template. By default, members of the Landlord and the Domain
     Administrator groups are defined as consumers.
 
-## Set Up the z/OSMF Cloud Provisioning Service
+## Set Up the z/OSMF Cloud Provisioning service
 
 As a systems programmer, you set up the cloud provisioning service in z/OSMF so that users can submit Brightside CLI provisioning commands.
 
@@ -266,18 +264,18 @@ Use the z/OSMF Import Manager to implement and remove the plug-in.
 
 **Note:** The z/OS Cloud Portal Plug-in is an optional component. As a systems programmer, you can implement the plug-in based on the requirements of your site. For more information about the plug-in, see [Updating z/OS for the Cloud Portal plug-in](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/izuconfig_CloudProvPortalSetup.htm) on the IBM Knowledge Center.
 
-### Implement the Plug-in
+### Implement the plug-in
 
 To implement the plug-in, specify the following file and click Import:
 
-```ca-code-default/usr/lpp/zosmf/samples/cloudportal/cloudportal.properties```
+```/usr/lpp/zosmf/samples/cloudportal/cloudportal.properties```
 
-### Remove the Plug-in
+### Remove the plug-in
 
 To remove the plug-in, specify the following file and then click Import:
 
-```ca-code-default/usr/lpp/zosmf/samples/cloudportal/cloudportaldelete.properties```
+```/usr/lpp/zosmf/samples/cloudportal/cloudportaldelete.properties```
 
-### Modify the Plug-in
+### Modify the plug-in
 
 As a systems programmer, you can modify the plug-in at any time to meet site requirements. To modify the plug-in, create a copy of your directory into your directory and then edit and import the copy.

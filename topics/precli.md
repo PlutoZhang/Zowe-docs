@@ -11,8 +11,10 @@ manager. 
 - You can install Brightside CLI on any Windows, macOS, and Linux operating system that supports Node.js version 6 or
 later.
 
-- Brightside CLI was designed and tested to integrate with z/OS Management Facility (z/OSMF) running
-on IBM z/OS version 2.2 mainframe systems.
+- Before you can use Brightside CLI to interact with the
+mainframe, a systems programmer must install and configure IBM z/OSMF in
+your environment. For more information about how systems programmers and
+security administrators perform the z/OSMF configuration, see [Overview of the z/OS Management Facility Configuration Process](cli-overviewzosmfconfig.md).
 
 **Note:** CA Technologies does not maintain the prerequisite software
 that Brightside CLI requires. You are responsible for updating Node.js

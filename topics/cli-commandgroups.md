@@ -1,12 +1,10 @@
-
-
-# Brightside CLI Command Groups
+# Brightside CLI command groups
 
 Brightside CLI contains command groups that focus on specific business processes that you (application developers and systems programmers) perform during your day-to-day activities. For example, the compiler command group lets you perform tasks that relate to compiling source code on mainframe systems. The projects command group lets you perform tasks that relate to managing source code that you store in version control systems, such as Git and CA Endevor. You can perform all the tasks that relate to these business processes using a unified command-line interface - Brightside CLI.
 
 The command groups contain commands that let you perform actions on specific objects. For each action on an object, you can specify options that you apply as the Brightside CLI commands execute.
 
-In this article, we review all the Brightside CLI command groups and provide you with a brief synopsis of the tasks that you can perform using the commands in each group. For more information see [How to Display Brightside CLI Help](cli-howtodisplaybrightsidehelp.md). 
+In this article, we review all the Brightside CLI command groups and provide you with a brief synopsis of the tasks that you can perform using the commands in each group. For more information see [How to display Brightside CLI help](cli-howtodisplaybrightsidehelp.md). 
 
 **Important:** Before you issue these commands, ensure that you create and [validate your zosmf profile](cli-validateInstallation.md) so that Brightside CLI can communicate with z/OS systems.
 

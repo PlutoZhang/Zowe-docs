@@ -1,4 +1,4 @@
-# Correcting Problems Detected by the Validate Profile Command in Brightside CLI
+# Correcting problems detected by the validate profile command in Brightside CLI
 
 Brightside CLI includes a profile validation command that runs a series
 of tests on z/OSMF REST APIs (and their endpoints) and prints a report
@@ -13,7 +13,7 @@ problem resolution. For more information about how application
 developers use the profile validation command, see [Validate
 Installation](Validate-Installation_430335233.html). 
 
-## Run Tests on z/OSMF REST APIs and Generate a Report
+## Run tests on z/OSMF REST APIs and generate a report
 
 After you configure z/OSMF, install the z/OSMF plugins, and configure
 security, you can install Brightside CLI and issue the profile
@@ -33,7 +33,7 @@ validation commands to test the configuration.
     successful. You can use the report to resolve problems in your
     configuration. 
 
-## Use the Report to Resolve Problems
+## Use the report to resolve problems
 
 You can use the results of the validate profile command to troubleshoot
 and fix problems with your z/OSMF configuration. The result of each test
@@ -53,7 +53,7 @@ The following is an example of the output from the` `<span>`bright zosmf
 validate profile --print-plan-only`
 command:</span>
 
-``` ca-code-default
+``` 
 ╔═════════════════════╤══════════════════════════╤══════════════════════════════════════╗
 ║Task                 │Description               │Endpoints                             ║
 ╟─────────────────────┼──────────────────────────┼──────────────────────────────────────╢

@@ -1,11 +1,11 @@
-# How to Display Brightside CLI Help
+# How to display Brightside CLI help
 Brightside CLI contains a help system that is embedded directly into the CLI. When you want help with Brightside CLI, you issue various help commands that provide you with information about Brightside CLI, the usage, syntax, actions, and options. You can also display all help, group-level help, and information about the structure of Brightside CLI syntax.
 
-  - [Get Started With Brightside CLI Syntax](#get-started-with-brightside-cli-syntax)
-  - [Display All Help](#display-all-help)
-  - [Display Group-Level Help](#display-group-level-help)
+  - [Get started With Brightside CLI syntax](#get-started-with-brightside-cli-syntax)
+  - [Display all help](#display-all-help)
+  - [Display group-level help](#display-group-level-help)
 
-## Get Started With Brightside CLI Syntax
+## Get started With Brightside CLI syntax
 
 If you are using Brightside CLI for first time and want to learn more about how to use the syntax (and how Brightside CLI works), open a command line window and issue the following command:
 
@@ -22,7 +22,7 @@ information about commands, syntax, descriptions, options, and so on.
 
 `bright help search all dataset`
 
-## Display All Help
+## Display all help
 
 To to display all of the Brightside CLI help, open a command line window and issue the following command:
 
@@ -32,7 +32,7 @@ To to display all of the Brightside CLI help, open a command line window and iss
 
 ` bright -h`
 
-## Display Group-Level Help
+## Display group-level help
 
 You can use group-level help to get more information about a specific command group. Use the following syntax to display group-level help and learn more about specific command groups (for example, *cics, projects*, and *zosmf*):
 

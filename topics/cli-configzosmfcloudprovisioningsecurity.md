@@ -1,4 +1,4 @@
-# Configure z/OS Management Facility Cloud Provisioning Security
+# Configure z/OS Management Facility Cloud Provisioning security
 
 **Important!** The [IBM z/OS Management
 Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
@@ -7,15 +7,15 @@ about how to install and configure z/OSMF. Throughout the IBM
 procedures, we provide Brightside CLI-specific tips or requirements. We recommend that you open IBM documentation in a separate
 browser tab.
 
-## Configure z/OSMF Cloud Provisioning to Use RACF Security
+## Configure z/OSMF Cloud Provisioning to use IBM RACF security
 
 For RACF installations, IBM provides security commands in `SYS1.SAMPLIB` for Cloud provisioning. If you do not see RACF commands for Cloud Provisioning in member `IZUSEC`, you might need to apply various APAR or PTFs or upgrade your current level of z/OSMF.
 
   - [Required APARs and PTFs](#required-apars-and-ptfs)
-  - [How the RACF Security REXX EXEC Workflow Works](#how-the-racf-security-rexx-exec-workflow-works)
-  - [Security Groups Naming Conventions](#security-groups-naming-conventions)
-  - [ZMFCLOUD Class Resource Profiles for Cloud Provisioning](#zmfcloud-class-resource-profiles-for-cloud-provisioning)
-  - [Restrict Access to z/OS UNIX File Systems](#restrict-access-to-zos-unix-file-systems)
+  - [How the RACF security REXX EXEC workflow works](#how-the-racf-security-rexx-exec-workflow-works)
+  - [Security groups naming conventions](#security-groups-naming-conventions)
+  - [ZMFCLOUD class resource profiles for Cloud Provisioning](#zmfcloud-class-resource-profiles-for-cloud-provisioning)
+  - [Restrict access to z/OS UNIX file systems](#restrict-access-to-zos-unix-file-systems)
 
 **Note:** For more information about configuring z/OSMF cloud
 provisioning using RACF, see [Security configuration requirements for
@@ -37,7 +37,7 @@ and PTFs:
 
 `PI77388 / UI46543 (`Manual security mode for a domain)
 
-### How the RACF Security REXX Exec Workflow Works
+### How the RACF security REXX EXEC workflow works
 
 The RACF REXX exec workflow creates multiple domain-specific user groups and issues commands that permit the user groups to access protected class resources that are also domain-specific.
  
@@ -63,7 +63,7 @@ tenants.
 
 For more information, see [OA35970: NEW FUNCTION - NEW ACCESS CONTROL CHECK USING FSACCESS CLASS PROFILE. SEE ALSO OA35973 AND OA35974](http://www-01.ibm.com/support/docview.wss?uid=isg1OA35970) on the IBM Support website.
 
-### Security Groups Naming Conventions
+### Security groups naming conventions
 
 By default, the name of the security user group that contains Domain Landlords is **`IYU`**. The Domain Landlord user group name is also used by z/OSMF as a prefix to all the security user groups for a domain when a domain is created.
 
@@ -85,7 +85,7 @@ The naming convention for security user groups in a Domain is the Domain ID foll
   - **WLM Resource Pool Administrators user group:** `IYU0RPAW`
   - **Tenant consumers of the domain resources user group:** `IYU000`
 
-### ZMFCLOUD Class Resource Profiles for Cloud Provisioning
+### ZMFCLOUD class resource profiles for Cloud Provisioning
 
 Cloud provisioning for z/OSMF requires the following profiles and
 user groups:
@@ -99,7 +99,7 @@ You can find the provisioning RACF Security REXX exec Workflow that IBM provides
 
 The Landlord that created the Domain submits the REXX exec workflow under the user ID that was specified as the Domain Security Administrator. To execute the Security REXX exec Workflow successfully,the Domain Security Administrator's user ID must be associated with the RACF SPECIAL attribute, and connected to the IZUSECAD user group.
 
-### Restrict Access to z/OS UNIX File Systems
+### Restrict access to z/OS UNIX file systems
 
 Security administrators can use RACF to provide and maintain data and system security to z/OS UNIX file
 systems.
@@ -128,7 +128,7 @@ The process of creating tenants (where the domain ID is `IYUx`) establishes the
 
 ```IZUDFLT.ZOSMF.PROVISIONING.RESOURCE_MANAGEMENT.IYUx00 IYUx00```
 
-## Next Steps
+## Next steps
 
 After you complete the security administration for z/OSMF and cloud provisioning, systems programmers, security administrators, and application developers can issue the validate profile command. The command tests the end-to-end solution to verify that Brightside CLI can communicate with z/OS systems properly. For more information, see [Identify and Correct Problems Detected by the Validate Profile Command](cli-validateInstallationcorrectproblems.md). 
 
