@@ -24,7 +24,7 @@ Issue the following command to verify that your ***default profile*** is configu
 
 Issue the following command and specify a `profile_name` to verify that *a specific profile* is configured correctly:
 
-```bright zosmf validate --bpn <profile_name>```
+```bright zosmf validate profile --bpn <profile_name>```
 
 ## Profile validation results
 
