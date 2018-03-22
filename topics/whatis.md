@@ -19,8 +19,8 @@ Project Giza provides a command line interface that allows interactive access to
 
 Project Giza contains a desktop, browser-based user interface (UI) that provides a full screen interactive experience. The web UI has the following features:
 
-- Works with the under lying REST APIs for data, jobs, and subsystem, but presents the information in a full screen mode as compared to the command line interface.
-- Makes use of the leading-edge web presentation technology and is also extensible through web UI plug-ins to capture and present any variety of information.
-- Includes common z/OS developer or system programmer tasks such as an editor for common text-based files like REXX or JCL along with general purpose data set actions for both Unix System Services (USS) and Partitioned Data Sets (PDS) plus Job Entry System (JES) logs.
+- The web UI works with the under lying REST APIs for data, jobs, and subsystem, but presents the information in a full screen mode as compared to the command line interface.
+- The web UI makes use of the leading-edge web presentation technology and is also extensible through web UI plug-ins to capture and present any variety of information.
+- The web UI includes common z/OS developer or system programmer tasks such as an editor for common text-based files like REXX or JCL along with general purpose data set actions for both Unix System Services (USS) and Partitioned Data Sets (PDS) plus Job Entry System (JES) logs.
 
 **Parent topic:** [Introducing Project Giza](../topics/introduction.md)
