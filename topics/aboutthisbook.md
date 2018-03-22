@@ -12,7 +12,7 @@ Before getting started with Giza, please acquaint yourself with the following te
 |Term|Abbreviation|Definition|
 |--------|-----------|-------------|
 |Mainframe Virtual Desktop|MVD|Virtual desktop, accessed through a web browser.|
-|Atlas|-|a z/OS RESTful web service and deployment architecture for z/OS microservices.|
+|Atlas|-|A z/OS RESTful web service and deployment architecture for z/OS microservices.|
 |Brightside Command Line Interface|||
 ||zLUX|Framework, MVD, plugin applications, TN3270 emulator, and Discovery.|
 |ZLUX Secure Services address space|ZSS|The server that provides secure REST services to support the Giza Node Server.|
