@@ -26,9 +26,7 @@ For example, you receive a *Failed* result on the "Issue Console
 command" task. Refer to the list of REST APIs in [Configure z/OS Management Facility Security](./cli-configzosmfsecurity.md) and follow the links to
 the corresponding IBM documentation for the z/OS console services API. 
 
-The following is an example of the output from the` `<span>`bright zosmf
-validate profile --print-plan-only`
-command:</span>
+The following is an example of the output from the `bright zosmf validate profile --print-plan-only` command:
 
 ``` 
 ╔═════════════════════╤══════════════════════════╤══════════════════════════════════════╗
