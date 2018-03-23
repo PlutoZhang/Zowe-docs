@@ -10,16 +10,16 @@ To use this book, you must be familiar with Mainframe and z/OSMF configuration.
 Before getting started with Giza, please acquaint yourself with the following terms:
 
 |Term|Abbreviation|Definition|
-|--------|-----------|-------------|
-|Mainframe Virtual Desktop|MVD|Virtual desktop, accessed through a web browser.|
-|Atlas|-|A z/OS RESTful web service and deployment architecture for z/OS microservices.|
+|----|------------|----------|
+|Mainframe Virtual Desktop|MVD|Virtual desktop, accessed through a web browser|
+|Atlas||A z/OS RESTful web service and deployment architecture for z/OS microservices|
 |Brightside Command Line Interface|||
-||zLUX|Framework, MVD, plugin applications, TN3270 emulator, and Discovery.|
-|ZLUX Secure Services address space|ZSS|The server that provides secure REST services to support the Giza Node Server.|
-|Giza Node Server||Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components.|
-|TN3270||A limited license Giza plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running.|
-|Application||A plug-in that is an application.|
-|Discovery||z/OS subsystems plug-in.|
+|z/OS Lightweight User Experience|zLUX|Framework, MVD, plugin applications, TN3270 emulator, and Discovery|
+|ZLUX Secure Services address space|ZSS|The server that provides secure REST services to support the Giza Node Server|
+|Giza Node Server||Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components|
+|TN3270||A limited license Giza plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running|
+|Application||A plug-in that is an application|
+|Discovery||z/OS subsystems plug-in|
 
 
 ## How to use this book

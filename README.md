@@ -53,7 +53,7 @@
             -   [Persistent Data APIs](topics/atlas-persistentdataapis.md)
             -   [System APIs](topics/atlas-systemapi.md)
             -   [USS File APIs](topics/atlas-ussfileapis.md)
-            -   [z/OS System APIs](topics/atlas-systemapi.md)
+            -   [z/OS System APIs](topics/atlas-systemapis.md)
             -   [Programming Atlas REST APIs](topics/atlas-programrestapi.md)
                 - [Sending a GET request in Java](topics/atlas-getrequestinjava.md)
                 - [Sending a GET request in JavaScript](topics/atlas-getrequestsinjavascript.md)
