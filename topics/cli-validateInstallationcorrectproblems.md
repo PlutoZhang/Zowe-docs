@@ -12,25 +12,6 @@ command at any time and provide the report to systems programmers for
 problem resolution. For more information about how application
 developers use the profile validation command, see [Validate Installation](./cli-validateInstallation.md). 
 
-## Run tests on z/OSMF REST APIs and generate a report
-
-After you configure z/OSMF, install the z/OSMF plugins, and configure
-security, you can install Brightside CLI and issue the profile
-validation commands to test the configuration.
-
-**Follow these steps:**
-
-1.  Install Brightside CLI on your personal computer. For detailed
-    instructions, see [Install Brightside CLI](./cli-installcli.md).
-2.  (Optional) You might want to issue the `bright zosmf validate
-    profile --print-plan-only` command to see a list of REST endpoints
-    that Brightside CLI will test.
-3.  Issue the `bright zosmf validate profile` command to run the
-    tests.  
-    Brightside CLI generates a report that shows if each test was
-    successful. You can use the report to resolve problems in your
-    configuration. 
-
 ## Use the report to resolve problems
 
 You can use the results of the validate profile command to troubleshoot
