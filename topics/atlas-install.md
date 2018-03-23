@@ -5,9 +5,12 @@ Installing Atlas involves obtaining the Atlas Archive, running the install scrip
 Before installing Atlas, ensure that your environment meets the [prerequisites for Atlas](topics/atlas-prereqs.md).
 
 To install Atlas, complete the following steps:
-1.  Download the Giza PAX from the [GitHub repository](https://github.com/gizafoundation/Downloads/releases).
-2.  Extract the Giza PAX to reveal the Atlas PAX and associated files.
-3.  Transfer the following files to z/OS® System:
+
+1. Download the Giza PAX from the [GitHub repository](https://github.com/gizafoundation/Downloads/releases).
+
+2. Extract the Giza PAX to reveal the Atlas PAX and associated files.
+
+3. Transfer the following files to z/OS® System:
 
     -   The Atlas PAX archive that contains Liberty Profile binaries and the Atlas application.
     -   The Atlas Install script
@@ -31,7 +34,7 @@ To install Atlas, complete the following steps:
 
     **Note:** Transfer the PAX archive and the Install script in binary mode to the Atlas installation directory that is chosen during planning, for example, `/var/atlas`, or wherever you choose to install Atlas.
 
-3.  Run the Atlas install script.
+4. Run the Atlas install script.
 
     The install script must be transferred to the same Atlas installation directory of the Atlas PAX archive. Run the install script in the installation directory with a user ID that has the authority to:
 
@@ -41,7 +44,7 @@ To install Atlas, complete the following steps:
 
     Therefore, use super user authority to run the Atlas install script.
 
-4.  Change the ownership of Atlas installation directory and files.
+5. Change the ownership of Atlas installation directory and files.
 
     The user who runs the Atlas Liberty server needs the access to the Atlas installation directory and files. You can use the same user ID that runs the z/OSMF IZUSVR1 started task to run the Atlas Liberty server. By default, it is the user IZUSVR.
 
@@ -53,7 +56,7 @@ To install Atlas, complete the following steps:
 
     You might need super user authority to run this command. Use an alternative user ID if you chose not to use the default z/OSMF IZUSVR1 started task user.
 
-5.  Create a member FEKATLS in your system PROCLIB data set.
+6. Create a member FEKATLS in your system PROCLIB data set.
 
     The install script creates a file that is called `FEKATLS.jcl` is created in your Atlas installation directory. Copy this file to a system PROCLIB data set by using the following z/OS UNIX System Services command:
 
@@ -63,7 +66,7 @@ To install Atlas, complete the following steps:
 
     The FEKATLS procedure starts a Liberty profile server running the Atlas microservice application.
 
-6.  Configure the FEKATLS started procedure.
+7. Configure the FEKATLS started procedure.
 
     To run the FEKATLS procedure as the user IZUSVR, define the procedure to the STARTED class by using RACF® or equivalent, for example:
 
@@ -127,7 +130,7 @@ To install Atlas, complete the following steps:
 
     ```
 
-7.  Add Atlas users to the z/OSMF users group \(IZUUSER\).
+8. Add Atlas users to the z/OSMF users group \(IZUUSER\).
 
     Atlas uses z/OSMF to access data sets, z/OS UNIX System Services files, and job spool files. To use these z/OSMF services, Atlas users must be authorized to z/OSMF resources. For more information, see the *IBM z/OS Management Facility Configuration Guide*, Appendix A.
 
@@ -137,7 +140,7 @@ To install Atlas, complete the following steps:
     CONNECT userid GROUP(IZUUSER) AUTH(USE)
     ```
 
-8.  Start the Atlas server.
+9. Start the Atlas server.
 
     To start Atlas manually, enter the `START` operator command:
 
@@ -147,7 +150,7 @@ To install Atlas, complete the following steps:
 
     To start Atlas automatically at IPL, add the `START` command to your active COMMNDxx parmlib member.
 
-9. Optional: Change your language in Atlas by adding the following line to the `jvm.options` file, for example,
+10. Optional: Change your language in Atlas by adding the following line to the `jvm.options` file, for example,
 
     ```
     -Duser.language=de
