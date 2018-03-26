@@ -1,4 +1,4 @@
-# z/OSMF configuration
+# Prerequisites for z/OSMF configuration
 
 IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Giza microservice that must be installed and running before you use Project Giza. 
 
