@@ -4,7 +4,7 @@ IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Giza microservic
 
 **Important!** The IBM z/OS Management Facility
 guides on the IBM Knowledge Center are your primary source of information
-about how to install and configure z/OSMF. In this article, we provide procedures and tips for the configuration required for Project Giza. We recommend that you open IBM documentation in a separate browser tab.
+about how to install and configure z/OSMF. In this article, we provide procedures and tips for the configuration required for Project Giza. We recommend that you open the following IBM documentation in a separate browser tab: 
 
 - IBM z/OSMF v2.2 documentation:
 
