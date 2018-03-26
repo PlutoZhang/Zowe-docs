@@ -9,6 +9,7 @@ Your system must meet the software requirements for zLUX.
 
         -   Chrome version 54 or later
         -   Firefox version 44 or later
+        -   Safari version 11 or later
         -   Microsoft Edge
         **Note:** Microsoft Internet Explorer is not yet supported at any version level.
 
