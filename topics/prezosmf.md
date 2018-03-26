@@ -8,9 +8,7 @@ IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Giza microservic
 
 **Important!** The IBM z/OS Management Facility
 guides on the IBM Knowledge Center are your primary source of information
-about how to install and configure z/OSMF. In this article, we provide procedures and tips for the configuration required for Project Giza. We recommend that you open the following IBM documentation in a separate browser tab: 
-
-The z/OSMF process differs depending on whether you have z/OS v2.2 or v2.3.
+about how to install and configure z/OSMF. In this article, we provide procedures and tips for the configuration required for Project Giza. We recommend that you open the following IBM documentation in a separate browser tab (The z/OSMF process differs depending on whether you have z/OS v2.2 or v2.3):
 
 IBM z/OSMF v2.2 documentation:
 
@@ -26,26 +24,42 @@ IBM z/OSMF v2.3 documentation:
 - [IBM z/OS Management Facility Configuration Guide](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izua300/IZUHPINFO_PartConfiguring.htm)
 
 
-## Requirements for Project Giza
+## z/OSMF Requirements for Project Giza
 Meet the following prerequisites before you use Project Giza.
 
 - [z/OS requirements](#z/os-requirements) 
-- [Required z/OSMF plug-ins](#required-z/osmf-plug-ins)
-- [Required REST services](#required-rest-services) 
+- [z/OSMF plug-in requirements](#z/osmf-plug-in-requirements)
+- [REST services requirements](#rest-services-requirements) 
 
 ### z/OS requirements
 Ensure that your z/OS system meets the following requirements for z/OSMF to function properly with Project Giza:
 
-### Required z/OSMF plug-ins
+- **AXR (System Rexx)**
+    The AXR (System Rexx) component lets z/OS perform Incident Log tasks. It also lets REXX execs execute outside of conventional TSO and batch environments.
+- **CEA (Communications Enabled Applications) Server**
+    CEA server is a co-requisite for the CIM server. The CEA server lets z/OSMF deliver z/OS events to C-language clients.
+- **CIM (Common Information Model) Server**
+- **Console Command**
+- **Maximum region size**
+- **User IDs**
+
+### z/OSMF plug-in requirements
 Ensure that the following IBM z/OSMF plug-ins are installed and configured:
 
-### Required REST services 
-Ensure that the following REST services are configured and available:
+- **(Optional) Cloud Portal**
+- **Configuration Assistant**
+- **ISPF**
+- **Workload Management**
 
-Giza uses the RESTFILES and RESTJOBS services of z/OSMF to access data sets,
-z/OS UNIX System Services (UNIX System Services) files, and JES job spool files.
-Therefore, these services must be correctly configured and available when Giza
-is running.
+### REST services requirements
+Ensure that the following REST services are configured and available when you run Project Giza:
+
+- **Cloud provisioning services**
+- **TSO/E address space services**
+- **z/OS console**
+- **z/OS data set and file interface**
+- **z/OS jobs interface**
+- **z/OSMF workflow services**
 
 Additionally, Giza uses z/OSMF configuration by using symbolic links to the
 z/OSMF `bootstrap.properties`, `jvm.security.override.properties`, and the
@@ -202,7 +216,7 @@ Follow these steps to verify your system requirements:
    Point your browser at the nominated z/OSMF STANDALONE Server home page and you should see its Welcome Page where you can log in.
 
 ## Verifying your z/OSMF configuration
-To verify that IBM z/OSMF is configured correctly, follow these steps:
+To verify that IBM z/OSMF is configured correctly, follow these steps to create and validate a profile in Brightside CLI:
 
 1. [Meet the prerequisites for Brightside CLI](precli.md).
 2. [Install Brightside CLI](cli-installcli.md).
