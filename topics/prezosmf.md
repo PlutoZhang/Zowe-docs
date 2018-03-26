@@ -1,6 +1,24 @@
-# Prerequisites for z/OSMF configuration
+# z/OSMF configuration
 
 IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Giza microservice. It must be installed and running before using Giza.
+
+**Important!** The IBM z/OS Management Facility
+guides on the IBM Knowledge Center are your primary source of information
+about how to install and configure z/OSMF. In this article, we provide procedures and tips for the configuration required for Project Giza. We recommend that you open the following IBM documentation in a separate browser tab: 
+
+- IBM z/OSMF v2.2 documentation:
+
+  - [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
+
+  - [IBM z/OS Management Facility Configuration Guide]( https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_PartConfiguring.htm)
+
+
+- IBM z/OSMF v2.3 documentation:
+
+  - [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm)
+
+  - [IBM z/OS Management Facility Configuration Guide](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izua300/IZUHPINFO_PartConfiguring.htm)
+
 
 Giza uses the RESTFILES and RESTJOBS services of z/OSMF to access data sets,
 z/OS UNIX System Services (UNIX System Services) files, and JES job spool files.
@@ -198,23 +216,6 @@ To verify that IBM z/OSMF is configured correctly, follow these steps:
  
 
     Your browser should return you a status code 200 with a list of all jobs on your z/OS system. The list is in raw JSON format.
-
-**References:**
-
-- z/OSMF for v2.2:
-
-  - [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
-
-  - [IBM z/OS Management Facility Configuration Guide]( https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_PartConfiguring.htm)
-
-
-- z/OSMF for v2.3:
-
-  - [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm)
-
-  - [IBM z/OS Management Facility Configuration Guide](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izua300/IZUHPINFO_PartConfiguring.htm)
-
-
 
 
 **Parent topic:** [Prerequisites](../topics/planinstall.md)
