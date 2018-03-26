@@ -2,9 +2,9 @@
 
 IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Giza microservice that must be installed and running before you use Project Giza. 
 
-- [z/OSMF Requirements for Project Giza](#z/osmf-requirements-for-project-giza)
-- [Configuring z/OSMF](#configuring-z/osmf)
-- [Verifying your z/OSMF configuration](#verifying-your-z/osmf-configuration)
+- [z/OSMF Requirements for Project Giza](#zosmf-requirements-for-project-giza)
+- [Configuring z/OSMF](#configuring-zosmf)
+- [Verifying your z/OSMF configuration](#verifying-your-zosmf-configuration)
 
 **Important!** The IBM z/OS Management Facility
 guides on the IBM Knowledge Center are your primary source of information
@@ -61,13 +61,13 @@ For more information, refer to the IBM z/OSMF documentation.
 ### z/OSMF plug-in requirements
 Ensure that the following IBM z/OSMF plug-ins are installed and configured:
 
-- **(Optional) Cloud Portal**
+- **(Optional) Cloud Portal** - 
     The Cloud Portal plug-in lets you make software services available to marketplace consumers and it adds the Marketplace and Marketplace Administration tasks to the z/OSMF navigation tree.
-- **Configuration Assistant**
+- **Configuration Assistant** - 
     The Configuration Assistant plug-in lets z/OSMF configure TCP/IP policy-based networking functions.
-- **ISPF**
+- **ISPF** - 
     The ISPF plug-in lets z/OSMF access traditional ISPF applications.
-- **Workload Management**
+- **Workload Management** - 
     The Workload Management plug-in lets z/OSMF operate and manage workload management service definitions and policies.
 
 For more information about configuring each z/OSMF plug-in and the related security, refer to the IBM z/OSMF documentation for each plug-in.
@@ -75,17 +75,17 @@ For more information about configuring each z/OSMF plug-in and the related secur
 ### REST services requirements
 Ensure that the following REST services are configured and available when you run Project Giza:
 
-- **Cloud provisioning services**
+- **Cloud provisioning services** - 
     Cloud provisioning for development environments. Cloud provisioning services are required for the Brightside CLI cics and db2 command groups to function properly. Endpoints begin with `/zosmf/provisioning/`
-- **TSO/E address space services**
+- **TSO/E address space services** - 
     Required to issue TSO commands in Brightside CLI. Endpoints begin with `/zosmf/tsoApp`
-- **z/OS console**
+- **z/OS console** - 
     Required to issue console commands in Brightside CLI. Endpoints begin with `/zosmf/restconsoles/`
-- **z/OS data set and file interface**
+- **z/OS data set and file interface** - 
     Required to work with mainframe data sets and USS files in Brightside CLI. Endpoints begin with `/zosmf/restfiles/`
-- **z/OS jobs interface**
+- **z/OS jobs interface** - 
     Required to use the zos-jobs command group in Brightside CLI. Endpoints begin with `/zosmf/restjobs/`
-- **z/OSMF workflow services**
+- **z/OSMF workflow services** - 
     Cloud provisioning for development environments. Cloud provisioning services are required for the Brightside CLI cics and db2 command groups to function properly. Endpoints begin with `/zosmf/workflow/`
 
 Additionally, Giza uses z/OSMF configuration by using symbolic links to the
@@ -248,8 +248,7 @@ To verify that IBM z/OSMF is configured correctly, follow these steps to create 
 
 1. [Meet the prerequisites for Brightside CLI](precli.md).
 2. [Install Brightside CLI](cli-installcli.md).
-3. Create a zosmf profile in Brightside CLI.
-    **Tip:** Issue the `bright help explain profiles` command to learn more about creating profiles in Brightside CLI. See [How to display Brightside CLI help](cli-howtodisplaybrightsidehelp.md) for more information.
+3. Create a zosmf profile in Brightside CLI. Issue the `bright help explain profiles` command to learn more about creating profiles in Brightside CLI. See [How to display Brightside CLI help](cli-howtodisplaybrightsidehelp.md) for more information.
 4. [Validate your profile](cli-validateInstallation.md). 
 5. [Use the profile validation report to identify and correct errors](cli-validateInstallationcorrectproblems.md) with your z/OSMF configuration.
     If you recieve a perfect score on the validation report, Project Giza can communicate with z/OSMF properly.
