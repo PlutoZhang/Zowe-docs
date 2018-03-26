@@ -30,7 +30,7 @@ In this scenario, you will list your data sets, specify data set members to edit
 
 The following diagram illustrates the tasks to perform in this scenario:
 
-![Submit a Job and Print the Job Output](/images/scenario/441193422.png "Submit a Job and Print the Job Output")
+![Submit a Job and Print the Job Output](../images/scenario/441193422.png "Submit a Job and Print the Job Output")
 
 **Prerequisites**
 
@@ -84,7 +84,7 @@ profiles to target different systems.
      ```            
     The files open in your IDE automatically, as illustrated by the following screen:
              
-    ![Edit jcl and compiler options to compile in 64-bit mode in Visual Studio Code](/images/scenario/441193424.png "Edit a Job in Visual Studio Code - Before")
+    ![Edit jcl and compiler options to compile in 64-bit mode in Visual Studio Code](../images/scenario/441193424.png "Edit a Job in Visual Studio Code - Before")
   
 
 5.  In your IDE, edit the compiler options file (for example, change to 64-bit) and edit the job file (for example, add a comment to say that the job is a 64-bit
@@ -94,7 +94,7 @@ profiles to target different systems.
     The following screen illustrates changes to the compile options and JCL that enable the job to
     compile source code in 64-bit mode:
     
-    ![Edit jcl and compiler options to compile in 64-bit mode in Visual Studio Code](/images/scenario/441193423.png "Edit a Job in Visual Studio Code - After")
+    ![Edit jcl and compiler options to compile in 64-bit mode in Visual Studio Code](../images/scenario/441193423.png "Edit a Job in Visual Studio Code - After")
     
 6.  Issue the following command to submit the job that contains the modified JCL:  
     
