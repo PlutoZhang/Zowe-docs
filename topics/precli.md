@@ -3,10 +3,16 @@
 Meet the following prerequisites before you install Brightside CLI on your PC:
 
 - Node.js® is a JavaScript runtime environment on which we
-architected Brightside CLI. You use the Node.js package manager (npm)
-to install Brightside CLI. After you install Node.js, you can then
-install Brightside CLI using the Node.js package
-manager. 
+architected Brightside CLI. You use the Node.js package manager (npm) to install Brightside CLI. Follow the instructions at [Installing Node.js via package manager](https://nodejs.org/en/download/package-manager) to install Node.js on your operating system. website at
+    the 
+
+    **Tip:** If you are installing Node.js on a Linux or a macOS
+    operating system, CA recommends that you install `nodejs` and
+    `nodejs-legacy` using the instructions on the Nodejs website (using
+    package manager). For example, you can install nodejs-legacy using
+    the command `sudo apt install nodejs-legacy`. With `nodejs-legacy`,
+    you can issue `node` commands rather than typing
+    `nodejs`.
 
 - You can install Brightside CLI on any Windows, macOS, and Linux operating system that supports Node.js version 6 or
 later.

@@ -11,49 +11,18 @@ Before you install Brightside CLI, ensure that you meet the [Prerequisites](prec
 Brightside CLI depending on your operating system and
 environment. For more information and workarounds, see [Troubleshooting Installing Brightside CLI](cli-troubleshootinginstallingcli.md).
 
-## Obtain installation media
-Download the Project Giza installation media and transfer the Brightside CLI files to client workstations to begin using the product at your site.
-
-**Follow these steps:**
-
-1. Download the Project Giza PAX file from the [GitHub repository](https://github.com/gizafoundation/Downloads/releases).
-
-2. Extract the contents of the Project Giza PAX file. The Giza PAX contains a brightside.tgz file.
-
-3. Use FTP to distribute the brightside.tgz file to client workstations.
-
-    Users can now install Brightside CLI on their PC.
-
-
 ## Install Brightside CLI
 
-To use Brightside CLI on your PC, install the product from the installation media that is distributed at your site. 
+To use Brightside CLI on your PC, install the product from that is available at your site. 
 
 **Follow these steps:**
 
-1.  Go to the *Installing Node.js via package manager* website at
-    the following URL, and follow the instructions for installing
-    Node.js on your operating
-    system:
-    
-    ```https://nodejs.org/en/download/package-manager```
+1. [Obtain the Project Giza installation media](installing.md), which includes the brightside.tgz file. Use FTP to distribute the brightside.tgz file to client workstations.
+    Users can now install Brightside CLI on their PC.
 
-    **Tip:** If you are installing Node.js on a Linux or a macOS
-    operating system, CA recommends that you install `nodejs` and
-    `nodejs-legacy` using the instructions on the Nodejs website (using
-    package manager). For example, you can install nodejs-legacy using
-    the command `sudo apt install nodejs-legacy`. With `nodejs-legacy`,
-    you can issue `node` commands rather than typing
-    `nodejs`.
-    
-    Node.js is installed on your PC.
-
-2.  Download and unzip the Brightside CLI installation media (tar.gz or .tgz file). 
-
-3.  Open a command line window. Browse to the directory where you
-    downloaded the Brightside CLI installation package. Issue the
-    following command to install Brightside
-    CLI:
+4.  Open a command line window. Browse to the directory where you
+    downloaded the Brightside CLI installation package (.tgz file). Issue the
+    following command to install Brightside CLI on your PC:
     
     ```npm install -g <file_name>```
     
@@ -63,7 +32,7 @@ To use Brightside CLI on your PC, install the product from the installation medi
     
     Brightside CLI is installed on your PC.
 
-4.  You must create a Brightside CLI profile before you can issue
+5.  You must create a Brightside CLI profile before you can issue
     Brightside CLI commands that communicate with z/OSMF on mainframe
     systems. For more information about the available
     commands and options for creating z/OSMF profiles, issue the `bright help explain profiles` and  `bright zosmf create bright-profile --help` commands.
@@ -75,7 +44,7 @@ To use Brightside CLI on your PC, install the product from the installation medi
     at the command group level. Most command groups require a "zosmf"
     Brightside profile.    
 
-5.  To ensure that your Brightside CLI profile can communicate
+6.  To ensure that your Brightside CLI profile can communicate
     with z/OSMF on mainframe systems, issue the following z/OSMF profile
     validation command:    
    
