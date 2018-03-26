@@ -12,14 +12,14 @@ Before getting started with Giza, please acquaint yourself with the following te
 |Term|Abbreviation|Definition|
 |----|------------|----------|
 |Mainframe Virtual Desktop|MVD|Virtual desktop, accessed through a web browser|
-|Atlas||A z/OS RESTful web service and deployment architecture for z/OS microservices|
+|Atlas|N/A|A z/OS RESTful web service and deployment architecture for z/OS microservices|
 |Brightside Command Line Interface|||
 |z/OS Lightweight User Experience|zLUX|Framework, MVD, plugin applications, TN3270 emulator, and Discovery|
-|ZLUX Secure Services address space|ZSS|The server that provides secure REST services to support the Giza Node Server|
-|Giza Node Server||Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components|
-|TN3270||A limited license Giza plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running|
-|Application||A plug-in that is an application|
-|Discovery||z/OS subsystems plug-in|
+|zLUX Secure Services address space|ZSS|The server that provides secure REST services to support the Giza Node Server|
+|Giza Node Server|N/A|Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components|
+|TN3270|N/A|A limited license Giza plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running|
+|Application|N/A|A plug-in that is an application|
+|Discovery|N/A|z/OS subsystems plug-in|
 
 
 ## How to use this book
@@ -27,7 +27,7 @@ This book contains an introduction and information for installing, configuring, 
 
 [Introducing Giza](introduction.md) explains what is Giza, how it works, and what it can do.
 
-[Installing and configuring Giza](installandconfig.md) explains how to install, configure, and maintain Giza so that it can work. It also provides information about troubleshooting installation related problems.
+[Installing Giza](installandconfig.md) explains how to install, configure, and maintain Giza so that it can work. It also provides information about troubleshooting installation related problems.
 
 [Using Giza](using.md) explains how to use the features that Giza provides.
 

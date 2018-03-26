@@ -1,6 +1,7 @@
 # Uninstalling Atlas
 
 To uninstall Atlas, take the following steps:
+
 1.  Stop your Atlas Liberty server by running the following operator command:
 
     ```

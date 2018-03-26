@@ -1,4 +1,4 @@
-# Installing and configuring Giza
+# Installing Project Giza
 This section is intended for system programmers and administrators who want to install and configure Giza.
 
 Follow these procedures to install, configure, update, uninstall, and troubleshoot the different components of Giza. Before you install Giza, ensure that you understand and meet the prerequisites.
