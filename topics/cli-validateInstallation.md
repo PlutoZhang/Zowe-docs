@@ -18,7 +18,7 @@ Issue the following command to view a list of the tests that the profile validat
 
 ```bright zosmf validate profile --print-plan-only```
 
-Issue the following command to verify that your ***default profile*** is configured correctly:
+Issue the following command to verify that your *default profile* is configured correctly:
 
 ```bright zosmf validate profile```
 

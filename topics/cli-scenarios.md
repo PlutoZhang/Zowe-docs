@@ -34,9 +34,9 @@ The following diagram illustrates the tasks to perform in this scenario:
 
 **Prerequisites**
 
-To complete this scenario, review the items that are described in [Prerquisities](#prerequisites).
+To complete this scenario, review the items that are described in [Prerequisities](#prerequisites).
 
-In addition to the prerequisites described in [Prerquisities](#prerequisites), this scenario requires that you have a compile job, compiler options, and source code that resides in a mainframe data set.
+In addition to the prerequisites described in [Prerequisities](#prerequisites), this scenario requires that you have a compile job, compiler options, and source code that resides in a mainframe data set.
 
 **Tip:**  The commands that are used in this scenario target the system
 that is specified in your Brightside CLI profile. You can switch
@@ -48,7 +48,7 @@ profiles to target different systems.
 
 2.  Open a command line window and issue the following command to list all data sets on a system:   
     ```
-    ca-code-default bright zos-files list data-sets "USERID.*"
+    bright zos-files list data-sets "USERID.*"
     ```    
     **Tip:** Use an asterisk * to view all data sets under the specified HLQ (High-Level Qualifier).
     
@@ -68,7 +68,7 @@ profiles to target different systems.
     a.  Issue the following command to edit the compiler
         options: 
 
-    ```bright zos-files edit data-set "USERID.public.compile.jcl($mtlopt)" --ec code --kw -e jcl```
+        ```bright zos-files edit data-set "USERID.public.compile.jcl($mtlopt)" --ec code --kw -e jcl```
 
      **Tip:** This example shows the command with the following command options: 
         
@@ -79,9 +79,9 @@ profiles to target different systems.
         Issue the `--help ` command after any Brightside CLI command to see more available options. For more information about getting help, see [How to Display Brightside CLI Help](cli-howtodisplaybrightsidehelp.md).
           
     b.  Issue the following command to edit the job:   
-     ```
-     bright zos-files edit data-set "USERID.public.compile.jcl(enfmtlc)" --ec code --kw -e jcl
-     ```            
+        ```
+        bright zos-files edit data-set "USERID.public.compile.jcl(enfmtlc)" --ec code --kw -e jcl
+        ```            
     The files open in your IDE automatically, as illustrated by the following screen:
              
     ![Edit jcl and compiler options to compile in 64-bit mode in Visual Studio Code](../images/scenario/441193424.png "Edit a Job in Visual Studio Code - Before")

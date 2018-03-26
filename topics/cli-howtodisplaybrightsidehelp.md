@@ -30,11 +30,11 @@ To to display top-level Brightside CLI help, open a command line window and issu
 
 (Optional) Issue the following command to display top-level Brightside CLI help using the alias for the help command:
 
-` bright -h`
+`bright -h`
 
 ## Display group-level help
 
-You can use group-level help to get more information about a specific command group. Use the following syntax to display group-level help and learn more about specific command groups (for example, *zos-jobs* and *zos-files*):
+You can use group-level help to get more information about a specific command group. Use the following syntax to display group-level help and learn more about specific command groups (for example, zos-jobs and zos-files):
 
 `bright <group name> --help`
 
