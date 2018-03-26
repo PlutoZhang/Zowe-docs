@@ -1,24 +1,46 @@
 # z/OSMF configuration
 
-IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Giza microservice. It must be installed and running before using Giza.
+IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Giza microservice that must be installed and running before you use Project Giza. 
+
+- [z/OSMF Requirements for Project Giza](#z/osmf-requirements-for-project-giza)
+- [Configure z/OSMF](#configure-z/osmf)
+- [Verifying your z/OSMF configuration](#verifying-your-z/osmf-configuration)
 
 **Important!** The IBM z/OS Management Facility
 guides on the IBM Knowledge Center are your primary source of information
 about how to install and configure z/OSMF. In this article, we provide procedures and tips for the configuration required for Project Giza. We recommend that you open the following IBM documentation in a separate browser tab: 
 
-- IBM z/OSMF v2.2 documentation:
+The z/OSMF process differs depending on whether you have z/OS v2.2 or v2.3.
 
-  - [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
+IBM z/OSMF v2.2 documentation:
 
-  - [IBM z/OS Management Facility Configuration Guide]( https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_PartConfiguring.htm)
+- [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
+
+- [IBM z/OS Management Facility Configuration Guide]( https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_PartConfiguring.htm)
 
 
-- IBM z/OSMF v2.3 documentation:
+IBM z/OSMF v2.3 documentation:
 
-  - [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm)
+- [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm)
 
-  - [IBM z/OS Management Facility Configuration Guide](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izua300/IZUHPINFO_PartConfiguring.htm)
+- [IBM z/OS Management Facility Configuration Guide](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izua300/IZUHPINFO_PartConfiguring.htm)
 
+
+## Requirements for Project Giza
+Meet the following prerequisites before you use Project Giza.
+
+- [z/OS requirements](#z/os-requirements) 
+- [Required z/OSMF plug-ins](#required-z/osmf-plug-ins)
+- [Required REST services](#required-rest-services) 
+
+### z/OS requirements
+Ensure that your z/OS system meets the following requirements for z/OSMF to function properly with Project Giza:
+
+### Required z/OSMF plug-ins
+Ensure that the following IBM z/OSMF plug-ins are installed and configured:
+
+### Required REST services 
+Ensure that the following REST services are configured and available:
 
 Giza uses the RESTFILES and RESTJOBS services of z/OSMF to access data sets,
 z/OS UNIX System Services (UNIX System Services) files, and JES job spool files.
@@ -31,9 +53,8 @@ z/OSMF `bootstrap.properties`, `jvm.security.override.properties`, and the
 configuration; therefore, these configurations must be valid and complete to
 operate Giza successfully.
 
-The z/OSMF product is required for Giza to run. The z/OSMF process differs
-depending on whether you have z/OS v2.2 or v2.3.
 
+## Configure z/OSMF
 Follow these steps to verify your system requirements:
 
 1. For z/OS v2.2 or later, use any of the following options to determine which version is installed:
@@ -180,7 +201,7 @@ Follow these steps to verify your system requirements:
 
    Point your browser at the nominated z/OSMF STANDALONE Server home page and you should see its Welcome Page where you can log in.
 
-## Verifying your configuration
+## Verifying your z/OSMF configuration
 To verify that IBM z/OSMF is configured correctly, follow these steps:
 
 1. [Meet the prerequisites for Brightside CLI](precli.md).
@@ -212,10 +233,10 @@ To verify that IBM z/OSMF is configured correctly, follow these steps:
 
 - Type the REST endpoint into your browser, for example: https://mvs.ibm.com:443/zosmf/restjobs/jobs
 
-    Browsing zosmf endpoints requests your user ID and password for defaultRealm; these are your TSO user credentials.
+    - Browsing zosmf endpoints requests your user ID and password for defaultRealm; these are your TSO user credentials.
  
 
-    Your browser should return you a status code 200 with a list of all jobs on your z/OS system. The list is in raw JSON format.
+    - Your browser should return you a status code 200 with a list of all jobs on your z/OS system. The list is in raw JSON format.
 
 
 **Parent topic:** [Prerequisites](../topics/planinstall.md)
