@@ -1,22 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Arbortext, Inc., 1988-2011, v.4002-->
-<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
- "ibm-map.dtd">
+<!DOCTYPE ibmbook PUBLIC "-//IBM//DTD DITA IBM BookMap//EN"
+ "..\..\dita\dtd\ibmbook.dtd">
 <?Pub Sty _display FontColor="red"?>
 <?Pub Inc?>
-<map xml:lang="en-us">
-<title>Project Giza User's Guide</title>
-<topicref format="md" href="topics/aboutthisbook.md"
-navtitle="About this book" scope="local"></topicref>
-<topicref format="md" href="topics/introduction.md"
+<ibmbook xml:lang="en-us">
+<!--This sample shows how to create a final PDF from a DITA Book Map. For the latest guidance and text to use, see: "Legal notices for books", http://utic.raleigh.ibm.com/help/topic/com.ibm.utic.publishing.doc/doc/notices_books.html
+For information on the DITA tags, see: 
+http://submit.boulder.ibm.com/infocenter/idwb/v3r8m4/topic/com.ibm.ditaref.doc/doc/DitaGuideTitle.htm-->
+<ibmbooktitle>
+<ibmbooklibrary><titleline>Project Giza Closed Beta</titleline></ibmbooklibrary>
+<ibmmainbooktitle><titleline>User's Guide</titleline></ibmmainbooktitle>
+</ibmbooktitle>
+<bookmeta>
+<!--Reader's comment form-->
+<prodinfo>
+<!--More cover information-->
+<prodname>Project Giza</prodname>
+</prodinfo>
+<bookid><edition>First Edition</edition></bookid></bookmeta><?Pub
+Caret -2?>
+<ibmfrontmatter>
+<editionnotices format="md" href="topics/editionnotice.md"
+navtitle="Edition notice"></editionnotices>
+<preface format="md" href="topics/aboutthisbook.md"
+navtitle="About this book" scope="local"></preface>
+</ibmfrontmatter>
+<chapter format="md" href="topics/introduction.md"
 navtitle="Introducing Giza" scope="local">
 <topicref format="md" href="topics/whatis.md" navtitle="What is Giza"
 scope="local"></topicref>
-<topicref format="md" href="topics/techoverview.md"
-navtitle="Technical overview" scope="local"></topicref>
+<topicref format="md" href="topics/componentoverview.md"
+navtitle="Component overview" scope="local">
+<topicref format="md" href="topics/mvd-overview.md"
+navtitle="zLux overview" scope="local"></topicref>
+<topicref format="md" href="topics/atlas-overview.md"
+navtitle="Atlas overview" scope="local"></topicref>
+<topicref format="md" href="topics/cli-releasenotes.md"
+navtitle="Brightside CLI Overview" scope="local"></topicref>
 </topicref>
-<topicref format="md" href="topics/installandconfig.md"
-navtitle="Installing and configuring Giza" scope="local">
+</chapter>
+<chapter format="md" href="topics/installandconfig.md"
+navtitle="Installing Giza" scope="local">
 <topicref format="md" href="topics/planinstall.md"
 navtitle="Planning for installation" scope="local">
 <topicref format="md" href="topics/prezosmf.md"
@@ -52,7 +77,7 @@ navtitle="Prerequisites for Atlas" scope="local"></topicref>
 navtitle="Prerequisites for Brightside CLI" scope="local"></topicref>
 </topicref>
 <topicref format="md" href="topics/installvirtualdesktop.md"
-navtitle="Installing and configuring zLUX" scope="local">
+navtitle="Installing zLUX" scope="local">
 <topicref format="md" href="topics/mvd-instsetupeverythingonzos.md"
 navtitle="Setting up the Giza Node server and the ZSSAS on z/OS"
 scope="local"></topicref>
@@ -60,7 +85,7 @@ scope="local"></topicref>
 navtitle="Opening the MVD in a browser" scope="local"></topicref>
 </topicref>
 <topicref format="md" href="topics/atlas-install.md"
-navtitle="Installing and configuring Atlas" scope="local"></topicref>
+navtitle="Installing Atlas" scope="local"></topicref>
 <topicref format="md" href="topics/cli-installcli.md"
 navtitle="Installing Brightside CLI" scope="local"></topicref>
 <topicref format="md" href="topics/verify.md"
@@ -93,7 +118,7 @@ navtitle="Uninstalling Atlas" scope="local"></topicref>
 navtitle="Uninstalling Brightside CLI" scope="local"></topicref>
 </topicref>
 <topicref format="md" href="topics/troubleshoot.md"
-navtitle="Troubleshooting installation and configuration" scope="local">
+navtitle="Troubleshooting installation" scope="local">
 <topicref format="md" href="topics/mvd-troubleshoot.md"
 navtitle="Troubleshooting installing zLUX" scope="local"></topicref>
 <topicref format="md" href="topics/atlas-troubleshoot.md"
@@ -102,8 +127,8 @@ navtitle="Troubleshooting installing Atlas" scope="local"></topicref>
 navtitle="Troubleshooting installing Brightside CLI" scope="local">
 </topicref>
 </topicref>
-</topicref>
-<topicref format="md" href="topics/using.md" navtitle="Using Giza"
+</chapter>
+<chapter format="md" href="topics/using.md" navtitle="Using Giza"
 scope="local">
 <topicref format="md" href="topics/usingmvd.md" navtitle="Using zLUX"
 scope="local">
@@ -172,6 +197,6 @@ navtitle="Enabling and disabling experimental commands" scope="local">
 <topicref format="md" href="topics/cli-scenarios.md"
 navtitle="Brightside CLI scenarios" scope="local"></topicref>
 </topicref>
-</topicref><?Pub Caret -1?>
-</map>
-<?Pub *0000008607?>
+</chapter>
+</ibmbook>
+<?Pub *0000009744?>

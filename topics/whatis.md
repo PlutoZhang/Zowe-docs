@@ -13,13 +13,13 @@ Project Giza enables you to access z/OS data, jobs, and subsystems through REST 
 
 Project Giza provides a command line interface that allows interactive access to those same data, jobs, and subsystem, but extends the capability in additional ways. You can use the command line interface to perform the following tasks:
 
-- Edit files, submit jobs, and issue commands, which are the common z/OS tasks.
+- Edit files, submit jobs, and issue commands which are the common z/OS tasks.
 - Script the commands to perform a series of steps. You can write scripts to automate a variety of z/OS tasks to speed such things as application deployment, provisioning of new run-time environments or job submission and capturing of results.
 - Use new ways to work with z/OS assets such as using file editors of the system programmer choose or any number of the tools not typically associated with z/OS. The command line interface comes with z/OS support but can be extended to support any other z/OS-based application or subsystem.
 
 Project Giza contains a desktop, browser-based user interface (UI) that provides a full screen interactive experience. The web UI has the following features:
 
-- The web UI works with the under lying REST APIs for data, jobs, and subsystem, but presents the information in a full screen mode as compared to the command line interface.
+- The web UI works with the underlying REST APIs for data, jobs, and subsystem, but presents the information in a full screen mode as compared to the command line interface.
 - The web UI makes use of the leading-edge web presentation technology and is also extensible through web UI plug-ins to capture and present any variety of information.
 - The web UI includes common z/OS developer or system programmer tasks such as an editor for common text-based files like REXX or JCL along with general purpose data set actions for both Unix System Services (USS) and Partitioned Data Sets (PDS) plus Job Entry System (JES) logs.
 
