@@ -162,81 +162,42 @@ Follow these steps to verify your system requirements:
 
    Point your browser at the nominated z/OSMF STANDALONE Server home page and you should see its Welcome Page where you can log in.
 
-   To verify that z/OSMF is working correctly, use any of the following ways:
+## Verifying your configuration
+To verify that IBM z/OSMF is configured correctly, follow these steps:
 
-   Install and use the Brightside CLI by following these steps:
+1. [Meet the prerequisites for Brightside CLI](precli.md).
+2. [Install Brightside CLI](cli-installcli.md).
+3. Create a zosmf profile in Brightside CLI.
+    **Tip:** Issue the `bright help explain profiles` command to learn more about creating profiles in Brightside CLI. See [How to display Brightside CLI help](cli-howtodisplaybrightsidehelp.md) for more information.
+4. [Validate your profile](cli-validateInstallation.md). 
+5. [Use the profile validation report to identify and correct errors](cli-validateInstallationcorrectproblems.md) with your z/OSMF configuration.
 
-   1. Navigate to the supplied Giza folder with brightside artifacts.
-   2. Download brightside-0.6.5-17.tgz to a folder on your PC/Mac and open a terminal and navigate to the folder.
-   3. Check that you have node installed by typing `node –v`.
-   4. Once you have node installed then type `npm install –g <file-name>`. Brightside will be installed and you will see some progress bars.
-   5. Verify the installation by typing bright `–h`.
-   6. Create a Brightside profile.
+## Additional tips for verifying your z/OSMF configuration
 
-   On a Windows system, issue a command like this:
-
-    ```
-    bright zosmf create bright-profile -H <hostname> -P <port>
-    -u <userid> -p <password> -a GIZA --bpn brightprof
-    ```
-
-   You should see the response as follows:
-
-            ```
-             Brightside CLI profile created successfully! Path:
-             C:\Users\IBM_ADMIN\.brightside\profiles\zosmf\brightprof.yaml
-
-             module:             zosmf
-             host:               <hostname>
-             port:               <port>
-             version:            1.0
-             user:               <userid>
-             rejectUnauthorized: false
-             logonProc:          IZUFPROC
-             account:            GIZA
-             auth:               <auth string>
-             profileName:        brightprof
-             ```
-
-   You can get context-sensitive help for any Brightside command by appending `-h` to it. For example,
-
-    ```
-    bright zosmf create bright-profile -h
-    ```
-
-   7.Run the Brightside IVT.
-
-    Before your run the IVT, check that JES2 is accepting jobs with `CLASS=C` by issuing the following command in SDSF:
+- Before your run the profile validation, check that JES2 is accepting jobs with `CLASS=C` by issuing the following command in SDSF:
 
     ```
     /$D I
     ```
-
-    You will see responses like this in SYSLOG:
+    You will see responses like the following in SYSLOG:
 
     ```
     $HASP892 INIT(3)   STATUS=ACTIVE,CLASS=AB,...
     ```
 
-    If none of the initiators has **C** in its CLASS list, add **C** to the list of any initiator, for example, initiator 3 as shown above, with this command:
+    If none of the initiators has **C** in its CLASS list, add **C** to the list of any initiator. For example, initiator 3 as shown above, with the following command:
 
-     ```
-     /$T I3,CL=ABC
-     ```
+    ```
+    /$T I3,CL=ABC
+    ```
 
-    Run the Brightside IVT from your desktop:
 
-     ```
-     bright zosmf validate prof --zosmf-p brightprof
-     ```
+- Type the REST endpoint into your browser, for example: https://mvs.ibm.com:443/zosmf/restjobs/jobs
 
-    This will run 10 tests and produce a table of results.
+    Browsing zosmf endpoints requests your user ID and password for defaultRealm; these are your TSO user credentials.
+ 
 
-   Type the REST endpoint into your browser, for example: https://mvs.ibm.com:443/zosmf/restjobs/jobs
-
-   Browsing zosmf endpoints asks for your user ID and password for defaultRealm; these are your TSO user credentials.
-
-   Your browser should return you a status code 200 with a list of all jobs on your z/OS system. The list is in raw JSON format.
+    Your browser should return you a status code 200 with a list of all jobs on your z/OS system. The list is in raw JSON format.
 
 **References:**
 
