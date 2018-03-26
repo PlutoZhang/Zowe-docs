@@ -34,24 +34,24 @@ Meet the following prerequisites before you use Project Giza.
 ### z/OS requirements
 Ensure that your z/OS system meets the following requirements for z/OSMF to function properly with Project Giza:
 
-- **AXR (System Rexx)**
+- **AXR (System Rexx)** - 
     The AXR (System Rexx) component lets z/OS perform Incident Log tasks. It also lets REXX execs execute outside of conventional TSO and batch environments.
-- **CEA (Communications Enabled Applications) Server**
+- **CEA (Communications Enabled Applications) Server** - 
     CEA server is a co-requisite for the CIM server. The CEA server lets z/OSMF deliver z/OS events to C-language clients.
     - Start the CEA server before you start the start z/OSMF (the IZU* started tasks).
     - Set up CEA server in Full Function Mode and assign the TRUSTED attribute to the CEA started task.
     - For more information, see Customizing for CEA on the IBM Knowledge Center.
-- **CIM (Common Information Model) Server**
+- **CIM (Common Information Model) Server** - 
    z/OSMF requires the CIM server to perform capacity provisioning and workload management tasks. Start the CIM server before you start z/OSMF (the IZU* started tasks).
     - For more information, see Reviewing your CIM server setup on the IBM Knowledge Center.
-- **Console Command**
+- **Console Command** - 
     The CONSOLE and CONSPROF commands must exist in the authorized command table.
-- **Java version**
+- **Java version** - 
     IBM® 64-bit SDK for z/OS®, Java Technology Edition V7.1 or higher is required.
     - For more information, see Software prerequisites for z/OSMF on the IBM Knowledge Center.
-- **Maximum region size**
+- **Maximum region size** - 
     To prevent exceeds maximum region size errors, ensure that you have a TSO maximum region size of at least 65536 KB for the z/OS system.
-- **User IDs**
+- **User IDs** - 
     User IDs require a TSO segment (access) and an OMVS segment. During workflow processing and REST API requests, z/OSMF may start one or more TSO address spaces under the following job names:
     - userid
     - substr(userid, 1, 6)||CN (Console)
