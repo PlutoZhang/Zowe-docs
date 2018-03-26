@@ -27,8 +27,8 @@ IBM z/OSMF v2.3 documentation:
 ## z/OSMF Requirements for Project Giza
 Meet the following prerequisites before you use Project Giza.
 
-- [z/OS requirements](#z/os-requirements) 
-- [z/OSMF plug-in requirements](#z/osmf-plug-in-requirements)
+- [z/OS requirements](#zos-requirements) 
+- [z/OSMF plug-in requirements](#zosmf-plug-in-requirements)
 - [REST services requirements](#rest-services-requirements) 
 
 ### z/OS requirements
@@ -46,6 +46,8 @@ Ensure that your z/OS system meets the following requirements for z/OSMF to func
     - For more information, see Reviewing your CIM server setup on the IBM Knowledge Center.
 - **Console Command** - 
     The CONSOLE and CONSPROF commands must exist in the authorized command table.
+- **IBM z/OS Provisioning Toolkit** - 
+    The IBM® z/OS® Provisioning Toolkit is a command line utility that lets you provision z/OS development environments. The product is required if you want to provision CICS or Db2 environments with Brightside CLI. 
 - **Java version** - 
     IBM® 64-bit SDK for z/OS®, Java Technology Edition V7.1 or higher is required.
     - For more information, see Software prerequisites for z/OSMF on the IBM Knowledge Center.
@@ -253,7 +255,7 @@ To verify that IBM z/OSMF is configured correctly, follow these steps to create 
 5. [Use the profile validation report to identify and correct errors](cli-validateInstallationcorrectproblems.md) with your z/OSMF configuration.
     If you recieve a perfect score on the validation report, Project Giza can communicate with z/OSMF properly.
 
-## Additional tips for verifying your z/OSMF configuration
+### Additional tips for verifying your z/OSMF configuration
 
 - Before your run the profile validation, check that JES2 is accepting jobs with `CLASS=C` by issuing the following command in SDSF:
 
