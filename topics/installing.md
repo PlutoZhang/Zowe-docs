@@ -5,6 +5,7 @@ Follow the procedures in this section to install the components of Project Giza.
 -   **[Installing zLUX](../topics/installvirtualdesktop.md)**
 -   **[Installing Atlas](../topics/atlas-install.md)**
 -   **[Installing Brightside CLI](../topics/cli-installcli.md)**
+<<<<<<< HEAD
 
 ## Obtain the Project Giza installation media
 Download the Project Giza installation media and transfer the files to client workstations to begin using the product at your site.
@@ -22,3 +23,5 @@ Download the Project Giza installation media and transfer the files to client wo
 3. Use FTP to distribute the files to client workstations.
 
 Before you install the components of Project Giza, ensure that you meet [the prerequisites](planinstall.md).
+=======
+>>>>>>> 4a824821236c4c01c476cc8bf4ae01d4fc566da9

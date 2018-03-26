@@ -11,6 +11,7 @@ Before getting started with Giza, please acquaint yourself with the following te
 
 |Term|Abbreviation|Definition|
 <<<<<<< HEAD
+<<<<<<< HEAD
 |--------|-----------|-------------|
 |Mainframe Virtual Desktop|MVD|Virtual desktop, accessed through a web browser.|
 |Atlas|-|A z/OS RESTful web service and deployment architecture for z/OS microservices.|
@@ -24,6 +25,8 @@ Before getting started with Giza, please acquaint yourself with the following te
 |Application||A plug-in that is an application.|
 |Discovery||z/OS subsystems plug-in.|
 =======
+=======
+>>>>>>> 4a824821236c4c01c476cc8bf4ae01d4fc566da9
 |----|------------|----------|
 |Mainframe Virtual Desktop|MVD|Virtual desktop, accessed through a web browser|
 |Atlas|N/A|A z/OS RESTful web service and deployment architecture for z/OS microservices|
@@ -34,7 +37,10 @@ Before getting started with Giza, please acquaint yourself with the following te
 |TN3270|N/A|A limited license Giza plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running|
 |Application|N/A|A plug-in that is an application|
 |Discovery|N/A|z/OS subsystems plug-in|
+<<<<<<< HEAD
 >>>>>>> 9224a61b89f6b547a05e1e2611e3398c6ba3b96e
+=======
+>>>>>>> 4a824821236c4c01c476cc8bf4ae01d4fc566da9
 
 
 ## How to use this book
