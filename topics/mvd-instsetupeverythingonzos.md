@@ -75,13 +75,13 @@ The zLUX archive is distributed as a pax archive. When you unpack the archive, b
 
     Note the following about specifying values in the JSON configuration file:
 
-    -   **Port field for the http filed of the node object**
+    -   **Port field for the http field of the node object**
 
         Required if you intend to access the ZLUX Secure Services address space through unencrypted HTTP. Specify a port number that is available on your system.
 
     -   **Port field for the https field of the node object**
 
-        Required if you intend to access the ZLUX Secure Services address space through encrypted HTTPS. Specify a port number that is available on your system. Requires `keys` and `certificates`:
+        Specify the following ports to connect to the node server. Specify a port number that is available on your system. Requires `keys` and `certificates`:
 
         -   **`keys`**
 
@@ -117,6 +117,7 @@ The zLUX archive is distributed as a pax archive. When you unpack the archive, b
 
             -   serveraddress is the address of the z/OS system where Node.js is running.
             -   portnumber is the port number that you configured for `zssPort` in step 5 of this procedure.
+    
     **Note:** The ZLUX Secure Services address space log output is very verbose. Redirecting the output is not generally recommended. If you require a log file, restart the ZLUX Secure Services address space and redirect the output to a file of your choosing. Because log output can quickly fill up a file system, it is not recommended that you leave the ZLUX Secure Services address space running for long periods of time with the output directed to a file.
 
 Go on to [Opening the MVD in a browser](mvd-instopendesktopbrowser.md).
