@@ -4,7 +4,7 @@
 -   [About this book](topics/aboutthisbook.md)
 -   [Introducing Giza](topics/introduction.md)
     - [What is Giza](topics/whatis.md)
-    - [Component overview](topics/techoverview.md)
+    - [Components overview](topics/componentoverview.md)
       - [zLux overview](topics/mvd-overview.md)
       - [Atlas overview](topics/atlas-overview.md)
       - [Brightside CLI Overview](topics/cli-releasenotes.md)
