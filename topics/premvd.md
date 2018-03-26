@@ -1,5 +1,7 @@
 # Prerequisites for zLUX
 
-Before you install zLUX, complete the following steps. 
+Before installing zLUX, check the following items:
 
-**Parent topic:** [Planning for installation](../topics/planinstall.md)
+-   **[Verifying that your system meets the software requirements](../topics/mvd-verifysystemswreqs.md)**
+-   **[Confirming that Node.js is installed on the z/OS host](../topics/mvd-instconfirmnodejsinstalled.md)**
+-   **[Verifying port number availability](../topics/mvd-instverifyportnumavailable.md)**

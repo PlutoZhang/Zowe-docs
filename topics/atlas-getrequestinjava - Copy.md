@@ -2,7 +2,8 @@
 
 Here is sample code to send a `GET` request to Atlas in Java™.
 
-    public class JobListener implements Runnable {
+```java
+public class JobListener implements Runnable {
 
 
     /*
@@ -44,6 +45,7 @@ Here is sample code to send a `GET` request to Atlas in Java™.
             }         
         }     
     }
-  }
+}
+```
 
 **Parent topic:** [Programming Atlas REST APIs](../topics/programrestapi.md)
