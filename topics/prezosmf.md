@@ -3,7 +3,7 @@
 IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Giza microservice that must be installed and running before you use Project Giza. 
 
 - [z/OSMF Requirements for Project Giza](#z/osmf-requirements-for-project-giza)
-- [Configure z/OSMF](#configure-z/osmf)
+- [Configuring z/OSMF](#configuring-z/osmf)
 - [Verifying your z/OSMF configuration](#verifying-your-z/osmf-configuration)
 
 **Important!** The IBM z/OS Management Facility
@@ -38,28 +38,55 @@ Ensure that your z/OS system meets the following requirements for z/OSMF to func
     The AXR (System Rexx) component lets z/OS perform Incident Log tasks. It also lets REXX execs execute outside of conventional TSO and batch environments.
 - **CEA (Communications Enabled Applications) Server**
     CEA server is a co-requisite for the CIM server. The CEA server lets z/OSMF deliver z/OS events to C-language clients.
+    - Start the CEA server before you start the start z/OSMF (the IZU* started tasks).
+    - Set up CEA server in Full Function Mode and assign the TRUSTED attribute to the CEA started task.
+    - For more information, see Customizing for CEA on the IBM Knowledge Center.
 - **CIM (Common Information Model) Server**
+   z/OSMF requires the CIM server to perform capacity provisioning and workload management tasks. Start the CIM server before you start z/OSMF (the IZU* started tasks).
+    - For more information, see Reviewing your CIM server setup on the IBM Knowledge Center.
 - **Console Command**
+    The CONSOLE and CONSPROF commands must exist in the authorized command table.
+- **Java version**
+    IBM® 64-bit SDK for z/OS®, Java Technology Edition V7.1 or higher is required.
+    - For more information, see Software prerequisites for z/OSMF on the IBM Knowledge Center.
 - **Maximum region size**
+    To prevent exceeds maximum region size errors, ensure that you have a TSO maximum region size of at least 65536 KB for the z/OS system.
 - **User IDs**
+    User IDs require a TSO segment (access) and an OMVS segment. During workflow processing and REST API requests, z/OSMF may start one or more TSO address spaces under the following job names:
+    - userid
+    - substr(userid, 1, 6)||CN (Console)
+    
+For more information, refer to the IBM z/OSMF documentation.
 
 ### z/OSMF plug-in requirements
 Ensure that the following IBM z/OSMF plug-ins are installed and configured:
 
 - **(Optional) Cloud Portal**
+    The Cloud Portal plug-in lets you make software services available to marketplace consumers and it adds the Marketplace and Marketplace Administration tasks to the z/OSMF navigation tree.
 - **Configuration Assistant**
+    The Configuration Assistant plug-in lets z/OSMF configure TCP/IP policy-based networking functions.
 - **ISPF**
+    The ISPF plug-in lets z/OSMF access traditional ISPF applications.
 - **Workload Management**
+    The Workload Management plug-in lets z/OSMF operate and manage workload management service definitions and policies.
+
+For more information about configuring each z/OSMF plug-in and the related security, refer to the IBM z/OSMF documentation for each plug-in.
 
 ### REST services requirements
 Ensure that the following REST services are configured and available when you run Project Giza:
 
 - **Cloud provisioning services**
+    Cloud provisioning for development environments. Cloud provisioning services are required for the Brightside CLI cics and db2 command groups to function properly. Endpoints begin with `/zosmf/provisioning/`
 - **TSO/E address space services**
+    Required to issue TSO commands in Brightside CLI. Endpoints begin with `/zosmf/tsoApp`
 - **z/OS console**
+    Required to issue console commands in Brightside CLI. Endpoints begin with `/zosmf/restconsoles/`
 - **z/OS data set and file interface**
+    Required to work with mainframe data sets and USS files in Brightside CLI. Endpoints begin with `/zosmf/restfiles/`
 - **z/OS jobs interface**
+    Required to use the zos-jobs command group in Brightside CLI. Endpoints begin with `/zosmf/restjobs/`
 - **z/OSMF workflow services**
+    Cloud provisioning for development environments. Cloud provisioning services are required for the Brightside CLI cics and db2 command groups to function properly. Endpoints begin with `/zosmf/workflow/`
 
 Additionally, Giza uses z/OSMF configuration by using symbolic links to the
 z/OSMF `bootstrap.properties`, `jvm.security.override.properties`, and the
@@ -67,8 +94,9 @@ z/OSMF `bootstrap.properties`, `jvm.security.override.properties`, and the
 configuration; therefore, these configurations must be valid and complete to
 operate Giza successfully.
 
+For more information, refer to the IBM z/OSMF documentation for each REST service.
 
-## Configure z/OSMF
+## Configuring z/OSMF
 Follow these steps to verify your system requirements:
 
 1. For z/OS v2.2 or later, use any of the following options to determine which version is installed:
@@ -224,6 +252,7 @@ To verify that IBM z/OSMF is configured correctly, follow these steps to create 
     **Tip:** Issue the `bright help explain profiles` command to learn more about creating profiles in Brightside CLI. See [How to display Brightside CLI help](cli-howtodisplaybrightsidehelp.md) for more information.
 4. [Validate your profile](cli-validateInstallation.md). 
 5. [Use the profile validation report to identify and correct errors](cli-validateInstallationcorrectproblems.md) with your z/OSMF configuration.
+    If you recieve a perfect score on the validation report, Project Giza can communicate with z/OSMF properly.
 
 ## Additional tips for verifying your z/OSMF configuration
 
