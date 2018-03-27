@@ -32,7 +32,7 @@ To disable the experimental commands, issue the following command:
 To determine whether the experimental commands are enabled or disabled,
 issue the following command:
 
-`Bright config get
+`bright config get
 experimental-features`
 
 **Note:** Experimental commands display the prefix `(experimental)`

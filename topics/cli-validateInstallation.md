@@ -18,13 +18,13 @@ Issue the following command to view a list of the tests that the profile validat
 
 ```bright zosmf validate profile --print-plan-only```
 
-Issue the following command to verify that your ***default profile*** is configured correctly:
+Issue the following command to verify that your *default profile* is configured correctly:
 
 ```bright zosmf validate profile```
 
 Issue the following command and specify a `profile_name` to verify that *a specific profile* is configured correctly:
 
-```bright zosmf validate --bpn <profile_name>```
+```bright zosmf validate profile --bpn <profile_name>```
 
 ## Profile validation results
 

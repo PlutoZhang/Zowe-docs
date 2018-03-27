@@ -1,11 +1,94 @@
 # Prerequisites for z/OSMF configuration
 
-IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Giza microservice. It must be installed and running before using Giza.
+IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Giza microservice that must be installed and running before you use Project Giza. 
 
-Giza uses the RESTFILES and RESTJOBS services of z/OSMF to access data sets,
-z/OS UNIX System Services (UNIX System Services) files, and JES job spool files.
-Therefore, these services must be correctly configured and available when Giza
-is running.
+- [z/OSMF Requirements for Project Giza](#zosmf-requirements-for-project-giza)
+- [Configuring z/OSMF](#configuring-zosmf)
+- [Verifying your z/OSMF configuration](#verifying-your-zosmf-configuration)
+
+**Important!** The IBM z/OS Management Facility
+guides on the IBM Knowledge Center are your primary source of information
+about how to install and configure z/OSMF. In this article, we provide procedures and tips for the configuration required for Project Giza. We recommend that you open the following IBM documentation in a separate browser tab (The z/OSMF process differs depending on whether you have z/OS v2.2 or v2.3):
+
+IBM z/OSMF v2.2 documentation:
+
+- [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
+
+- [IBM z/OS Management Facility Configuration Guide]( https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_PartConfiguring.htm)
+
+
+IBM z/OSMF v2.3 documentation:
+
+- [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm)
+
+- [IBM z/OS Management Facility Configuration Guide](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izua300/IZUHPINFO_PartConfiguring.htm)
+
+
+## z/OSMF Requirements for Project Giza
+Meet the following prerequisites before you use Project Giza.
+
+- [z/OS requirements](#zos-requirements) 
+- [z/OSMF plug-in requirements](#zosmf-plug-in-requirements)
+- [REST services requirements](#rest-services-requirements) 
+
+### z/OS requirements
+Ensure that your z/OS system meets the following requirements for z/OSMF to function properly with Project Giza:
+
+- **AXR (System Rexx)** - 
+    The AXR (System Rexx) component lets z/OS perform Incident Log tasks. It also lets REXX execs execute outside of conventional TSO and batch environments.
+- **CEA (Communications Enabled Applications) Server** - 
+    CEA server is a co-requisite for the CIM server. The CEA server lets z/OSMF deliver z/OS events to C-language clients.
+    - Start the CEA server before you start the start z/OSMF (the IZU* started tasks).
+    - Set up CEA server in Full Function Mode and assign the TRUSTED attribute to the CEA started task.
+    - For more information, see Customizing for CEA on the IBM Knowledge Center.
+- **CIM (Common Information Model) Server** - 
+   z/OSMF requires the CIM server to perform capacity provisioning and workload management tasks. Start the CIM server before you start z/OSMF (the IZU* started tasks).
+    - For more information, see Reviewing your CIM server setup on the IBM Knowledge Center.
+- **Console Command** - 
+    The CONSOLE and CONSPROF commands must exist in the authorized command table.
+- **IBM z/OS Provisioning Toolkit** - 
+    The IBM® z/OS® Provisioning Toolkit is a command line utility that lets you provision z/OS development environments. The product is required if you want to provision CICS or Db2 environments with Brightside CLI. 
+- **Java version** - 
+    IBM® 64-bit SDK for z/OS®, Java Technology Edition V7.1 or higher is required.
+    - For more information, see Software prerequisites for z/OSMF on the IBM Knowledge Center.
+- **Maximum region size** - 
+    To prevent exceeds maximum region size errors, ensure that you have a TSO maximum region size of at least 65536 KB for the z/OS system.
+- **User IDs** - 
+    User IDs require a TSO segment (access) and an OMVS segment. During workflow processing and REST API requests, z/OSMF may start one or more TSO address spaces under the following job names:
+    - userid
+    - substr(userid, 1, 6)||CN (Console)
+    
+For more information, refer to the IBM z/OSMF documentation.
+
+### z/OSMF plug-in requirements
+Ensure that the following IBM z/OSMF plug-ins are installed and configured:
+
+- **(Optional) Cloud Portal** - 
+    The Cloud Portal plug-in lets you make software services available to marketplace consumers and it adds the Marketplace and Marketplace Administration tasks to the z/OSMF navigation tree.
+- **Configuration Assistant** - 
+    The Configuration Assistant plug-in lets z/OSMF configure TCP/IP policy-based networking functions.
+- **ISPF** - 
+    The ISPF plug-in lets z/OSMF access traditional ISPF applications.
+- **Workload Management** - 
+    The Workload Management plug-in lets z/OSMF operate and manage workload management service definitions and policies.
+
+For more information about configuring each z/OSMF plug-in and the related security, refer to the IBM z/OSMF documentation for each plug-in.
+
+### REST services requirements
+Ensure that the following REST services are configured and available when you run Project Giza:
+
+- **Cloud provisioning services** - 
+    Cloud provisioning for development environments. Cloud provisioning services are required for the Brightside CLI cics and db2 command groups to function properly. Endpoints begin with `/zosmf/provisioning/`
+- **TSO/E address space services** - 
+    Required to issue TSO commands in Brightside CLI. Endpoints begin with `/zosmf/tsoApp`
+- **z/OS console** - 
+    Required to issue console commands in Brightside CLI. Endpoints begin with `/zosmf/restconsoles/`
+- **z/OS data set and file interface** - 
+    Required to work with mainframe data sets and USS files in Brightside CLI. Endpoints begin with `/zosmf/restfiles/`
+- **z/OS jobs interface** - 
+    Required to use the zos-jobs command group in Brightside CLI. Endpoints begin with `/zosmf/restjobs/`
+- **z/OSMF workflow services** - 
+    Cloud provisioning for development environments. Cloud provisioning services are required for the Brightside CLI cics and db2 command groups to function properly. Endpoints begin with `/zosmf/workflow/`
 
 Additionally, Giza uses z/OSMF configuration by using symbolic links to the
 z/OSMF `bootstrap.properties`, `jvm.security.override.properties`, and the
@@ -13,9 +96,9 @@ z/OSMF `bootstrap.properties`, `jvm.security.override.properties`, and the
 configuration; therefore, these configurations must be valid and complete to
 operate Giza successfully.
 
-The z/OSMF product is required for Giza to run. The z/OSMF process differs
-depending on whether you have z/OS v2.2 or v2.3.
+For more information, refer to the IBM z/OSMF documentation for each REST service.
 
+## Configuring z/OSMF
 Follow these steps to verify your system requirements:
 
 1. For z/OS v2.2 or later, use any of the following options to determine which version is installed:
@@ -162,98 +245,42 @@ Follow these steps to verify your system requirements:
 
    Point your browser at the nominated z/OSMF STANDALONE Server home page and you should see its Welcome Page where you can log in.
 
-   To verify that z/OSMF is working correctly, use any of the following ways:
+## Verifying your z/OSMF configuration
+To verify that IBM z/OSMF is configured correctly, follow these steps to create and validate a profile in Brightside CLI:
 
-   Install and use the Brightside CLI by following these steps:
+1. [Meet the prerequisites for Brightside CLI](precli.md).
+2. [Install Brightside CLI](cli-installcli.md).
+3. Create a zosmf profile in Brightside CLI. Issue the `bright help explain profiles` command to learn more about creating profiles in Brightside CLI. See [How to display Brightside CLI help](cli-howtodisplaybrightsidehelp.md) for more information.
+4. [Validate your profile](cli-validateInstallation.md). 
+5. [Use the profile validation report to identify and correct errors](cli-validateInstallationcorrectproblems.md) with your z/OSMF configuration.
+    If you recieve a perfect score on the validation report, Project Giza can communicate with z/OSMF properly.
 
-   1. Navigate to the supplied Giza folder with brightside artifacts.
-   2. Download brightside-0.6.5-17.tgz to a folder on your PC/Mac and open a terminal and navigate to the folder.
-   3. Check that you have node installed by typing `node –v`.
-   4. Once you have node installed then type `npm install –g <file-name>`. Brightside will be installed and you will see some progress bars.
-   5. Verify the installation by typing bright `–h`.
-   6. Create a Brightside profile.
+### Additional tips for verifying your z/OSMF configuration
 
-   On a Windows system, issue a command like this:
-
-    ```
-    bright zosmf create bright-profile -H <hostname> -P <port>
-    -u <userid> -p <password> -a GIZA --bpn brightprof
-    ```
-
-   You should see the response as follows:
-
-            ```
-             Brightside CLI profile created successfully! Path:
-             C:\Users\IBM_ADMIN\.brightside\profiles\zosmf\brightprof.yaml
-
-             module:             zosmf
-             host:               <hostname>
-             port:               <port>
-             version:            1.0
-             user:               <userid>
-             rejectUnauthorized: false
-             logonProc:          IZUFPROC
-             account:            GIZA
-             auth:               <auth string>
-             profileName:        brightprof
-             ```
-
-   You can get context-sensitive help for any Brightside command by appending `-h` to it. For example,
-
-    ```
-    bright zosmf create bright-profile -h
-    ```
-
-   7.Run the Brightside IVT.
-
-    Before your run the IVT, check that JES2 is accepting jobs with `CLASS=C` by issuing the following command in SDSF:
+- Before your run the profile validation, check that JES2 is accepting jobs with `CLASS=C` by issuing the following command in SDSF:
 
     ```
     /$D I
     ```
-
-    You will see responses like this in SYSLOG:
+    You will see responses like the following in SYSLOG:
 
     ```
     $HASP892 INIT(3)   STATUS=ACTIVE,CLASS=AB,...
     ```
 
-    If none of the initiators has **C** in its CLASS list, add **C** to the list of any initiator, for example, initiator 3 as shown above, with this command:
+    If none of the initiators has **C** in its CLASS list, add **C** to the list of any initiator. For example, initiator 3 as shown above, with the following command:
 
-     ```
-     /$T I3,CL=ABC
-     ```
-
-    Run the Brightside IVT from your desktop:
-
-     ```
-     bright zosmf validate prof --zosmf-p brightprof
-     ```
-
-    This will run 10 tests and produce a table of results.
-
-   Type the REST endpoint into your browser, for example: https://mvs.ibm.com:443/zosmf/restjobs/jobs
-
-   Browsing zosmf endpoints asks for your user ID and password for defaultRealm; these are your TSO user credentials.
-
-   Your browser should return you a status code 200 with a list of all jobs on your z/OS system. The list is in raw JSON format.
-
-**References:**
-
-- z/OSMF for v2.2:
-
-  - [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
-
-  - [IBM z/OS Management Facility Configuration Guide]( https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_PartConfiguring.htm)
+    ```
+    /$T I3,CL=ABC
+    ```
 
 
-- z/OSMF for v2.3:
+- Type the REST endpoint into your browser, for example: https://mvs.ibm.com:443/zosmf/restjobs/jobs
 
-  - [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm)
+    - Browsing zosmf endpoints requests your user ID and password for defaultRealm; these are your TSO user credentials.
+ 
 
-  - [IBM z/OS Management Facility Configuration Guide](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izua300/IZUHPINFO_PartConfiguring.htm)
-
-
+    - Your browser should return you a status code 200 with a list of all jobs on your z/OS system. The list is in raw JSON format.
 
 
 **Parent topic:** [Prerequisites](../topics/planinstall.md)
