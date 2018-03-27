@@ -94,6 +94,9 @@ The zLUX archive is distributed as a pax archive. When you unpack the archive, b
             The location of the certificate file relative to the location of the JSON configuration file. The code page of this file should be the native code page of the host \(EBCDIC for z/OS\).
 
     **Note:** Currently, the ZLUX Secure Services address space configuration JSON file at zlux-example-server/config/zluxserver.json contains an example node configuration, so you can refer to one file for both the ZLUX Secure Services address space and the Giza Node server.
+    
+    To update the server configuration, run zlux-example-server/build/deploy.sh
+
 
 7.   Start the zLUX servers: 
 
