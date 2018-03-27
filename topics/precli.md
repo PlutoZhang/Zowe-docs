@@ -3,10 +3,9 @@
 Meet the following prerequisites before you install Brightside CLI on your PC:
 
 - Node.js® is a JavaScript runtime environment on which we
-architected Brightside CLI. You use the Node.js package manager (npm) to install Brightside CLI. Follow the instructions at [Installing Node.js via package manager](https://nodejs.org/en/download/package-manager) to install Node.js on your operating system. website at
-    the 
+architected Brightside CLI. You use the Node.js package manager (npm) to install Brightside CLI. Follow the instructions at [Installing Node.js via package manager](https://nodejs.org/en/download/package-manager) to install Node.js on your operating system.  
 
-    **Tip:** If you are installing Node.js on a Linux or a macOS
+ **Tip:** If you are installing Node.js on a Linux or a macOS
     operating system, CA recommends that you install `nodejs` and
     `nodejs-legacy` using the instructions on the Nodejs website (using
     package manager). For example, you can install nodejs-legacy using
@@ -19,8 +18,7 @@ later.
 
 - Before you can use Brightside CLI to interact with the
 mainframe, a systems programmer must install and configure IBM z/OSMF in
-your environment. For more information about how systems programmers and
-security administrators perform the z/OSMF configuration, see [Overview of the z/OS Management Facility Configuration Process](cli-overviewzosmfconfig.md).
+your environment.
 
 **Note:** CA Technologies does not maintain the prerequisite software
 that Brightside CLI requires. You are responsible for updating Node.js

@@ -26,15 +26,7 @@ Brightside CLI provides the following benefits:
 The following sections explain the key features and details
 for Brightside CLI:
 
-  - [Solution video](#solution-video)
-  - [Brightside CLI capabilities](#brightside-clicapabilities)
-  - [Supported platforms](#supported-platforms)
-  - [Experimental commands](#experimental-commands)
-  - [Third-Party software agreements](#third-party-software-agreements)
-
-**Notes:** 
-- For a technical overview about how Brightside CLI integrates with Project Giza, see [Technical Overview](techoverview.md).
-- For installation, upgrade, and software requirements, see [Installing Brightside CLI](cli-installcli.md).
+**Note: For installation, upgrade, and software requirements, see [Installing Brightside CLI](cli-installcli.md).
 
 
 ## Solution video
