@@ -1,4 +1,4 @@
-# Overview of Brightside CLI
+# Brightside CLI overview
 
 Brightside Command Line Interface (Brightside CLI) lets
 application developers interact with the mainframe in a format that is
@@ -32,7 +32,8 @@ for Brightside CLI:
   - [Experimental commands](#experimental-commands)
   - [Third-Party software agreements](#third-party-software-agreements)
 
-**Notes:** 
+**Notes:**
+
 - For a technical overview about how Brightside CLI integrates with Project Giza, see [Technical Overview](techoverview.md).
 - For installation, upgrade, and software requirements, see [Installing Brightside CLI](cli-installcli.md).
 

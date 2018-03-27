@@ -1,2 +1,3 @@
 # Updating Atlas
-Use the following procedures to update Giza.
+
+Use the following procedures to update Project Giza.

@@ -1,6 +1,6 @@
 # Prerequisites for z/OSMF configuration
 
-IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Giza microservice that must be installed and running before you use Project Giza. 
+IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Project Giza microservice that must be installed and running before you use Project Giza.
 
 - [z/OSMF Requirements for Project Giza](#zosmf-requirements-for-project-giza)
 - [Configuring z/OSMF](#configuring-zosmf)
@@ -27,49 +27,49 @@ IBM z/OSMF v2.3 documentation:
 ## z/OSMF Requirements for Project Giza
 Meet the following prerequisites before you use Project Giza.
 
-- [z/OS requirements](#zos-requirements) 
+- [z/OS requirements](#zos-requirements)
 - [z/OSMF plug-in requirements](#zosmf-plug-in-requirements)
-- [REST services requirements](#rest-services-requirements) 
+- [REST services requirements](#rest-services-requirements)
 
 ### z/OS requirements
 Ensure that your z/OS system meets the following requirements for z/OSMF to function properly with Project Giza:
 
-- **AXR (System Rexx)** - 
+- **AXR (System Rexx)** -
     The AXR (System Rexx) component lets z/OS perform Incident Log tasks. It also lets REXX execs execute outside of conventional TSO and batch environments.
-- **CEA (Communications Enabled Applications) Server** - 
+- **CEA (Communications Enabled Applications) Server** -
     CEA server is a co-requisite for the CIM server. The CEA server lets z/OSMF deliver z/OS events to C-language clients.
     - Start the CEA server before you start the start z/OSMF (the IZU* started tasks).
     - Set up CEA server in Full Function Mode and assign the TRUSTED attribute to the CEA started task.
     - For more information, see Customizing for CEA on the IBM Knowledge Center.
-- **CIM (Common Information Model) Server** - 
+- **CIM (Common Information Model) Server** -
    z/OSMF requires the CIM server to perform capacity provisioning and workload management tasks. Start the CIM server before you start z/OSMF (the IZU* started tasks).
     - For more information, see Reviewing your CIM server setup on the IBM Knowledge Center.
-- **Console Command** - 
+- **Console Command** -
     The CONSOLE and CONSPROF commands must exist in the authorized command table.
-- **IBM z/OS Provisioning Toolkit** - 
-    The IBM® z/OS® Provisioning Toolkit is a command line utility that lets you provision z/OS development environments. The product is required if you want to provision CICS or Db2 environments with Brightside CLI. 
-- **Java version** - 
+- **IBM z/OS Provisioning Toolkit** -
+    The IBM® z/OS® Provisioning Toolkit is a command line utility that lets you provision z/OS development environments. The product is required if you want to provision CICS or Db2 environments with Brightside CLI.
+- **Java version** -
     IBM® 64-bit SDK for z/OS®, Java Technology Edition V7.1 or higher is required.
     - For more information, see Software prerequisites for z/OSMF on the IBM Knowledge Center.
-- **Maximum region size** - 
+- **Maximum region size** -
     To prevent exceeds maximum region size errors, ensure that you have a TSO maximum region size of at least 65536 KB for the z/OS system.
-- **User IDs** - 
+- **User IDs** -
     User IDs require a TSO segment (access) and an OMVS segment. During workflow processing and REST API requests, z/OSMF may start one or more TSO address spaces under the following job names:
     - userid
     - substr(userid, 1, 6)||CN (Console)
-    
+
 For more information, refer to the IBM z/OSMF documentation.
 
 ### z/OSMF plug-in requirements
 Ensure that the following IBM z/OSMF plug-ins are installed and configured:
 
-- **(Optional) Cloud Portal** - 
+- **(Optional) Cloud Portal** -
     The Cloud Portal plug-in lets you make software services available to marketplace consumers and it adds the Marketplace and Marketplace Administration tasks to the z/OSMF navigation tree.
-- **Configuration Assistant** - 
+- **Configuration Assistant** -
     The Configuration Assistant plug-in lets z/OSMF configure TCP/IP policy-based networking functions.
-- **ISPF** - 
+- **ISPF** -
     The ISPF plug-in lets z/OSMF access traditional ISPF applications.
-- **Workload Management** - 
+- **Workload Management** -
     The Workload Management plug-in lets z/OSMF operate and manage workload management service definitions and policies.
 
 For more information about configuring each z/OSMF plug-in and the related security, refer to the IBM z/OSMF documentation for each plug-in.
@@ -77,24 +77,24 @@ For more information about configuring each z/OSMF plug-in and the related secur
 ### REST services requirements
 Ensure that the following REST services are configured and available when you run Project Giza:
 
-- **Cloud provisioning services** - 
+- **Cloud provisioning services** -
     Cloud provisioning for development environments. Cloud provisioning services are required for the Brightside CLI cics and db2 command groups to function properly. Endpoints begin with `/zosmf/provisioning/`
-- **TSO/E address space services** - 
+- **TSO/E address space services** -
     Required to issue TSO commands in Brightside CLI. Endpoints begin with `/zosmf/tsoApp`
-- **z/OS console** - 
+- **z/OS console** -
     Required to issue console commands in Brightside CLI. Endpoints begin with `/zosmf/restconsoles/`
-- **z/OS data set and file interface** - 
+- **z/OS data set and file interface** -
     Required to work with mainframe data sets and USS files in Brightside CLI. Endpoints begin with `/zosmf/restfiles/`
-- **z/OS jobs interface** - 
+- **z/OS jobs interface** -
     Required to use the zos-jobs command group in Brightside CLI. Endpoints begin with `/zosmf/restjobs/`
-- **z/OSMF workflow services** - 
+- **z/OSMF workflow services** -
     Cloud provisioning for development environments. Cloud provisioning services are required for the Brightside CLI cics and db2 command groups to function properly. Endpoints begin with `/zosmf/workflow/`
 
-Additionally, Giza uses z/OSMF configuration by using symbolic links to the
+Additionally, Project Giza uses z/OSMF configuration by using symbolic links to the
 z/OSMF `bootstrap.properties`, `jvm.security.override.properties`, and the
-`ltpa.keys` files. Specifically, Giza reuses z/OSMF's SAF, SSL, and LTPA
+`ltpa.keys` files. Specifically, Project Giza reuses z/OSMF's SAF, SSL, and LTPA
 configuration; therefore, these configurations must be valid and complete to
-operate Giza successfully.
+operate Project Giza successfully.
 
 For more information, refer to the IBM z/OSMF documentation for each REST service.
 
@@ -131,7 +131,7 @@ Follow these steps to verify your system requirements:
         Release . : ISPF 7.2    --> z/OS v2.2
 
         Release . : ISPF 7.3    --> z/OS v2.3
-    
+
 2. Configure z/OSMF. For z/OS V2.2 users, take the following steps to configure z/OSMF:
 
     z/OSMF is a base element of z/OS v2.2 and v2.3, so it should already be installed. However, it is not guaranteed to be configured and running on every z/OS V2.2 and V2.3 system.
@@ -145,7 +145,7 @@ Follow these steps to verify your system requirements:
     For z/OS V2.3 users, the base element z/OSMF is started by default at system IPL. This means that z/OSMF is available for use as soon as the system is up. If you prefer not to have z/OSMF started automatically, you can disable the autostart function by checking for `START` commands for the z/OSMF started procedures in the COMMNDxx parmlib member.
 
     The z/OS Operator Consoles task is new in this release. Applications that depend on access to the operator console such as Brightside's RestConsoles API require version 2.3.
-    
+
 3. Verify other requirements.
 
     - Perform any maintenance that is required by Node.js.
@@ -163,7 +163,7 @@ Follow these steps to verify your system requirements:
         or later. If the version displayed is not right, set and/or download the right version of node by using npm and nvm. You might want to refer to the following links for tutorials on npm and nvm:
 
         https://www.sitepoint.com/beginners-guide-node-package-manager/
-   
+
         https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/
 
         If you don’t have node installed, go to https://nodejs.org/en/download/package-manager/, select your operating system, and follow the instructions to install node. Ensure that you download only official versions of these products. For z/OSMF, you need only one version of node.js. You can find the complete procedure for installing Node.js at https://developer.ibm.com/node/sdk/ztp/.
@@ -209,7 +209,7 @@ Follow these steps to verify your system requirements:
 
       **Note**: Microsoft Internet Explorer is not yet supported at any version.
 
-4.After configuring z/OSMF, verify the following items to ensure z/OSMF is ready for Giza.
+4.After configuring z/OSMF, verify the following items to ensure z/OSMF is ready for Project Giza.
 
    Check that the z/OSMF server and angel processes are running. From SDSF on z/OS, use the `DA` command or issue the following command on the command input line:
 
@@ -251,7 +251,7 @@ To verify that IBM z/OSMF is configured correctly, follow these steps to create 
 1. [Meet the prerequisites for Brightside CLI](precli.md).
 2. [Install Brightside CLI](cli-installcli.md).
 3. Create a zosmf profile in Brightside CLI. Issue the `bright help explain profiles` command to learn more about creating profiles in Brightside CLI. See [How to display Brightside CLI help](cli-howtodisplaybrightsidehelp.md) for more information.
-4. [Validate your profile](cli-validateInstallation.md). 
+4. [Validate your profile](cli-validateInstallation.md).
 5. [Use the profile validation report to identify and correct errors](cli-validateInstallationcorrectproblems.md) with your z/OSMF configuration.
     If you recieve a perfect score on the validation report, Project Giza can communicate with z/OSMF properly.
 
@@ -278,7 +278,7 @@ To verify that IBM z/OSMF is configured correctly, follow these steps to create 
 - Type the REST endpoint into your browser, for example: https://mvs.ibm.com:443/zosmf/restjobs/jobs
 
     - Browsing zosmf endpoints requests your user ID and password for defaultRealm; these are your TSO user credentials.
- 
+
 
     - Your browser should return you a status code 200 with a list of all jobs on your z/OS system. The list is in raw JSON format.
 

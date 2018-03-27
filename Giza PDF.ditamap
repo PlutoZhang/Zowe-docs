@@ -18,8 +18,7 @@ http://submit.boulder.ibm.com/infocenter/idwb/v3r8m4/topic/com.ibm.ditaref.doc/d
 <!--More cover information-->
 <prodname>Project Giza</prodname>
 </prodinfo>
-<bookid><edition>First Edition</edition></bookid></bookmeta><?Pub
-Caret -2?>
+<bookid><edition>First Edition</edition></bookid></bookmeta>
 <ibmfrontmatter>
 <editionnotices format="md" href="topics/editionnotice.md"
 navtitle="Edition notice"></editionnotices>
@@ -27,38 +26,25 @@ navtitle="Edition notice"></editionnotices>
 navtitle="About this book" scope="local"></preface>
 </ibmfrontmatter>
 <chapter format="md" href="topics/introduction.md"
-navtitle="Introducing Giza" scope="local">
-<topicref format="md" href="topics/whatis.md" navtitle="What is Giza"
-scope="local"></topicref>
+navtitle="Introducing Project Giza" scope="local">
+<topicref format="md" href="topics/whatis.md"
+navtitle="What is Project Giza" scope="local"></topicref>
 <topicref format="md" href="topics/componentoverview.md"
-navtitle="Component overview" scope="local">
+navtitle="Components overview" scope="local">
 <topicref format="md" href="topics/mvd-overview.md"
 navtitle="zLux overview" scope="local"></topicref>
 <topicref format="md" href="topics/atlas-overview.md"
 navtitle="Atlas overview" scope="local"></topicref>
 <topicref format="md" href="topics/cli-releasenotes.md"
-navtitle="Brightside CLI Overview" scope="local"></topicref>
+navtitle="Brightside CLI overview" scope="local"></topicref>
 </topicref>
 </chapter>
 <chapter format="md" href="topics/installandconfig.md"
-navtitle="Installing Giza" scope="local">
+navtitle="Installing Project Giza" scope="local">
 <topicref format="md" href="topics/planinstall.md"
 navtitle="Planning for installation" scope="local">
 <topicref format="md" href="topics/prezosmf.md"
 navtitle="Prerequisites for z/OSMF configuration" scope="local">
-<topicref format="md" href="topics/cli-overviewzosmfconfig.md"
-navtitle="Overview of the z/OSMF configuration process" scope="local">
-</topicref>
-<topicref format="md" href="topics/cli-configzosmf.md"
-navtitle="Configure z/OSMF" scope="local"></topicref>
-<topicref format="md" href="topics/cli-configzosmfsecurity.md"
-navtitle="Configure z/OSMF security" scope="local"></topicref>
-<topicref format="md" href="topics/cli-configzosmfcloudprovisioning.md"
-navtitle="Configure z/OSMF Cloud Provisioning" scope="local"></topicref>
-<topicref format="md"
-href="topics/cli-configzosmfcloudprovisioningsecurity.md"
-navtitle="Configure z/OSMF Cloud Provisioning security" scope="local">
-</topicref>
 </topicref>
 <topicref format="md" href="topics/premvd.md"
 navtitle="Prerequisites for zLUX" scope="local">
@@ -76,6 +62,8 @@ navtitle="Prerequisites for Atlas" scope="local"></topicref>
 <topicref format="md" href="topics/precli.md"
 navtitle="Prerequisites for Brightside CLI" scope="local"></topicref>
 </topicref>
+<topicref format="md" href="topics/installing.md"
+navtitle="Installing components of Project Giza" scope="local">
 <topicref format="md" href="topics/installvirtualdesktop.md"
 navtitle="Installing zLUX" scope="local">
 <topicref format="md" href="topics/mvd-instsetupeverythingonzos.md"
@@ -88,6 +76,7 @@ navtitle="Opening the MVD in a browser" scope="local"></topicref>
 navtitle="Installing Atlas" scope="local"></topicref>
 <topicref format="md" href="topics/cli-installcli.md"
 navtitle="Installing Brightside CLI" scope="local"></topicref>
+</topicref>
 <topicref format="md" href="topics/verify.md"
 navtitle="Verifying installation" scope="local">
 <topicref format="md" href="topics/atlas-verifyinstall.md"
@@ -100,16 +89,8 @@ href="topics/cli-validateInstallationcorrectproblems.md"
 navtitle="Identify and correct problems detected by the validate profile command"
 scope="local"></topicref>
 </topicref>
-<topicref format="md" href="topics/update.md" navtitle="Updating Giza"
-scope="local">
-<topicref format="md" href="topics/mvd-updatingzlux.md"
-navtitle="Updating zLUX" scope="local"></topicref>
-<topicref format="md" href="topics/atlas-update.md"
-navtitle="Updating Atlas" scope="local"></topicref>
-<topicref navtitle="Updating Brightside CLI"></topicref>
-</topicref>
 <topicref format="md" href="topics/uninstall.md"
-navtitle="Uninstalling Giza" scope="local">
+navtitle="Uninstalling Project Giza" scope="local">
 <topicref format="md" href="topics/mvd-uninstallingzlux.md"
 navtitle="Uninstalling zLUX" scope="local"></topicref>
 <topicref format="md" href="topics/atlas-uninstall.md"
@@ -128,7 +109,7 @@ navtitle="Troubleshooting installing Brightside CLI" scope="local">
 </topicref>
 </topicref>
 </chapter>
-<chapter format="md" href="topics/using.md" navtitle="Using Giza"
+<chapter format="md" href="topics/using.md" navtitle="Using Project Giza"
 scope="local">
 <topicref format="md" href="topics/usingmvd.md" navtitle="Using zLUX"
 scope="local">
@@ -184,8 +165,6 @@ navtitle="Programming Atlas WebSocket services" scope="local">
 </topicref>
 <topicref format="md" href="topics/cli-usingcli.md"
 navtitle="Using Brightside CLI" scope="local">
-<topicref format="md" href="topics/cli-releasenotes.md"
-navtitle="Overview of Brightside CLI" scope="local"></topicref>
 <topicref format="md" href="topics/cli-howtodisplaybrightsidehelp.md"
 navtitle="How to display Brightside CLI help" scope="local"></topicref>
 <topicref format="md" href="topics/cli-commandgroups.md"
@@ -198,5 +177,8 @@ navtitle="Enabling and disabling experimental commands" scope="local">
 navtitle="Brightside CLI scenarios" scope="local"></topicref>
 </topicref>
 </chapter>
+<ibmbackmatter>
+<topicref format="md" href="topics/legal.md" navtitle="Legal information"/>
+</ibmbackmatter><?Pub Caret -1?>
 </ibmbook>
-<?Pub *0000009744?>
+<?Pub *0000008884?>

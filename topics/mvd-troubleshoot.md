@@ -1,5 +1,5 @@
-# Troubleshooting zLUX installation and configuration
- 
+# Troubleshooting installing zLUX
+
 To help zLUX research any problems you might encounter, collect as much of the following information as possible:
 
  - zLUX version and release level
@@ -10,4 +10,3 @@ To help zLUX research any problems you might encounter, collect as much of the f
  - Error message codes
  - Screenshots (if applicable)
  - Other relevant information (such as the NodeJS version that is running the Giza Node Server and the browser and browser version)
-
