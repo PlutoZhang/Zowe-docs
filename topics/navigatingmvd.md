@@ -3,7 +3,7 @@
 
 To access the MVD, see [Opening the MVD in a browser] (mvd-instopendesktopbrowser.md)
 
-##Logging into the MVD
+## Logging into the MVD
 
 To log in, sign in using your mainframe credentials: 
 
@@ -23,9 +23,8 @@ Note the following items on the desktop:
 
 - Across the bottom of the window is the **application launch bar**.
 
-- The bottom right corner displays current date and time and allows access to the current user session.
+- The bottom right corner displays the current date and time and allows access to the current user session.
 
-
-##Logging out
+## Logging out
 
 You can log out by clicking the avatar.
