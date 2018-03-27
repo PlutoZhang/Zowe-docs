@@ -23,5 +23,5 @@ IBM, the IBM logo, and ibm.com® are trademarks or registered trademarks of Inte
 Java and all Java-based trademarks and logos are trademarks or registered trademarks of Oracle and/or its affiliates.
 
 Rocket is a registered trademark of Rocket Software, Inc. For a list of Rocket registered trademarks go
-to: [www.rocketsoftware.com/company/legal/terms-of-use] (http://www.rocketsoftware.com/company/legal/terms-of-use). All other products or services mentioned in this document
+to: [www.rocketsoftware.com/company/legal/terms-of-use](http://www.rocketsoftware.com/company/legal/terms-of-use). All other products or services mentioned in this document
 may be covered by the trademarks, service marks, or product names of their respective owners.

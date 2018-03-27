@@ -9,50 +9,15 @@ The zLUX archive is distributed as a pax archive. When you unpack the archive, b
     -   [Confirming that Node.js is installed](mvd-instconfirmnodejsinstalled.md)
     -   [Verifying port number availability](mvd-instverifyportnumavailable.md)
  
-1. To obtain the installation media, follow the instructions in [Obtain the Project Giza installation media](installing.md).
-2. Use the cd command to navigate to the directory in which you want to restore the zLUX archive, or create a new directory for that purpose and navigate to the new directory. 
-3.   Execute the pax command with these specific options to restore the zLUX archive under the current directory: 
+2. To obtain the installation media, follow the instructions in [Obtain the Project Giza installation media](installing.md).
+3. Navigate to the scripts/zlux directory and run zlux-install-script.sh
 
-    pax -r -px -f archive-location/zLUX.pax
 
-    where:
-
-    -   `-p` specifies which file characteristics you want to restore.
-    -   `x` preserves extended attributes that were set originally by the extattr command.
-    When you run the ls command in the directory, you see the directory contents:
-
-    ```
-    README.md
-    sample-app/
-    tn3270-ng2/
-    zlux-app-manager/
-    zlux-example-server/
-    zlux-ng2/
-    zlux-platform/
-    zlux-proxy-server/
-    zlux-shared/
-    zos-subsystems/
-    ```
-
-4.   Verify that the extended attributes were preserved for the file zlux-example-server/bin/zssServer: 
-
-    ```
-    $ cd zlux-example-server/bin
-    $ ls -E
-    total 5824
-    -rw-rw-r-- --s-  1 TSSPG   TSUSER   177 Jan 11 13:11 nodeSever.bat
-    -rwxrwxr-x --s-  1 TSSPG   TSUSER   538 Jan 11 13:11 nodeServer.sh
-    -rwxrwxr-x aps-  1 TSSPG   TSUSER   2945024 Jan 31 19:26 zssServer
-    -rwxrwxr-x a-s-  1 TSSPG   TSUSER   538 Jan 11 13:11 zssSever.sh
-    ```
-
-    If the `a` attribute is absent, you lack sufficient authority on the z/OS system. To correct this problem, have a user who has sufficient authority run the extattr command to add the attribute: extattr +a zssServer 
-
-5.   If you need to specify a port number other than the default \(8542\) for `zssPort` in zluxserver.json, complete these steps: 
+4.   If you need to specify a port number other than the default \(8542\) for `zssPort` in zluxserver.json, complete these steps: 
     1.   Navigate to the zlux-example-server/config directory: cd zlux-example-server/config. 
     2.   Edit zluxserver.json to assign the appropriate number to `zssPort`. 
     3.   Save the changes to zluxserver.json. 
-6.   Upon startup, the Giza Node server loads the zluxserver.json configuration file \(from zlux-example-server/deploy/instance/ZLUX/serverConfig/zluxserver.json\). The JSON configuration file adheres to a specific structure, as shown in the following figure:
+5.   Upon startup, the Giza Node server loads the zluxserver.json configuration file \(from zlux-example-server/deploy/instance/ZLUX/serverConfig/zluxserver.json\). The JSON configuration file adheres to a specific structure, as shown in the following figure:
 
     ```
       "node": {
@@ -98,7 +63,7 @@ The zLUX archive is distributed as a pax archive. When you unpack the archive, b
     To update the server configuration, run zlux-example-server/build/deploy.sh
 
 
-7.   Start the zLUX servers: 
+6.   Start the zLUX servers: 
 
     -   If you are running the Giza Node server on z/OS, complete these steps:
         1.  Navigate to zlux-example-server/bin.
