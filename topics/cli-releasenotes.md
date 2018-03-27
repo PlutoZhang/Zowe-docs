@@ -24,7 +24,7 @@ Brightside CLI provides the following benefits:
     with z/OS platforms. 
 
 The following sections explain the key features and details
-for Brightside CLI:
+for Brightside CLI.
 
 **Note:** For installation, upgrade, and software requirements, see [Installing Brightside CLI](cli-installcli.md).
 
