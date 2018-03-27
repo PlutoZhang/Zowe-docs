@@ -1,4 +1,4 @@
-# z/OSMF requirements
+# Prerequisites for z/OSMF configuration
 
 IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Giza microservice that must be installed and running before you use Project Giza. 
 
@@ -24,8 +24,8 @@ IBM z/OSMF v2.3 documentation:
 - [IBM z/OS Management Facility Configuration Guide](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izua300/IZUHPINFO_PartConfiguring.htm)
 
 
-## z/OSMF requirements for Project Giza
-Meet the following prerequisites before you use Project Giza.
+## z/OSMF Requirements for Project Giza
+Meet the following prerequisites before you use Project Giza:
 
 - [z/OS requirements](#zos-requirements) 
 - [z/OSMF plug-in requirements](#zosmf-plug-in-requirements)
@@ -246,6 +246,15 @@ Follow these steps to verify your system requirements:
    Point your browser at the nominated z/OSMF STANDALONE Server home page and you should see its Welcome Page where you can log in.
 
 ## Verifying your z/OSMF configuration
+To verify that IBM z/OSMF REST services are configured correctly in your environment, type the REST endpoint into your browser. For example: https://mvs.ibm.com:443/zosmf/restjobs/jobs
+
+**Notes:**
+- Browsing z/OSMF endpoints requests your user ID and password for defaultRealm; these are your TSO user credentials.
+
+- Your browser should return you a status code 200 with a list of all jobs on your z/OS system. The list is in raw JSON format.
+
+### Optional method for verifying z/OSMF configuration with Brightside CLI    
+
 To verify that IBM z/OSMF is configured correctly, follow these steps to create and validate a profile in Brightside CLI:
 
 1. [Meet the prerequisites for Brightside CLI](precli.md).
@@ -255,32 +264,17 @@ To verify that IBM z/OSMF is configured correctly, follow these steps to create 
 5. [Use the profile validation report to identify and correct errors](cli-validateInstallationcorrectproblems.md) with your z/OSMF configuration.
     If you recieve a perfect score on the validation report, Project Giza can communicate with z/OSMF properly.
 
-### Additional tips for verifying your z/OSMF configuration
+**Note:** Before your run the profile validation, check that JES2 is accepting jobs with `CLASS=C` by issuing the following command in SDSF:
 
-- Before your run the profile validation, check that JES2 is accepting jobs with `CLASS=C` by issuing the following command in SDSF:
+    
+```/$D I```
+    
+You will see responses like the following in SYSLOG:
 
-    ```
-    /$D I
-    ```
-    You will see responses like the following in SYSLOG:
+```$HASP892 INIT(3)   STATUS=ACTIVE,CLASS=AB,...```
 
-    ```
-    $HASP892 INIT(3)   STATUS=ACTIVE,CLASS=AB,...
-    ```
+If none of the initiators has **C** in its CLASS list, add **C** to the list of any initiator. For example, initiator 3 as shown above, with the following command:
 
-    If none of the initiators has **C** in its CLASS list, add **C** to the list of any initiator. For example, initiator 3 as shown above, with the following command:
-
-    ```
-    /$T I3,CL=ABC
-    ```
-
-
-- Type the REST endpoint into your browser, for example: https://mvs.ibm.com:443/zosmf/restjobs/jobs
-
-    - Browsing zosmf endpoints requests your user ID and password for defaultRealm; these are your TSO user credentials.
- 
-
-    - Your browser should return you a status code 200 with a list of all jobs on your z/OS system. The list is in raw JSON format.
-
+```/$T I3,CL=ABC```
 
 **Parent topic:** [Prerequisites](../topics/planinstall.md)
