@@ -15,7 +15,7 @@ Note the following items on the desktop:
 
 - In the lower left corner, is the **application menu** which includes access to the following:
 
-    - **z/OS Subsystems** - An application that helps you find information about the important services on your mainframe, such as CICS, DB2 and IMS.
+    - **z/OS Subsystems** - An application that helps you find information about the important services on your mainframe, such as CICS, Db2, and IMS.
 
     - **TN3270 Terminal** - A limited license plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running.
 
