@@ -26,7 +26,7 @@ Brightside CLI provides the following benefits:
 The following sections explain the key features and details
 for Brightside CLI:
 
-**Note: For installation, upgrade, and software requirements, see [Installing Brightside CLI](cli-installcli.md).
+**Note:** For installation, upgrade, and software requirements, see [Installing Brightside CLI](cli-installcli.md).
 
 
 ## Solution video
