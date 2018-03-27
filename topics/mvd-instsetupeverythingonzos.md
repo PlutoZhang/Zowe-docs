@@ -10,11 +10,7 @@ The zLUX archive is distributed as a pax archive. When you unpack the archive, b
     -   [Verifying port number availability](mvd-instverifyportnumavailable.md)
  
 2. To obtain the installation media, follow the instructions in [Obtain the Project Giza installation media](installing.md).
-3. Navigate to the `scripts/zlux` directory and run `zlux-install-script.sh`
-4.   If you need to specify a port number other than the default \(8542\) for `zssPort` in `zluxserver.json`, complete these steps: 
-    1.   Navigate to the `zlux-example-server/config directory`: `cd zlux-example-server/config`. 
-    2.   Edit `zluxserver.json` to assign the appropriate number to `zssPort`. 
-    3.   Save the changes to `zluxserver.json`. 
+3. Navigate to the `scripts/zlux` subdirectory of the Project Giza contents directory and run `zlux-install-script.sh`
 5.   Upon startup, the Giza Node server loads the `zluxserver.json` configuration file \(from `zlux-example-server/deploy/instance/ZLUX/serverConfig/zluxserver.json\`). The JSON configuration file adheres to a specific structure, as shown in the following figure:
 
     ```
