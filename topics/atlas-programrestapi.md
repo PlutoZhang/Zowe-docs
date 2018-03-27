@@ -11,4 +11,4 @@ Here is sample code written in JavaScript™ using features from ES6 to send a `
 -   **[Extended API sample in JavaScript](../topics/atlas-extendedapisample.md)**  
 Here is an extended API sample that is written using JavaScript™ with features from ES62015 \(map\).
 
-**Parent topic:** [Using Giza](../topics/using.md)
+**Parent topic:** [Using Project Giza](../topics/using.md)

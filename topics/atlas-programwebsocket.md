@@ -25,4 +25,4 @@ function initWebsocket(){
 }
 ```
 
-**Parent topic:** [Extending Giza](../topics/extend.md)
+**Parent topic:** [Using Atlas WebSocket services](../topics/atlas-websocket.md)

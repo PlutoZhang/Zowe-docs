@@ -1,4 +1,4 @@
-# Troubleshooting Atlas installation and configuration
+# Troubleshooting installing Atlas
 
 If Atlas REST APIs do not work, check the following items:
 
@@ -105,4 +105,4 @@ If the Atlas server cannot connect to the z/OSMF server, check the following ite
 By default, the Atlas server communicates with the z/OSMF server on the localhost address. If your z/OSMF server is on a different IP address to the Atlas server, for example, if you are running z/OSMF with Dynamic Virtual IP Addressing (DVIPA), you can change this by adding a `ZOSMF_HOST` parameter to the server.env file. For example: `ZOSMF_HOST=winmvs27`.
 
 
-**Parent topic:** [Installing and configuring Giza](topics/installandconfig.md)
+**Parent topic:** [Installing Project Giza](topics/installandconfig.md)
