@@ -20,6 +20,7 @@
     -   [Installing components of Project Giza](topics/installing.md)  
         -   [Installing zLUX](topics/installvirtualdesktop.md)
             -   [Setting up the Giza Node server and the ZSSAS on z/OS](topics/mvd-instsetupeverythingonzos.md)
+            -   [Starting the zLUX servers](topics/mvd-startzluxserver.md)
             -   [Opening the MVD in a browser](topics/mvd-instopendesktopbrowser.md)
         -   [Installing Atlas](topics/atlas-install.md)
         -   [Installing Brightside CLI](topics/cli-installcli.md)

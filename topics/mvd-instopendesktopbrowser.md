@@ -6,8 +6,8 @@ You can open the MVD in any supported browser.
     where:
 
     -   `myHost` is the host on which you ran the Giza Node server.
-    -   `httpPort` is the value that was assigned to `node.http.port` in zluxserver.json.
-    -   `httpsPort` is the value that was assigned to `node.https.port` in zluxserver.json.
-    For example, if you ran the Giza Node server on host `myhost` and the value that is assigned to `node.http.port` in zluxserver.json is 12345, you would specify `https://myhost:12345/ZLUX/plugins/com.rs.mvd/web/index.htm`.
+    -   `httpPort` is the value that was assigned to `node.http.port` in `zluxserver.json`.
+    -   `httpsPort` is the value that was assigned to `node.https.port` in `zluxserver.json`.
+    For example, if you ran the Giza Node server on host `myhost` and the value that is assigned to `node.http.port` in `zluxserver.json` is 12345, you would specify `https://myhost:12345/ZLUX/plugins/com.rs.mvd/web/index.htm`.
 
 2.   Browse the interface. 
