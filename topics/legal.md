@@ -8,7 +8,7 @@ See the LICENSE.txt included in the Project Giza Pax file.
 
 ## Notices
 
-See the NOTICE.txt included in the Project Giza Pax file.
+See the NOTICES.txt included in the Project Giza Pax file.
 
 ## Copyright information
 
