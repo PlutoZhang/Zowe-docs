@@ -8,7 +8,7 @@ The zLUX archive is distributed as a pax archive. When you unpack the archive, b
     -   [Verifying that your system meets the software requirements](mvd-verifysystemswreqs.md)
     -   [Confirming that Node.js is installed](mvd-instconfirmnodejsinstalled.md)
     -   [Verifying port number availability](mvd-instverifyportnumavailable.md)
-    - 
+ 
 1. To obtain the installation media, follow the instructions in [Obtain the Project Giza installation media](installing.md).
 2. Use the cd command to navigate to the directory in which you want to restore the zLUX archive, or create a new directory for that purpose and navigate to the new directory. 
 3.   Execute the pax command with these specific options to restore the zLUX archive under the current directory: 
