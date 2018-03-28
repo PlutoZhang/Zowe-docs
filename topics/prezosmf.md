@@ -28,7 +28,7 @@ IBM z/OSMF v2.3 documentation:
 Meet the following prerequisites before you use Project Giza:
 
 - [z/OS requirements](#zos-requirements)
-- [z/OSMF plug-in requirements](#z/osmf-plug-in-requirements)
+- [z/OSMF plug-in requirements](#zosmf-plug-in-requirements)
 - [REST services requirements](#rest-services-requirements)
 
 ### z/OS requirements
