@@ -5,7 +5,7 @@ Download the Project Giza installation media and transfer the files to client wo
 
 **Follow these steps:**
 
-1. Download the Project Giza PAX file from the [GitHub repository](https://github.com/gizafoundation/Downloads/releases/tag/v0.8.0).
+1. Download the Project Giza PAX file from the [GitHub repository](https://github.com/gizafoundation/Downloads/releases).
 
 2. Extract the contents of the Project Giza PAX file. The Giza PAX contains the following components:
     - Atlas PAX
