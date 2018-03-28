@@ -11,5 +11,5 @@ Project Giza delivers the following components:
 For more information about the tasks that you can perform with each component, see the following sections:
 
 -   **[Using zLUX](../topics/usingmvd.md)**
--   **[Using APIs](../topics/usingapis.md) **
+-   **[Using APIs](../topics/usingapis.md)**
 -   **[Using Brightside CLI](../topics/cli-usingcli.md)**
