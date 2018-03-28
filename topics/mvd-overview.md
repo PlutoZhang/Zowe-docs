@@ -1,6 +1,6 @@
 # zLux overview
 
-zLUX is collaborative open-source product that modernizes and simplifies working on the mainframe. With zLUX you can create applications to suit your specific needs. 
+zLUX is a product that modernizes and simplifies working on the mainframe. With zLUX you can create applications to suit your specific needs. 
 
 zLUX consists of the following components:
 
