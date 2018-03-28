@@ -9,25 +9,6 @@ In this article, we review all the Brightside CLI command groups and provide yo
 **Important:** Before you issue these commands, ensure that you create and [validate your zosmf profile](cli-validateInstallation.md) so that Brightside CLI can communicate with z/OS systems.
 
 Brightside CLI contains the following command groups:
-  - [ca-disk](#ca-disk)
-  - [cics](#cics)
-  - [compiler](#compiler)
-  - [config](#config)
-  - [contribute](#contribute)
-  - [db2](#db2)
-  - [endevor ](#endevor)
-  - [help](#help)
-  - [ipcs](#ipcs)
-  - [profiles](#profiles)
-  - [projects](#projects)
-  - [provisioning](#provisioning)
-  - [zos-console](#zos-console)
-  - [zos-files](#zos-files)
-  - [zos-jobs](#zos-jobs)
-  - [zos-ssh](#zos-ssh)
-  - [zos-tso](#zos-tso)
-  - [zos-utils](#zos-utils)
-  - [zosmf](#zosmf)
 
 ## ca-disk
 
@@ -230,7 +211,7 @@ With the zos-files command group, you can perform the following tasks:
 
 `bright zos-files -h`
 
-See [Submit a Job and Print Job Output](cli-submitjobprintoutput.md) for a use-case that demonstrates some zos-files commands.
+See [Submit a Job and Print Job Output](cli-scenarios.md) for a use-case that demonstrates some zos-files commands.
 
 ## zos-jobs
 
@@ -249,7 +230,7 @@ With the zos-jobs command group, you can perform the following tasks:
 
 `bright zos-jobs -h`
 
-See [Submit a Job and Print the Job Output](cli-submitjobprintoutput.md) for a use case that demonstrates some zos-jobs commands.
+See [Submit a Job and Print the Job Output](cli-scenarios.md) for a use case that demonstrates some zos-jobs commands.
 
 ## zos-ssh
 

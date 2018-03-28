@@ -20,10 +20,10 @@ returns as *OK*, *Warning*, or *Failed*. If you receive a *Warning* or
 *Failed* result on a test, you can refer to IBM documentation for
 information on how to configure that particular REST API. For
 information on which of the z/OSMF REST APIs Brightside CLI uses,
-see [Configure z/OS Management Facility Security](./cli-configzosmfsecurity.md). We provide links to IBM documentation for configuring each REST API. 
+see [z/OSMF requirements](prezosmf.md). We provide links to IBM documentation for configuring each REST API. 
 
 For example, you receive a *Failed* result on the "Issue Console
-command" task. Refer to the list of REST APIs in [Configure z/OS Management Facility Security](./cli-configzosmfsecurity.md) and follow the links to
+command" task. Refer to the list of REST APIs in [z/OSMF requirements](prezosmf.md) and follow the links to
 the corresponding IBM documentation for the z/OS console services API. 
 
 

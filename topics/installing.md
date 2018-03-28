@@ -11,7 +11,6 @@ Download the Project Giza installation media and transfer the files to client wo
     - Atlas PAX
     - Brightside CLI .tgz file
     - zLux PAX
-    - Source code for all components
 
 Before you install the components of Project Giza, ensure that you meet [the prerequisites](planinstall.md).
 
