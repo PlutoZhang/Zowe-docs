@@ -264,11 +264,10 @@ To verify that IBM z/OSMF is configured correctly, follow these steps to create 
 5. [Use the profile validation report to identify and correct errors](cli-validateInstallationcorrectproblems.md) with your z/OSMF configuration.
     If you recieve a perfect score on the validation report, Project Giza can communicate with z/OSMF properly.
 
-**Note:** Before your run the profile validation, check that JES2 is accepting jobs with `CLASS=C` by issuing the following command in SDSF:
+**Note:** Before your run the profile validation, check that JES2 is accepting jobs with CLASS=C by issuing the following command in SDSF:
 
-    
 ```/$D I```
-    
+
 You will see responses like the following in SYSLOG:
 
 ```$HASP892 INIT(3)   STATUS=ACTIVE,CLASS=AB,...```
