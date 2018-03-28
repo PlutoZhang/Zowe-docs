@@ -2,6 +2,7 @@
 
 When you experience problems, refer to these topics to determine the corrective actions to take.
 
--   **[Troubleshooting installing zLUX](topics/mvd-troubleshoot.md)**
--   **[Troubleshooting installing Atlas](../topics/atlas-troubleshoot.md)**  
--   **[Troubleshooting installing Brightside CLI](cli-troubleshootinginstallingcli.md)**  
+-   **[Troubleshooting Installing zLux](../topics/mvd-troubleshoot.md)**  
+-   **[Troubleshooting Installing Atlas](../topics/atlas-troubleshoot.md)**  
+-   **[Troubleshooting Installing Brightside CLI](cli-troubleshootinginstallingcli.md)**  
+

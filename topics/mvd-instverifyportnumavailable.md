@@ -2,7 +2,7 @@
 
 Before you begin your zLUX configuration, it is a good idea to verify the availability of the various port numbers the you will need to specify for zLUX communications.
 
-zLUX requires you to configure these port numbers in the zlux-example-server/config/zluxserver.json configuration file:
+zLUX requires you to configure these port numbers in the `zlux-example-server/config/zluxserver.json` configuration file:
 
 -   `zssPort`, which is the port through which the Giza Node server communicates with the ZLUX Secure Services address space. By default, zLUX uses port 8542 for this purpose.
 -   An HTTP port for unencrypted access from the browser. By default, zLUX uses port 8543 for this purpose.

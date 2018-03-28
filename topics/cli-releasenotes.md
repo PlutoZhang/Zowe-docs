@@ -1,4 +1,4 @@
-# Overview of Brightside CLI
+# Brightside CLI overview
 
 Brightside Command Line Interface (Brightside CLI) lets
 application developers interact with the mainframe in a format that is
@@ -23,11 +23,9 @@ Brightside CLI provides the following benefits:
   - Provides a more streamlined way to build software that integrates
     with z/OS platforms. 
 
-The following sections explain the key features and details
-for Brightside CLI.
+The following sections explain the key features and details for Brightside CLI.
 
 **Note:** For installation, upgrade, and software requirements, see [Installing Brightside CLI](cli-installcli.md).
-
 
 ## Solution video
 
