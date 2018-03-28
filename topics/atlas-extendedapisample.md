@@ -2,17 +2,17 @@
 
 Here is an extended API sample that is written using JavaScript™ with features from ES62015 \(map\).
 
-```         
-//////////////////////////////////////////////////////////////////////////////////////
-// Extended API Sample
+```
+/////////////////////////////////////////////////////////////////////////////
+// Extended API Sample 
 // This Sample is written using Javascript with features from ES62015 (map).
-// The sample is also written using JSX giving the ability to return HTML elements
-// with javascript variables embedded. This sample is based upon the codebase of the
+// The sample is also written using JSX giving the ability to return HTML elements 
+// with javascript variables embedded. This sample is based upon the codebase of the 
 // sample UI (see- hostname:port/ui) which is written using Facebook's React, Redux,
 // Router and Google's material-ui
-//////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
 
-// Return a table with rows detailing the name and jobID of all jobs matching
+// Return a table with rows detailing the name and jobID of all jobs matching      
 // the specified parameters
 function displayJobNamesTable(){
     let jobsJSON = getJobs("*","IBMUSER");
@@ -34,8 +34,9 @@ function getJobs(owner, prefix){
                             //handle any error                             
                             console.log("An error occoured: " + e);                                           
                         });     
-     return result;
+     return result; 
 }
 ```
 
 **Parent topic:** [Programming Atlas REST APIs](../topics/programrestapi.md)
+

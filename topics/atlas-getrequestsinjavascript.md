@@ -9,11 +9,11 @@ const BASE_URL = 'hostname.com:port/Atlas/api';
 function getJobs(){
     let parameters = "prefix=*&owner=IBMUSER";     
     let contentURL = `${BASE_URL}/jobs?${parameters}`;     
-    let result = fetch(contentURL, {credentials: "include"})                     
-                    .then(response => response.json())                         
+    let result = fetch(contentURL, {credentials: "include"})
+                    .then(response => response.json())
                         .catch((e) => {                             
                             //handle any error                             
-                            console.log("An error occoured: " + e);                                             
+                            console.log("An error occoured: " + e);      
                         });     
      return result;
 }
