@@ -14,7 +14,7 @@ Before you issue the z/OSMF profile validation command, ensure that the followi
 
 You issue the z/OSMF validate profile command to verify that your Brightside CLI mainframe security access has been properly configured and that your profile details are correct. With the command, you can verify your default profile or any other specific profile.    
 
-Issue the following command to view a list of the tests that the profile validation command will run:    
+Issue the following command to view a list of the tests that the profile validation command will run: 
 
 ```bright zosmf validate profile --print-plan-only```
 
