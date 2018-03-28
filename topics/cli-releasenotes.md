@@ -120,7 +120,6 @@ software:
   - yamljs
   - yargs
 
-**Note:** All trademarks, trade names, service marks, and logos
-referenced herein belong to their respective companies.
+**Note:** All trademarks, trade names, service marks, and logos referenced herein belong to their respective companies.
 
-To read each complete license [right-click here to download the attached zip file](/attachments/448246817.zip).
+To read each complete license, open the directory where you extracted the contents of the Brightside CLI .tgz file. Open the file named Brightside_CLI_TPSRs.zip. The .zip file contains the licenses for all of the third-party components that Brightside CLI uses.   
