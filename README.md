@@ -64,4 +64,4 @@
         -  [Enabling and disabling experimental commands](topics/cli-enabledisablexperimentalcommands.md)
         -  [Brightside CLI scenarios](topics/cli-scenarios.md)
     -  [Legal information](topics/legal.md)
-        -  [CA Technologies documentation legal notice](topics/cli-legalnotices.md)
+        -  [CA Technologies documentation legal notices](topics/cli-legalnotices.md)
