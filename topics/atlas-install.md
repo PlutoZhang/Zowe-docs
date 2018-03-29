@@ -8,7 +8,7 @@ To install Atlas, complete the following steps:
 
 1. [Obtain the Project Giza installation media](installing.md), which includes the Atlas PAX file.
 
-2. Transfer the extracted Atlas PAX archive that contains Liberty Profile binaries and the Atlas application to z/OS® System. Alternatively, transfer the Atlas archive to your z/OS system, and extract the archive.
+2. Transfer the extracted Atlas PAX archive that contains Liberty Profile binaries and the Atlas application to z/OS® System.
 
 3. Transfer the Atlas Install script to z/OS. You can find it in the scripts/atlas directory.
 
