@@ -8,39 +8,37 @@ To install Atlas, complete the following steps:
 
 1. [Obtain the Project Giza installation media](installing.md), which includes the Atlas PAX file.
 
-2. Transfer the following files to z/OS® System:
+2. Transfer the extracted Atlas PAX archive that contains Liberty Profile binaries and the Atlas application to z/OS® System. Alternatively, transfer the Atlas archive to your z/OS system, and extract the archive.
 
-    -   The Atlas PAX archive that contains Liberty Profile binaries and the Atlas application.
-    -   The Atlas Install script
+3. Transfer the Atlas Install script to z/OS. You can find it in the scripts/atlas directory.
 
-    **Note:** The Atlas Install script is an ASCII file. If the Install script is transferred by using FTP, the Install script is converted into the appropriate format for the server. If the Install script is transferred by using SCP or SFTP, the Install script is not converted, and it should be converted by taking the action specified in the **Important** note below.
+     **Note:** The Atlas Install script is an ASCII file. If the Install script is transferred by using FTP, the Install script is converted into the appropriate format for the server. If the Install script is transferred by using SCP or SFTP, the Install script is not converted, and it should be converted by taking the action specified in the **Important** note below.
 
-    Alternatively, transfer the Atlas archive to your z/OS system, and extract the archive. The Atlas archive contains the following files:
+     The Install script should be converted by taking the action specified in the **Important** note below.
 
-    -   The Atlas PAX archive that contains Liberty Profile binaries and the Atlas application
-    -   The Atlas Install script
-    -   This User's Guide
-    -   The readme file
-
-    Extracting the archive on the server does not convert the Install script. The Install script should be converted by taking the action specified in the **Important** note below.
-
-    **Important:** To convert the Install script from ASCII into the standard EBCDIC code page, use `ICONV`. For example,
+     **Important:** To convert the Install script, use the ICONV command. For example,
 
     ```
-    iconv -f ISO8859-1 -t IBM-1047 atlas-wlp-package-0.0.1.sh > atlas-wlp-package-EBCDIC.sh
+    iconv -f ISO8859-1 -t "UTF-8" atlas-wlp-package-0.0.3.sh > atlas-wlp-package-CONVERTED.sh
     ```
 
-    **Note:** Transfer the PAX archive and the Install script in binary mode to the Atlas installation directory that is chosen during planning, for example, `/var/atlas`, or wherever you choose to install Atlas.
+4. Run the Atlas Install script.
 
-3. Run the Atlas install script.
-
-    The install script must be transferred to the same Atlas installation directory of the Atlas PAX archive. Run the install script in the installation directory with a user ID that has the authority to:
+    Run the install script in the installation directory with a user ID that has the authority to:
 
     -   Unpack the Atlas PAX archive and install Atlas into the installation directory, for example, `/var/atlas`. About 205 MB is needed to unpack the archive and more space is needed for Liberty operation and logging.
     -   Set the file group ownership to IZUADMIN.
-    -   Create symbolic links to the files that z/OSMF owns.
+    -   Create symbolic links to the files that z/OSMF owns.  
 
     Therefore, use super user authority to run the Atlas install script.
+
+    To run the script, first give the script execute permission using the following command:
+
+    ```
+    chmod u+x atlas-wlp-package-CONVERTED.sh
+    ./atlas-wlp-package-CONVERTED.sh
+    ```
+    
 
 4. Change the ownership of Atlas installation directory and files.
 

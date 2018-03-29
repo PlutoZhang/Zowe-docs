@@ -147,7 +147,7 @@ navtitle="z/OS System APIs" scope="local"></topicref>
 navtitle="Programming Atlas REST APIs" scope="local">
 <topicref format="md" href="topics/atlas-getrequestinjava.md"
 navtitle="Sending a GET request in Java" scope="local"></topicref>
-<topicref format="md" href="topics/atlas-postrequestinjavascript.md"
+<topicref format="md" href="topics/atlas-getrequestsinjavascript.md"
 navtitle="Sending a GET request in JavaScript" scope="local"></topicref>
 <topicref format="md" href="topics/atlas-postrequestinjavascript.md"
 navtitle="Sending a POST request in JavaScript" scope="local">
@@ -160,7 +160,7 @@ navtitle="Extended API sample in JavaScript" scope="local"></topicref>
 navtitle="Using Atlas WebSocket services" scope="local">
 <topicref format="md" href="topics/atlas-programwebsocket.md"
 navtitle="Programming Atlas WebSocket services" scope="local">
-</topicref>
+</topicref><?Pub Caret -2?>
 </topicref>
 </topicref>
 <topicref format="md" href="topics/cli-usingcli.md"
@@ -178,7 +178,8 @@ navtitle="Brightside CLI scenarios" scope="local"></topicref>
 </topicref>
 </chapter>
 <ibmbackmatter>
-<topicref format="md" href="topics/legal.md" navtitle="Legal information"/>
-</ibmbackmatter><?Pub Caret -1?>
+<topicref format="md" href="topics/legal.md" navtitle="Legal information">
+</topicref>
+</ibmbackmatter>
 </ibmbook>
-<?Pub *0000008884?>
+<?Pub *0000008856?>

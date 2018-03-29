@@ -65,3 +65,4 @@
         -  [Brightside CLI scenarios](topics/cli-scenarios.md)
     -  [Legal information](topics/legal.md)
         -  [CA Technologies documentation legal notices](topics/cli-legalnotices.md)
+        -  [Rocket Software legal notices](topics/mvd-zluxlegalnotices.md)
