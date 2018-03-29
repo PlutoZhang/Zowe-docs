@@ -157,7 +157,7 @@ To install Atlas, complete the following steps:
     chmod u+x install-CONVERTED.sh
     ./install-CONVERTED.sh
     ```
-    9.2.    Restart zLUX 
+    9.3.    Restart zLUX 
 
 10. Optional: Change your language in Atlas by adding the following line to the `jvm.options` file, for example,
 
