@@ -1,4 +1,4 @@
-# Notices
+# IBM Notices
 
 This information was developed for products and services offered in the U.S.A.
 
@@ -42,7 +42,7 @@ This information contains sample application programs in source language, which 
 
 Each copy or any portion of these sample programs or any derivative work, must include a copyright notice as follows:
 
-© \(your company name\) \(year\). Portions of this code are derived from IBM Corp. Sample Programs. © Copyright IBM Corp. 1992, 2017.
+© \(your company name\) \(year\). Portions of this code are derived from IBM Corp. Sample Programs. © Copyright IBM Corp. 1992, 2018.
 
 If you are viewing this information in softcopy, the photographs and color illustrations may not appear.
 
@@ -79,4 +79,3 @@ IBM reserves the right to withdraw the permissions granted herein whenever, in i
 You may not download, export or re-export this information except in full compliance with all applicable laws and regulations, including all United States export laws and regulations.
 
 IBM MAKES NO GUARANTEE ABOUT THE CONTENT OF THESE PUBLICATIONS. THE PUBLICATIONS ARE PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE.
-

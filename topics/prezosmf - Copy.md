@@ -1,16 +1,23 @@
 # Prerequisites for z/OSMF configuration
 
-IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Project Giza microservice that must be installed and running before you use Project Giza. This article consists of the following information:
+IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Project Giza microservice that must be installed and running before you use Project Giza.
 
-- z/OSMF Requirements for Project Giza
-- Configuring z/OSMF
-- Verifying your z/OSMF configuration
+- [z/OSMF Requirements for Project Giza](#zosmf-requirements-for-project-giza)
+- [Configuring z/OSMF](#configuring-zosmf)
+- [Verifying your z/OSMF configuration](#verifying-your-zosmf-configuration)
 
 **Important!** The IBM z/OS Management Facility
 guides on the IBM Knowledge Center are your primary source of information
 about how to install and configure z/OSMF. In this article, we provide procedures and tips for the configuration required for Project Giza. We recommend that you open the following IBM documentation in a separate browser tab (The z/OSMF process differs depending on whether you have z/OS v2.2 or v2.3):
 
-IBM z/OSMF documentation:
+IBM z/OSMF v2.2 documentation:
+
+- [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
+
+- [IBM z/OS Management Facility Configuration Guide]( https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua300/IZUHPINFO_PartConfiguring.htm)
+
+
+IBM z/OSMF v2.3 documentation:
 
 - [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm)
 
@@ -18,7 +25,11 @@ IBM z/OSMF documentation:
 
 
 ## z/OSMF Requirements for Project Giza
-Meet the following requirements before you use Project Giza:
+Meet the following prerequisites before you use Project Giza:
+
+- [z/OS requirements](#zos-requirements)
+- [z/OSMF plug-in requirements](#zosmf-plug-in-requirements)
+- [REST services requirements](#rest-services-requirements)
 
 ### z/OS requirements
 Ensure that your z/OS system meets the following requirements for z/OSMF to function properly with Project Giza:
@@ -88,11 +99,9 @@ operate Project Giza successfully.
 For more information, refer to the IBM z/OSMF documentation for each REST service.
 
 ## Configuring z/OSMF
+Follow these steps to verify your system requirements:
 
-1. Verify your system requirements.
-
-    For z/OS v2.2 or later, use any of the following options to determine which version is installed:
-
+1. For z/OS v2.2 or later, use any of the following options to determine which version is installed:
     - If you have access to the console, for example, in SDSF, issue the command:
 
         ```
@@ -123,9 +132,7 @@ For more information, refer to the IBM z/OSMF documentation for each REST servic
 
         Release . : ISPF 7.3    --> z/OS v2.3
 
-2. Configure z/OSMF.
-
-    For z/OS V2.2 users, take the following steps to configure z/OSMF:
+2. Configure z/OSMF. For z/OS V2.2 users, take the following steps to configure z/OSMF:
 
     z/OSMF is a base element of z/OS v2.2 and v2.3, so it should already be installed. However, it is not guaranteed to be configured and running on every z/OS V2.2 and V2.3 system.
 
@@ -195,48 +202,48 @@ For more information, refer to the IBM z/OSMF documentation for each REST servic
 
         From the output above, you can see that only 26.711 MB is available (because z/OSMF is already installed), but the total in that file system is 535.68 MB, so enough space was available when the file system was created.
 
-    - Verify your browser support. Confirm that the machine from which you plan to run the Giza desktop runs one of the supported browsers:
+   - Verify your browser support. Confirm that the machine from which you plan to run the Giza desktop runs one of the supported browsers:
         - Chrome version 54 or later
         - Firefox version 44 or later
         - Microsoft Edge
 
       **Note**: Microsoft Internet Explorer is not yet supported at any version.
 
-4. After configuring z/OSMF, verify the following items to ensure z/OSMF is ready for Project Giza.
+4.After configuring z/OSMF, verify the following items to ensure z/OSMF is ready for Project Giza.
 
-    Check that the z/OSMF server and angel processes are running. From SDSF on z/OS, use the `DA` command or issue the following command on the command input line:
+   Check that the z/OSMF server and angel processes are running. From SDSF on z/OS, use the `DA` command or issue the following command on the command input line:
 
-    ```
-    /D A,IZU*
-    ```
+   ```
+   /D A,IZU*
+   ```
 
-    If you don't see jobs like IZUANG1 and IZUSVR1 active, start the angel process with the following command:
+   If you don't see jobs like IZUANG1 and IZUSVR1 active, start the angel process with the following command:
 
-    ```
-    /S IZUANG1
-    ```
+   ```
+   /S IZUANG1
+   ```
 
-    When you see the message **CWWKB0056I INITIALIZATION COMPLETE FOR ANGEL**, start the server with the following command:
+   When you see the message **CWWKB0056I INITIALIZATION COMPLETE FOR ANGEL**, start the server with the following command:
 
-    ```
-    /S IZUSVR1
-    ```
+   ```
+   /S IZUSVR1
+   ```
 
-    The server might take a couple of minutes to fully initialize. The z/OSMF server is available when the following message **CWWKF0011I: The server zosmfServer is ready to run a smarter planet.** is displayed.
+   The server might take a couple of minutes to fully initialize. The z/OSMF server is available when the following message **CWWKF0011I: The server zosmfServer is ready to run a smarter planet.** is displayed.
 
-    You can test z/OSMF with your browser by first finding the startup messages in the SDSF log of the z/OSMF server by using the following find command:
+   You can test z/OSMF with your browser by first finding the startup messages in the SDSF log of the z/OSMF server by using the following find command:
 
-    ```
-    f IZUG349I
-    ```
+   ```
+   f IZUG349I
+   ```
 
-    You should see these lines:
+   You should see these lines:
 
-    `IZUG349I: The z/OSMF STANDALONE Server home page can be accessed at  https://mvs.hursley.ibm.com:443/zosmf after the z/OSMF server is started on your system.`
+   `IZUG349I: The z/OSMF STANDALONE Server home page can be accessed at  https://mvs.hursley.ibm.com:443/zosmf after the z/OSMF server is started on your system.`
 
-    From the lines above, the port number is 443. You will need this port number later.
+   From the lines above, the port number is 443. You will need this port number later.
 
-    Point your browser at the nominated z/OSMF STANDALONE Server home page and you should see its Welcome Page where you can log in.
+   Point your browser at the nominated z/OSMF STANDALONE Server home page and you should see its Welcome Page where you can log in.
 
 ## Verifying your z/OSMF configuration
 To verify that IBM z/OSMF REST services are configured correctly in your environment, type the REST endpoint into your browser. For example: https://mvs.ibm.com:443/zosmf/restjobs/jobs
@@ -259,20 +266,14 @@ To verify that IBM z/OSMF is configured correctly, follow these steps to create 
 
 **Note:** Before your run the profile validation, check that JES2 is accepting jobs with CLASS=C by issuing the following command in SDSF:
 
-```
-/$D I
-```
+```/$D I```
 
 You will see responses like the following in SYSLOG:
 
-```
-$HASP892 INIT(3)   STATUS=ACTIVE,CLASS=AB,...
-```
+```$HASP892 INIT(3)   STATUS=ACTIVE,CLASS=AB,...```
 
 If none of the initiators has **C** in its CLASS list, add **C** to the list of any initiator. For example, initiator 3 as shown above, with the following command:
 
-```
-/$T I3,CL=ABC
-```
+```/$T I3,CL=ABC```
 
 **Parent topic:** [Prerequisites](../topics/planinstall.md)
