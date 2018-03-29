@@ -38,7 +38,6 @@ To install Atlas, complete the following steps:
     chmod u+x atlas-wlp-package-CONVERTED.sh
     ./atlas-wlp-package-CONVERTED.sh
     ```
-    
 
 5. Change the ownership of Atlas installation directory and files.
 
@@ -145,13 +144,17 @@ To install Atlas, complete the following steps:
     ```
 
     To start Atlas automatically at IPL, add the `START` command to your active COMMNDxx parmlib member.
-    
-10.  Optional: Configure the Atlas apps to launch within zLUX, navigate to AtlasInstallDirectory/wlp/atlasZluxInjection and run the install script then restart zLUX **Note** If an iconv was required for the initial Atlas install script you will also need to convert this script.
 
+10. Optional: Configure the Atlas apps to launch within zLUX, navigate to AtlasInstallDirectory/wlp/atlasZluxInjection, run the install script, and restart zLUX.
+
+    **Note:** If an iconv was required for the initial Atlas install script, you also need to convert this script.
+
+    ```
     iconv -f ISO8859-1 -t "UTF-8" install.sh > install-CONVERTED.sh
-    
+
     chmod u+x install-CONVERTED.sh
     ./install-CONVERTED.sh
+    ```
 
 11. Optional: Change your language in Atlas by adding the following line to the `jvm.options` file, for example,
 
