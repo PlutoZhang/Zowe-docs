@@ -10,11 +10,7 @@ To install Atlas, complete the following steps:
 
 2. Transfer the extracted Atlas PAX archive that contains Liberty Profile binaries and the Atlas application to z/OS® System. Alternatively, transfer the Atlas archive to your z/OS system, and extract the archive.
 
-3. Transfer the Atlas Install script to z/OS. You can find it in the scripts/atlas directory. Use the ICONV command to transfer the script, for example,
-
-    ```
-    iconv -f ISO8859-1 -t "UTF-8" atlas-wlp-package-0.0.3.sh > atlas-wlp-package- CONVERTED.sh
-    ```
+3. Transfer the Atlas Install script to z/OS. You can find it in the scripts/atlas directory.
 
      **Note:** The Atlas Install script is an ASCII file. If the Install script is transferred by using FTP, the Install script is converted into the appropriate format for the server. If the Install script is transferred by using SCP or SFTP, the Install script is not converted, and it should be converted by taking the action specified in the **Important** note below.
 
@@ -26,8 +22,6 @@ To install Atlas, complete the following steps:
     iconv -f ISO8859-1 -t "UTF-8" atlas-wlp-package-0.0.3.sh > atlas-wlp-package-CONVERTED.sh
     ```
 
-     **Note:** Transfer the PAX archive and the Install script in binary mode to the Atlas installation directory that is chosen during planning, for example, /var/atlas, or wherever you choose to install Atlas.
-
 4. Run the Atlas Install script.
 
     Run the install script in the installation directory with a user ID that has the authority to:
@@ -38,11 +32,13 @@ To install Atlas, complete the following steps:
 
     Therefore, use super user authority to run the Atlas install script.
 
-    To run the script, use the following command:
+    To run the script, first give the script execute permission using the following command:
 
     ```
     chmod u+x atlas-wlp-package-CONVERTED.sh
+    ./atlas-wlp-package-CONVERTED.sh
     ```
+    
 
 4. Change the ownership of Atlas installation directory and files.
 
