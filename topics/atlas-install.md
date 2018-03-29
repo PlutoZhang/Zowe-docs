@@ -146,9 +146,7 @@ To install Atlas, complete the following steps:
 
     To start Atlas automatically at IPL, add the `START` command to your active COMMNDxx parmlib member.
     
-10.  Optional: Configure the Atlas apps to launch within zLUX, navigate to AtlasInstallDirectory/wlp/atlasZluxInjection and run the install script then restart zLUX
-    **Note** If an iconv was required for the initial atlas install script you will also need to convert this script
-    
+10.  Optional: Configure the Atlas apps to launch within zLUX, navigate to AtlasInstallDirectory/wlp/atlasZluxInjection and run the install script then restart zLUX **Note** If an iconv was required for the initial Atlas install script you will also need to convert this script.
     ```
     iconv -f ISO8859-1 -t "UTF-8" install.sh > install-CONVERTED.sh
     
