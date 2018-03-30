@@ -1,4 +1,4 @@
-﻿# Rocket Software, Inc. notices
+# Rocket Software, Inc. notices
 
 ## Copyright
 
