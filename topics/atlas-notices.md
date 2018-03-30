@@ -1,4 +1,4 @@
-# IBM Notices
+# IBM notices
 
 This information was developed for products and services offered in the U.S.A.
 

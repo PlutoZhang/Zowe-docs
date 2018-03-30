@@ -66,6 +66,5 @@
         -  [Brightside CLI scenarios](topics/cli-scenarios.md)
     -  [Notices](topics/notices_toc.md)
         -  [IBM notices](topics/atlas-notices.md)
-        -  [CA Technologies notices](topics/cli-legalnotices.md)
         -  [Rocket Software notices](topics/mvd-zluxlegalnotices.md)
-
+        -  [CA Technologies notices](topics/cli-legalnotices.md)
