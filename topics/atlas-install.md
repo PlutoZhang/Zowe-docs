@@ -8,7 +8,7 @@ To install Atlas, complete the following steps:
 
 1. [Obtain the Project Giza installation media](installing.md), which includes the Atlas PAX file.
 
-2. Transfer the extracted Atlas PAX archive that contains Liberty Profile binaries and the Atlas application to z/OS® System. Alternatively, transfer the Atlas archive to your z/OS system, and extract the archive.
+2. Transfer the extracted Atlas PAX archive that contains Liberty Profile binaries and the Atlas application to z/OS® System.
 
 3. Transfer the Atlas Install script to z/OS. You can find it in the scripts/atlas directory.
 
@@ -38,9 +38,8 @@ To install Atlas, complete the following steps:
     chmod u+x atlas-wlp-package-CONVERTED.sh
     ./atlas-wlp-package-CONVERTED.sh
     ```
-    
 
-4. Change the ownership of Atlas installation directory and files.
+5. Change the ownership of Atlas installation directory and files.
 
     The user who runs the Atlas Liberty server needs the access to the Atlas installation directory and files. You can use the same user ID that runs the z/OSMF IZUSVR1 started task to run the Atlas Liberty server. By default, it is the user IZUSVR.
 
@@ -52,7 +51,7 @@ To install Atlas, complete the following steps:
 
     You might need super user authority to run this command. Use an alternative user ID if you chose not to use the default z/OSMF IZUSVR1 started task user.
 
-5. Create a member FEKATLS in your system PROCLIB data set.
+6. Create a member FEKATLS in your system PROCLIB data set.
 
     The install script creates a file that is called `FEKATLS.jcl` is created in your Atlas installation directory. Copy this file to a system PROCLIB data set by using the following z/OS UNIX System Services command:
 
@@ -62,7 +61,7 @@ To install Atlas, complete the following steps:
 
     The FEKATLS procedure starts a Liberty profile server running the Atlas microservice application.
 
-6. Configure the FEKATLS started procedure.
+7. Configure the FEKATLS started procedure.
 
     To run the FEKATLS procedure as the user IZUSVR, define the procedure to the STARTED class by using RACF® or equivalent, for example:
 
@@ -126,7 +125,7 @@ To install Atlas, complete the following steps:
 
     ```
 
-7. Add Atlas users to the z/OSMF users group \(IZUUSER\).
+8. Add Atlas users to the z/OSMF users group \(IZUUSER\).
 
     Atlas uses z/OSMF to access data sets, z/OS UNIX System Services files, and job spool files. To use these z/OSMF services, Atlas users must be authorized to z/OSMF resources. For more information, see the *IBM z/OS Management Facility Configuration Guide*, Appendix A.
 
@@ -136,7 +135,7 @@ To install Atlas, complete the following steps:
     CONNECT userid GROUP(IZUUSER) AUTH(USE)
     ```
 
-8. Start the Atlas server.
+9. Start the Atlas server.
 
     To start Atlas manually, enter the `START` operator command:
 
@@ -146,7 +145,18 @@ To install Atlas, complete the following steps:
 
     To start Atlas automatically at IPL, add the `START` command to your active COMMNDxx parmlib member.
 
-9. Optional: Change your language in Atlas by adding the following line to the `jvm.options` file, for example,
+10. Optional: Configure the Atlas apps to launch within zLUX, navigate to AtlasInstallDirectory/wlp/atlasZluxInjection, run the install script, and restart zLUX.
+
+    **Note:** If an iconv was required for the initial Atlas install script, you also need to convert this script.
+
+    ```
+    iconv -f ISO8859-1 -t "UTF-8" install.sh > install-CONVERTED.sh
+
+    chmod u+x install-CONVERTED.sh
+    ./install-CONVERTED.sh
+    ```
+
+11. Optional: Change your language in Atlas by adding the following line to the `jvm.options` file, for example,
 
     ```
     -Duser.language=de

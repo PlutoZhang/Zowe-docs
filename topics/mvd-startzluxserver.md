@@ -1,6 +1,6 @@
-# Starting the zLUX servers
+# Starting the zLUX server
 
-Complete these steps to start the servers:
+Complete these steps to start the server:
 
 1.  Navigate to `zlux-example-server/bin`.
 2.  Run `nodeServer.sh`:

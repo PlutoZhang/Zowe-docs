@@ -51,4 +51,4 @@ To update the server configuration, run `zlux-example-server/build/deploy.sh`
 
 
      
-Go on to  [Starting the zLUX servers](mvd-startzluxserver.md).
+Go on to [Starting the zLUX server](mvd-startzluxserver.md).
