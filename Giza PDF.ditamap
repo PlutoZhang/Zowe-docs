@@ -180,9 +180,9 @@ navtitle="Brightside CLI scenarios" scope="local"></topicref>
 <ibmbackmatter>
 <topicref format="md" href="topics/notices_toc.md" navtitle="Notices">
 <topicref href="topics/atlas-notices.md" format="md" navtitle="IBM notices"/>
+<topicref href="topics/mvd-zluxlegalnotices.md" format="markdown"
+navtitle="Rocket Software, Inc. notices"/>
 <topicref href="topics/cli-legalnotices.md" format="markdown" navtitle="CA Technologies notices"/>
-<topicref href="topics/mvd-zluxlegalnotices.md" format="markdown" navtitle="Rocket Software notices"
-/>
 </topicref>
 </ibmbackmatter>
 </ibmbook>
