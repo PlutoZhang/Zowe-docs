@@ -17,7 +17,7 @@ Before getting started with Project Giza, please acquaint yourself with the foll
 |Command Groups|N/A|Brightside CLI contains command groups that focus on specific business processes that application developers and systems programmers perform during their day-to-day activities. |
 |Experimental Commands|N/A|Brightside CLI includes experimental commands that are currently in development and are not ready for general availability. Users can enable or disable these commands. Experimental commands are disabled by default.|
 |z/OS Lightweight User Experience|zLUX|Framework, MVD, plugin applications, TN3270 emulator, and Discovery.|
-|ZLUX Secure Services address space|ZSS|The server that provides secure REST services to support the Giza Node Server.|
+|zLUX Secure Services address space|ZSS|The server that provides secure REST services to support the Giza Node Server.|
 |Giza Node Server|N/A|Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components.|
 |TN3270|N/A|A limited license Giza plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running.|
 |Application|N/A|A plug-in that is an application.|

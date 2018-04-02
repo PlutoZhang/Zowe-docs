@@ -14,7 +14,8 @@ Your system must meet the software requirements for zLUX.
         -   Safari version 11 or later
         -   Microsoft Edge
         **Note:** Microsoft Internet Explorer is not yet supported at any version level.
-
+        
+2.   When building zLUX applications, npm is used. The version of npm needed for the build to succeed should be at least 5.4. You can update npm by executing `npm install -g npm`
 2.   If your environment does not meet these requirements, consult your system administrator. 
 
 When you have confirmed that your environment meets the software requirements, go on to [Confirming that Node.js is installed](mvd-instconfirmnodejsinstalled.md).
