@@ -54,21 +54,20 @@ profiles to target different systems.
     
     A list of data sets displays in Brightside CLI.
 
-3.  Issue the following command to list all members in a specified data
-    set:
+3.  Issue the following command to list all members in a specified data set:
+    
     ```
     bright zos-files list members "USERID.public.compile.jcl"
-    ```   
-    A list of data set members displays after you issue the command.
-    Identify the members that contain JCL and compiler options that you
-    want to edit.
+    ```
+    A list of data set members displays after you issue the command. Identify the members that contain JCL and compiler options that you want to edit.
 
 4.  Issue the following commands to launch the members that contain the JCL and the compiler options in your IDE to edit the code.
     
     a.  Issue the following command to edit the compiler
-        options: 
-
-        ```bright zos-files edit data-set "USERID.public.compile.jcl($mtlopt)" --ec code --kw -e jcl```
+        options:   
+    ```
+    bright zos-files edit data-set "USERID.public.compile.jcl($mtlopt)" --ec code --kw -e jcl
+    ```
 
      **Tip:** This example shows the command with the following command options: 
         
@@ -79,9 +78,9 @@ profiles to target different systems.
         Issue the `--help ` command after any Brightside CLI command to see more available options. For more information about getting help, see [How to Display Brightside CLI Help](cli-howtodisplaybrightsidehelp.md).
           
     b.  Issue the following command to edit the job:   
-        ```
-        bright zos-files edit data-set "USERID.public.compile.jcl(enfmtlc)" --ec code --kw -e jcl
-        ```            
+    ```
+    bright zos-files edit data-set "USERID.public.compile.jcl(enfmtlc)" --ec code --kw -e jcl
+    ```            
     The files open in your IDE automatically, as illustrated by the following screen:
              
     ![Edit jcl and compiler options to compile in 64-bit mode in Visual Studio Code](../images/scenario/441193424.png "Edit a Job in Visual Studio Code - Before")
@@ -98,7 +97,9 @@ profiles to target different systems.
     
 6.  Issue the following command to submit the job that contains the modified JCL:  
     
-    ```bright zos-jobs submit ds "USERID.public.compile.jcl(enfmtlc)" -P```   
+    ```
+    bright zos-jobs submit ds "USERID.public.compile.jcl(enfmtlc)" -P
+    ```   
     
     **Tip:** This example shows the **-P** command option, which prints all spool output after the job completes.
        
