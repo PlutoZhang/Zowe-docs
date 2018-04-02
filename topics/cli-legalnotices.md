@@ -1,4 +1,4 @@
-# CA legal notices
+# CA documentation legal notices
 
 This Documentation, which includes embedded help systems and
 electronically distributed materials, (hereinafter referred to as the
