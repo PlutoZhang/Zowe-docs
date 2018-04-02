@@ -1,8 +1,8 @@
-# Setting up the Giza Node server and the ZLUX Secure Services address space on z/OS
+# Setting up the Giza Node server and the zLUX Secure Services address space on z/OS
 
-Setting up the Giza Node server and the ZLUX Secure Services address space on z/OS is a multi-step installation and configuration process.
+Setting up the Giza Node server and the zLUX Secure Services address space on z/OS is a multi-step installation and configuration process.
 
-The zLUX archive is distributed as a pax archive. When you unpack the archive, both the Giza Node server and the ZLUX Secure Services \(ZSS\) are installed on the z/OS host.
+The zLUX archive is distributed as a pax archive. When you unpack the archive, both the Giza Node server and the zLUX Secure Services \(ZSS\) are installed on the z/OS host.
 
 1.   If you have not already done so, follow the procedures in these prerequisite sections: 
     -   [Verifying that your system meets the software requirements](mvd-verifysystemswreqs.md)
@@ -38,13 +38,13 @@ The zLUX archive is distributed as a pax archive. When you unpack the archive, b
 
  -   **Port field for the http field of the node object**
 
-     Required if you intend to access the ZLUX Secure Services address space through unencrypted HTTP. Specify a port number that is available on your system.
+     Required if you intend to access the zLUX Secure Services address space through unencrypted HTTP. Specify a port number that is available on your system.
 
  -   **Port field for the https field of the node object**
 
-     Required if you intend to access the ZLUX Secure Services address space through encrypted HTTPS. Specify a port number that is available on your system. Requires `keys` and `certificates`
+     Required if you intend to access the zLUX Secure Services address space through encrypted HTTPS. Specify a port number that is available on your system. Requires `keys` and `certificates`
 
-     **Note:** Currently, the ZLUX Secure Services address space configuration JSON file at `zlux-example-server/config/zluxserver.json` contains an example node configuration, so you can refer to one file for both the ZLUX Secure Services address space and the Giza Node server.
+     **Note:** Currently, the zLUX Secure Services address space configuration JSON file at `zlux-example-server/config/zluxserver.json` contains an example node configuration, so you can refer to one file for both the zLUX Secure Services address space and the Giza Node server.
      
 
 To update the server configuration, run `zlux-example-server/build/deploy.sh`
