@@ -14,13 +14,15 @@ The following issues are known to exist when installing this release of Brightsi
     If you encounter this problem, some users report that repeatedly attempting to install Brightside CLI yields success. Some users also report success using the following workarounds:
     -   Issue the `npm cache clean` command.
 
-    -   Uninstall and reinstall Brightside CLI. To uninstall Brightside CLI, issue the following command:
+    -   Uninstall and reinstall Brightside CLI.
+    
+        To uninstall Brightside CLI, issue the following command:
 
         ```
         npm uninstall -g brightside
         ```
 
-    -   Re-install Brightside CLI using the following command Install BrightSide CLI.
+        Re-install Brightside CLI using the following command Install BrightSide CLI.
         
         ```
         npm install -g brightside --no-optional
