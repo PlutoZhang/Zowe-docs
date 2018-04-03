@@ -6,9 +6,7 @@ IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Project Giza mic
 - Configuring z/OSMF
 - Verifying your z/OSMF configuration
 
-**Important!** The IBM z/OS Management Facility
-guides on the IBM Knowledge Center are your primary source of information
-about how to install and configure z/OSMF. In this article, we provide procedures and tips for the configuration required for Project Giza. We recommend that you open the following IBM documentation in a separate browser tab (The z/OSMF process differs depending on whether you have z/OS v2.2 or v2.3):
+**Important!** The IBM z/OS Management Facility guides on the IBM Knowledge Center are your primary source of information about how to install and configure z/OSMF. In the following topics, we provide procedures and tips for the configuration required for Project Giza. We recommend that you open the following IBM documentation in a separate browser tab (The z/OSMF process differs depending on whether you have z/OS v2.2 or v2.3):
 
 IBM z/OSMF documentation:
 
