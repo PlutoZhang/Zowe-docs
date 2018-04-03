@@ -6,4 +6,4 @@ Project Giza consists of three main components: zLUX, Atlas, and Brightside CLI.
 - **[Atlas overview](../topics/atlas-overview.md)**
 - **[Brightside CLI Overview](../topics/cli-releasenotes.md)**
 
-**Parent topic:** [Introducing Project Giza](../topics/introduction.md)
+**Parent topic:** [Project Giza overview](../topics/introduction.md)
