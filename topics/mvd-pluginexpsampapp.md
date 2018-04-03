@@ -4,7 +4,11 @@ Your zLUX installation provides a sample application plug-in with which you can 
 
 To build the sample app, node and npm must be included in the PATH. You can use the `npm run build` or `npm start` command to build the sample application plug-in. These commands are configured in `package.json`.
 
-**Note:** Be aware that whenver you change the source code for the sample application, you must subsequently rebuild the sample application.
+**Note:** 
+
+- Be aware that whenever you change the source code for the sample application, you must subsequently rebuild the sample application.
+
+- If you want to modify sample-app, you must run `_npm install_` in the virtual-desktop and the `sample-app/webClient`. Then, you can run `_npm run build_` in `sample-app/webClient`.
 
 1.   Try adding an item to sample-app. The following figure shows the unmodified contents of `app.component.ts`:
 

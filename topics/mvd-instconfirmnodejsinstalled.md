@@ -1,4 +1,4 @@
-# Confirming that NODE.js is installed
+# Confirming that Node.js is installed
 
 Node.js version 6.11.2 or later must be present on the z/OS host where you intend to install the Giza Node server.
 

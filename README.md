@@ -44,6 +44,7 @@
         - [Creating an application plug-in](topics/mvd-plugincreateappplugin.md)
           -   [Setting environment variables for plug-in development](topics/mvd-pluginsetenvvars.md)
           -   [Experimenting with the zLUX sample application plug-in](topics/mvd-pluginexpsampapp.md)
+        - [zLUX logging](topics/mvd-zluxlogging.md)
     -   [Using APIs](topics/usingapis.md)
         -   [Using Atlas REST APIs](topics/atlas-usingatlasrestapis.md)
             -   [Dataset APIs](topics/atlas-datasetapis.md)
