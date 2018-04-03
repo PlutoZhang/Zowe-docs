@@ -2,9 +2,9 @@
 This book describes how to install, configure, and use Project Giza Closed Beta.  
 
 ## Who should read this book
-This book is intended for system programmers who are responsible for installing, configuring, developers who want to use Project Giza to improve z/OS user experience, and anyone who wants to know about Project Giza.
+This book is intended for system programmers who are responsible for installing Project Giza, developers who want to use Project Giza to improve z/OS user experience, and anyone who wants to know about Project Giza.
 
-To use this book, you must be familiar with Mainframe and z/OSMF configuration.
+To use this book, you must be familiar with the mainframe and z/OSMF configuration.
 
 ## Terminology used in this book
 Before getting started with Project Giza, please acquaint yourself with the following terms:
@@ -24,11 +24,11 @@ Before getting started with Project Giza, please acquaint yourself with the foll
 |Discovery|N/A|z/OS subsystems plug-in.|
 
 ## How to use this book
-This book contains an introduction and information for installing, configuring, and using Project Giza.
+This book contains an introduction and information for installing and using Project Giza.
 
-- [Introducing Project Giza](introduction.md) explains what is Project Giza, how it works, and what it can do.
+- [Project Giza overview](introduction.md) explains what is Project Giza and what it can do.
 
-- [Installing Project Giza](installandconfig.md) explains how to install, configure, and maintain Project Giza so that it can work. It also provides information about troubleshooting installation related problems.
+- [Installing Project Giza](installandconfig.md) explains how to install and maintain Project Giza so that it can work. It also provides information about troubleshooting installation related problems.
 
 - [Using Project Giza](using.md) explains how to use the features that Project Giza provides.
 
