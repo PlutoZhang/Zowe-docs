@@ -1,4 +1,4 @@
-# Opening the MVD in a browser
+# Verify the zLUX installation by opening the MVD in a browser
 
 You can open the MVD in any supported browser.
 
