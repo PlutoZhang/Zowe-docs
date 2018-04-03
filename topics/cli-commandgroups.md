@@ -36,8 +36,9 @@ With the cics command group, you can perform the following tasks:
   - Submit batch utilities such as DFHCSDUP.
 
 **Note:** For more information about cics syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright cics -h`
+```
+bright cics -h
+```
 
 ## compiler
 
@@ -48,8 +49,9 @@ With the compiler command group, you can perform the following tasks:
   - Build and compile COBOL (common business-oriented language) and HLASM (IBM High Level Assembler) source code on mainframe systems.
 
 **Note:** For more information about compiler syntax, actions, and options, open Brightside CLI, and issue the following command: 
-
-`bright compiler -h`
+```
+bright compiler -h
+```
 
 ## config
 
@@ -62,8 +64,9 @@ With the config command group, you can perform the following tasks:
   - Enable and disable experimental features and commands.
 
 **Note:** For more information about config syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright config -h`
+```
+bright config -h
+```
 
 ## contribute
 
@@ -74,8 +77,9 @@ With the contribute command group, you can perform the following tasks:
   - Submit feedback to the Brightside CLI engineering team.
 
 **Note:** For more information about contribute syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright contribute -h`
+```
+bright contribute -h
+```
 
 ## db2
 
@@ -88,8 +92,9 @@ To execute commands in the db2 command group, IBM Db2 Database must be installe
   - Create and manage Db2 profiles that allow you to target specific Db2 regions, libraries, and plan names. To use Db2 commands, you must also specify a basic zosmf profile. 
 
 **Note:** For more information about db2 syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright db2 -h`
+```
+bright db2 -h
+```
 
 ## endevor 
 
@@ -102,7 +107,9 @@ To execute commands in the endevor command group, CA Endevor must be installed a
 
 **Note:** For more information about endevor syntax, actions, and options, open Brightside CLI, and issue the following command:
 
-`bright endevor -h`
+```
+bright endevor -h
+```
 
 ## help
 
@@ -126,8 +133,9 @@ The ipcs command group is an [experimental command group](cli-enabledisablexper
   - Parse the IPCS dump data with a JSON options document to isolate specific data.
 
 **Note:** For more information about ipcs syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright ipcs -h`
+```
+bright ipcs -h
+```
 
 ## profiles
 
@@ -141,12 +149,14 @@ With the profiles command group, you can perform the following tasks:
   - Validate profiles for other Brightside CLI command groups. For more information, see [Validate Installation](cli-validateInstallation.md).
 
 **Note:** For general information about profiles, open Brightside CLI, and issue the following command:
-
-`bright help explain profiles`
+```
+bright help explain profiles
+```
 
 For more information about profiles syntax, actions, and options, open Brightside CLI, and issue the following commands:
-
-`bright profiles -h`
+```
+bright profiles -h
+```
 
 ## projects
 
@@ -161,8 +171,9 @@ With the projects command group, you can perform the following tasks:
   - Synchronize element listings and upload elements to your project.
 
 **Note:** For more information about projects syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright projects -h`
+```
+bright projects -h
+```
 
 ## provisioning
 
@@ -176,8 +187,9 @@ With the provisioning command group, you can perform the following tasks:
   - List detail information about the variables used (and their corresponding values) on named, published cloud instances.
 
 **Note:** For more information about provisioning syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright provisioning -h`
+```
+bright provisioning -h
+```
 
 ## zos-console
 
@@ -191,8 +203,9 @@ With the zos-console command group, you can perform the following tasks:
   - Collect command responses and continue to collect solicited command responses on-demand.
 
 **Note:** For more information about zos-console syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright zos-console -h`
+```
+bright zos-console -h
+```
 
 ## zos-files
 
@@ -208,8 +221,9 @@ With the zos-files command group, you can perform the following tasks:
   - List data sets, print data sets, and search the contents of a data set. 
 
 **Note:** For more information about zos-console syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright zos-files -h`
+```
+bright zos-files -h
+```
 
 See [Submit a Job and Print Job Output](cli-scenarios.md) for a use-case that demonstrates some zos-files commands.
 
@@ -227,8 +241,9 @@ With the zos-jobs command group, you can perform the following tasks:
   - Create zos-jobs profiles that store your configuration details so that you can quickly interact with jobs.  To use zos-jobs commands, you must also specify a basic zosmf profile. 
 
 **Note:** For more information about zos-jobs syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright zos-jobs -h`
+```
+bright zos-jobs -h
+```
 
 See [Submit a Job and Print the Job Output](cli-scenarios.md) for a use case that demonstrates some zos-jobs commands.
 
@@ -241,8 +256,9 @@ With the zos-ssh command group, you can perform the following tasks:
   - Issue USS commands via SSH (secure shell) protocol. 
 
 **Note:** For more information about zos-ssh syntax, actions, and options, open Brightside CLI and issue the following command:
-
-`bright zos-ssh -h`
+```
+bright zos-ssh -h
+```
 
 ## zos-tso
 
@@ -254,8 +270,9 @@ With the zos-tso command group, you can perform the following tasks:
   - Review TSO command response data in Brightside CLI.
 
 **Note:** For more information about zos-tso syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright zos-tso -h `
+```
+bright zos-tso -h
+```
 
 ## zos-utils
 
@@ -268,8 +285,9 @@ With the zos-utils command group, you can perform the following tasks:
   - Overwrite content in a data set with the IMASZAP utility.
 
 **Note:** For more information about zos-utils syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright zos-utils -h `
+```
+bright zos-utils -h
+```
 
 ## zosmf
 
@@ -283,6 +301,7 @@ With the zosmf command group, you can perform the following tasks:
 system.
 
 **Note:** For more information about zosmf syntax, actions, and options, open Brightside CLI, and issue the following command:
-
-`bright zosmf -h `
+```
+bright zosmf -h
+```
 

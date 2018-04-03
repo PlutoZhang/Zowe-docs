@@ -100,28 +100,32 @@ For more information, refer to the IBM z/OSMF documentation for each REST servic
         ```
 
         Part of the output contains the release, for example,
-
-        `RELEASE z/OS 02.02.00.`
+        ```
+        RELEASE z/OS 02.02.00.
+        ```
 
     - If you don't have access to the console, use SDSF and select the menu option **MAS**. Two columns of the output show the SysName (LPAR name) and the z/OS version, for example:
 
-        `SysName  Version`
-
-        `S001     z/OS 2.2`
+        ```
+        SysName  Version
+        
+        S001     z/OS 2.2
+        ```
 
         Identify the z/OS Version for the LPAR on which you are going to use z/OSMF.
 
     - If you don't have access to SDSF, use ISPF option **7.3** (Dialog Test Variables) and scroll down to the variable `ZOS390RL`, for example,
 
-        `ZOS390RL S N z/OS   02.02.00`
+        ```
+        ZOS390RL S N z/OS   02.02.00
+        ```
 
     - On the ISPF Primary Option Menu, the last entry is the ISPF Release, which corresponds to the z/OS version as follows:
-
+        ```
         Release . : ISPF 7.1    --> z/OS v2.1
-
         Release . : ISPF 7.2    --> z/OS v2.2
-
         Release . : ISPF 7.3    --> z/OS v2.3
+        ```
 
 2. Configure z/OSMF.
 
@@ -150,8 +154,9 @@ For more information, refer to the IBM z/OSMF documentation for each REST servic
         ```
 
         The response should be:
-
-        `v6.11.2`
+        ```
+        v6.11.2
+        ```
 
         or later. If the version displayed is not right, set and/or download the right version of node by using npm and nvm. You might want to refer to the following links for tutorials on npm and nvm:
 
@@ -174,8 +179,9 @@ For more information, refer to the IBM z/OSMF documentation for each REST servic
         ```
 
         The response should be
-
-        `java version "1.8.0"`
+        ```
+        java version "1.8.0"
+        ```
 
         or later. If the version displayed is not right, set the `JAVA_HOME` variable to point to the preferred java version. If the preferred java version is not installed, install it.
 
@@ -186,7 +192,6 @@ For more information, refer to the IBM z/OSMF documentation for each REST servic
         ```
 
         The output should be as follows:
-
         ```
         Mounted on       Filesystem               Avail/Total
 
@@ -231,8 +236,9 @@ For more information, refer to the IBM z/OSMF documentation for each REST servic
     ```
 
     You should see these lines:
-
-    `IZUG349I: The z/OSMF STANDALONE Server home page can be accessed at  https://mvs.hursley.ibm.com:443/zosmf after the z/OSMF server is started on your system.`
+    ```
+    IZUG349I: The z/OSMF STANDALONE Server home page can be accessed at  https://mvs.hursley.ibm.com:443/zosmf after the z/OSMF server is started on your system.
+    ```
 
     From the lines above, the port number is 443. You will need this port number later.
 
@@ -262,17 +268,12 @@ To verify that IBM z/OSMF is configured correctly, follow these steps to create 
 ```
 /$D I
 ```
-
 You will see responses like the following in SYSLOG:
-
 ```
 $HASP892 INIT(3)   STATUS=ACTIVE,CLASS=AB,...
 ```
-
 If none of the initiators has **C** in its CLASS list, add **C** to the list of any initiator. For example, initiator 3 as shown above, with the following command:
-
 ```
 /$T I3,CL=ABC
 ```
-
 **Parent topic:** [Prerequisites](../topics/planinstall.md)

@@ -24,7 +24,9 @@ To use Brightside CLI on your PC, install the product from that is available at 
     downloaded the Brightside CLI installation package (.tgz file). Issue the
     following command to install Brightside CLI on your PC:
     
-    ```npm install -g <file_name>```
+    ```
+    npm install -g <file_name>
+    ```
     
     **Note:** On Linux systems, you might need to append `sudo` to your
     `npm` commands so that you can issue the install and uninstall
@@ -48,7 +50,9 @@ To use Brightside CLI on your PC, install the product from that is available at 
     with z/OSMF on mainframe systems, issue the following z/OSMF profile
     validation command:    
    
-    ```bright zosmf validate profile```
+    ```
+    bright zosmf validate profile
+    ```
         
     The command runs a series of tests and returns a report. If the
     report returns any failures or warnings, send the report to your

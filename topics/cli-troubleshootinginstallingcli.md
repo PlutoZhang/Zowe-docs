@@ -13,14 +13,20 @@ The following issues are known to exist when installing this release of Brightsi
 
     If you encounter this problem, some users report that repeatedly attempting to install Brightside CLI yields success. Some users also report success using the following workarounds:
     -   Issue the `npm cache clean` command.
-    -   Uninstall and reinstall Brightside CLI. For more information, see Install BrightSide CLI.
-    -   Issue the `npm install -g brightside --no-optional` command.
-
+    -   Uninstall and reinstall Brightside CLI. To uninstall Brightside CLI, issue the following command:
+        ```
+        npm uninstall -g brightside
+        ```
+    -   Re-install Brightside CLI using the following commandee Install BrightSide CLI.
+        ```
+        npm install -g brightside --no-optional
+        ```
 -   **The `npm install -g command` might fail due to an `npm ERR! Cannot read property 'pause' of undefined` error.**
 
     This behavior is due to a problem with Node Package Manager (npm). If you encounter this problem, revert to a previous version of npm that does not contain this defect. To revert to a previous version of npm, issue the following command:
-
-    `npm install npm@5.3.0 -g    `
+    ```
+    npm install npm@5.3.0 -g
+    ```
     
 -   **`node.js` commands do not respond as expected.**
 
