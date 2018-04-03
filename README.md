@@ -26,7 +26,7 @@
         -   [Installing Brightside CLI](topics/cli-installcli.md)
     -   [Verifying installation](topics/verify.md)
         - [Verifying Atlas installation](topics/atlas-verifyinstall.md)
-        - [Opening the MVD in a browser](topics/mvd-instopendesktopbrowser.md)
+        - [Verifying the zLUX installation](topics/mvd-instopendesktopbrowser.md)
         - [Validating Brightside CLI installation](topics/cli-validateInstallation.md)
         - [Identify and correct problems detected by the validate profile command](topics/cli-validateInstallationcorrectproblems.md)
     -   [Uninstalling Project Giza](topics/uninstall.md)
