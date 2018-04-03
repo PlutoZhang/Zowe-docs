@@ -53,10 +53,10 @@ To install Atlas, complete the following steps:
 
 6. Create a member FEKATLS in your system PROCLIB data set.
 
-    The install script creates a file that is called `FEKATLS.jcl` is created in your Atlas installation directory. Copy this file to a system PROCLIB data set by using the following z/OS UNIX System Services command:
+    The install script creates a file that is called `FEKATLS.jcl` is created in your Atlas installation directory. Copy this file to a system PROCLIB data set by using the following TSO command:
 
     ```
-    cp FEKATLS.jcl "//'hlq.PROCLIB(FEKATLS)'"
+    oget '/atlasInstallPath/FEKATLS.jcl' 'hlq.proclib(FEKATLS)'
     ```
 
     The FEKATLS procedure starts a Liberty profile server running the Atlas microservice application.
