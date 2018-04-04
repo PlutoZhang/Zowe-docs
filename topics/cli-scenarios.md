@@ -20,7 +20,7 @@ The following prerequisites apply to all of the scenarios that are contained in 
     
     Issue the `--help` command after any Brightside CLI command to see more available options. For more information about getting help, see [How to Display Brightside CLI Help](cli-howtodisplaybrightsidehelp.md).
 
-# Submitting a job and print job output
+# Submitting a job and printing job output
 As an application developer, you want to change a compile/build job (for
 example, change it to compile in 64-bit mode), submit the job to build
 your source, and verify that the job output is
