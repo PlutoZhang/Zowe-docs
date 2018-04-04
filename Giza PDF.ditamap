@@ -42,7 +42,7 @@ navtitle="Brightside CLI overview" scope="local"></topicref>
 <chapter format="md" href="topics/installandconfig.md"
 navtitle="Installing Project Giza" scope="local">
 <topicref format="md" href="topics/planinstall.md"
-navtitle="Planning for installation" scope="local">
+navtitle="Prerequisites" scope="local">
 <topicref format="md" href="topics/prezosmf.md"
 navtitle="Prerequisites for z/OSMF configuration" scope="local">
 </topicref>
@@ -69,8 +69,10 @@ navtitle="Installing zLUX" scope="local">
 <topicref format="md" href="topics/mvd-instsetupeverythingonzos.md"
 navtitle="Setting up the Giza Node server and the ZSSAS on z/OS"
 scope="local"></topicref>
-<topicref format="md" href="topics/mvd-instopendesktopbrowser.md"
-navtitle="Opening the MVD in a browser" scope="local"></topicref>
+<topicref format="md" href="topics/mvd-startzluxserver.md"
+navtitle="Starting the zLUX server" scope="local"></topicref>
+<topicref format="md" href="topics/mvd-stopzluxserver.md"
+navtitle="Stopping the zLUX server" scope="local"></topicref>
 </topicref>
 <topicref format="md" href="topics/atlas-install.md"
 navtitle="Installing Atlas" scope="local"></topicref>
@@ -79,6 +81,8 @@ navtitle="Installing Brightside CLI" scope="local"></topicref>
 </topicref>
 <topicref format="md" href="topics/verify.md"
 navtitle="Verifying installation" scope="local">
+<topicref format="md" href="topics/mvd-instopendesktopbrowser.md"
+navtitle="Verifying zLUX installation" scope="local"></topicref>
 <topicref format="md" href="topics/atlas-verifyinstall.md"
 navtitle="Verifying Atlas installation" scope="local"></topicref>
 <topicref format="md" href="topics/cli-validateInstallation.md"
@@ -126,6 +130,8 @@ scope="local"></topicref>
 navtitle="Experimenting with the zLUX sample application plug-in"
 scope="local"></topicref>
 </topicref>
+<topicref format="md" href="topics/mvd-zluxlogging.md"
+navtitle="zLUX logging" scope="local"></topicref>
 </topicref>
 <topicref format="md" href="topics/usingapis.md" navtitle="Using APIs"
 scope="local">
@@ -155,12 +161,12 @@ navtitle="Sending a POST request in JavaScript" scope="local">
 <topicref format="md" href="topics/atlas-extendedapisample.md"
 navtitle="Extended API sample in JavaScript" scope="local"></topicref>
 </topicref>
-</topicref>
+</topicref><?Pub Caret -2?>
 <topicref format="md" href="topics/atlas-websocket.md"
 navtitle="Using Atlas WebSocket services" scope="local">
 <topicref format="md" href="topics/atlas-programwebsocket.md"
 navtitle="Programming Atlas WebSocket services" scope="local">
-</topicref><?Pub Caret -2?>
+</topicref>
 </topicref>
 </topicref>
 <topicref format="md" href="topics/cli-usingcli.md"
@@ -179,11 +185,13 @@ navtitle="Brightside CLI scenarios" scope="local"></topicref>
 </chapter>
 <ibmbackmatter>
 <topicref format="md" href="topics/notices_toc.md" navtitle="Notices">
-<topicref href="topics/atlas-notices.md" format="md" navtitle="IBM notices"/>
-<topicref href="topics/mvd-zluxlegalnotices.md" format="markdown"
-navtitle="Rocket Software, Inc. notices"/>
-<topicref href="topics/cli-legalnotices.md" format="markdown" navtitle="CA Technologies notices"/>
+<topicref format="md" href="topics/atlas-notices.md"
+navtitle="IBM notices"></topicref>
+<topicref format="markdown" href="topics/mvd-zluxlegalnotices.md"
+navtitle="Rocket Software, Inc. notices"></topicref>
+<topicref format="markdown" href="topics/cli-legalnotices.md"
+navtitle="CA Technologies notices"></topicref>
 </topicref>
 </ibmbackmatter>
 </ibmbook>
-<?Pub *0000008856?>
+<?Pub *0000009501?>

@@ -1,14 +1,14 @@
 # Navigating MVD
 
 
-To access the MVD, see [Opening the MVD in a browser] (mvd-instopendesktopbrowser.md).
+To access the MVD, see [Verifying zLUX installation](mvd-instopendesktopbrowser.md).
 
 ## Logging into the MVD
 
-To log in, sign in using your mainframe credentials: 
+To log in, sign in using your mainframe credentials:
 
 1. In the **Username** field, type your username.
-1. In the **Password** field, type your password. 
+1. In the **Password** field, type your password.
 1. Press Enter. Upon authentication of your user name and password, the desktop opens.
 
 Note the following items on the desktop:
