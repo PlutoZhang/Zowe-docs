@@ -1,6 +1,6 @@
 # Troubleshooting installing zLUX
 
-To help zLUX research any problems you might encounter, collect as much of the following information as possible:
+To help zLUX research any problems you might encounter, collect as much of the following information as possible and open an issue with the collected information.
 
  - zLUX version and release level
  - z/OS release level
