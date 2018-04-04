@@ -19,7 +19,7 @@ To install Atlas, complete the following steps:
      **Important:** To convert the Install script, use the ICONV command. For example,
 
     ```
-    iconv -f ISO8859-1 -t "UTF-8" atlas-wlp-package-0.0.3.sh > atlas-wlp-package-CONVERTED.sh
+    iconv -f ISO8859-1 -t IBM-1047 atlas-wlp-package-0.0.3.sh > atlas-wlp-package-CONVERTED.sh
     ```
 
 4. Run the Atlas Install script.
