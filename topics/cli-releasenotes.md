@@ -36,28 +36,29 @@ Watch this [short video](https://www.youtube.com/watch?v=0MvAv5ApolI) about how�
 With Brightside CLI, you can interact with z/OS remotely in the
 following ways:
 
-  - **Interact with mainframe files**  
-    Create, edit, download, and upload mainframe files (data sets)
-    directly from Brightside CLI. 
+  - **Interact with mainframe files**    
+  
+    Create, edit, download, and upload mainframe files (data sets) directly from Brightside CLI. 
 
-  - **Submit jobs**  
-    Submit JCL from data sets or local storage, monitor the status, and
-    view and download the output automatically.
+  - **Submit jobs**    
+  
+    Submit JCL from data sets or local storage, monitor the status, and view and download the output automatically.
 
-  - **Issue TSO and z/OS console commands**  
-    Issue TSO and console commands to the mainframe directly
-    from Brightside CLI.
+  - **Issue TSO and z/OS console commands**    
+  
+    Issue TSO and console commands to the mainframe directly    from Brightside CLI.
 
-  - **Provision mainframe environments**  
-    Exploit z/OSMF cloud provisioning features to provision environments
-    on-demand.
+  - **Provision mainframe environments**    
+  
+    Exploit z/OSMF cloud provisioning features to provision environments on-demand.
 
-  - **Integrates z/OS actions**  
+  - **Integrates z/OS actions**    
+  
     Build local scripts that accomplish both mainframe and local tasks. 
 
-  - **Produce responses as JSON documents**  
-    Return data in JSON format on request for consumption in other
-    programming languages.
+  - **Produce responses as JSON documents**    
+  
+    Return data in JSON format on request for consumption in other programming languages.
 
 For more information about the available functionality in Brightside
 CLI, see [Brightside CLI Command
@@ -68,10 +69,7 @@ For information about prerequisite software and configuration for Brightside CLI
 
 ## Experimental commands
 
-The Brightside CLI Early Access Preview contains features that are still
-under development and have not been tested to GA quality. You can enable
-or disable these commands. The experimental commands are disabled by
-default.
+The Brightside CLI contains features that are still under  development and have not been tested to GA quality. You can enable or disable these commands. The experimental commands are disabled by default.
 
 **Important!** You might encounter problems when using experimental
 commands. 
@@ -122,4 +120,4 @@ software:
 
 **Note:** All trademarks, trade names, service marks, and logos referenced herein belong to their respective companies.
 
-To read each complete license, navigate to the [GitHub repository](https://github.com/gizafoundation/Downloads/releases) and download the file named ```Brightside_CLI_TPSRs.zip``. The .zip file contains the licenses for all of the third-party components that Brightside CLI uses.   
+To read each complete license, navigate to the [GitHub repository](https://github.com/gizafoundation/Downloads/releases) and download the file named ``Brightside_CLI_TPSRs.zip``. The .zip file contains the licenses for all of the third-party components that Brightside CLI uses.   
