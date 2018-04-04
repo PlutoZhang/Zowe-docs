@@ -10,7 +10,7 @@ To install Atlas, complete the following steps:
 
 2. Move the Atlas PAX file and install script to the desired installation directory.
 
-     **Note:** The Atlas Install script is an ASCII file, if the script is not in the correct format it may be converted
+     **Note:** The Atlas Install script is an ASCII file, if the script is not in the correct format it may nned to be converted.
 
      **Important:** To convert the Install script, use the ICONV command. For example,
 
