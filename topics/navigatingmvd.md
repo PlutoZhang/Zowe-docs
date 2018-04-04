@@ -1,7 +1,7 @@
 # Navigating MVD
 
 
-To access the MVD, see [Opening the MVD in a browser] (mvd-instopendesktopbrowser.md)
+To access the MVD, see [Opening the MVD in a browser] (mvd-instopendesktopbrowser.md).
 
 ## Logging into the MVD
 

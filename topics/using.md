@@ -2,9 +2,9 @@
 
 Project Giza delivers the following components:
 
-- zLux that provides a framework for building and sharing extension apps using web services and modern UI toolkits such as AngularJS. It includes all interactions that exist in 3270 terminals and web interfaces like z/OSMF.
+- zLUX that provides a framework for building and sharing extension apps using web services and modern UI toolkits such as AngularJS. It includes all interactions that exist in 3270 terminals and web interfaces like z/OSMF.
 
-- REST APIs that provide a range of APIs for the management of jobs, data sets, z/OS UNIX System Services files, and persistent data.
+- APIs that provide a range of APIs for the management of jobs, data sets, z/OS UNIX System Services files, and persistent data.
 
 - Brightside Command Line Interface (Brightside CLI) that lets you interact with the mainframe remotely and use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development.
 

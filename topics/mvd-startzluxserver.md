@@ -10,5 +10,5 @@ Complete these steps to start the server:
             ```
 The ZLUX Secure Services address space \(`zssServer.sh\`) starts automatically.
 
-Go on to [Opening the MVD in a browser](mvd-instopendesktopbrowser.md).
+Go on to [Verifying the zLUX installation](mvd-instopendesktopbrowser.md).
 

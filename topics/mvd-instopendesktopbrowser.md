@@ -1,6 +1,6 @@
-# Opening the MVD in a browser
+# Verifying the zLUX installation
 
-You can open the MVD in any supported browser.
+To verify the zLUX installation, you can open the MVD in any supported browser.
 
 1.   In a supported browser, open the MVD at `https://myhost:httpsPort/ZLUX/plugins/com.rs.mvd/web/index.html`
     where:
