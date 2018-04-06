@@ -8,7 +8,7 @@ To install Atlas, complete the following steps:
 
 1. [Follow instructions to obtain the Project Giza installation media](https://github.com/gizafoundation/Downloads/releases). Once completed, you should have an Atlas PAX file along with the Atlas install script (scripts/atlas/atlaa-wlp-package-0.0.3.sh).
 
-2. Move the Atlas PAX file and install script to the desired installation directory.
+2. Move the Atlas PAX file and install script to the preffered installation directory (e.g gizaInstallDir/Atlas).
 
      **Note:** The Atlas install script is an ASCII file. If the script is not in the correct format, it might need to be converted.
 
@@ -31,8 +31,8 @@ To install Atlas, complete the following steps:
     To run the script, first give the script execute permission using the following command:
 
     ```
-    chmod u+x atlas-wlp-package-CONVERTED.sh
-    ./atlas-wlp-package-CONVERTED.sh
+    chmod u+x atlas-wlp-package-0.0.3.sh
+    ./atlas-wlp-package-0.0.3.sh
     ```
 
 4. Change the ownership of Atlas installation directory and files.
