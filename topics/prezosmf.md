@@ -106,7 +106,7 @@ For more information, refer to the IBM z/OSMF documentation for each REST servic
 
         ```
         SysName  Version
-        
+
         S001     z/OS 2.2
         ```
 
@@ -149,6 +149,11 @@ For more information, refer to the IBM z/OSMF documentation for each REST servic
 
         ```
         node -v
+        ```
+        or
+
+        ```
+        node --version
         ```
 
         The response should be:
