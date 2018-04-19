@@ -10,14 +10,6 @@ To install Atlas, complete the following steps:
 
 2. Move the Atlas PAX file and install script to the preferred installation directory (for example, gizaInstallDir/Atlas).
 
-     **Note:** The Atlas install script is an ASCII file. If the script is not in the correct format, it might need to be converted.
-
-     **Important:** To convert the install script, use the ICONV command. For example,
-
-    ```
-    iconv -f ISO8859-1 -t IBM-1047 atlas-wlp-package-0.0.3.sh > atlas-wlp-package-CONVERTED.sh
-    ```
-
 3. Run the Atlas install script.
 
     Run the install script in the installation directory with a user ID that has the authority to:
@@ -28,10 +20,15 @@ To install Atlas, complete the following steps:
 
     Therefore, use super user authority to run the Atlas install script.
 
-    To run the script, first give the script execute permission using the following command:
+    Give the install script execute permission using the following command:
 
     ```
     chmod u+x atlas-wlp-package-0.0.3.sh
+    ```
+    
+    Now execute the install script using the following commmand:
+    
+    ```
     ./atlas-wlp-package-0.0.3.sh
     ```
 
