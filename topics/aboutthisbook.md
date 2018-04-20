@@ -2,7 +2,7 @@
 This book describes how to install, configure, and use Project Giza Closed Beta.  
 
 ## Who should read this book
-This book is intended for system programmers who are responsible for installing Project Giza, developers who want to use Project Giza to improve z/OS user experience, and anyone who wants to know about Project Giza.
+This book is intended for systems programmers who are responsible for installing Project Giza and application developers that want to use Project Giza to improve z/OS user experience, and anyone who wants to know about Project Giza.
 
 To use this book, you must be familiar with the mainframe and z/OSMF configuration.
 
