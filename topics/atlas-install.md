@@ -143,7 +143,7 @@ To install Atlas, complete the following steps:
 
 9. Optional: Configure the Atlas apps to launch within zLUX, navigate to AtlasInstallDirectory/wlp/atlasZluxInjection, run the install script, and restart zLUX.
 
-    **Note:** The install script will require conversion, run the following icon command:
+    **Note:** The install script will require conversion. Run the following icon command:
 
     ```
     iconv -f ISO8859-1 -t IBM-1047 install.sh > install-CONVERTED.sh
