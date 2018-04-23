@@ -1,6 +1,6 @@
 # Uninstalling Brightside CLI
 
-Application developers and systems programmers can uninstall Brightside CLI at any time.
+Application developers can uninstall Brightside CLI from their PC at any time.
 
 **Follow these steps:**
 1. Issue the following command:
