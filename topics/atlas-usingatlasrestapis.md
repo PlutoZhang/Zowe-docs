@@ -2,9 +2,9 @@
 
 Atlas REST APIs provide a range of REST APIs through a Swagger defined description, and a simple interface to specify API endpoint parameters and request bodies along with the response body and return code. With Atlas REST APIs, you can see the available API endpoints and try the endpoints within a browser. Swagger documentation is available from an internet browser with a URL, for example, https://your.host:atlas-port/ibm/api/explorer.
 
-**[Dataset APIs](../topics/datasetapis.md)**  
+**[Data Set APIs](../topics/datasetapis.md)**  
 
-Use Dataset APIs to create, read, update, delete, and list data sets. See the following table for the operations available in Dataset APIs and their descriptions and prerequisites.
+Use data set APIs to create, read, update, delete, and list data sets. See the following table for the operations available in data set APIs and their descriptions and prerequisites.
 
 **[Job APIs](../topics/jobapis.md)**  
 

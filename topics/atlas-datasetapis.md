@@ -1,6 +1,6 @@
-# Dataset APIs
+# Data set APIs
 
-Use Dataset APIs to create, read, update, delete, and list data sets. See the following table for the operations available in Dataset APIs and their descriptions and prerequisites.
+Use data set APIs to create, read, update, delete, and list data sets. See the following table for the operations available in data set APIs and their descriptions and prerequisites.
 
 |REST API|Description|Prerequisite|
 |--------|-----------|-------------|
