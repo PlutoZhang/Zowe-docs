@@ -2,7 +2,7 @@
 
 Before installing Atlas, check whether your environment meets the following requirements to ensure a successful installation.
 
--   Atlas must be installed on z/OS® version 2.2 or later.
+-   Atlas must be installed on z/OS® Version 2.2 or later.
 -   Atlas requires a 64-bit Java™ 8 JRE or later.
 -   [IBM® z/OS Management Facility \(z/OSMF\)](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm) must be installed and running. z/OSMF is a prerequisite for the Atlas microservice. For details, see [Prerequisites for z/OSMF configuration](topics/prezosmf.md).
 -   \(Optional\) To enable real-time access to SYSLOG, SDSF must be installed.
@@ -20,6 +20,6 @@ The following information is required during the installation process. Make the 
 
     **Tip:** Use the same user ID that runs the z/OSMF IZUSVR1 task, or a user ID with equivalent authorizations.
 
--   \(Optional\) The SDSF java installation directory, for example, `/usr/lpp/sdsf/java`.
+-   \(Optional\) The SDSF Java installation directory, for example, `/usr/lpp/sdsf/java`.
 
 **Parent topic:** [Prerequisites](../topics/planinstall.md)

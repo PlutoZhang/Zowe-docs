@@ -54,7 +54,7 @@ If Atlas REST APIs do not work, check the following items:
 
     If calling the z/OSMF RESTJOBS API directly fails, fix z/OSMF before Atlas can use these APIs successfully.
 
--   If testing the Atlas REST API for dataset information fails, check the z/OSMF IZUSVR1 task output for errors and confirm that the z/OSMF RESTFILES services are started successfully. If no errors occur, you can see the following message in the IZUSVR1 job output:
+-   If testing the Atlas REST API for data set information fails, check the z/OSMF IZUSVR1 task output for errors and confirm that the z/OSMF RESTFILES services are started successfully. If no errors occur, you can see the following message in the IZUSVR1 job output:
 
     ```
     CWWKZ0001I: Application IzuManagementFacilityRestFiles started in n.nnn seconds.

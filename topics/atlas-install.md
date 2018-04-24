@@ -4,7 +4,7 @@ Installing Atlas involves obtaining the Atlas Archive, running the install scrip
 
 Before installing Atlas, ensure that your environment meets the [prerequisites for Atlas](topics/atlas-prereqs.md).
 
-To install Atlas, complete the following steps:
+To install Atlas, follow these steps:
 
 1. [Follow instructions to obtain the Project Giza installation media](https://github.com/gizafoundation/Downloads/releases). Once completed, you should have an Atlas PAX file along with the Atlas install script (scripts/atlas/atlas-wlp-package-0.0.3.sh).
 
@@ -25,9 +25,9 @@ To install Atlas, complete the following steps:
     ```
     chmod u+x atlas-wlp-package-0.0.3.sh
     ```
-    
+
     Then, execute the install script using the following commmand:
-    
+
     ```
     ./atlas-wlp-package-0.0.3.sh
     ```
@@ -145,7 +145,7 @@ To install Atlas, complete the following steps:
     ```
     iconv -f ISO8859-1 -t IBM-1047 install.sh > install-CONVERTED.sh
     ```
-    
+
     Give the new script execute permissions using the following command:
     ```
     chmod u+x install-CONVERTED.sh
