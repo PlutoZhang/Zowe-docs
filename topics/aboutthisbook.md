@@ -9,40 +9,31 @@ To use this book, you must be familiar with the mainframe and z/OSMF configurati
 ## Terminology used in this book
 Before getting started with Project Giza, acquaint yourself with the following terms:
 
-- **Atlas**
-   
+- **Atlas**  
   A z/OS RESTful web service and deployment architecture for z/OS microservices.
 
-- **Brightside Command Line Interface**
-
+- **Brightside Command Line Interface**  
   Brightside Command Line Interface (Brightside CLI) lets application developers interact with the mainframe in a format that is natively familiar to them.  It lets application developers use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development.
 
-- **Command Groups**
-
+- **Command Groups**  
   Command groups focus on specific business processes that application developers and systems programmers perform during their day-to-day activities.
 
-- **Discovery**
-
+- **Discovery**  
   A z/OS subsystems plug-in.
 
-- **Experimental Commands**
-
+- **Experimental Commands**  
   Experimental Commands are commands that are currently in development and are not ready for general availability. Users can enable or disable these commands. Experimental commands are disabled by default.
 
-- **Giza Node Server**
-
+- **Giza Node Server**  
   Refers to Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components.
 
-- **Mainframe Virtual Desktop**
-
+- **Mainframe Virtual Desktop**  
   Mainframe Virtual Desktop (MVD) is a virtual desktop that is accessed through a web browser.
 
-- **TN3270**
-
+- **TN3270**  
   A limited license Giza plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running.
 
-- **z/OS Lightweight User Experience**
-
+- **z/OS Lightweight User Experience**  
   z/OS Lightweight User Experience (zLUX) consists of the framework, MVD, plugin applications, TN3270 emulator, and Discovery.
 
 ## How to use this book
