@@ -39,7 +39,7 @@ Your feedback is important in helping us to provide accurate and high-quality in
 
 ### Opening an issue for the documentation
 You can open an issue in Github to request documentation to be updated, improved, or clarified by providing a comment. To do this, complete the following steps.
-1. Go to the **Giza-docs** repository in GitHub by clicking https://github.com/gizafoundation/Giza-docs.
+1. Go to the **Giza-docs** repository in GitHub.
 2. Select **Issues**.
 3. Click **New issue**.
 4. Provide a title and enter your comment on the documenation. Be sure to include the specific location of the text that you are commenting on, for example, the section heading. 
@@ -47,7 +47,7 @@ You can open an issue in Github to request documentation to be updated, improved
 
 ### Sending a GitHub pull request
 You can provide a suggested edit for the documentation directly in GitHub and send us a pull request. To do this, complete the following steps.
-1. Go to the **Giza-docs** repository in GitHub by clicking https://github.com/gizafoundation/Giza-docs.
+1. Go to the **Giza-docs** repository in GitHub.
 2. Locate the specific topic you want to comment on.
 3. Make the changes to the file.
 4. Scroll to the end of the page and enter a brief description about your change.
