@@ -11,14 +11,14 @@ To install Atlas, follow these steps:
 1. [Obtain the Project Giza installation media](https://github.com/gizafoundation/Downloads/releases) and follow the initial instructions there to transfer it to the USS file system on the mainframe.
 
 2. Unpack the obtained Project Giza PAX file by issuing the following command.  
-  ```
-  pax -ppx -rf <pax-file-name>.pax
-  ```  
-  Where _pax-file-name_ is a variable that indicates the name of the PAX file you downloaded. For example, project_giza-0.8.0.pax
+   ```
+   pax -ppx -rf <pax-file-name>.pax
+   ```  
+   Where _pax-file-name_ is a variable that indicates the name of the PAX file you downloaded. For example, project_giza-0.8.0.pax
 
-  Once completed, you should have the following files available:
-  - An Atlas PAX file
-  - The Atlas install script (scripts/atlas/atlas-wlp-package-0.0.3.sh)    
+   Once completed, you should have the following files available:
+   - An Atlas PAX file
+   - The Atlas install script (scripts/atlas/atlas-wlp-package-0.0.3.sh)    
 
 
 3. Move the Atlas PAX file and install script to the preferred installation directory. It is recommended that you move them to the `gizaInstallDir/Atlas` directory.
