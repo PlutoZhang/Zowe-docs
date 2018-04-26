@@ -41,6 +41,7 @@
     -   [Using zLUX](topics/usingmvd.md)
         - [Navigating MVD](topics/navigatingmvd.md)
         - [Using Atlas Explorers within zLUX](topics/atlas-usingwebuiwithinmvd.md)
+        - [Using zLUX application plug-ins](topics/mvd-appplugins.md)
         - [Creating an application plug-in](topics/mvd-plugincreateappplugin.md)
           -   [Setting environment variables for plug-in development](topics/mvd-pluginsetenvvars.md)
           -   [Experimenting with the zLUX sample application plug-in](topics/mvd-pluginexpsampapp.md)
