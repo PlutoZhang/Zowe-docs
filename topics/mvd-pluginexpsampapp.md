@@ -37,5 +37,5 @@ To build the sample app, node and npm must be included in the PATH. You can use 
     2.   Issue this command: `npm run build` 
     3.   Reload the web page. 
 
-**Parent topic:** [Creating an application plug-in](mvd-plugincreateappplugin.md)
+
 

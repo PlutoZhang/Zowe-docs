@@ -13,18 +13,12 @@ To log in, sign in using your mainframe credentials:
 
 Note the following items on the desktop:
 
-- In the lower left corner, is the **application menu** which includes access to the following:
+- In the lower left corner, is the **Application menu** which includes access to application plug-ins.
 
-    - **z/OS Subsystems** - An application that helps you find information about the important services on your mainframe, such as CICS, Db2, and IMS.
-
-    - **TN3270 Terminal** - A limited license plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running.
-
-    - **Welcome App** - Sample plugin.
-
-- Across the bottom of the window is the **application launch bar**.
+- Across the bottom of the window is the **Application launch bar**.
 
 - The bottom right corner displays the current date and time and allows access to the current user session.
 
 ## Logging out
 
-You can log out by clicking the avatar.
+To log out, click the the avatar in the lower right corner and click **Sign Out**.
