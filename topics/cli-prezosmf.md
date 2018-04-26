@@ -11,6 +11,3 @@ To use Brightside CLI, systems programmers and security administrators set up an
 * [Configure z/OS Management Facility Security](cli-configzosmfsecurity.md)
 * [Configure z/OS Management Facility Cloud Provisioning](cli-configzosmfcloudprovisioning.md)
 * [Configure z/OS Management Facility Cloud Provisioning Security](cli-configzosmfcloudprovisioningsecurity.md)
-
-**Parent topic:** [Prerequisites](../topics/planinstall.md)
-
