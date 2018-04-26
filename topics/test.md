@@ -157,7 +157,7 @@ later.
 
 **Note:** CA Technologies does not maintain the prerequisite software
 that Brightside CLI requires. You are responsible for updating Node.js
-and other prerequisites on your personal computer or workstation. We
+and other prerequisites on your PC or workstation. We
 recommend that you update Node.js regularly to the latest Long Term
 Support (LTS)
 version.

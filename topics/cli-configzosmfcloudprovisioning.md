@@ -23,7 +23,7 @@ The [IBM® z/OS® Provisioning Toolkit](https://developer.ibm.com/mainframe/pro
 command line utility that lets systems programmers and application developers provision z/OS *development* environments. The toolkit lets application developers with minimal z/OS specific administration skills provision and deprovision z/OS applications quickly. The toolkit also lets system programmers easily manage the provisioning process by preconfiguring the environments, control developer access through z/OS security, and set appropriate provisioning
 limits.
 
-IBM provides the z/OS Provisioning Toolkit with the following pax file: `zospt_v#######.pax`. The toolkit runs on z/OS using UNIX System Services (USS).
+IBM provides the z/OS Provisioning Toolkit with the following PAX file: `zospt_v#######.pax`. The toolkit runs on z/OS using UNIX System Services (USS).
 
 **Follow these steps:**
 
@@ -51,9 +51,9 @@ You acquire the z/OS Provisioning Toolkit installation files directly from I
    
     **Note:** We extracted some of the subsequent steps from the Readme file and modified the steps as needed.
   
-4.  Transfer the pax file in binary format to a USS directory on the system on which you want to run `zospt`.
+4.  Transfer the PAX file in binary format to a USS directory on the system on which you want to run `zospt`.
 
-5.  Unpackage the pax file.
+5.  Unpackage the PAX file.
         
     `pax -rf zospt_v#######.pax`
     
