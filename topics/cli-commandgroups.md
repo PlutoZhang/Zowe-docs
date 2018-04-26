@@ -10,7 +10,7 @@ In this article, we review all the Brightside CLI command groups and provide yo
 
 Brightside CLI contains the following command groups:
 
-## ca-disk
+## ca-disk command group 
 
 The ca-disk command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with [CA Disk Backup and Restore](https://docops.ca.com/ca-disk-backup-and-restore/12-5/en) from a familiar command-line interface. To execute commands using the ca-disk command group, [CA Disk Backup and
 Restore](https://support.ca.com/cadocs/0/CA%20Disk%20%20Backup%20and%20Restore%2012%205-ENU/Bookshelf.html) must be installed on your system.
@@ -23,7 +23,7 @@ With the ca-disk command group, you can perform the following tasks:
 
 **Note:** For more information about ca-disk syntax, actions, and options, open Brightside CLI, and issue the following command:
 
-## cics
+## cics command group
 
 The cics command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with CICS regions from a familiar command-line interface. 
 
@@ -40,7 +40,7 @@ With the cics command group, you can perform the following tasks:
 bright cics -h
 ```
 
-## compiler
+## compiler command group
 
 The compiler command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you compile code on mainframe systems. As a developer, you can use Brightside CLI to work on mainframe code locally and compile the code.
 
@@ -53,7 +53,7 @@ With the compiler command group, you can perform the following tasks:
 bright compiler -h
 ```
 
-## config
+## config command group
 
 The config command group lets you display and configure Brightside CLI settings and values to fit your needs. 
 
@@ -68,7 +68,7 @@ With the config command group, you can perform the following tasks:
 bright config -h
 ```
 
-## contribute
+## contribute command group
 
 The contribute command group lets you generate code that you can contribute to help improve Brightside CLI. 
 
@@ -81,7 +81,7 @@ With the contribute command group, you can perform the following tasks:
 bright contribute -h
 ```
 
-## db2
+## db2 command group
 
 The db2 command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with the IBM Db2 Databases.
 
@@ -96,7 +96,7 @@ To execute commands in the db2 command group, IBM Db2 Database must be installe
 bright db2 -h
 ```
 
-## endevor 
+## endevor command group 
 
 The endevor command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with CA Endevor remotely.
 
@@ -111,7 +111,7 @@ To execute commands in the endevor command group, CA Endevor must be installed a
 bright endevor -h
 ```
 
-## help
+## help command group
 
 The help command group provides context-sensitive help in Brightside CLI.
 
@@ -125,7 +125,7 @@ phrase.
 
 **Note:** For more information, see [How to Display Brightside CLI Help](cli-howtodisplaybrightsidehelp.md).
 
-## ipcs
+## ipcs command group
 
 The ipcs command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with Interactive Problem Control System (IPCS) on z/OS. With the ipcs command group, you can perform the following tasks:
 
@@ -137,7 +137,7 @@ The ipcs command group is an [experimental command group](cli-enabledisablexper
 bright ipcs -h
 ```
 
-## profiles
+## profiles command group
 
 The profiles command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you create, manage, and validate profiles for use with other Brightside CLI command groups. Profiles allow you to issue commands to different systems quickly, without specifying your connection details with every command.
 
@@ -158,7 +158,7 @@ For more information about profiles syntax, actions, and options, open Brightsid
 bright profiles -h
 ```
 
-## projects
+## projects command group
 
 The projects command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with projects in CA Endevor, Git, or other version control software. If you use Git, a minimum of Git version 2.9 is required.
 
@@ -175,7 +175,7 @@ With the projects command group, you can perform the following tasks:
 bright projects -h
 ```
 
-## provisioning
+## provisioning command group
 
 The provisioning command group lets you perform IBM z/OSMF provisioning tasks with templates and provisioned instances from Brightside CLI.
 
@@ -191,7 +191,7 @@ With the provisioning command group, you can perform the following tasks:
 bright provisioning -h
 ```
 
-## zos-console
+## zos-console command group
 
 The zos-console command group lets you issue commands to the z/OS console by establishing an extended Multiple Console Support (MCS) console.
 
@@ -207,7 +207,7 @@ With the zos-console command group, you can perform the following tasks:
 bright zos-console -h
 ```
 
-## zos-files
+## zos-files command group
 
 The zos-files command group lets you interact with USS files and data sets on z/OS systems.
 
@@ -227,7 +227,7 @@ bright zos-files -h
 
 See [Submit a Job and Print Job Output](cli-scenarios.md) for a use-case that demonstrates some zos-files commands.
 
-## zos-jobs
+## zos-jobs command group
 
 The zos-jobs command group lets you submit jobs and interact with jobs on z/OS systems.
 
@@ -247,7 +247,7 @@ bright zos-jobs -h
 
 See [Submit a Job and Print the Job Output](cli-scenarios.md) for a use case that demonstrates some zos-jobs commands.
 
-## zos-ssh
+## zos-ssh command group
 
 The zos-ssh command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you interact with UNIX System Services (USS) on z/OS systems.
 
@@ -260,7 +260,7 @@ With the zos-ssh command group, you can perform the following tasks:
 bright zos-ssh -h
 ```
 
-## zos-tso
+## zos-tso command group
 
 The zos-tso command group lets you issue TSO commands and interact with TSO address spaces on z/OS systems.
 
@@ -274,7 +274,7 @@ With the zos-tso command group, you can perform the following tasks:
 bright zos-tso -h
 ```
 
-## zos-utils
+## zos-utils command group
 
 The zos-utils command group is an [experimental command group](cli-enabledisablexperimentalcommands.md) that lets you use common mainframe utilities remotely.
 
@@ -289,7 +289,7 @@ With the zos-utils command group, you can perform the following tasks:
 bright zos-utils -h
 ```
 
-## zosmf
+## zosmf command group
 
 The zosmf command group lets you work with Brightside CLI profiles and get general information about z/OSMF.
 
@@ -304,4 +304,3 @@ system.
 ```
 bright zosmf -h
 ```
-
