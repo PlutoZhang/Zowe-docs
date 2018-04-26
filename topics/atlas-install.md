@@ -3,27 +3,21 @@
 Installing Atlas involves obtaining the Atlas Archive, running the install script, and configuring files.
 
 **Before you begin**  
-Before installing Atlas, ensure that your environment meets the [prerequisites for Atlas](topics/atlas-prereqs.md).
+
+Before you install Atlas, ensure that the following conditions are met:
+- Ensure that you [obtain the Project Giza installation media](https://github.com/gizafoundation/Downloads/releases) and follow the instructions there or in [Installing Project Giza](https://github.com/gizafoundation/Giza-docs/blob/master/topics/installandconfig.md) to unpack it.
+- Ensure that your environment meets the [prerequisites for Atlas](topics/atlas-prereqs.md).
 
 **Procedure**  
 To install Atlas, follow these steps:
 
-1. [Obtain the Project Giza installation media](https://github.com/gizafoundation/Downloads/releases) and follow the initial instructions there to transfer it to the USS file system on the mainframe.
-
-2. Unpack the obtained Project Giza PAX file by issuing the following command.  
-   ```
-   pax -ppx -rf <pax-file-name>.pax
-   ```  
-   Where _pax-file-name_ is a variable that indicates the name of the PAX file you downloaded. For example, project_giza-0.8.0.pax
-
-   Once completed, you should have the following files available:
-   - An Atlas PAX file
+1. After you unpack the obtained Project Giza PAX file, locate the following files:
+   - The Atlas PAX file
    - The Atlas install script (scripts/atlas/atlas-wlp-package-0.0.3.sh)    
 
+2. Move the Atlas PAX file and install script to the preferred installation directory. It is recommended that you move them to the `gizaInstallDir/Atlas` directory.
 
-3. Move the Atlas PAX file and install script to the preferred installation directory. It is recommended that you move them to the `gizaInstallDir/Atlas` directory.
-
-4. Run the Atlas install script.
+3. Run the Atlas install script.
 
     Run the install script in the installation directory with a user ID that has the authority to:
 
@@ -45,7 +39,7 @@ To install Atlas, follow these steps:
     ./atlas-wlp-package-0.0.3.sh
     ```
 
-5. Change the ownership of Atlas installation directory and files.
+4. Change the ownership of Atlas installation directory and files.
 
     The user who runs the Atlas Liberty server needs the access to the Atlas installation directory and files. You can use the same user ID that runs the z/OSMF IZUSVR1 started task to run the Atlas Liberty server. By default, it is the user IZUSVR.
 
@@ -57,7 +51,7 @@ To install Atlas, follow these steps:
 
     You might need super user authority to run this command. Use an alternative user ID if you choose not to use the default z/OSMF IZUSVR1 started task user.
 
-6. Create a member FEKATLS in your system PROCLIB data set.
+5. Create a member FEKATLS in your system PROCLIB data set.
 
     The install script creates a file that is called `FEKATLS.jcl` in your Atlas installation directory. Copy this file to a system PROCLIB data set by using the following TSO command:
 
@@ -67,7 +61,7 @@ To install Atlas, follow these steps:
 
     The FEKATLS procedure starts a Liberty profile server running the Atlas microservice application.
 
-7. Configure the FEKATLS started procedure.
+6. Configure the FEKATLS started procedure.
 
     To run the FEKATLS procedure as the user IZUSVR, define the procedure to the STARTED class by using RACF® or equivalent, for example:
 
@@ -131,7 +125,7 @@ To install Atlas, follow these steps:
 
     ```
 
-8. Add Atlas users to the z/OSMF users group \(IZUUSER\).
+7. Add Atlas users to the z/OSMF users group \(IZUUSER\).
 
     Atlas uses z/OSMF to access data sets, z/OS UNIX System Services files, and job spool files. To use these z/OSMF services, Atlas users must be authorized to z/OSMF resources. For more information, see the *IBM z/OS Management Facility Configuration Guide*, Appendix A.
 
@@ -180,5 +174,3 @@ To install Atlas, follow these steps:
 **What to do next**
 
 Verify whether Atlas is successfully installed. For more information, see [Verifying Atlas Installation](atlas-verifyinstal.md).
-
-**Parent topic:** [Installing Project Giza](../topics/installandconfig.md)
