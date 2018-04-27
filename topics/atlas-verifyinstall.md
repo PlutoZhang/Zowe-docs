@@ -43,5 +43,3 @@ With the discovery feature, you can also try each discovered API. The users who 
        This API returns a list of the userid.** MVS data sets.
 
 If Atlas is not installed successfully, see [Troubleshooting installation](troubleshoot.md) for solutions.
-
-**Parent topic:** [Installing Atlas](../topics/install.md)

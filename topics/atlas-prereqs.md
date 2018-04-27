@@ -21,5 +21,3 @@ The following information is required during the installation process. Make the 
     **Tip:** Use the same user ID that runs the z/OSMF IZUSVR1 task, or a user ID with equivalent authorizations.
 
 -   \(Optional\) The SDSF Java installation directory, for example, `/usr/lpp/sdsf/java`.
-
-**Parent topic:** [Prerequisites](../topics/planinstall.md)

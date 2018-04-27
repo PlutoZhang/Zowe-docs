@@ -279,4 +279,3 @@ If none of the initiators has **C** in its CLASS list, add **C** to the list of 
 ```
 /$T I3,CL=ABC
 ```
-**Parent topic:** [Prerequisites](../topics/planinstall.md)

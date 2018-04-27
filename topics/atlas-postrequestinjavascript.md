@@ -21,5 +21,3 @@ function submitJob(){
     return result;
 }
 ```
-
-**Parent topic:** [Programming Atlas REST APIs](../topics/programrestapi.md)

@@ -37,5 +37,3 @@ function getJobs(owner, prefix){
      return result;
 }
 ```
-
-**Parent topic:** [Programming Atlas REST APIs](../topics/programrestapi.md)

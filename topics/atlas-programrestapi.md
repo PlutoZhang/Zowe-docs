@@ -10,5 +10,3 @@ Here is sample code written in JavaScript™ using features from ES6 to send a `
 Here is sample code written in JavaScript™ using features from ES6 to send a `POST` request to Atlas.
 -   **[Extended API sample in JavaScript](../topics/atlas-extendedapisample.md)**  
 Here is an extended API sample that is written using JavaScript™ with features from ES62015 \(map\).
-
-**Parent topic:** [Using Project Giza](../topics/using.md)
