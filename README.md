@@ -33,7 +33,7 @@
         -   [Troubleshooting installing zLUX](topics/mvd-troubleshoot.md)
         -   [Troubleshooting installing Atlas](topics/atlas-troubleshoot.md)
         -   [Troubleshooting installing Brightside CLI](topics/cli-troubleshootinginstallingcli.md)
-   -   [Uninstalling Project Giza](topics/uninstall.md)
+    -   [Uninstalling Project Giza](topics/uninstall.md)
         -   [Uninstalling zLUX](topics/mvd-uninstallingzlux.md)
         -   [Uninstalling Atlas](topics/atlas-uninstall)
         -   [Uninstalling Brightside CLI](topics/cli-uninstallcli.md)
