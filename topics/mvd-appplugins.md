@@ -6,11 +6,11 @@ Application plug-ins are available from the MVD Application menu in the lower le
 A limited license plug-in that provides a 3270 connection to the mainframe on
 which the Giza Node Server is running.
 ## VT Terminal 
-A limited license plug-in that provides a connection to USS and Unix.
+A limited license plug-in that provides a connection to USS and UNIX.
 ## IFrame
-A sample application plug-in for developers that demonstrates how to embed pre-made webpages within the desktop as an app and how an app (iframe or not), can request an action of another app (see the source code for details).
+A sample application plug-in for developers that demonstrates how to embed pre-made webpages within the desktop as an app and how an app can request an action of another app (see the source code for details).
 ## ZOS Subsystems (Discovery)
 An application plug-in that helps you find information about the important services on your mainframe, such as CICS, Db2, and IMS.
 ## Hello World
-A sample application plug-in.
+A sample application plug-in for developers that demonstrates how to create a data service and how to create an application plug-in using Angular.
 

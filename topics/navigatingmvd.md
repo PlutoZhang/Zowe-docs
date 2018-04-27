@@ -1,7 +1,7 @@
 # Navigating MVD
 
 
-To access the MVD, see [Verifying zLUX installation](mvd-instopendesktopbrowser.md).
+From the Mainframe Virtual Desktop (MVD), you can access the Project Giza applications. To access the MVD, see [Verifying zLUX installation](mvd-instopendesktopbrowser.md).
 
 ## Logging into the MVD
 
