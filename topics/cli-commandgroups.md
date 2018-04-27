@@ -1,4 +1,4 @@
-# Brightside CLI command groups
+# Using Brightside CLI command groups
 
 Brightside CLI contains command groups that focus on specific business processes that you (application developers and systems programmers) perform during your day-to-day activities. For example, the compiler command group lets you perform tasks that relate to compiling source code on mainframe systems. The projects command group lets you perform tasks that relate to managing source code that you store in version control systems, such as Git and CA Endevor®. You can perform all the tasks that relate to these business processes using a unified command-line interface - Brightside CLI.
 

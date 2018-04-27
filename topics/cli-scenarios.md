@@ -1,4 +1,4 @@
-# Brightside CLI scenarios
+# Using Brightside CLI scenarios
 
 This section contains sample scenarios that can help you learn how to use Brightside CLI. In each use case, we explain the process of issuing Brightside CLI commands so that you can use Brightside CLI features to accomplish common mainframe tasks.
 

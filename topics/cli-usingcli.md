@@ -2,7 +2,7 @@
 
 This section contains the following articles about using Brightside CLI:
 
-- [How to display Brightside CLI help](cli-howtodisplaybrightsidehelp.md)
-- [Brightside CLI command groups](cli-commandgroups.md)
-- [Enable and disable experimental commands](cli-enabledisablexperimentalcommands.md)
-- [Brightside CLI scenarios](cli-scenarios.md)
+- [Displaying Brightside CLI help](cli-howtodisplaybrightsidehelp.md)
+- [Using Brightside CLI command groups](cli-commandgroups.md)
+- [Enabling and disabling experimental commands](cli-enabledisablexperimentalcommands.md)
+- [Using Brightside CLI scenarios](cli-scenarios.md)
