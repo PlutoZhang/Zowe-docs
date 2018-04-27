@@ -8,5 +8,3 @@ Use z/OS system APIs to view information about CPU, PARMLIB, SYSPLEX, USER. See 
 |`GET /Atlas/api/zos/parmlib`|Get system PARMLIB information. Use this API to get the PARMLIB data set concatenation of the target z/OS system.|None|
 |`GET /Atlas/api/zos/sysplex`|Get target system sysplex and system name. Use this API to get the system and sysplex names.|None|
 |`GET /Atlas/api/zos/username`|Get current userid. Use this API to get the current user ID.|None|
-
-**Parent topic:** [Using Atlas REST APIs](../topics/usingatlasrestapis.md)

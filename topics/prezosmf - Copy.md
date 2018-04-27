@@ -275,5 +275,3 @@ You will see responses like the following in SYSLOG:
 If none of the initiators has **C** in its CLASS list, add **C** to the list of any initiator. For example, initiator 3 as shown above, with the following command:
 
 ```/$T I3,CL=ABC```
-
-**Parent topic:** [Prerequisites](../topics/planinstall.md)

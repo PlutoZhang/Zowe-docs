@@ -12,5 +12,3 @@ Use data set APIs to create, read, update, delete, and list data sets. See the f
 |`POST /Atlas/api/datasets/{dsn}`|Create a data set. Use this API to create a data set according to the attributes that are provided. The API uses z/OSMF to create the data set and uses the syntax and rules that are described in the *z/OSMF Programming Guide*.|z/OSMF restfiles|
 |`POST /Atlas/api/datasets/{dsn}/{basedsn}`|Create a data set by using the attributes of a given base data set. When you do not know the attributes of a new data set, use this API to create a new data set by using the same attributes as an existing one.|z/OSMF|
 |`DELETE /Atlas/api/datasets/{dsn}`|Delete a data set or member. Use this API to delete a sequential data set or partitioned data set member.|z/OSMF restfiles|
-
-**Parent topic:** [Using Atlas REST APIs](../topics/usingatlasrestapis.md)

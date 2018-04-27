@@ -27,5 +27,3 @@ To uninstall Atlas, take the following steps:
 
     -   You might need super user authority to run this command.
     -   You must identify the Atlas installation directory correctly. Running a recursive remove command with the wrong directory name might delete critical files.
-
-**Parent topic:** [Installing Atlas](../topics/uninstall.md)

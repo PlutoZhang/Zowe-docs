@@ -14,5 +14,3 @@ Use Jobs APIs to view the information and files of jobs, and submit and cancel j
 |`GET /Atlas/api/jobs/{jobName}/ids/{jobId}/subsystem`|Get the subsystem type for a job. Use this API to determine the subsystem that is associated with a given job. The API examines the JCL of the job to determine if the executed program is CICS®, DB2®, IMS™, or IBM® MQ.|z/OSMF restjobs|
 |`POST /Atlas/api/jobs`|Submit a job and get the job id back. Use this API to submit a partitioned data set member or UNIX™ file.|z/OSMF restjobs|
 |`DELETE /Atlas/api/jobs/{jobName}/{jobId}`|Cancel a job and purge its associated files. Use this API to purge a submitted job and the logged output files that it creates to free up space.|z/OSMF Running Common Information Model \(CIM\) server|
-
-**Parent topic:** [Using Atlas REST APIs](../topics/usingatlasrestapis.md)

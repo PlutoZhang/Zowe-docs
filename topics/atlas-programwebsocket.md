@@ -24,5 +24,3 @@ function initWebsocket(){
     }
 }
 ```
-
-**Parent topic:** [Using Atlas WebSocket services](../topics/atlas-websocket.md)

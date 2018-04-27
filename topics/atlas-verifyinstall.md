@@ -1,6 +1,6 @@
 # Verifying Atlas installation
 
-After Atlas is installed and the FEKATLS procedure is started, you can verify the installation from an internet browser by using the following URL:
+After Atlas is installed and the FEKATLS procedure is started, you can verify the installation from an Internet browser by using the following URL:
 
 https://*your.server*:*atlasport*/Atlas/api/system/version
 
@@ -43,5 +43,3 @@ With the discovery feature, you can also try each discovered API. The users who 
        This API returns a list of the userid.** MVS data sets.
 
 If Atlas is not installed successfully, see [Troubleshooting installation](troubleshoot.md) for solutions.
-
-**Parent topic:** [Installing Atlas](../topics/install.md)
