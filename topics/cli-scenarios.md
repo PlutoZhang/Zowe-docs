@@ -98,9 +98,4 @@ In addition to the [Prerequisities](#prerequisites), this scenario requires that
     
     **Tip:** This example shows the **-P** command option, which prints all spool output after the job completes.
        
-    Review the job status and spool output. If the job compiles your source code successfully, you completed the scenario! If the job did not complete successfully, repeat Steps 4 through 6 to edit and resubmit the job. 
-    
-
-    
-
-    
+    Review the job status and spool output. If the job compiles your source code successfully, you completed the scenario! If the job did not complete successfully, repeat Steps 4 through 6 to edit and resubmit the job.  
