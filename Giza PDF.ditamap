@@ -93,15 +93,6 @@ href="topics/cli-validateInstallationcorrectproblems.md"
 navtitle="Identify and correct problems detected by the validate profile command"
 scope="local"></topicref>
 </topicref>
-<topicref format="md" href="topics/uninstall.md"
-navtitle="Uninstalling Project Giza" scope="local">
-<topicref format="md" href="topics/mvd-uninstallingzlux.md"
-navtitle="Uninstalling zLUX" scope="local"></topicref>
-<topicref format="md" href="topics/atlas-uninstall.md"
-navtitle="Uninstalling Atlas" scope="local"></topicref>
-<topicref format="md" href="topics/cli-uninstallcli.md"
-navtitle="Uninstalling Brightside CLI" scope="local"></topicref>
-</topicref>
 <topicref format="md" href="topics/troubleshoot.md"
 navtitle="Troubleshooting installation" scope="local">
 <topicref format="md" href="topics/mvd-troubleshoot.md"
@@ -111,6 +102,13 @@ navtitle="Troubleshooting installing Atlas" scope="local"></topicref>
 <topicref format="md" href="topics/cli-troubleshootinginstallingcli.md"
 navtitle="Troubleshooting installing Brightside CLI" scope="local">
 </topicref>
+</topicref>
+<topicref format="md" href="topics/uninstall.md" navtitle="Uninstalling Project Giza" scope="local">
+<topicref format="md" href="topics/mvd-uninstallingzlux.md" navtitle="Uninstalling zLUX"
+scope="local"/>
+<topicref format="md" href="topics/atlas-uninstall.md" navtitle="Uninstalling Atlas" scope="local"/>
+<topicref format="md" href="topics/cli-uninstallcli.md" navtitle="Uninstalling Brightside CLI"
+scope="local"/>
 </topicref>
 </chapter>
 <chapter format="md" href="topics/using.md" navtitle="Using Project Giza"
