@@ -20,6 +20,7 @@
     -   [Installing components of Project Giza](topics/installing.md)  
         -   [Installing zLUX](topics/installvirtualdesktop.md)
             -   [Setting up the Giza Node server and the ZSS on z/OS](topics/mvd-instsetupeverythingonzos.md)
+                - [Setting up the terminal application plug-ins](topics/mvd-settingupterminalapps.md)
             -   [Starting the zLUX server](topics/mvd-startzluxserver.md)
             -   [Stopping the zLUX server](topics/mvd-stopzluxserver.md)
         -   [Installing Atlas](topics/atlas-install.md)

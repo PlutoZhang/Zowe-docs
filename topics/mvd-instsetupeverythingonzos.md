@@ -40,12 +40,13 @@ The zLUX archive is distributed as a PAX archive. When you unpack the archive, b
 
  -   **Port field for the https field of the node object**
 
-     Required if you intend to access the zLUX Secure Services address space through encrypted HTTPS. Specify a port number that is available on your system. Requires `keys` and `certificates`
+     Required if you intend to access the zLUX Secure Services address space through encrypted HTTPS. Specify a port number that is available on your system. Requires `keys` and `certificates`.
 
      **Note:** Currently, the zLUX Secure Services address space configuration JSON file at `zlux-example-server/config/zluxserver.json` contains an example node configuration, so you can refer to one file for both the zLUX Secure Services address space and the Giza Node server.
-     
 
-To update the server configuration, run `zlux-example-server/build/deploy.sh`
+6.  (Optional.) Set up the terminal application plug-ins. For more information, see [Setting up terminal application plug-ins](mvd-settingupterminalapps.md).    
+
+7. To update the server configuration, run `zlux-example-server/build/deploy.sh`
 
 
      
