@@ -8,7 +8,10 @@ The zLUX archive is distributed as a PAX archive. When you unpack the archive, b
     -   [Verifying port number availability](mvd-instverifyportnumavailable.md)
  
 2. To obtain the installation media, follow the instructions in [Obtain the Project Giza installation media](installing.md).
-3. Navigate to the `scripts/zlux` subdirectory of the Project Giza contents directory (where you unpacked the Project Giza PAX file) and run `zlux-install-script.sh`
+3. Navigate to the `scripts/zlux` subdirectory of the Project Giza contents directory (where you unpacked the Project Giza PAX file) and issue the following command: 
+```
+   zlux-install-script.sh
+```
 5.   Upon startup, the Giza Node server loads the `zluxserver.json` configuration file \(from `zlux-example-server/deploy/instance/ZLUX/serverConfig/zluxserver.json\`). The JSON configuration file adheres to a specific structure, as shown in the following figure:
 
     ```
@@ -46,8 +49,11 @@ The zLUX archive is distributed as a PAX archive. When you unpack the archive, b
 
 6.  (Optional.) Set up the terminal application plug-ins. For more information, see [Setting up terminal application plug-ins](mvd-settingupterminalapps.md).    
 
-7. To update the server configuration, run `zlux-example-server/build/deploy.sh`
+7. To update the server configuration, issue the following command:
 
+```
+  zlux-example-server/build/deploy.sh
+```
 
      
 Start the server as described in [Starting the zLUX server](mvd-startzluxserver.md).

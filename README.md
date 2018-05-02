@@ -2,6 +2,7 @@
 
 -   [Edition notice](topics/editionnotice.md)
 -   [About this book](topics/aboutthisbook.md)
+-   [What's new](topics/whatsnew.md)
 -   [Project Giza overview](topics/introduction.md)
     - [What is Project Giza](topics/whatis.md)
     - [Components overview](topics/componentoverview.md)

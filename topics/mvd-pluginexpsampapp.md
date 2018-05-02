@@ -8,12 +8,11 @@ To build the sample app, node and npm must be included in the PATH. You can use 
 
 - Be aware that whenever you change the source code for the sample application, you must subsequently rebuild the sample application.
 
-- If you want to modify sample-app, you must run `_npm install_` in the virtual-desktop and the `sample-app/webClient`. Then, you can run `_npm run build_` in `sample-app/webClient`.
+- If you want to modify `sample-app`, you must run `_npm install_` in the virtual-desktop and the `sample-app/webClient`. Then, you can run `_npm run build_` in `sample-app/webClient`.
 
 1.   Try adding an item to sample-app. The following figure shows the unmodified contents of `app.component.ts`:
 
-    ```
-    
+```
     import { Component } from '@angular/core';
     
     @Component({
@@ -25,16 +24,26 @@ To build the sample app, node and npm must be included in the PATH. You can use 
       items = ['a', 'b', 'c', 'd']
       title = 'app';
     }
-    ```
+```
 
 2.   Save your changes to `app.component.ts`. 
-3.   Issue one of these commands: 
-    -   `npm run build` to rebuild the application plug-in.
-    -   `npm start` to rebuild the application plug-in and wait for additional changes to `app.component.ts`.
+3.   Issue one of the following commands: 
+     -   To rebuild the application plug-in, issue the following command:
+     ```
+        npm run build
+     ```
+     -   To rebuild the application plug-in and wait for additional changes to `app.component.ts`, issue the following command:
+     ```
+       npm start
+     ``` 
 4.   Reload the web page. 
 5.   Whenever you make changes to the sample application source code, you must subsequently rebuild the application: 
-    1.   Navigate to the sample-app subdirectory where you made the source code changes. 
-    2.   Issue this command: `npm run build` 
+     1.   Navigate to the sample-app subdirectory where you made the source code changes. 
+     2.   Issue the following command:
+          ```
+           npm run build
+          ``` 
+
     3.   Reload the web page. 
 
 
