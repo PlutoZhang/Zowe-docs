@@ -12,9 +12,9 @@ The zLUX archive is distributed as a PAX archive. When you unpack the archive, b
 ```
    zlux-install-script.sh
 ```
-5.   Upon startup, the Giza Node server loads the `zluxserver.json` configuration file \(from `zlux-example-server/deploy/instance/ZLUX/serverConfig/zluxserver.json\`). The JSON configuration file adheres to a specific structure, as shown in the following figure:
+4.   Upon startup, the Giza Node server loads the `zluxserver.json` configuration file \(from `zlux-example-server/deploy/instance/ZLUX/serverConfig/zluxserver.json\`). The JSON configuration file adheres to a specific structure, as shown in the following figure:
 
-    ```
+  ```
       "node": {
         "http": {
           "port": 8543
@@ -33,7 +33,7 @@ The zLUX archive is distributed as a PAX archive. When you unpack the archive, b
           }
         ]
       },
-    ```
+  ```
 
  Note the following about specifying values in the JSON configuration file:
 
@@ -47,9 +47,9 @@ The zLUX archive is distributed as a PAX archive. When you unpack the archive, b
 
      **Note:** Currently, the zLUX Secure Services address space configuration JSON file at `zlux-example-server/config/zluxserver.json` contains an example node configuration, so you can refer to one file for both the zLUX Secure Services address space and the Giza Node server.
 
-6.  (Optional.) Set up the terminal application plug-ins. For more information, see [Setting up terminal application plug-ins](mvd-settingupterminalapps.md).    
+5.  (Optional.) Set up the terminal application plug-ins. For more information, see [Setting up terminal application plug-ins](mvd-settingupterminalapps.md).    
 
-7. To update the server configuration, issue the following command:
+6. To update the server configuration, issue the following command:
 
 ```
   zlux-example-server/build/deploy.sh
