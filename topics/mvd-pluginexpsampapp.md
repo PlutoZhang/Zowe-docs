@@ -38,8 +38,8 @@ To build the sample app, node and npm must be included in the PATH. You can use 
      ``` 
 4.   Reload the web page. 
 5.   Whenever you make changes to the sample application source code, you must subsequently rebuild the application: 
-     1.   Navigate to the sample-app subdirectory where you made the source code changes. 
-     2.   Issue the following command:
+     1. Navigate to the sample-app subdirectory where you made the source code changes. 
+     2. Issue the following command:
           ```
            npm run build
           ``` 
