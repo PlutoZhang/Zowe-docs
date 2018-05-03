@@ -10,7 +10,7 @@ To set up the environment, the node must be accessible on the PATH. To determine
 
 If data is returned, the node is already on the PATH and no action is required.  
 
-If nothing is returned from the command, you can set the PATH using the `NODE_HOME` variable. The `NODE_HOME` variable must be set to the directory of the node install. You can use the export command to set the directory. For example: 
+If nothing is returned from the command, you can set the PATH using the *NODE_HOME* variable. The *NODE_HOME* variable must be set to the directory of the node install. You can use the export command to set the directory. For example: 
 ```
 export `NODE_HOME`=node_installation_directory
 ```
