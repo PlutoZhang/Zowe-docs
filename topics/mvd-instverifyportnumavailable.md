@@ -21,5 +21,3 @@ Complete the following steps:
    TSO NETSTAT PORTLIST
    ```  
 2.   For the `zssPort`, HTTP and HTTPS ports, select port numbers that are not reserved or already in use. You will need to specify the selected port numbers to complete the procedure in [Setting up the Giza Node server and the zLUX Secure Services address space on z/OS](mvd-instsetupeverythingonzos.md) topic. 
-
-After you have verified the availability of the port numbers that you will need to complete your Giza Node server and zLUX Secure Services address space set up, you can proceed to [Setting up the Giza Node server and the zLUX Secure Services address space on z/OS](mvd-instsetupeverythingonzos.md).
