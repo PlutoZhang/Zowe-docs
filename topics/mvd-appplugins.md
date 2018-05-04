@@ -1,7 +1,9 @@
 # Using zLUX application plug-ins
+
 Application plug-ins are applications that you can use to access the mainframe and to perform various tasks. Developers can create application plug-ins using a sample application as a guide. 
 
-Application plug-ins are available from the MVD **Application menu** in the lower left corner of the desktop. 
+Application plug-ins are available from the MVD **Application menu** in the lower left corner of the desktop.
+ 
 ## TN3270
 This application plug-in provides a 3270 connection to the mainframe on
 which the Giza Node Server runs.
