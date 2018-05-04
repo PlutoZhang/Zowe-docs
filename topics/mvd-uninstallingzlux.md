@@ -1,6 +1,6 @@
 # Uninstalling zLUX
 
-1. Stop the server. Use one of the following standard process signals:
+1. Use one of the following standard process signals to stop the server:
 
     - SIGHUP
     - SIGTERM

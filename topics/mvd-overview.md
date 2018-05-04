@@ -15,4 +15,4 @@ zLUX consists of the following components:
   A server that provides secure REST services to support the Giza Node Server.
 - **Application plug-ins** 
 
-  Several application-type plug-ins are provided. For more information, see [Using application plug-ins](mvd-appplugins.md).
+  Several application-type plug-ins are provided. For more information, see [Using zLUX application plug-ins](mvd-appplugins.md).
