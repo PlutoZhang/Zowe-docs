@@ -37,14 +37,14 @@ To build the sample application plug-in, node and npm must be included in the PA
        npm start
      ``` 
 4.   Reload the web page. 
-5.   If you make changes to the sample application source code, complete the following steps to rebuild the application: 
-     1. Navigate to the sample-app subdirectory where you made the source code changes. 
+5.   If you make changes to the sample application source code, follow these steps to rebuild the application: 
+     1. Navigate to the `sample-app` subdirectory where you made the source code changes. 
      2. Issue the following command:
           ```
            npm run build
           ``` 
 
-    3.   Reload the web page. 
+     3.   Reload the web page. 
 
 
 
