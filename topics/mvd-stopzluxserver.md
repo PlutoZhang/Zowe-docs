@@ -1,5 +1,5 @@
 # Stopping the zLUX server
 
-The server responds to standard process signals such as SIGHUP, SIGTERM, and SIGKILL.
+To stop the zLUX server, use standard process signals such as SIGHUP, SIGTERM, and SIGKILL.
 
-Alternatively, you can press CTRL+C
+Alternatively, you can press CTRL+C.
