@@ -12,12 +12,12 @@ Complete the following steps:
 
 1.   To determine which ports are not available, follow these steps: 
 
-   - To display a list of ports that are in use, issue the following command:
-     ```
-     TSO NETSTAT to display
-     ``` 
-  -  To display a list of reserved ports, issue the following command:
-     ```
-     TSO NETSTAT PORTLIST
-     ```  
+     - To display a list of ports that are in use, issue the following command:
+       ```
+       TSO NETSTAT to display
+       ``` 
+     -  To display a list of reserved ports, issue the following command:
+        ```
+        TSO NETSTAT PORTLIST
+        ```  
 2.   For the `zssPort`, HTTP and HTTPS ports, select port numbers that are not reserved or already in use. You will need to specify the selected port numbers to complete the procedure in [Setting up the Giza Node server and the zLUX Secure Services address space on z/OS](mvd-instsetupeverythingonzos.md). 
