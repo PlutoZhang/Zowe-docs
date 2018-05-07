@@ -1,6 +1,7 @@
 # System requirements for zLUX
 
   Confirm that your environment meets the requirements for zLUX: 
+  
    -   z/OS Version 2.2 or later.
    -   Whatever maintenance is required by the Node.js and Java installations.
    -   833 MB of HFS file space for the zLUX installation.
