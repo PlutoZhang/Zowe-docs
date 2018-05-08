@@ -8,5 +8,3 @@ Use Persistent Data APIs to create, read, update, delete metadata from persisten
 |`POST /Atlas/api/data`|Create metadata in persistent repository for one or more resource/attribute elements. Use this API to set a group of resource or attributes values.|None|
 |`GET /Atlas/api/data`|Retrieve metadata from persistent repository for a given resource \(and optional attribute\) name. Use this API to get all the attribute values or any particular attribute value for a given resource.|None|
 |`DELETE /Atlas/api/data`|Remove metadata from persistent repository for a resource \(and optional attribute\) name. Use this API to delete all the attribute values or any particular attribute value for a given resource.|None|
-
-**Parent topic:** [Using Atlas REST APIs](../topics/usingatlasrestapis.md)

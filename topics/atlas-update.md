@@ -5,10 +5,10 @@ You can monitor the [GitHub repository](https://github.com/gizafoundation/Downlo
 To replace the WAR files, take the following steps:
 
 1.  Download the update package as a .zip file.
-2.  Extract the .zip file on your personal machine or by using zip utilities on the mainframe.
+2.  Extract the .zip file on your PC or by using zip utilities on the mainframe.
 3.  Back up and delete the existing WAR files located at *"\{server root folder\}/wlp/usr/servers/Atlas/apps"*.
 4.  Transfer the new WAR files to the server at the same location *"\{server root folder\}/wlp/usr/servers/Atlas/apps"*.
-5.  Restart the Atlas server:
+5.  Restart the Atlas server:  
     Stop:
     Enter the `STOP` operator command:
     ```
@@ -20,10 +20,9 @@ To replace the WAR files, take the following steps:
     S FEKATLS
     ```
 
-To replace the whole service package, take the following steps:
+To replace the whole service package, follow these steps:
 
-1.  Stop the Atlas server:
-    Enter the `STOP` operator command:
+1.  Stop the Atlas server by issuing the `STOP` operator command:
     ```
     P FEKATLS
     ```
@@ -34,5 +33,3 @@ To replace the whole service package, take the following steps:
 
 
 After restarting the Atlas server, you can check the version of Atlas that you installed from the swagger interface, which is `Atlas/api/system/version` under System APIs.
-
-**Parent topic:** [Updating Project Giza](../topics/update.md)

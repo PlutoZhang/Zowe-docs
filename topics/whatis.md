@@ -22,5 +22,3 @@ Project Giza provides a command line interface that allows interactive access to
 - Edit files, submit jobs, and issue commands which are the common z/OS tasks.
 - Script the commands to perform a series of steps. You can write scripts to automate a variety of z/OS tasks to speed such things as application deployment, provisioning of new run-time environments or job submission and capturing of results.
 - Use new ways to work with z/OS assets such as using file editors of the system programmer choose or any number of the tools not typically associated with z/OS. The command line interface comes with z/OS support but can be extended to support any other z/OS-based application or subsystem.
-
-**Parent topic:** [Project Giza overview](../topics/introduction.md)

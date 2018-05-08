@@ -2,13 +2,20 @@
 
 Installing Atlas involves obtaining the Atlas Archive, running the install script, and configuring files.
 
-Before installing Atlas, ensure that your environment meets the [prerequisites for Atlas](topics/atlas-prereqs.md).
+**Before you begin**  
 
-To install Atlas, complete the following steps:
+Before you install Atlas, ensure that the following conditions are met:
+- Ensure that you [obtain the Project Giza installation media](https://github.com/gizafoundation/Downloads/releases) and follow the instructions there or in [Installing Project Giza](https://github.com/gizafoundation/Giza-docs/blob/master/topics/installandconfig.md) to unpack it.
+- Ensure that your environment meets the [prerequisites for Atlas](topics/atlas-prereqs.md).
 
-1. [Follow instructions to obtain the Project Giza installation media](https://github.com/gizafoundation/Downloads/releases). Once completed, you should have an Atlas PAX file along with the Atlas install script (scripts/atlas/atlas-wlp-package-0.0.3.sh).
+**Procedure**  
+To install Atlas, follow these steps:
 
-2. Move the Atlas PAX file and install script to the preferred installation directory, for example, gizaInstallDir/Atlas.
+1. After you unpack the obtained Project Giza PAX file, locate the following files:
+   - The Atlas PAX file
+   - The Atlas install script (scripts/atlas/atlas-wlp-package-0.0.3.sh)    
+
+2. Move the Atlas PAX file and install script to the preferred installation directory. It is recommended that you move them to the `gizaInstallDir/Atlas` directory.
 
 3. Run the Atlas install script.
 
@@ -25,9 +32,9 @@ To install Atlas, complete the following steps:
     ```
     chmod u+x atlas-wlp-package-0.0.3.sh
     ```
-    
-    Then, execute the install script using the following commmand:
-    
+
+    Then, execute the install script using the following command:
+
     ```
     ./atlas-wlp-package-0.0.3.sh
     ```
@@ -42,11 +49,11 @@ To install Atlas, complete the following steps:
     chown -R IZUSVR *
     ```
 
-    You might need super user authority to run this command. Use an alternative user ID if you chose not to use the default z/OSMF IZUSVR1 started task user.
+    You might need super user authority to run this command. Use an alternative user ID if you choose not to use the default z/OSMF IZUSVR1 started task user.
 
 5. Create a member FEKATLS in your system PROCLIB data set.
 
-    The install script creates a file that is called `FEKATLS.jcl` is created in your Atlas installation directory. Copy this file to a system PROCLIB data set by using the following TSO command:
+    The install script creates a file that is called `FEKATLS.jcl` in your Atlas installation directory. Copy this file to a system PROCLIB data set by using the following TSO command:
 
     ```
     oget '/atlasInstallPath/FEKATLS.jcl' 'hlq.proclib(FEKATLS)'
@@ -145,7 +152,7 @@ To install Atlas, complete the following steps:
     ```
     iconv -f ISO8859-1 -t IBM-1047 install.sh > install-CONVERTED.sh
     ```
-    
+
     Give the new script execute permissions using the following command:
     ```
     chmod u+x install-CONVERTED.sh
@@ -167,5 +174,3 @@ To install Atlas, complete the following steps:
 **What to do next**
 
 Verify whether Atlas is successfully installed. For more information, see [Verifying Atlas Installation](atlas-verifyinstal.md).
-
-**Parent topic:** [Installing Project Giza](../topics/installandconfig.md)

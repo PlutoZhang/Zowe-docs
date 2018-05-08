@@ -47,5 +47,3 @@ public class JobListener implements Runnable {
     }
 }
 ```
-
-**Parent topic:** [Programming Atlas REST APIs](../topics/programrestapi.md)

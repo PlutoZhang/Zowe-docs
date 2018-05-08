@@ -15,9 +15,6 @@ function getJobs(){
                             //handle any error                             
                             console.log("An error occoured: " + e);                                             
                         });     
-     return result; 
+     return result;
 }
 ```
-
-**Parent topic:** [Programming Atlas REST APIs](../topics/programrestapi.md)
-

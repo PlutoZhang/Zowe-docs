@@ -1,6 +1,6 @@
 # Verifying Atlas installation
 
-After Atlas is installed and the FEKATLS procedure is started, you can verify the installation from an internet browser by using the following URL:
+After Atlas is installed and the FEKATLS procedure is started, you can verify the installation from an Internet browser by using the following URL:
 
 https://*your.server*:*atlasport*/Atlas/api/system/version
 
@@ -30,13 +30,16 @@ https://*your.server:atlasport*/ibm/api/explorer
 
 With the discovery feature, you can also try each discovered API. The users who verify the availability must have access to their data sets and job information by using relevant Atlas APIs. This ensures that your z/OSMF configuration is valid, complete, and compatible with the Atlas application. For example, try the following APIs:
 
- Atlas : JES Jobs APIs  
-       `GET  /Atlas/api/jobs`  
-       This API returns job information for the calling user.   
- Atlas : Dataset APIs  
+ Atlas : JES Jobs APIs
+
+       `GET  /Atlas/api/jobs`
+
+       This API returns job information for the calling user.
+
+ Atlas : Data set APIs  
+
        `GET /Atlas/api/datasets/userid.**`  
-       This API returns a list of the userid.** MVS datasets.
+
+       This API returns a list of the userid.** MVS data sets.
 
 If Atlas is not installed successfully, see [Troubleshooting installation](troubleshoot.md) for solutions.
-
-**Parent topic:** [Installing Atlas](../topics/install.md)
