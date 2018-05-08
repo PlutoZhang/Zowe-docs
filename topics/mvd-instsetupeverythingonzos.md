@@ -9,29 +9,28 @@ The zLUX archive is distributed as a PAX archive. When you unpack the archive, t
  
 2. To obtain the installation media, follow the instructions in [Obtain the Project Giza installation media](installing.md).
 3. Navigate to the `scripts/zlux` subdirectory of the Project Giza contents directory (where you unpacked the Project Giza PAX file). Run: ` zlux-install-script.sh`
-4.   Upon startup, the Giza Node Server loads the `zluxserver.json` configuration file from the `zlux-example-server/deploy/instance/ZLUX/serverConfig/zluxserver.json`directory. 
-The following figure shows the structure of the JSON file:
+4. Upon startup, the Giza Node Server loads the `zluxserver.json` configuration file from the `zlux-example-server/deploy/instance/ZLUX/serverConfig/zluxserver.json`directory. The following figure shows the structure of the JSON file:
 
-  ```
-      "node": {
-        "http": {
-          "port": 8543
-        },
-        "https": {
-          "port": 8544,
-          //pfx (string), keys, certificates, certificateAuthorities, and 
-    certificateRevocationLists are all valid here.
-          "keys": ["../deploy/product/ZLUX/serverConfig/server.key"],
-          "certificates": ["../deploy/product/ZLUX/serverConfig/server.cert"]
-          }
-        },
-        "childProcesses": [
-          {
-            "path": "../bin/zssServer.sh"
-          }
-        ]
-      },
-  ```
+    ```
+          "node": {
+            "http": {
+              "port": 8543
+            },
+            "https": {
+              "port": 8544,
+              //pfx (string), keys, certificates, certificateAuthorities, and 
+        certificateRevocationLists are all valid here.
+              "keys": ["../deploy/product/ZLUX/serverConfig/server.key"],
+              "certificates": ["../deploy/product/ZLUX/serverConfig/server.cert"]
+              }
+            },
+            "childProcesses": [
+              {
+                "path": "../bin/zssServer.sh"
+              }
+            ]
+          },
+    ```
 
 The file assigns default port numbers for the HTTP and HTTPS ports. If these port numbers are not available, edit the file and specify available port numbers.
 
@@ -49,9 +48,9 @@ The file assigns default port numbers for the HTTP and HTTPS ports. If these por
 
 6. To update the server configuration, issue the following command:
 
-```
-  zlux-example-server/build/deploy.sh
-```
+     ```
+           zlux-example-server/build/deploy.sh
+     ```
 
      
 Start the server as described in [Starting the zLUX server](mvd-startzluxserver.md).
