@@ -10,33 +10,43 @@ To use this book, you must be familiar with the mainframe and z/OSMF configurati
 Before getting started with Project Giza, acquaint yourself with the following terms:
 
 - **Atlas**  
-  A z/OS RESTful web service and deployment architecture for z/OS microservices.
+
+    A z/OS RESTful web service and deployment architecture for z/OS microservices.
 
 - **Brightside Command Line Interface**  
-  Brightside Command Line Interface (Brightside CLI) lets application developers interact with the mainframe in a format that is natively familiar to them.  It lets application developers use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development.
+
+    Brightside Command Line Interface (Brightside CLI) lets application developers interact with the mainframe in a format that is natively familiar to them.  It lets application developers use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development.
 
 - **Command Groups**  
-  Command groups focus on specific business processes that application developers and systems programmers perform during their day-to-day activities.
+
+    Command groups focus on specific business processes that application developers and systems programmers perform during their day-to-day activities.
 
 - **Discovery**  
-  A z/OS subsystems plug-in.
+
+    A z/OS subsystems plug-in.
 
 - **Experimental Commands**  
-  Experimental Commands are commands that are currently in development and are not ready for general availability. Users can enable or disable these commands. Experimental commands are disabled by default.
+
+    Experimental Commands are commands that are currently in development and are not ready for general availability. Users can enable or disable these commands. Experimental commands are disabled by default.
 
 - **Giza Node Server**  
-  Refers to Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components.
+
+    Refers to Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components.
 
 - **Mainframe Virtual Desktop**  
-  Mainframe Virtual Desktop (MVD) is a virtual desktop that is accessed through a web browser.
+
+    Mainframe Virtual Desktop (MVD) is a virtual desktop that is accessed through a web browser.
 
 - **TN3270**  
-  A limited license Giza plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running.
+
+    A limited license Giza plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running.
 
 - **z/OS Lightweight User Experience**  
-  z/OS Lightweight User Experience (zLUX) consists of the framework, MVD, plugin applications, TN3270 emulator, and Discovery.
+
+    z/OS Lightweight User Experience (zLUX) consists of the framework, MVD, plugin applications, TN3270 emulator, and Discovery.
 
 ## How to use this book
+
 This book contains an introduction and information for installing and using Project Giza.
 
 - [Project Giza overview](introduction.md) explains what is Project Giza and what it can do.
@@ -46,12 +56,14 @@ This book contains an introduction and information for installing and using Proj
 - [Using Project Giza](using.md) explains how to use the features that Project Giza provides.
 
 ## How to send your feedback
+
 Your feedback is important in helping us to provide accurate and high-quality information. If you have comments about this documentation, you can use the following methods to provide feedback:
 
 - Open an issue in GitHub to request documentation update
 - Use the GitHub pull request method
 
 ### Opening an issue for the documentation
+
 You can open an issue in Github to request documentation to be updated, improved, or clarified by providing a comment. To do this, complete the following steps.
 
 1. Go to the **Giza-docs** repository in GitHub.
@@ -61,6 +73,7 @@ You can open an issue in Github to request documentation to be updated, improved
 5. Click **Submit new issue**.
 
 ### Sending a GitHub pull request
+
 You can provide a suggested edit for the documentation directly in GitHub and send us a pull request. To do this, complete the following steps.
 
 1. Go to the **Giza-docs** repository in GitHub.
