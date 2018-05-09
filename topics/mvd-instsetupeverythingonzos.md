@@ -1,5 +1,7 @@
 # Setting up the Giza Node server and the zLUX Secure Services address space on z/OS
 
+<TODO - JRW - Not sure we need this section at all>
+
 The zLUX archive is distributed as a PAX archive. When you unpack the archive, the Giza Node Server and the zLUX Secure Services \(ZSS\) are installed on the z/OS host.
 
 1.   If you have not already done so, complete the procedures in the prerequisite sections: 
@@ -8,7 +10,7 @@ The zLUX archive is distributed as a PAX archive. When you unpack the archive, t
     -   [Verifying available port numbers](mvd-instverifyportnumavailable.md)
  
 2. To obtain the installation media, follow the instructions in [Obtain the Project Giza installation media](installing.md).
-3. Navigate to the `scripts/zlux` subdirectory of the Project Giza contents directory (where you unpacked the Project Giza PAX file). Run: ` zlux-install-script.sh`
+3. Navigate to the `scripts/` subdirectory of the Project Giza contents directory (where you unpacked the Project Giza PAX file). Run: ` zlux-install-script.sh`
 4.   Upon startup, the Giza Node Server loads the `zluxserver.json` configuration file from the `zlux-example-server/deploy/instance/ZLUX/serverConfig/zluxserver.json`directory. 
 The following figure shows the structure of the JSON file:
 

@@ -1,16 +1,16 @@
 # About this book
-This book describes how to install, configure, and use Project Giza Closed Beta.  
+This book describes how to install, configure, and use Project Zoe Closed Beta.  
 
 ## Who should read this book
-This book is intended for system programmers who are responsible for installing Project Giza, developers who want to use Project Giza to improve z/OS user experience, and anyone who wants to know about Project Giza.
+This book is intended for system programmers who are responsible for installing Project Zoe, developers who want to use Project Zoe to improve z/OS user experience, and anyone who wants to know about Project Zoe.
 
 To use this book, you must be familiar with the mainframe and z/OSMF configuration.
 
 ## Terminology used in this book
-Before getting started with Project Giza, acquaint yourself with the following terms:
+Before getting started with Project Zoe, acquaint yourself with the following terms:
 
-- **Atlas**  
-  A z/OS RESTful web service and deployment architecture for z/OS microservices.
+- **Explorer-server**  
+  A z/OS RESTful web service and deployment architecture for z/OS microservices that is used by the Zoe explorers
 
 - **Brightside Command Line Interface**  
   Brightside Command Line Interface (Brightside CLI) lets application developers interact with the mainframe in a format that is natively familiar to them.  It lets application developers use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development.
@@ -24,7 +24,7 @@ Before getting started with Project Giza, acquaint yourself with the following t
 - **Experimental Commands**  
   Experimental Commands are commands that are currently in development and are not ready for general availability. Users can enable or disable these commands. Experimental commands are disabled by default.
 
-- **Giza Node Server**  
+- **Zoe Node Server**  
   Refers to Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components.
 
 - **Mainframe Virtual Desktop**  
@@ -37,13 +37,13 @@ Before getting started with Project Giza, acquaint yourself with the following t
   z/OS Lightweight User Experience (zLUX) consists of the framework, MVD, plugin applications, TN3270 emulator, and Discovery.
 
 ## How to use this book
-This book contains an introduction and information for installing and using Project Giza.
+This book contains an introduction and information for installing and using Project Zoe.
 
-- [Project Giza overview](introduction.md) explains what is Project Giza and what it can do.
+- [Project Zoe overview](introduction.md) explains what is Project Zoe and what it can do.
 
-- [Installing Project Giza](installandconfig.md) explains how to install and maintain Project Giza so that it can work. It also provides information about troubleshooting installation related problems.
+- [Installing Project Zoe](installandconfig.md) explains how to install and maintain Project Zoe so that it can work. It also provides information about troubleshooting installation related problems.
 
-- [Using Project Giza](using.md) explains how to use the features that Project Giza provides.
+- [Using Project Zoe](using.md) explains how to use the features that Project Zoe provides.
 
 ## How to send your feedback
 Your feedback is important in helping us to provide accurate and high-quality information. If you have comments about this documentation, you can use the following methods to provide feedback:
