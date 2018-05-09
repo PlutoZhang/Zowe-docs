@@ -2,10 +2,10 @@
 
 zLUX generates log files in the following default locations:
 
-- Giza Node Server: `zlux-example-server/log/nodeServer-{TIMESTAMP}.log`
-- ZSS: `zlux-example-server /log/zssServer-{TIMESTAMP}.log`
+- Giza Node Server: `zlux-example-server/log/nodeServer-yyyy-mm-dd-hh-mm.log`
+- ZSS: `zlux-example-server /log/zssServer-yyyy-mm-dd-hh-mm.log`
  
-Note that the Giza Node Server logs and ZSS logs are timestamped and older logs are deleted when a new log is created at server startup.
+Note that the Giza Node Server logs and ZSS logs are timestamped in the format yyyy-mm-dd-hh-mm and older logs are deleted when a new log is created at server startup.
 
 ## Controlling the zLUX logging location
 
