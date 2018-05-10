@@ -24,16 +24,21 @@ http://submit.boulder.ibm.com/infocenter/idwb/v3r8m4/topic/com.ibm.ditaref.doc/d
 navtitle="Edition notice"></editionnotices>
 <preface format="md" href="topics/aboutthisbook.md"
 navtitle="About this book" scope="local"></preface>
-<topicref format="md" href="topics/whatsnew.md" navtitle="What's new" scope="local"/>
+<topicref format="md" href="topics/summaryofchanges.md"
+navtitle="Summary of changes" scope="local"></topicref><?Pub Caret -1?>
 </ibmfrontmatter>
-<chapter format="md" href="topics/introduction.md" navtitle="Project Giza overview" scope="local">
-<topicref format="md" href="topics/whatis.md" navtitle="What is Project Giza" scope="local"/>
-<topicref format="md" href="topics/componentoverview.md" navtitle="Components overview"
-scope="local">
-<topicref format="md" href="topics/mvd-overview.md" navtitle="zLux overview" scope="local"/>
-<topicref format="md" href="topics/atlas-overview.md" navtitle="Atlas overview" scope="local"/>
-<topicref format="md" href="topics/cli-releasenotes.md" navtitle="Brightside CLI overview"
-scope="local"/>
+<chapter format="md" href="topics/introduction.md"
+navtitle="Project Giza overview" scope="local">
+<topicref format="md" href="topics/whatis.md"
+navtitle="What is Project Giza" scope="local"></topicref>
+<topicref format="md" href="topics/componentoverview.md"
+navtitle="Components overview" scope="local">
+<topicref format="md" href="topics/mvd-overview.md"
+navtitle="zLux overview" scope="local"></topicref>
+<topicref format="md" href="topics/atlas-overview.md"
+navtitle="Atlas overview" scope="local"></topicref>
+<topicref format="md" href="topics/cli-releasenotes.md"
+navtitle="Brightside CLI overview" scope="local"></topicref>
 </topicref>
 </chapter>
 <chapter format="md" href="topics/installandconfig.md"
@@ -46,9 +51,10 @@ navtitle="Prerequisites for z/OSMF configuration" scope="local">
 <topicref format="md" href="topics/premvd.md"
 navtitle="Prerequisites for zLUX" scope="local">
 <topicref format="md" href="topics/mvd-instconfirmnodejsinstalled.md"
-navtitle="Confirming that Node.js is installed" scope="local"/>
+navtitle="Confirming that Node.js is installed" scope="local">
+</topicref>
 <topicref format="md" href="topics/mvd-instverifyportnumavailable.md"
-navtitle="Verifying available port numbers" scope="local"/>
+navtitle="Verifying available port numbers" scope="local"></topicref>
 </topicref>
 <topicref format="md" href="topics/atlas-prereqs.md"
 navtitle="Prerequisites for Atlas" scope="local"></topicref>
@@ -60,9 +66,11 @@ navtitle="Installing components of Project Giza" scope="local">
 <topicref format="md" href="topics/installvirtualdesktop.md"
 navtitle="Installing zLUX" scope="local">
 <topicref format="md" href="topics/mvd-instsetupeverythingonzos.md"
-navtitle="Setting up the Giza Node server and the ZSS on z/OS" scope="local">
+navtitle="Setting up the Giza Node server and the ZSS on z/OS"
+scope="local">
 <topicref format="md" href="topics/mvd-settingupterminalapps.md"
-navtitle="Setting up terminal application plug-ins" scope="local"/>
+navtitle="Setting up terminal application plug-ins" scope="local">
+</topicref>
 </topicref>
 <topicref format="md" href="topics/mvd-startzluxserver.md"
 navtitle="Starting the zLUX server" scope="local"></topicref>
@@ -82,9 +90,10 @@ navtitle="Verifying zLUX installation" scope="local"></topicref>
 navtitle="Verifying Atlas installation" scope="local"></topicref>
 <topicref format="md" href="topics/cli-validateInstallation.md"
 navtitle="Validating Brightside CLI installation" scope="local">
-<topicref format="md" href="topics/cli-validateInstallationcorrectproblems.md"
+<topicref format="md"
+href="topics/cli-validateInstallationcorrectproblems.md"
 navtitle="Identifying and correcting problems detected by the validate profile command"
-scope="local"/>
+scope="local"></topicref>
 </topicref>
 </topicref>
 <topicref format="md" href="topics/troubleshoot.md"
@@ -97,29 +106,34 @@ navtitle="Troubleshooting installing Atlas" scope="local"></topicref>
 navtitle="Troubleshooting installing Brightside CLI" scope="local">
 </topicref>
 </topicref>
-<topicref format="md" href="topics/uninstall.md" navtitle="Uninstalling Project Giza" scope="local">
-<topicref format="md" href="topics/mvd-uninstallingzlux.md" navtitle="Uninstalling zLUX"
-scope="local"/>
-<topicref format="md" href="topics/atlas-uninstall.md" navtitle="Uninstalling Atlas" scope="local"/>
-<topicref format="md" href="topics/cli-uninstallcli.md" navtitle="Uninstalling Brightside CLI"
-scope="local"/>
+<topicref format="md" href="topics/uninstall.md"
+navtitle="Uninstalling Project Giza" scope="local">
+<topicref format="md" href="topics/mvd-uninstallingzlux.md"
+navtitle="Uninstalling zLUX" scope="local"></topicref>
+<topicref format="md" href="topics/atlas-uninstall.md"
+navtitle="Uninstalling Atlas" scope="local"></topicref>
+<topicref format="md" href="topics/cli-uninstallcli.md"
+navtitle="Uninstalling Brightside CLI" scope="local"></topicref>
 </topicref>
 </chapter>
 <chapter format="md" href="topics/using.md" navtitle="Using Project Giza"
 scope="local">
 <topicref format="md" href="topics/usingmvd.md" navtitle="Using zLUX"
 scope="local">
-<topicref format="md" href="topics/navigatingmvd.md" navtitle="Navigating MVD" scope="local"/>
+<topicref format="md" href="topics/navigatingmvd.md"
+navtitle="Navigating MVD" scope="local"></topicref>
 <topicref format="md" href="topics/atlas-usingwebuiwithinmvd.md"
 navtitle="Using Atlas Explorers within zLUX" scope="local"></topicref>
-<topicref format="md" href="topics/mvd-appplugins.md" navtitle="Using zLUX application plug-ins"
-scope="local"/>
+<topicref format="md" href="topics/mvd-appplugins.md"
+navtitle="Using zLUX application plug-ins" scope="local"></topicref>
 <topicref format="md" href="topics/mvd-plugincreateappplugin.md"
 navtitle="Creating zLUX application plug-ins" scope="local">
 <topicref format="md" href="topics/mvd-pluginsetenvvars.md"
-navtitle="Setting environment variables for plug-in development" scope="local"/>
+navtitle="Setting environment variables for plug-in development"
+scope="local"></topicref>
 <topicref format="md" href="topics/mvd-pluginexpsampapp.md"
-navtitle="Using the zLUX sample application plug-in" scope="local"/>
+navtitle="Using the zLUX sample application plug-in" scope="local">
+</topicref>
 </topicref>
 <topicref format="md" href="topics/mvd-zluxlogging.md"
 navtitle="zLUX logging" scope="local"></topicref>
@@ -128,7 +142,8 @@ navtitle="zLUX logging" scope="local"></topicref>
 scope="local">
 <topicref format="md" href="topics/atlas-usingatlasrestapis.md"
 navtitle="Using Atlas REST APIs" scope="local">
-<topicref format="md" href="topics/atlas-datasetapis.md" navtitle="Data set APIs" scope="local"/>
+<topicref format="md" href="topics/atlas-datasetapis.md"
+navtitle="Data set APIs" scope="local"></topicref>
 <topicref format="md" href="topics/atlas-jobapis.md" navtitle="Job APIs"
 scope="local"></topicref>
 <topicref format="md" href="topics/atlas-persistentdataapis.md"
@@ -151,7 +166,7 @@ navtitle="Sending a POST request in JavaScript" scope="local">
 <topicref format="md" href="topics/atlas-extendedapisample.md"
 navtitle="Extended API sample in JavaScript" scope="local"></topicref>
 </topicref>
-</topicref><?Pub Caret -2?>
+</topicref>
 <topicref format="md" href="topics/atlas-websocket.md"
 navtitle="Using Atlas WebSocket services" scope="local">
 <topicref format="md" href="topics/atlas-programwebsocket.md"
@@ -177,10 +192,11 @@ navtitle="Brightside CLI scenarios" scope="local"></topicref>
 <topicref format="md" href="topics/notices_toc.md" navtitle="Notices">
 <topicref format="md" href="topics/atlas-notices.md"
 navtitle="IBM notices"></topicref>
-<topicref format="md" href="topics/mvd-zluxlegalnotices.md" navtitle="Rocket Software, Inc. notices"/>
+<topicref format="md" href="topics/mvd-zluxlegalnotices.md"
+navtitle="Rocket Software, Inc. notices"></topicref>
 <topicref format="markdown" href="topics/cli-legalnotices.md"
 navtitle="CA Technologies notices"></topicref>
 </topicref>
 </ibmbackmatter>
 </ibmbook>
-<?Pub *0000009501?>
+<?Pub *0000009695?>
