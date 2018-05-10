@@ -9,5 +9,3 @@ Use USS File APIs to read and list UNIX Files. See the following table for the a
 |`GET /Atlas/api/files/{path}`|Use this API to get a list of files in a USS directory along with their attributes.|z/OSMF restfiles|
 |`GET /Atlas/api/files/{path}/content`|Use this API to get the content of a USS file.|z/OSMF restfiles|
 |`PUT /Atlas/api/files/{path}/content`|Use this API to update the content of a USS file.|z/OSMF resfiles|
-
-**Parent topic:** [Using Atlas REST APIs](../topics/usingatlasrestapis.md)

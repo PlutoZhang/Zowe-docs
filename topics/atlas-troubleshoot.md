@@ -54,7 +54,7 @@ If Atlas REST APIs do not work, check the following items:
 
     If calling the z/OSMF RESTJOBS API directly fails, fix z/OSMF before Atlas can use these APIs successfully.
 
--   If testing the Atlas REST API for dataset information fails, check the z/OSMF IZUSVR1 task output for errors and confirm that the z/OSMF RESTFILES services are started successfully. If no errors occur, you can see the following message in the IZUSVR1 job output:
+-   If testing the Atlas REST API for data set information fails, check the z/OSMF IZUSVR1 task output for errors and confirm that the z/OSMF RESTFILES services are started successfully. If no errors occur, you can see the following message in the IZUSVR1 job output:
 
     ```
     CWWKZ0001I: Application IzuManagementFacilityRestFiles started in n.nnn seconds.
@@ -103,6 +103,3 @@ If Atlas REST APIs do not work, check the following items:
 If the Atlas server cannot connect to the z/OSMF server, check the following item:
 
 By default, the Atlas server communicates with the z/OSMF server on the localhost address. If your z/OSMF server is on a different IP address to the Atlas server, for example, if you are running z/OSMF with Dynamic Virtual IP Addressing (DVIPA), you can change this by adding a `ZOSMF_HOST` parameter to the server.env file. For example: `ZOSMF_HOST=winmvs27`.
-
-
-**Parent topic:** [Installing Project Giza](topics/installandconfig.md)

@@ -2,7 +2,7 @@
 
 IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Project Giza microservice that must be installed and running before you use Project Giza. This article consists of the following information:
 
-- z/OSMF Requirements for Project Giza
+- z/OSMF requirements for Project Giza
 - Configuring z/OSMF
 - Verifying your z/OSMF configuration
 
@@ -11,18 +11,17 @@ IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Project Giza mic
 IBM z/OSMF documentation:
 
 - [IBM z/OS Management Facility Help](https://www.ibm.com/support/knowledgecenter/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm)
-
 - [IBM z/OS Management Facility Configuration Guide](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izua300/IZUHPINFO_PartConfiguring.htm)
 
 
-## z/OSMF Requirements for Project Giza
+## z/OSMF requirements for Project Giza
 Meet the following requirements before you use Project Giza:
 
 ### z/OS requirements
 Ensure that your z/OS system meets the following requirements for z/OSMF to function properly with Project Giza:
 
-- **AXR (System Rexx)** -
-    The AXR (System Rexx) component lets z/OS perform Incident Log tasks. It also lets REXX execs execute outside of conventional TSO and batch environments.
+- **AXR (System REXX)** -
+    The AXR (System REXX) component lets z/OS perform Incident Log tasks. It also lets REXX execs execute outside of conventional TSO and batch environments.
 - **CEA (Communications Enabled Applications) Server** -
     CEA server is a co-requisite for the CIM server. The CEA server lets z/OSMF deliver z/OS events to C-language clients.
     - Start the CEA server before you start the start z/OSMF (the IZU* started tasks).
@@ -279,4 +278,3 @@ If none of the initiators has **C** in its CLASS list, add **C** to the list of 
 ```
 /$T I3,CL=ABC
 ```
-**Parent topic:** [Prerequisites](../topics/planinstall.md)

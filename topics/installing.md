@@ -1,8 +1,6 @@
 # Installing components of Project Giza
 
-## Obtain the Project Giza installation media
-
-Download the Project Giza installation media from the [GitHub repository](https://github.com/gizafoundation/Downloads/releases), follow the initial instructions there, and then follow the procedures below to install the components of Project Giza:
+Follow the procedures below to install the components of Project Giza:
 
 -   **[Installing zLUX](../topics/installvirtualdesktop.md)**
 -   **[Installing Atlas](../topics/atlas-install.md)**

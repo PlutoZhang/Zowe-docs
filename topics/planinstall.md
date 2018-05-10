@@ -6,5 +6,3 @@ Before installing Project Giza, verify that your environment meets all of the pr
 -   **[Prerequisites for zLUX](../topics/premvd.md)**  
 -   **[Prerequisites for Atlas](../topics/preatlas.md)**  
 -   **[Prerequisites for CLI](../topics/precli.md)**  
-
-**Parent topic:** [Installing Project Giza](../topics/installandconfig.md)
