@@ -15,7 +15,7 @@ where:
     For example, if you run the Giza Node Server on host *myhost* and the value that is assigned to *node.http.port* in `zluxserver.json` is 12345, you would specify `https://myhost:12345/ZLUX/plugins/com.rs.mvd/web/index.htm`.
 
 
-## Logging into and out of the MVD
+## Logging in and out of the MVD
 
 1. To log in, enter your mainframe credentials in the **Username** and  **Password** fields.
 2. Press Enter. Upon authentication of your user name and password, the desktop opens.

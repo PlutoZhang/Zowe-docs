@@ -9,7 +9,7 @@ The zLUX archive is distributed as a PAX archive. When you unpack the archive, t
  
 2. To obtain the installation media, follow the instructions in [Obtain the Project Giza installation media](installing.md).
 3. Navigate to the `scripts/zlux` subdirectory of the Project Giza contents directory (where you unpacked the Project Giza PAX file). Run: ` zlux-install-script.sh`
-4. Upon startup, the Giza Node Server loads the `zluxserver.json` configuration file from the `zlux-example-server/deploy/instance/ZLUX/serverConfig/zluxserver.json`directory. The following figure shows the structure of the JSON file:
+4. Upon startup, the Giza Node Server loads the `zluxserver.json` configuration file from the `zlux-example-server/deploy/instance/ZLUX/serverConfig/zluxserver.json` directory. The following figure shows the structure of the JSON file:
 
     ```
           "node": {
