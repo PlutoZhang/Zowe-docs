@@ -1,40 +1,61 @@
-The Zoe packages are distributed as a pax file that contains the runtimes as well as the scripts to install and launch the z/OS runtime, as well as the runtime for the desktop command line interface.
+# Installing Zoe
 
-The zoe-0.8.1 should be transferred to the Unix File System (or USS) of the z/OS system you wish to install and run Zoe from.
+The Zoe packages are distributed as a PAX file that contains the runtimes and the scripts to install and launch the z/OS runtime and the runtime for the desktop command line interface.
 
-1. Transfer the files to z/OS
+After you obtain the Zoe PAX file from the [Zoe download page](https://github.com/gizafoundation/Downloads/releases) in GitHub and save the file to your preferred location, follow these steps to transfer and expand the Zoe PAX file:
 
-Navigate your desktop PC or Mac where you have the zoe.pax file in your folder and then connect to z/OS using sftp.
-```
-sftp userIDorip.of.zos.box
-```
+1. Transfer the PAX file to z/OS.
 
-If sftp is not available or if you prefer to use ftp you can instead type
+    a. Navigate your desktop PC or Mac where you have the Zoe PAX file in your folder.
 
-```
-ftp userID@ip.of.zos.box
-```
-If you use ftp the file should not be transferred in txt mode as this will corrupt its contents so switch switch to binary file transfer mode by typing
-```
-bin
-```
+    b. Connect to z/OS using SFTP. Issue the following command:
 
-Once you have connected to z/OS and entered your password you will be entered into the unix file system.  To see what directory you are in type pwd.  Navigate to the directory you wish to transfer the zoe.pax into, using cd to switch directory, ls to list the contents of a directory, and mkdir to create a directory.  
+     ```
+     sftp <userIDorip.of.zos.box>
+     ```
 
-Once you are in the directory you wish to transfer the pax into type put specifying the full file name of the pax file
-```
-put zoe-0.8.1.pax
-```
+     If SFTP is not available or if you prefer to use FTP, you can issue the following command instead:
 
-When the pax file has transferred expand it by typing
-```
-pax -ppx -rf zoe-0.8.1.pax
-```
-This will expand to a file structure 
+     ```
+     ftp <userID@ip.of.zos.box>
+     ```
 
-```
-  /files
-  /install
-  /scripts
-  ...
-```
+     **Note**: When you use FTP, do not transfer the PAX file in txt mode because this will corrupt the contents of the PAX file. Instead, switch to binary file transfer mode by issuing the following command:
+
+     ```
+     bin
+     ```
+
+    c. Navigate to the target directory on z/OS.
+
+    After you connect to z/OS and enter your password, you will be entered into the Unix file system. Navigate to the directory you wish to transfer the Zoe PAX file into.
+    
+     - To see what directory you are in, type `pwd`.
+     - To switch directory, type `cd`.
+     - To list the contents of a directory, type `ls`.
+     - To create a directory, type `mkdir`.  
+
+    d. When you are in the directory you want to transfer the Zoe PAX file into, issue the following command:
+
+     ```
+     put <pax-file-name>.pax
+     ```
+
+    Where _pax-file-name_ is a variable that indicates the full name of the PAX file you downloaded. For example, zoe-0.8.1.pax.
+
+2. When the PAX file has transferred, expand the PAX file by issuing the following command.  
+
+    ```
+    pax -ppx -rf <pax-file-name>.pax
+    ```  
+
+    Where _pax-file-name_ is a variable that indicates the name of the PAX file you downloaded. For example, zoe-0.8.1.pax.
+
+    This will expand to a file structure.
+
+    ```
+      /files
+      /install
+      /scripts
+      ...
+    ```
