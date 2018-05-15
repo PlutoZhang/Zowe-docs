@@ -3,14 +3,18 @@
 -   [Edition notice](topics/editionnotice.md)
 -   [About this book](topics/aboutthisbook.md)
 -   [Summary of changes](topics/summaryofchanges.md)
--   [Project Giza overview](topics/introduction.md)
-    - [What is Project Giza](topics/whatis.md)
+-   [Project Zoe overview](topics/introduction.md)
+    - [What is Project Zoe](topics/whatis.md)
     - [Components overview](topics/componentoverview.md)
       - [zLUX overview](topics/mvd-overview.md)
-      - [Atlas overview](topics/atlas-overview.md)
+      - [Explorer server overview](topics/atlas-overview.md)
       - [Brightside CLI Overview](topics/cli-releasenotes.md)
     - [Obtaining Zoe runtime](topics/zoegettingstarted.md)
-        - [Installing Zoe runtime on z/OS](topics/zoeinstall.md)
+        - [Installing Zoe runtime](topics/zoeinstall.md)
+        - [Starting and stopping the Zoe runtime](topics/zoestartstop.md)
+
+        - [All beneath this is still to be updated on]
+
 -   [Installing Project Giza](topics/installandconfig.md)
     -   [Prerequisites](topics/planinstall.md)
         -   [Prerequisites for z/OSMF configuration](topics/prezosmf.md)

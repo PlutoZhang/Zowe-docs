@@ -1,8 +1,8 @@
 # About this book
-This book describes how to install, configure, and use Closed Beta for Project Giza.  
+This book describes how to install, configure, and use Closed Beta for Project Zoe.  
 
 ## Who should read this book
-This book is intended for system programmers who are responsible for installing Project Giza, developers who want to use Project Giza to improve z/OS user experience, and anyone who wants to know about Project Giza.
+This book is intended for system programmers who are responsible for installing Project Zoe, developers who want to use Project Zoe to improve z/OS user experience, and anyone who wants to know about Project Zoe.
 
 To use this book, you must be familiar with the mainframe and z/OSMF configuration.
 
@@ -49,11 +49,11 @@ Before getting started with Project Giza, acquaint yourself with the following t
 ## How to use this book
 
 This book contains an introduction and information for installing and using Project Giza.
-
-- [Project Giza overview](introduction.md) explains what is Project Giza and what it can do.
-
+ <TODO>
+- [Project Zoe overview](introduction.md) explains what is Project Zoe and what it can do.
+ <TODO>
 - [Installing Project Giza](installandconfig.md) explains how to install and maintain Project Giza so that it can work. It also provides information about troubleshooting installation related problems.
-
+ <TODO>
 - [Using Project Giza](using.md) explains how to use the features that Project Giza provides.
 
 ## How to send your feedback

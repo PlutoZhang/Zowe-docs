@@ -59,3 +59,4 @@ After you obtain the Zoe PAX file from the [Zoe download page](https://github.co
       /scripts
       ...
     ```
+     **Note**: pax will expand into the current directory.  A good practice is to keep the install directory apart from the install direectory.  This can be done by creating a directory such as /zoe/builds that contains the pax files, and another such as /zoe/drivers/.  Put the zoe-0.8.1.pax into /zoe/builds, create a folder such as /zoe/drivers/0.8.1, cd into this folder and run pax -ppf -rf ../../builds/zoe-0.8.1.pax

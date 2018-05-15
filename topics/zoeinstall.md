@@ -59,33 +59,3 @@
     When the `zoe-install.sh` script runs, it performs a number of steps broken down into sections. These are covered more in the section "Troubleshooting the install process".  
 
     At the end of the installation, a zFS file ZOESVR is created in the `/jcl` folder where the runtime was successfully installed into. This file needs to be part of the PROCLIB for the Zoe runtime to be executed as a started task. The install script will attempt to add ZOESVR to the PROCLIB, however, this is dependent on the user's privileges so this might require a user with elevated privileges to perform this step.
-
-3. Start the Zoe runtime as a started task.
-
-    Running Zoe as a started task is the preferred way to start and stop Zoe.  
-
-    To start Zoe as a started task, launch SDSF and issue the operator command:
-
-    ```
-    /S ZOESVR.
-    ```
-
-    To stop the Zoe runtime issue the operator command:
-
-    ```
-    /C ZOESVR.  
-    ```
-
-4. Start the Zoe runtime as a Unix process.
-
-    To perform this, navigate to the folder `/scripts` in the location where the Zoe runtime was installed into and execute the script:
-
-    ```
-    zoestart.sh
-    ```
-
-    To end the Zoe runtime execute the script:
-
-    ```
-    zoestop.sh
-    ```
