@@ -9,6 +9,8 @@
       - [zLUX overview](topics/mvd-overview.md)
       - [Atlas overview](topics/atlas-overview.md)
       - [Brightside CLI Overview](topics/cli-releasenotes.md)
+    - [Obtaining Zoe runtime](topics/zoegettingstarted.md)
+        - [Installing Zoe runtime on z/OS](topics/zoeinstall.md)
 -   [Installing Project Giza](topics/installandconfig.md)
     -   [Prerequisites](topics/planinstall.md)
         -   [Prerequisites for z/OSMF configuration](topics/prezosmf.md)

@@ -1,4 +1,4 @@
-# Installing the Zoe runtime
+# Installing the Zoe runtime on z/OS
 
 1. Navigate to the `/config` directory where the install archive was unpacked.  Locate the `/install` directory.
 
