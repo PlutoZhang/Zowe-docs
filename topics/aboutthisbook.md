@@ -7,23 +7,7 @@ This book is intended for system programmers who are responsible for installing 
 To use this book, you must be familiar with the mainframe and z/OSMF configuration.
 
 ## Terminology used in this book
-<<<<<<< HEAD
-Before getting started with Project Giza, please acquaint yourself with the following terms:
 
-|Term|Abbreviation|Definition|
-|--------|-----------|-------------|
-|Mainframe Virtual Desktop|MVD|A virtual desktop, accessed through a web browser.|
-|Atlas|N/A|A z/OS RESTful web service and deployment architecture for z/OS microservices.|
-|Brightside Command Line Interface|Brightside CLI|Lets application developers interact with the mainframe in a format that is natively familiar to them.  It lets application developers use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development.|
-|Command Groups|N/A|Command groups focus on specific business processes that application developers and systems programmers perform during their day-to-day activities. |
-|Experimental Commands|N/A|Commands that are currently in development and are not ready for general availability. Users can enable or disable these commands. Experimental commands are disabled by default.|
-|z/OS Lightweight User Experience|zLUX|zLUX consists of the framework, MVD, plugin applications, TN3270 emulator, VT Terminal, and z/OS Subsystems.|
-|zLUX Secure Services address space|ZSS|The server that provides secure REST services to support the Giza Node Server.|
-|Giza Node Server|N/A|Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components.|
-|TN3270|N/A|A limited license Giza plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running.|
-|Application|N/A|A plug-in that is an application.|
-|z/OS Subsystems|N/A|z/OS subsystems plug-in.|
-=======
 Before getting started with Project Giza, acquaint yourself with the following terms:
 
 - **Atlas**  
@@ -61,7 +45,6 @@ Before getting started with Project Giza, acquaint yourself with the following t
 - **z/OS Lightweight User Experience**  
 
     z/OS Lightweight User Experience (zLUX) consists of the framework, MVD, plugin applications, TN3270 emulator, and Discovery.
->>>>>>> 4b7b9428a72f1d14d75ef49c1bfb0d5458f818ea
 
 ## How to use this book
 
