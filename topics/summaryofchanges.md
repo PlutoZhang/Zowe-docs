@@ -10,7 +10,10 @@ Learn about what is new, changed, and removed in Project Giza.
 ### What's changed
 **Product naming**
 
+Project Giza has been renamed to Project Zoe. Atlas has been renamed to Explorer-server.
+
 **Installation procedure**
+
 
 **VT Terminal**
 
