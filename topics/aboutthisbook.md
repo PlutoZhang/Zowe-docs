@@ -8,7 +8,7 @@ To use this book, you must be familiar with the mainframe and z/OSMF configurati
 
 ## Terminology used in this book
 
-Before getting started with Project Giza, acquaint yourself with the following terms:
+Before getting started with Project Zoe, acquaint yourself with the following terms:
 
 - **Atlas**  
 
