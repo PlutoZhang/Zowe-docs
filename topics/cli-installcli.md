@@ -17,7 +17,7 @@ To use Brightside CLI on your PC, install the product from that is available at 
 
 **Follow these steps:**
 
-1. [Obtain the Project Giza installation media](installing.md), which includes the brightside.tgz file. Use FTP to distribute the brightside.tgz file to client workstations.
+1. [Obtain the Project Zoe installation media](installing.md), which includes the brightside.tgz file. Use FTP to distribute the brightside.tgz file to client workstations.
     Users can now install Brightside CLI on their PC.
 
 4.  Open a command line window. Browse to the directory where you

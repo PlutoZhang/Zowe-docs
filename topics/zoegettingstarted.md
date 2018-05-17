@@ -1,4 +1,4 @@
-# Installing Zoe
+# Obtaining the Zoe runtime
 
 The Zoe packages are distributed as a PAX file that contains the runtimes and the scripts to install and launch the z/OS runtime and the runtime for the desktop command line interface.
 
@@ -59,3 +59,5 @@ After you obtain the Zoe PAX file from the [Zoe download page](https://github.co
       /scripts
       ...
     ```
+     
+     **Note**: The PAX file will expand into the current directory. A good practice is to keep the install directory apart from the install directory.  To do this, you can create a directory such as /zoe/builds that contains the PAX files, and another such as /zoe/drivers/.  Put the Zoe PAX file into the /zoe/builds directory, create a folder such as /zoe/drivers/0.8.1, use the `cd` command to enter this folder and run the command `pax -ppf -rf ../../builds/zoe-0.8.1.pax`.
