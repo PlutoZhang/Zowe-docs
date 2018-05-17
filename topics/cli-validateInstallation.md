@@ -39,13 +39,10 @@ failures or warnings to your systems programmer.
 
 The report returns the following information:
 
-  - **Task**      
-    The type of action that the test performs.
-  - **Status**      
-    The result of the test returns as *OK*, *Warning*, or *Failed*. In
-    some cases, a *Failed* result on one test can result in a
-    *Warning* result on the subsequent tests.
-  - **Description**      
-    Details about the execution and results of the test.
-  - **Endpoint**      
-    The REST API endpoint on which the test acted.
+- **Task**: The type of action that the test performs.
+
+- **Status**: The result of the test returns as *OK*, *Warning*, or *Failed*. In some cases, a *Failed* result on one test can result in a *Warning* result on the subsequent tests.
+
+- **Description**: Details about the execution and results of the test.
+
+- **Endpoint**: The REST API endpoint on which the test acted.

@@ -49,7 +49,7 @@ The file assigns default port numbers for the HTTP and HTTPS ports. If these por
 6. To update the server configuration, issue the following command:
 
      ```
-           zlux-example-server/build/deploy.sh
+           zlux-build/build/deploy.sh
      ```
 
      
