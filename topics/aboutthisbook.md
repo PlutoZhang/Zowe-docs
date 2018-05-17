@@ -22,7 +22,7 @@ Before getting started with Project Giza, acquaint yourself with the following t
 
     Command groups focus on specific business processes that application developers and systems programmers perform during their day-to-day activities.
 
-- **Discovery**  
+- **z/OS Subsystems**  
 
     A z/OS subsystems plug-in.
 
@@ -44,7 +44,7 @@ Before getting started with Project Giza, acquaint yourself with the following t
 
 - **z/OS Lightweight User Experience**  
 
-    z/OS Lightweight User Experience (zLUX) consists of the framework, MVD, plugin applications, TN3270 emulator, and Discovery.
+    z/OS Lightweight User Experience (zLUX) consists of the framework, MVD, plugin applications, TN3270 emulator, and z/OS subsystems.
 
 ## How to use this book
 
