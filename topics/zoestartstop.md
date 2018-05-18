@@ -21,10 +21,10 @@ Navigate to the folder `/zlux-example-server/bin` in the location where the Zoe 
 To run the zLUX server in the background to the current shell, append `&` to the command. To ensure that the zLUX server remains active once the shell disconnects, prepend the command with `nohop`.
 
 ```
-nohop nodeServer.sh &
+nohup nodeServer.sh &
 ```
 
-**Stopping the Zoe runtime**
+**Stopping the explorer server**
 
 To stop the Zoe runtime, issue the following operator command:
 
@@ -32,4 +32,18 @@ To stop the Zoe runtime, issue the following operator command:
 /C ZOESVR.  
 ```
 
+**Stopping the zLux server**
+
+The zLUX server is started as a Unix process.  To stop the zLUX server, use standard process signals such as SIGHUP, SIGTERM, and SIGKILL.  Alternatively, you can press CTRL+C if zLux is running in the foreground.
+
+If you are running zLux in the background to end the server determine its task number by running `ps -elf | grep node` and running `kill -9 <taskname>` where the taskname is the process number of the node harmony process.
+
+***Example***
+```
+ ps -elf | grep node
+ TSTRADM   50397574   16843272  - 02:50:02 ttyp0002  0:00 node --harmony zluxServer.js --config=../deploy/instance/ZLUX/serverConfig/zlux
+ TSTRADM   16843272      65777  - 02:50:02 ttyp0002  0:00 /bin/sh -- ./nodeServer.sh
+ TSTRADM   50397763   16843272  - 02:50:02 ttyp0002  0:00 tee ../log/nodeServer-2018-05-18-02-50.log
+ kill -9 50397574
+```
 
