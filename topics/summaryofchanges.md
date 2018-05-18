@@ -1,24 +1,19 @@
 # Summary of changes
 
-Learn about what is new, changed, and removed in Project Giza.
+Learn about what is new, changed, and removed in Project Zoe.
 
 ## Version 0.8.1 (May 2018)
 
 ### What's new
-(If any)
+**VT Terminal**
+
+  zLUX now provides a VT Terminal application plug-in that provides a connection to USS and UNIX. [Learn more](mvd-appplugins.md).
 
 ### What's changed
 **Product naming**
 
-Project Giza has been renamed to Project Zoe. Atlas has been renamed to Explorer-server.
+  Project Giza is renamed to Project Zoe. Atlas is renamed to explorer server.
 
 **Installation procedure**
 
-
-**VT Terminal**
-
-  zLUX now provides a VT Terminal application plug-in that provides a connection to USS and UNIX. [Learn more](mvd-appplugins.md).   
-
-
-### What's removed
-(If any)
+  Project Zoe now provides an enhanced and simplified installation process to improve your installation experience. [Learn more](topics/zoeinstall.md).

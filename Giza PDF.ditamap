@@ -22,8 +22,9 @@ http://submit.boulder.ibm.com/infocenter/idwb/v3r8m4/topic/com.ibm.ditaref.doc/d
 <ibmfrontmatter>
 <editionnotices format="md" href="topics/editionnotice.md"
 navtitle="Edition notice"></editionnotices>
-<preface format="md" href="topics/aboutthisbook.md"
-navtitle="About this book" scope="local"></preface>
+<preface format="md" href="topics/aboutthisbook.md" navtitle="About this book" scope="local">
+<topicref format="md" href="topics/knownissues.md" navtitle="Known issues" scope="local"/>
+</preface>
 <topicref format="md" href="topics/summaryofchanges.md"
 navtitle="Summary of changes" scope="local"></topicref><?Pub Caret -1?>
 </ibmfrontmatter>
