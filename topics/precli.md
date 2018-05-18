@@ -1,6 +1,6 @@
 # Prerequisites for Brightside CLI
 
-Meet the following prerequisites before you install Brightside CLI on your PC:
+Meet the following prerequisites before you install Brightside CLI on your PC or Mac:
 
 - Node.js® is a JavaScript runtime environment on which we
 architected Brightside CLI. You use the Node.js package manager (npm) to install Brightside CLI. Follow the instructions at [Installing Node.js via package manager](https://nodejs.org/en/download/package-manager) to install Node.js on your operating system.  

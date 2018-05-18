@@ -1,6 +1,6 @@
-# Installing the Zoe runtime
+# Installing the Zoe runtime on z/OS
 
-1. Navigate to the `/config` directory where the install archive was unpacked.  Locate the `/install` directory.
+1. Navigate to the directory where the install archive was unpacked into.  Locate the `/install` directory.
 
     ```
          /install
@@ -11,13 +11,13 @@
 
 2. Review zoe-install.yaml which contains the following properties.
 
-    - install:rootDir is the directory that Zoe will be installed into to create a Zoe runtime.  The default directory is `/var/zoe/0.8.1`. However, you can change the directory to a different folder.  You may run the install multiple times with different values in the `zoe-install.yaml` file to create separate installations of the Zoe runtime.  The directory that Zoe is installed into must be empty. The install script will exit if the directory is not empty and create the directory if it does not exist.
+    - install:rootDir is the directory that Zoe will be installed into to create a Zoe runtime.  The default directory is `~/zoe/0.8.1`. The user's home directory is used as a default value to help ensure that the installing user has permission to create the directories needed for the install.  If the Zoe runtime is going to be used by different users it may be more appropriate to use another directory, such as `/var/zoe/v.r.m`.
+    
+    You may run the install multiple times with different values in the `zoe-install.yaml` file to create separate installations of the Zoe runtime.  The directory that Zoe is installed into must be empty. The install script will exit if the directory is not empty and create the directory if it does not exist.
 
     - explorer-server has two ports, one for HTTP and one for HTTPs.  The liberty server is used for the explorer-ui components.
 
     - zlux-server has three ports: the HTTP and HTTPs ports that are used by the zLUX window manager server, and the port that is used by the ZSS server.
-
-    If all of these values are OK then you do not need to change them.  
 
     ```
     install:
@@ -34,9 +34,31 @@
       zssPort=8542
     ```
 
+    - If all of these port values are OK then you do not need to change them.  These ports must not already being used for the Zoe runtime servers to be able to allocate them.  
+
+    To determine which ports are not available, follow these steps: 
+
+     - To display a list of ports that are in use, issue the following command:
+       ```
+       TSO NETSTAT to display
+       ``` 
+     - To display a list of reserved ports, issue the following command:
+       ```
+       TSO NETSTAT PORTLIST
+       ```  
+
+    The zoe-install.yaml also contains the telnet and ssh port with defaults of 23 and 22.  If your z/OS LPAR is using different ports edit the values.  This is to allow the TN3270 terminal desktop app to connect as well as the VT terminal desktop app.  Unlike the ports needed by the Zoe runtime for its zLux and explorer-server which must be unused, the terminal ports are expected to be be in use.
+
+    ```
+    # Ports for the TN3270 and the VT terminal to connect to    
+    terminals:
+        sshPort=22
+        telnetPort=23
+    ```
+
 2. Execute the zoe-install.sh script
 
-    Navigate to the `/install` directory and execute the script `zoe-install.sh` by issuing the following command:
+    With the current directory being the `/install` directory execute the script `zoe-install.sh` by issuing the following command:
 
     ```
     .zoe-install.sh
@@ -49,43 +71,9 @@
     The error is due to that the install script does not have execute permission. To add execute permission, issue the following command:
 
     ```
-    chmod u+u zoe-install.sh.
+    chmod u+x zoe-install.sh.
     ```
 
-    During the installation of the Liberty explorer server, group ownership of files is altered to be IZUADMIN.  This means that the user running the install must be a member of the IZUADMIN group or have super-user authority.  
+    When the `zoe-install.sh` script runs, it performs a number of steps broken down into sections. These are covered more in the section  [Troubleshooting the install process](topics/zoeinstalltroubleshoot.md).
 
-    The script uses a number of variables defined in the file `zoe-install.yaml` to determine the directory that the Zoe runtime should be installed into, as well as ports numbers to be used.
-
-    When the `zoe-install.sh` script runs, it performs a number of steps broken down into sections. These are covered more in the section "Troubleshooting the install process".  
-
-    At the end of the installation, a zFS file ZOESVR is created in the `/jcl` folder where the runtime was successfully installed into. This file needs to be part of the PROCLIB for the Zoe runtime to be executed as a started task. The install script will attempt to add ZOESVR to the PROCLIB, however, this is dependent on the user's privileges so this might require a user with elevated privileges to perform this step.
-
-3. Start the Zoe runtime as a started task.
-
-    Running Zoe as a started task is the preferred way to start and stop Zoe.  
-
-    To start Zoe as a started task, launch SDSF and issue the operator command:
-
-    ```
-    /S ZOESVR.
-    ```
-
-    To stop the Zoe runtime issue the operator command:
-
-    ```
-    /C ZOESVR.  
-    ```
-
-4. Start the Zoe runtime as a Unix process.
-
-    To perform this, navigate to the folder `/scripts` in the location where the Zoe runtime was installed into and execute the script:
-
-    ```
-    zoestart.sh
-    ```
-
-    To end the Zoe runtime execute the script:
-
-    ```
-    zoestop.sh
-    ```
+    

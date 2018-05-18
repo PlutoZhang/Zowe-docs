@@ -1,18 +1,18 @@
-# Uninstalling Atlas
+# Uninstalling Explorer server
 
-To uninstall Atlas, take the following steps:
+To uninstall Explorer server, take the following steps:
 
-1.  Stop your Atlas Liberty server by running the following operator command:
+1.  Stop your Explorer Liberty server by running the following operator command:
 
     ```
-    P FEKATLS
+    P ZOESVR
     ```
 
-2.  Delete the FEKATLS member from your system PROCLIB data set.
+2.  Delete the ZOESVR member from your system PROCLIB data set.
 3.  Remove RACF® \(or equivalent\) definitions with the following command:
 
     ```
-    RDELETE STARTED (FEKATLS.*)
+    RDELETE STARTED (ZOESVR.*)
     SETR RACLIST(STARTED) REFRESH
     REMOVE (userid) GROUP(IZUUSER)
     ```
