@@ -1,6 +1,6 @@
 # Technical overview
 
-The following diagram and the explanations exemplify how Project Giza works.
+The following diagram and the explanations exemplify how Project Zoe works.
 
 ![diagram](../images/mvd/zluxserverarchitecture.jpg)
 

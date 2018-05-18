@@ -1,12 +1,12 @@
 # Prerequisites for z/OSMF configuration
 
-IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Project Giza microservice that must be installed and running before you use Project Giza. This article consists of the following information:
+IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Project Zoe microservice that must be installed and running before you use Project Zoe. This article consists of the following information:
 
-- z/OSMF requirements for Project Giza
+- z/OSMF requirements for Project Zoe
 - Configuring z/OSMF
 - Verifying your z/OSMF configuration
 
-**Important!** The IBM z/OS Management Facility guides on the IBM Knowledge Center are your primary source of information about how to install and configure z/OSMF. In the following topics, we provide procedures and tips for the configuration required for Project Giza. We recommend that you open the following IBM documentation in a separate browser tab (The z/OSMF process differs depending on whether you have z/OS v2.2 or v2.3):
+**Important!** The IBM z/OS Management Facility guides on the IBM Knowledge Center are your primary source of information about how to install and configure z/OSMF. In the following topics, we provide procedures and tips for the configuration required for Project Zoe. We recommend that you open the following IBM documentation in a separate browser tab (The z/OSMF process differs depending on whether you have z/OS v2.2 or v2.3):
 
 IBM z/OSMF documentation:
 
@@ -14,11 +14,11 @@ IBM z/OSMF documentation:
 - [IBM z/OS Management Facility Configuration Guide](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izua300/IZUHPINFO_PartConfiguring.htm)
 
 
-## z/OSMF requirements for Project Giza
-Meet the following requirements before you use Project Giza:
+## z/OSMF requirements for Project Zoe
+Meet the following requirements before you use Project Zoe:
 
 ### z/OS requirements
-Ensure that your z/OS system meets the following requirements for z/OSMF to function properly with Project Giza:
+Ensure that your z/OS system meets the following requirements for z/OSMF to function properly with Project Zoe:
 
 - **AXR (System REXX)** -
     The AXR (System REXX) component lets z/OS perform Incident Log tasks. It also lets REXX execs execute outside of conventional TSO and batch environments.
@@ -61,7 +61,7 @@ Ensure that the following IBM z/OSMF plug-ins are installed and configured:
 For more information about configuring each z/OSMF plug-in and the related security, refer to the IBM z/OSMF documentation for each plug-in.
 
 ### REST services requirements
-Ensure that the following REST services are configured and available when you run Project Giza:
+Ensure that the following REST services are configured and available when you run Project Zoe:
 
 - **Cloud provisioning services** -
     Cloud provisioning for development environments. Cloud provisioning services are required for the Brightside CLI cics and db2 command groups to function properly. Endpoints begin with `/zosmf/provisioning/`
@@ -76,11 +76,11 @@ Ensure that the following REST services are configured and available when you ru
 - **z/OSMF workflow services** -
     Cloud provisioning for development environments. Cloud provisioning services are required for the Brightside CLI cics and db2 command groups to function properly. Endpoints begin with `/zosmf/workflow/`
 
-Additionally, Project Giza uses z/OSMF configuration by using symbolic links to the
+Additionally, Project Zoe uses z/OSMF configuration by using symbolic links to the
 z/OSMF `bootstrap.properties`, `jvm.security.override.properties`, and the
-`ltpa.keys` files. Specifically, Project Giza reuses z/OSMF's SAF, SSL, and LTPA
+`ltpa.keys` files. Specifically, Project Zoe reuses z/OSMF's SAF, SSL, and LTPA
 configuration; therefore, these configurations must be valid and complete to
-operate Project Giza successfully.
+operate Project Zoe successfully.
 
 For more information, refer to the IBM z/OSMF documentation for each REST service.
 
@@ -202,14 +202,14 @@ For more information, refer to the IBM z/OSMF documentation for each REST servic
 
         From the output above, you can see that only 26.711 MB is available (because z/OSMF is already installed), but the total in that file system is 535.68 MB, so enough space was available when the file system was created.
 
-    - Verify your browser support. Confirm that the machine from which you plan to run the Giza desktop runs one of the supported browsers:
+    - Verify your browser support. Confirm that the machine from which you plan to run the Zoe desktop runs one of the supported browsers:
         - Chrome version 54 or later
         - Firefox version 44 or later
         - Microsoft Edge
 
       **Note**: Microsoft Internet Explorer is not yet supported at any version.
 
-4. After configuring z/OSMF, verify the following items to ensure z/OSMF is ready for Project Giza.
+4. After configuring z/OSMF, verify the following items to ensure z/OSMF is ready for Project Zoe.
 
     Check that the z/OSMF server and angel processes are running. From SDSF on z/OS, use the `DA` command or issue the following command on the command input line:
 
@@ -263,7 +263,7 @@ To verify that IBM z/OSMF is configured correctly, follow these steps to create 
 3. Create a zosmf profile in Brightside CLI. Issue the `bright help explain profiles` command to learn more about creating profiles in Brightside CLI. See [How to display Brightside CLI help](cli-howtodisplaybrightsidehelp.md) for more information.
 4. [Validate your profile](cli-validateInstallation.md).
 5. [Use the profile validation report to identify and correct errors](cli-validateInstallationcorrectproblems.md) with your z/OSMF configuration.
-    If you recieve a perfect score on the validation report, Project Giza can communicate with z/OSMF properly.
+    If you recieve a perfect score on the validation report, Project Zoe can communicate with z/OSMF properly.
 
 **Note:** Before your run the profile validation, check that JES2 is accepting jobs with CLASS=C by issuing the following command in SDSF:
 

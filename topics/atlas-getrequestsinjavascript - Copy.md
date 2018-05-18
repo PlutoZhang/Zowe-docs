@@ -1,6 +1,6 @@
 # Sending a `GET` request in JavaScript
 
-Here is sample code written in JavaScript™ using features from ES6 to send a `GET`request to Atlas.
+Here is sample code written in JavaScript™ using features from ES6 to send a `GET`request to explorer server.
 
 ```js
 const BASE_URL = 'hostname.com:port/Atlas/api';

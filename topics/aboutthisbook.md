@@ -10,7 +10,7 @@ To use this book, you must be familiar with the mainframe and z/OSMF configurati
 
 Before getting started with Project Zoe, acquaint yourself with the following terms:
 
-- **Atlas**  
+- **Explorer server**  
 
     A z/OS RESTful web service and deployment architecture for z/OS microservices.
 
@@ -30,7 +30,7 @@ Before getting started with Project Zoe, acquaint yourself with the following te
 
     Experimental Commands are commands that are currently in development and are not ready for general availability. Users can enable or disable these commands. Experimental commands are disabled by default.
 
-- **Giza Node Server**  
+- **Zoe Node Server**  
 
     Refers to Node.js server plus Express.js as webservices framework, and the proxy applications that communicate with the z/OS services and components.
 
@@ -40,7 +40,7 @@ Before getting started with Project Zoe, acquaint yourself with the following te
 
 - **TN3270**  
 
-    A limited license Giza plugin that provides a 3270 connection to the mainframe on which the Giza Node Server is running.
+    A limited license Zoe plugin that provides a 3270 connection to the mainframe on which the Zoe Node Server is running.
 
 - **z/OS Lightweight User Experience**  
 
@@ -48,38 +48,17 @@ Before getting started with Project Zoe, acquaint yourself with the following te
 
 ## How to use this book
 
-This book contains an introduction and information for installing and using Project Giza.
- <TODO>
+This book contains an introduction and information for installing and using Project Zoe.
+
 - [Project Zoe overview](introduction.md) explains what is Project Zoe and what it can do.
- <TODO>
-- [Installing Project Giza](installandconfig.md) explains how to install and maintain Project Giza so that it can work. It also provides information about troubleshooting installation related problems.
- <TODO>
-- [Using Project Giza](using.md) explains how to use the features that Project Giza provides.
+
+- [Installing Project Zoe](installandconfig.md) explains how to install and maintain Project Zoe so that it can work. It also provides information about troubleshooting installation related problems.
+
+- [Using Project Zoe](using.md) explains how to use the features that Project Zoe provides.
 
 ## How to send your feedback
 
 Your feedback is important in helping us to provide accurate and high-quality information. If you have comments about this documentation, you can use the following methods to provide feedback:
 
 - Open an issue in GitHub to request documentation update
-- Use the GitHub pull request method
-
-### Opening an issue for the documentation
-
-You can open an issue in Github to request documentation to be updated, improved, or clarified by providing a comment. To do this, complete the following steps.
-
-1. Go to the **Giza-docs** repository in GitHub.
-2. Select **Issues**.
-3. Click **New issue**.
-4. Provide a title and enter your comment on the documenation. Be sure to include the specific location of the text that you are commenting on, for example, the section heading.
-5. Click **Submit new issue**.
-
-### Sending a GitHub pull request
-
-You can provide a suggested edit for the documentation directly in GitHub and send us a pull request. To do this, complete the following steps.
-
-1. Go to the **Giza-docs** repository in GitHub.
-2. Locate the specific topic you want to comment on.
-3. Make the changes to the file.
-4. Scroll to the end of the page and enter a brief description about your change.
-5. Optional: Enter an extended description.
-6. Select **Create a new branch for this commit and start a pull request**. The documentation team will review and merge your changes.
+- Use the GitHub pull request method to provide a suggested edit for the documentation directly in GitHub

@@ -1,6 +1,6 @@
-# Using Atlas WebSocket services
-Atlas provides WebSocket services that can be accessed by using the WSS scheme.
-With Atlas WebSocket services, you can view the system log in the System log UI
+# Using explorer server WebSocket services
+The explorer server provides WebSocket services that can be accessed by using the WSS scheme.
+With explorer server WebSocket services, you can view the system log in the System log UI
 that is refreshed automatically when messages are written. You can also open a JES
 spool file for an active job and view its contents that refresh through a web socket.
 

@@ -1,17 +1,19 @@
-## install Zoe runtime
+# Installing Project Zoe
 
-To install the Project Zoe runtimes, follow these steps:  
+To install Project Zoe, follow these steps:  
 
-1. Prepare your environment to meet the installation requirements. For details, see [Prerequisites](../topics/planinstall.md).
+1. Obtain the Zoe installation media, transfer the PAX file to z/OS and prepare it to install the Zoe runtime. For details, see [Obtaining the Zoe runtime](../topics/zoegettingstarted.md)
 
-2. Allocate enough space for the installation.
+2. Prepare your environment to meet the installation requirements. For details, see [Prerequisites](../topics/planinstall.md).
 
-     For successful installation of Project Zoe, your PC must contain the required space. The installation process requires approximately 1 GB of available space. Once installed, zLUX requires approximately 50 MB of space before configuration, Atlas requires approximately 200 MB, and Brightside CLI requires approximately 25 MB.
+3. Allocate enough space for the installation.
 
-3. Install components of Project Zoe. For details, see [Installing components of Project Zoe](../topics/zoe-install.md)
+     For successful installation of Project Zoe, your PC must contain the required space. The installation process requires approximately 1 GB of available space. Once installed, zLUX requires approximately 50 MB of space before configuration, explorer server requires approximately 200 MB, and Brightside CLI requires approximately 25 MB.
 
-4. Verify that Project Zoe runtime is installed correctly. For details, see [Verifying Installation](../topics/verifyinstall.md).
+4. Install components of Project Zoe. For details, see [Installing the Zoe runtime on z/OS](../topics/zoe-install.md)
 
-For problems that might occur during an installation and how to resolve them, see [Troubleshooting installation](../topics/troubleshoot.md).
+4. Verify that Project Zoe runtime is installed correctly. For details, see [Verifying installation](../topics/verifyinstall.md).
+
+For problems that might occur during an installation and how to resolve them, see [Troubleshooting installing the Zoe runtime](../topics/zoeinstalltroubleshoot.md) and  [Troubleshooting installation](../topics/troubleshoot.md).
 
 To uninstall Project Zoe, see [Uninstalling Project Zoe](../topics/uninstallingatlas.md).

@@ -1,7 +1,7 @@
-# Using Atlas Explorers within zLUX
-Atlas provides a sample web client that can be used to view and manipulate the Job Entry Subsystem (JES), data sets, z/OS UNIX System Services (USS), and System log.
+# Using Explorers within zLUX
+The explorer server provides a sample web client that can be used to view and manipulate the Job Entry Subsystem (JES), data sets, z/OS UNIX System Services (USS), and System log.
 
-The following views are available from the Atlas Web UI and are accesible via the Atlas icon located in the application draw of MVD (Navigation between views can be performed using the menu draw located in the top left corner of the Atlas Web UI):
+The following views are available from the explorer server Web UI and are accesible via the explorer server icon located in the application draw of MVD (Navigation between views can be performed using the menu draw located in the top left corner of the explorer server Web UI):
 
 **JES Explorer**
 

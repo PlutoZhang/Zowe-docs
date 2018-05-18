@@ -1,6 +1,6 @@
 # Sending a `GET` request in Java
 
-Here is sample code to send a `GET` request to Atlas in Java™.
+Here is sample code to send a `GET` request to explorer server in Java™.
 
 ```
 public class JobListener implements Runnable {

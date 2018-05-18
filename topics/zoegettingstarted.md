@@ -13,7 +13,7 @@ Follow these steps to transfer the PAX file to z/OS and prepare it to install th
     b. Connect to z/OS using SFTP. Issue the following command:
 
      ```
-     sftp <userID@rip.of.zos.box>
+     sftp <userID@ip.of.zos.box>
      ```
 
      If SFTP is not available or if you prefer to use FTP, you can issue the following command instead:
@@ -30,12 +30,12 @@ Follow these steps to transfer the PAX file to z/OS and prepare it to install th
 
     c. Navigate to the target directory on z/OS.
 
-    After you connect to z/OS and enter your password, you will be entered into the Unix file system. Navigate to the directory you wish to transfer the Zoe PAX file into.
-    
-     - To see what directory you are in, type `pwd`.
-     - To switch directory, type `cd`.
-     - To list the contents of a directory, type `ls`.
-     - To create a directory, type `mkdir`.  
+       After you connect to z/OS and enter your password, you will be entered into the Unix file system. Navigate to the directory you wish to transfer the Zoe PAX file into.
+
+       - To see what directory you are in, type `pwd`.
+       - To switch directory, type `cd`.
+       - To list the contents of a directory, type `ls`.
+       - To create a directory, type `mkdir`.   
 
     d. When you are in the directory you want to transfer the Zoe PAX file into, issue the following command:
 
@@ -51,9 +51,9 @@ Follow these steps to transfer the PAX file to z/OS and prepare it to install th
     pax -ppx -rf <pax-file-name>.pax
     ```  
 
-    **Note**: When your terminal is connected to z/OS through ftp or sftp you can prepend commands with l to have them issued against your desktop.  To list the contents of a directory on your desktop, type `lls` where `ls` will list contents of a directory on z/OS.  
-
     Where _pax-file-name_ is a variable that indicates the name of the PAX file you downloaded. For example, zoe-0.8.1.pax.
+
+    **Note**: When your terminal is connected to z/OS through FTP or SFTP, you can prepend commands with l to have them issued against your desktop.  To list the contents of a directory on your desktop, type `lls` where `ls` will list contents of a directory on z/OS.  
 
     This will expand to a file structure.
 
@@ -63,5 +63,5 @@ Follow these steps to transfer the PAX file to z/OS and prepare it to install th
       /scripts
       ...
     ```
-     
+
      **Note**: The PAX file will expand into the current directory. A good practice is to keep the install directory apart from the install directory.  To do this, you can create a directory such as /zoe/paxes that contains the PAX files, and another such as /zoe/builds/.  SFTP transfer the Zoe PAX file into the /zoe/paxes directory, use the `cd` command to switch into /zoe/builds enter this folder and run the command `pax -ppf -rf ../../builds/zoe-0.8.1.pax`.  The /install folder will be created inside the current directory of zoe/builds from where the install can be launched.  

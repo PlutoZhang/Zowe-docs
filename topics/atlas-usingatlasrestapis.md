@@ -1,6 +1,6 @@
-# Using Atlas REST APIs
+# Using explorer server REST APIs
 
-Atlas REST APIs provide a range of REST APIs through a Swagger defined description, and a simple interface to specify API endpoint parameters and request bodies along with the response body and return code. With Atlas REST APIs, you can see the available API endpoints and try the endpoints within a browser. Swagger documentation is available from an internet browser with a URL, for example, https://your.host:atlas-port/ibm/api/explorer.
+Explorer server REST APIs provide a range of REST APIs through a Swagger defined description, and a simple interface to specify API endpoint parameters and request bodies along with the response body and return code. With explorer server REST APIs, you can see the available API endpoints and try the endpoints within a browser. Swagger documentation is available from an Internet browser with a URL, for example, https://your.host:atlas-port/ibm/api/explorer.
 
 **[Data Set APIs](../topics/atlas-datasetapis.md)**  
 
@@ -16,7 +16,7 @@ Use Persistent Data APIs to create, read, update, delete metadata from persisten
 
 **[System APIs](../topics/atlas-systemapi.md)**  
 
-Use System APIs to view the version of Atlas. See the following table for the available operations and their descriptions and prerequisites.
+Use System APIs to view the version of explorer server. See the following table for the available operations and their descriptions and prerequisites.
 
 **[USS File APIs](../topics/atlas-ussfileapis.md)**  
 
