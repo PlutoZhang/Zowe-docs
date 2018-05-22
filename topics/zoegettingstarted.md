@@ -2,7 +2,7 @@
 
 The Zoe packages are distributed as a PAX file that contains the runtimes and the scripts to install and launch the z/OS runtime and the runtime for the desktop command line interface.
 
-Zoe distributions are released in a PAX file format.  To obtain a Zoe PAX file visit [Zoe download page](https://github.com/gizafoundation/Downloads/releases) in GitHub.  For each release there is a file named giza-v.r.m.pax where v is the version, r is the release number and m is the modification number.  The numbers are incremented each time a release is created so the higher the numbers the later the release.  Save the file giza-v.r.m.pax to a folder on your desktop using your web browser.  
+Zoe distributions are released in a PAX file format.  To obtain a Zoe PAX file visit [Zoe download page](https://github.com/gizafoundation/Downloads/releases) in GitHub.  For each release there is a PAX file named project_zoe-v.r.m.pax where v is the version, r is the release number and m is the modification number.  The numbers are incremented each time a release is created so the higher the numbers the later the release.  Save the PAX file to a folder on your desktop using your web browser.  
 
 Follow these steps to transfer the PAX file to z/OS and prepare it to install the Zoe runtime.
 
