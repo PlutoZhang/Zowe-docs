@@ -44,6 +44,7 @@
           -   [Setting environment variables for plug-in development](topics/mvd-pluginsetenvvars.md)
           -   [Using the zLUX sample application plug-in](topics/mvd-pluginexpsampapp.md)
         - [zLUX plug-in definition and structure](topics/mvd-zluxplugindefandstruct.md)
+          -   [Plug-in filesystem structure](topics/mvd-zluxpluginfilesystem.md)
           -   [Location of plug-in files](topics/mvd-pluginsdir.md)
           -   [Plug-in definition file](topics/mvd-plugindeffile.md)
           -   [Plug-in attributes](topics/mvd-pluginattributes.md)  
