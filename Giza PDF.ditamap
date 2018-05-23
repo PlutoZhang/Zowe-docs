@@ -121,6 +121,17 @@ navtitle="Setting environment variables for plug-in development" scope="local"/>
 <topicref format="md" href="topics/mvd-pluginexpsampapp.md"
 navtitle="Using the zLUX sample application plug-in" scope="local"/>
 </topicref>
+<topicref format="md" href="topics/mvd-zluxplugindefandstruct.md"
+navtitle="zLUX plug-ins definition and structure" scope="local">
+<topicref format="md" href="topics/mvd-zluxpluginfilesystem.md"
+navtitle="zLUX application plug-in filesystem structure" scope="local"/>
+<topicref format="md" href="topics/mvd-pluginsdir.md"
+navtitle="Location of plug-in files" scope="local"/>
+<topicref format="md" href="topics/mvd-plugindeffile.md"
+navtitle="Plug-in definition file" scope="local"/>
+<topicref format="md" href="topics/mvd-pluginattributes.md"
+navtitle="Attributes" scope="local"/>
+</topicref>
 <topicref format="md" href="topics/mvd-zluxlogging.md"
 navtitle="zLUX logging" scope="local"></topicref>
 </topicref>
