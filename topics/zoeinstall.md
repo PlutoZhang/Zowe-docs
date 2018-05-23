@@ -41,7 +41,7 @@
     - To display a list of ports that are in use, issue the following command:
 
     ```
-    TSO NETSTAT to display
+    TSO NETSTAT 
     ```
 
     - To display a list of reserved ports, issue the following command:
