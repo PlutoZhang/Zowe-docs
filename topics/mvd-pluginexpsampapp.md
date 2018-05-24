@@ -12,19 +12,20 @@ To build the sample application plug-in, node and npm must be included in the PA
 
 1.   Add an item to `sample-app`. The following figure shows the unmodified contents of `app.component.ts`:
 
-     ```
-       import { Component } from '@angular/core';
-      
-       @Component({
-          selector: 'app-root',
-          templateUrl: './app.component.html',
-          styleUrls: ['./app.component.css']
-        })
-        export class AppComponent {
-          items = ['a', 'b', 'c', 'd']
-          title = 'app';
-      }
-        ```
+    ```
+    
+    import { Component } from '@angular/core';
+    
+    @Component({
+      selector: 'app-root',
+      templateUrl: './app.component.html',
+      styleUrls: ['./app.component.css']
+    })
+    export class AppComponent {
+      items = ['a', 'b', 'c', 'd']
+      title = 'app';
+    }
+    ```
 
 2.   Save the changes to `app.component.ts`. 
 3.   Issue one of the following commands: 

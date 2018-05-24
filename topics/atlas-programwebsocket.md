@@ -1,4 +1,4 @@
-# Programming Atlas WebSocket services
+# Programming explorer server WebSocket services
 
 Here is code sample written in JavaScript™ using features from ES6 to establish a new WebSocket connection to listen to the syslog output.
 

@@ -1,3 +1,3 @@
-# Updating Atlas
+# Updating explorer server
 
-Use the following procedures to update Project Giza.
+Use the following procedures to update Project Zoe.

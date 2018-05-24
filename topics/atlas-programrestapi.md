@@ -1,6 +1,6 @@
-# Programming Atlas REST APIs
+# Programming explorer server REST APIs
 
-You can program Atlas REST APIs by referring to these examples:
+You can program explorer server REST APIs by referring to these examples:
 
 -   **[Sending a GET request in Java](../topics/atlas-getrequestinjava.md)**
 -   **[Sending a GET request in JavaScript](../topics/atlas-getrequestsinjavascript.md)**

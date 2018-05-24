@@ -4,7 +4,7 @@ Application plug-ins are applications that you can use to access the mainframe a
 
 ## TN3270
 This application plug-in provides a 3270 connection to the mainframe on
-which the Giza Node Server runs.
+which the Zoe Node Server runs.
 ## VT Terminal 
 This application plug-in provides a connection to USS and UNIX.
 ## IFrame

@@ -9,77 +9,66 @@
 For information on the DITA tags, see: 
 http://submit.boulder.ibm.com/infocenter/idwb/v3r8m4/topic/com.ibm.ditaref.doc/doc/DitaGuideTitle.htm-->
 <ibmbooktitle>
-<ibmbooklibrary><titleline>Closed Beta for Project Giza</titleline></ibmbooklibrary>
+<ibmbooklibrary><titleline>Closed Beta for Project Zoe</titleline></ibmbooklibrary>
 <ibmmainbooktitle><titleline>User's Guide</titleline></ibmmainbooktitle>
 </ibmbooktitle>
 <bookmeta>
 <!--Reader's comment form-->
 <prodinfo>
 <!--More cover information-->
-<prodname>Project Giza</prodname>
+<prodname>Project Zoe</prodname>
 </prodinfo>
 <bookid><edition>First Edition</edition></bookid></bookmeta>
 <ibmfrontmatter>
 <editionnotices format="md" href="topics/editionnotice.md"
 navtitle="Edition notice"></editionnotices>
-<preface format="md" href="topics/aboutthisbook.md"
-navtitle="About this book" scope="local"></preface>
-<topicref format="md" href="topics/whatsnew.md" navtitle="What's new" scope="local"/>
+<preface format="md" href="topics/aboutthisbook.md" navtitle="About this book" scope="local"/>
+<topicref format="md" href="topics/summaryofchanges.md"
+navtitle="Summary of changes" scope="local"></topicref>
+<topicref format="md" href="topics/knownissues.md" navtitle="Known issues" scope="local"/><?Pub Caret -1?>
 </ibmfrontmatter>
-<chapter format="md" href="topics/introduction.md" navtitle="Project Giza overview" scope="local">
-<topicref format="md" href="topics/whatis.md" navtitle="What is Project Giza" scope="local"/>
+<chapter format="md" href="topics/introduction.md" navtitle="Project Zoe overview" scope="local">
+<topicref format="md" href="topics/whatis.md" navtitle="What is Project Zoe" scope="local"/>
 <topicref format="md" href="topics/componentoverview.md" navtitle="Components overview"
 scope="local">
 <topicref format="md" href="topics/mvd-overview.md" navtitle="zLux overview" scope="local"/>
-<topicref format="md" href="topics/atlas-overview.md" navtitle="Atlas overview" scope="local"/>
+<topicref format="md" href="topics/atlas-overview.md" navtitle="Explorer server overview"
+scope="local"/>
 <topicref format="md" href="topics/cli-releasenotes.md" navtitle="Brightside CLI overview"
 scope="local"/>
 </topicref>
 </chapter>
-<chapter format="md" href="topics/installandconfig.md"
-navtitle="Installing Project Giza" scope="local">
-<topicref format="md" href="topics/planinstall.md"
-navtitle="Prerequisites" scope="local">
-<topicref format="md" href="topics/prezosmf.md"
-navtitle="Prerequisites for z/OSMF configuration" scope="local">
-</topicref>
-<topicref format="md" href="topics/premvd.md"
-navtitle="Prerequisites for zLUX" scope="local">
+<chapter format="md" href="topics/installandconfig.md" navtitle="Installing Project Zoe"
+scope="local">
+<topicref format="md" href="topics/zoegettingstarted.md" navtitle="Obtaining the Zoe runtime"
+scope="local"/>
+<topicref format="md" href="topics/planinstall.md" navtitle="Prerequisites" scope="local">
+<topicref format="md" href="topics/prezosmf.md" navtitle="Prerequisites for z/OSMF configuration"
+scope="local"/>
+<topicref format="md" href="topics/premvd.md" navtitle="Prerequisites for zLUX" scope="local">
 <topicref format="md" href="topics/mvd-instconfirmnodejsinstalled.md"
 navtitle="Confirming that Node.js is installed" scope="local"/>
-<topicref format="md" href="topics/mvd-instverifyportnumavailable.md"
-navtitle="Verifying available port numbers" scope="local"/>
 </topicref>
-<topicref format="md" href="topics/atlas-prereqs.md"
-navtitle="Prerequisites for Atlas" scope="local"></topicref>
-<topicref format="md" href="topics/precli.md"
-navtitle="Prerequisites for Brightside CLI" scope="local"></topicref>
+<topicref format="md" href="topics/atlas-prereqs.md" navtitle="Prerequisites for explorer server"
+scope="local"/>
+<topicref format="md" href="topics/precli.md" navtitle="Prerequisites for Brightside CLI"
+scope="local"/>
 </topicref>
-<topicref format="md" href="topics/installing.md"
-navtitle="Installing components of Project Giza" scope="local">
-<topicref format="md" href="topics/installvirtualdesktop.md"
-navtitle="Installing zLUX" scope="local">
-<topicref format="md" href="topics/mvd-instsetupeverythingonzos.md"
-navtitle="Setting up the Giza Node server and the ZSS on z/OS" scope="local">
+<topicref format="md" href="topics/zoeinstall.md" navtitle="Installing Zoe runtime on z/OS"
+scope="local"/>
+<topicref format="md" href="topics/zoeinstalltroubleshoot.md"
+navtitle="Troubleshooting installing the Zoe runtime" scope="local"/>
+<topicref format="md" href="topics/zoestartstop.md" navtitle="Starting and stopping the Zoe runtime"
+scope="local"/>
 <topicref format="md" href="topics/mvd-settingupterminalapps.md"
 navtitle="Setting up terminal application plug-ins" scope="local"/>
-</topicref>
-<topicref format="md" href="topics/mvd-startzluxserver.md"
-navtitle="Starting the zLUX server" scope="local"></topicref>
-<topicref format="md" href="topics/mvd-stopzluxserver.md"
-navtitle="Stopping the zLUX server" scope="local"></topicref>
-</topicref>
-<topicref format="md" href="topics/atlas-install.md"
-navtitle="Installing Atlas" scope="local"></topicref>
-<topicref format="md" href="topics/cli-installcli.md"
-navtitle="Installing Brightside CLI" scope="local"></topicref>
-</topicref>
-<topicref format="md" href="topics/verify.md"
-navtitle="Verifying installation" scope="local">
+<topicref format="md" href="topics/cli-installcli.md" navtitle="Installing Brightside CLI"
+scope="local"/>
+<topicref format="md" href="topics/verify.md" navtitle="Verifying installation" scope="local">
 <topicref format="md" href="topics/mvd-instopendesktopbrowser.md"
-navtitle="Verifying zLUX installation" scope="local"></topicref>
+navtitle="Verifying zLUX installation" scope="local"/>
 <topicref format="md" href="topics/atlas-verifyinstall.md"
-navtitle="Verifying Atlas installation" scope="local"></topicref>
+navtitle="Verifying explorer server installation" scope="local"/>
 <topicref format="md" href="topics/cli-validateInstallation.md"
 navtitle="Validating Brightside CLI installation" scope="local">
 <topicref format="md" href="topics/cli-validateInstallationcorrectproblems.md"
@@ -87,31 +76,29 @@ navtitle="Identifying and correcting problems detected by the validate profile c
 scope="local"/>
 </topicref>
 </topicref>
-<topicref format="md" href="topics/troubleshoot.md"
-navtitle="Troubleshooting installation" scope="local">
-<topicref format="md" href="topics/mvd-troubleshoot.md"
-navtitle="Troubleshooting installing zLUX" scope="local"></topicref>
+<topicref format="md" href="topics/troubleshoot.md" navtitle="Troubleshooting installation"
+scope="local">
+<topicref format="md" href="topics/mvd-troubleshoot.md" navtitle="Troubleshooting installing zLUX"
+scope="local"/>
 <topicref format="md" href="topics/atlas-troubleshoot.md"
-navtitle="Troubleshooting installing Atlas" scope="local"></topicref>
+navtitle="Troubleshooting installing explorer server" scope="local"/>
 <topicref format="md" href="topics/cli-troubleshootinginstallingcli.md"
-navtitle="Troubleshooting installing Brightside CLI" scope="local">
+navtitle="Troubleshooting installing Brightside CLI" scope="local"/>
 </topicref>
-</topicref>
-<topicref format="md" href="topics/uninstall.md" navtitle="Uninstalling Project Giza" scope="local">
+<topicref format="md" href="topics/uninstall.md" navtitle="Uninstalling Project Zoe" scope="local">
 <topicref format="md" href="topics/mvd-uninstallingzlux.md" navtitle="Uninstalling zLUX"
 scope="local"/>
-<topicref format="md" href="topics/atlas-uninstall.md" navtitle="Uninstalling Atlas" scope="local"/>
+<topicref format="md" href="topics/atlas-uninstall.md" navtitle="Uninstalling explorer server"
+scope="local"/>
 <topicref format="md" href="topics/cli-uninstallcli.md" navtitle="Uninstalling Brightside CLI"
 scope="local"/>
 </topicref>
 </chapter>
-<chapter format="md" href="topics/using.md" navtitle="Using Project Giza"
-scope="local">
-<topicref format="md" href="topics/usingmvd.md" navtitle="Using zLUX"
-scope="local">
+<chapter format="md" href="topics/using.md" navtitle="Using Project Zoe" scope="local">
+<topicref format="md" href="topics/usingmvd.md" navtitle="Using zLUX" scope="local">
 <topicref format="md" href="topics/navigatingmvd.md" navtitle="Navigating MVD" scope="local"/>
 <topicref format="md" href="topics/atlas-usingwebuiwithinmvd.md"
-navtitle="Using Atlas Explorers within zLUX" scope="local"></topicref>
+navtitle="Using Explorers within zLUX" scope="local"/>
 <topicref format="md" href="topics/mvd-appplugins.md" navtitle="Using zLUX application plug-ins"
 scope="local"/>
 <topicref format="md" href="topics/mvd-plugincreateappplugin.md"
@@ -135,63 +122,54 @@ navtitle="Attributes" scope="local"/>
 <topicref format="md" href="topics/mvd-zluxlogging.md"
 navtitle="zLUX logging" scope="local"></topicref>
 </topicref>
-<topicref format="md" href="topics/usingapis.md" navtitle="Using APIs"
-scope="local">
+<topicref format="md" href="topics/usingapis.md" navtitle="Using APIs" scope="local">
 <topicref format="md" href="topics/atlas-usingatlasrestapis.md"
-navtitle="Using Atlas REST APIs" scope="local">
+navtitle="Using explorer server REST APIs" scope="local">
 <topicref format="md" href="topics/atlas-datasetapis.md" navtitle="Data set APIs" scope="local"/>
-<topicref format="md" href="topics/atlas-jobapis.md" navtitle="Job APIs"
-scope="local"></topicref>
-<topicref format="md" href="topics/atlas-persistentdataapis.md"
-navtitle="Persistent Data APIs" scope="local"></topicref>
-<topicref format="md" href="topics/atlas-systemapi.md"
-navtitle="System APIs" scope="local"></topicref>
-<topicref format="md" href="topics/atlas-ussfileapis.md"
-navtitle="USS File APIs" scope="local"></topicref>
-<topicref format="md" href="topics/atlas-systemapis.md"
-navtitle="z/OS System APIs" scope="local"></topicref>
+<topicref format="md" href="topics/atlas-jobapis.md" navtitle="Job APIs" scope="local"/>
+<topicref format="md" href="topics/atlas-persistentdataapis.md" navtitle="Persistent Data APIs"
+scope="local"/>
+<topicref format="md" href="topics/atlas-systemapi.md" navtitle="System APIs" scope="local"/>
+<topicref format="md" href="topics/atlas-ussfileapis.md" navtitle="USS File APIs" scope="local"/>
+<topicref format="md" href="topics/atlas-systemapis.md" navtitle="z/OS System APIs" scope="local"/>
 <topicref format="md" href="topics/atlas-programrestapi.md"
-navtitle="Programming Atlas REST APIs" scope="local">
+navtitle="Programming explorer server REST APIs" scope="local">
 <topicref format="md" href="topics/atlas-getrequestinjava.md"
-navtitle="Sending a GET request in Java" scope="local"></topicref>
+navtitle="Sending a GET request in Java" scope="local"/>
 <topicref format="md" href="topics/atlas-getrequestsinjavascript.md"
-navtitle="Sending a GET request in JavaScript" scope="local"></topicref>
+navtitle="Sending a GET request in JavaScript" scope="local"/>
 <topicref format="md" href="topics/atlas-postrequestinjavascript.md"
-navtitle="Sending a POST request in JavaScript" scope="local">
-</topicref>
+navtitle="Sending a POST request in JavaScript" scope="local"/>
 <topicref format="md" href="topics/atlas-extendedapisample.md"
-navtitle="Extended API sample in JavaScript" scope="local"></topicref>
+navtitle="Extended API sample in JavaScript" scope="local"/>
 </topicref>
-</topicref><?Pub Caret -2?>
+</topicref>
 <topicref format="md" href="topics/atlas-websocket.md"
-navtitle="Using Atlas WebSocket services" scope="local">
+navtitle="Using explorer server WebSocket services" scope="local">
 <topicref format="md" href="topics/atlas-programwebsocket.md"
-navtitle="Programming Atlas WebSocket services" scope="local">
+navtitle="Programming explorer server WebSocket services" scope="local"/>
 </topicref>
 </topicref>
-</topicref>
-<topicref format="md" href="topics/cli-usingcli.md"
-navtitle="Using Brightside CLI" scope="local">
+<topicref format="md" href="topics/cli-usingcli.md" navtitle="Using Brightside CLI" scope="local">
 <topicref format="md" href="topics/cli-howtodisplaybrightsidehelp.md"
-navtitle="How to display Brightside CLI help" scope="local"></topicref>
-<topicref format="md" href="topics/cli-commandgroups.md"
-navtitle="Brightside CLI Command groups" scope="local"></topicref>
-<topicref format="md"
-href="topics/cli-enabledisablexperimentalcommands.md"
-navtitle="Enabling and disabling experimental commands" scope="local">
-</topicref>
-<topicref format="md" href="topics/cli-scenarios.md"
-navtitle="Brightside CLI scenarios" scope="local"></topicref>
+navtitle="How to display Brightside CLI help" scope="local"/>
+<topicref format="md" href="topics/cli-commandgroups.md" navtitle="Brightside CLI Command groups"
+scope="local"/>
+<topicref format="md" href="topics/cli-enabledisablexperimentalcommands.md"
+navtitle="Enabling and disabling experimental commands" scope="local"/>
+<topicref format="md" href="topics/cli-scenarios.md" navtitle="Brightside CLI scenarios"
+scope="local"/>
 </topicref>
 </chapter>
 <ibmbackmatter>
 <topicref format="md" href="topics/notices_toc.md" navtitle="Notices">
 <topicref format="md" href="topics/atlas-notices.md"
 navtitle="IBM notices"></topicref>
-<topicref format="md" href="topics/mvd-zluxlegalnotices.md" navtitle="Rocket Software, Inc. notices"/>
+<topicref format="md" href="topics/mvd-zluxlegalnotices.md"
+navtitle="Rocket Software, Inc. notices"></topicref>
 <topicref format="markdown" href="topics/cli-legalnotices.md"
 navtitle="CA Technologies notices"></topicref>
 </topicref>
 </ibmbackmatter>
 </ibmbook>
-<?Pub *0000009501?>
+<?Pub *0000009695?>

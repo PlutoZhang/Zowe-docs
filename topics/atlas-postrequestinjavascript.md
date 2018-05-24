@@ -1,6 +1,6 @@
 # Sending a `POST` request in JavaScript
 
-Here is sample code written in JavaScript™ using features from ES6 to send a `POST` request to Atlas.
+Here is sample code written in JavaScript™ using features from ES6 to send a `POST` request to explorer server.
 
 ```
 // Call the jobs POST api to submit a job from a data set (ATLAS.TEST.JCL(TSTJ0001))                

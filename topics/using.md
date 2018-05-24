@@ -1,6 +1,6 @@
-# Using Project Giza
+# Using Project Zoe
 
-Project Giza delivers the following components:
+Project Zoe delivers the following components:
 
 - zLUX that provides a framework for building and sharing extension apps using web services and modern UI toolkits such as AngularJS. It includes all interactions that exist in 3270 terminals and web interfaces like z/OSMF.
 
