@@ -2,6 +2,16 @@
 
 Learn about what is new, changed, and removed in Project Zoe.
 
+- [Version 0.8.2 (June 2018)](#Version 0.8.2 (June 2018)
+- [Version 0.8.1 (May 2018)](#Version 0.8.1 (May 2018)
+
+## Version 0.8.2 (June 2018)
+
+### What's changed
+**Installation procedure**
+
+  Further enhanced the Zoe installation process and added the prerequisite check.
+
 ## Version 0.8.1 (May 2018)
 
 ### What's new
