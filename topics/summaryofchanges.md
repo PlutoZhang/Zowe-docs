@@ -2,8 +2,8 @@
 
 Learn about what is new, changed, and removed in Project Zoe.
 
-- [Version 0.8.2 (June 2018)](#Version 0.8.2 (June 2018)
-- [Version 0.8.1 (May 2018)](#Version 0.8.1 (May 2018)
+- [Version 0.8.2 (June 2018)](summaryofchanges.md#version-082-june-2018) 
+- [Version 0.8.1 (May 2018)](summaryofchanges.md#version-081-may-2018)
 
 ## Version 0.8.2 (June 2018)
 
