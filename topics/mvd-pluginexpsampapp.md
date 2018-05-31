@@ -10,22 +10,14 @@ To build the sample application plug-in, node and npm must be included in the PA
 
 - If you want to modify `sample-app`, you must run `_npm install_` in the virtual desktop and the `sample-app/webClient`. Then, you can run `_npm run build_` in `sample-app/webClient`.
 
-1.   Add an item to `sample-app`. The following figure shows the unmodified contents of `app.component.ts`:
-
-    ```
-    
-    import { Component } from '@angular/core';
-    
-    @Component({
-      selector: 'app-root',
-      templateUrl: './app.component.html',
-      styleUrls: ['./app.component.css']
-    })
+1.   Add an item to `sample-app`. The following figure shows an excerpt from `app.component.ts`:
+```
     export class AppComponent {
-      items = ['a', 'b', 'c', 'd']
-      title = 'app';
-    }
-    ```
+       items = ['a', 'b', 'c', 'd']
+       title = 'app';
+       helloText: string;
+      serverResponseMessage: string;
+ ```
 
 2.   Save the changes to `app.component.ts`. 
 3.   Issue one of the following commands: 
