@@ -7,7 +7,7 @@ Zoe has two runtime components on z/OS, the explorer server and the zLUX server.
 To start the explorer server, run the PROCLIB ZOESVR by issuing the operator command in SDSF.
 
 ```
-/S ZOESVR.
+/S ZOESVR
 ```
 
 To test whether the explorer server is active, open the URL https://<hostname>:7443/ui.
@@ -29,7 +29,7 @@ nohup nodeServer.sh &
 To stop the explorer server, issue the following operator command:
 
 ```
-/C ZOESVR.  
+/C ZOESVR  
 ```
 
 **Stopping the zLUX server**

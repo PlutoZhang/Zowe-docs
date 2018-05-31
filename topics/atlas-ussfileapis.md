@@ -1,6 +1,6 @@
 # USS File APIs
 
-Use USS File APIs to read and list UNIX Files. See the following table for the available operations and their descriptions and prerequisites.
+Use USS File APIs to create, read, update, and delete USS files. See the following table for the available operations and their descriptions and prerequisites.
 
 |REST API|Description|Prerequisite|
 |--------|-----------|-------------|

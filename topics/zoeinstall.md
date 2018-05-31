@@ -41,7 +41,7 @@
     - To display a list of ports that are in use, issue the following command:
 
     ```
-    TSO NETSTAT 
+    TSO NETSTAT
     ```
 
     - To display a list of reserved ports, issue the following command:
@@ -50,7 +50,7 @@
     TSO NETSTAT PORTLIST
     ```  
 
-    The zoe-install.yaml also contains the telnet and SSH port with defaults of 23 and 22.  If your z/OS LPAR is using different ports, edit the values.  This is to allow the TN3270 terminal desktop app to connect as well as the VT terminal desktop app.  Unlike the ports needed by the Zoe runtime for its zLUX and explorer server which must be unused, the terminal ports are expected to be be in use.
+    The zoe-install.yaml also contains the telnet and SSH port with defaults of 23 and 22.  If your z/OS LPAR is using different ports, edit the values.  This is to allow the TN3270 terminal desktop app to connect as well as the VT terminal desktop app.  Unlike the ports needed by the Zoe runtime for its zLUX and explorer server which must be unused, the terminal ports are expected to be in use.
 
     ```
     # Ports for the TN3270 and the VT terminal to connect to    
@@ -77,4 +77,4 @@
     chmod u+x zoe-install.sh.
     ```
 
-    When the `zoe-install.sh` script runs, it performs a number of steps broken down into sections. These are covered more in the section  [Troubleshooting installing the Zoe runtime](topics/zoeinstalltroubleshoot.md).
+    When the `zoe-install.sh` script runs, it performs a number of steps broken down into sections. These are covered more in the section  [Troubleshooting installing the Zoe runtime](zoeinstalltroubleshoot.md).

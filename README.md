@@ -1,8 +1,9 @@
 # User's Guide
 
 -   [Edition notice](topics/editionnotice.md)
--   [About this book](topics/aboutthisbook.md)
+-   [About this guide](topics/aboutthisbook.md)
 -   [Summary of changes](topics/summaryofchanges.md)
+-   [Known issues](knownissues.md)
 -   [Project Zoe overview](topics/introduction.md)
     - [What is Project Zoe](topics/whatis.md)
     - [Components overview](topics/componentoverview.md)

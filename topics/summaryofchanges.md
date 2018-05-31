@@ -2,7 +2,7 @@
 
 Learn about what is new, changed, and removed in Project Zoe.
 
-- [Version 0.8.2 (June 2018)](summaryofchanges.md#version-082-june-2018) 
+- [Version 0.8.2 (June 2018)](summaryofchanges.md#version-082-june-2018)
 - [Version 0.8.1 (May 2018)](summaryofchanges.md#version-081-may-2018)
 
 ## Version 0.8.2 (June 2018)
@@ -26,4 +26,4 @@ Learn about what is new, changed, and removed in Project Zoe.
 
 **Installation procedure**
 
-  Project Zoe now provides an enhanced and simplified installation process to improve your installation experience. [Learn more](topics/zoeinstall.md).
+  Project Zoe now provides an enhanced and simplified installation process to improve your installation experience. [Learn more](zoeinstall.md).
