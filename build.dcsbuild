@@ -3,7 +3,7 @@ cat <<EOF > ./build.dcsbuid
 common.operation=transform
 common.input.type=git
 common.input.path=github.com:gizafoundation/Giza-docs.git
-common.input.file=Giza PDF.ditamap
+common.input.file=Zoe_User_Guide.ditamap
 common.output.type=box
 common.output.path=/Zoe IBM, Rocket and CA/Documentation/daily-pdf-under-dev
 transform.output.type=ibmpdf
