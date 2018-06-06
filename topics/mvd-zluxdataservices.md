@@ -68,12 +68,12 @@ Example: [Terminal proxy](https://github.com/gizafoundation/zlux-proxy-server/bl
 
 Every Router-based dataservice is provided with a Context object on creation that provides definitions of its surroundings and functions that are helpful. The following items are present in the Context:
 
-- **serviceDefinition**: The dataservice definition, originally from the pluginDefinition.json file within a plug-in.
+- **serviceDefinition**: The dataservice definition, originally from the `pluginDefinition.json` file within a plug-in.
 - **serviceConfiguration**: An object that contains the contents of configuration files, if present. 
 - **logger**: An instance of a zLUX Logger, which has its component name as the unique name of the dataservice within a plug-in.
 - **makeSublogger**: A function to create a zLUX Logger with a new name, which is appended to the unique name of the dataservice.
 - **addBodyParseMiddleware**: A function that provides common body parsers for HTTP bodies, such as JSON and plaintext.
-- **plugin**: An object that contains more context from the plugin scope. This includes the following:
+- **plugin**: An object that contains more context from the plug-in scope. This includes the following:
   - **pluginDef**: The contents of the `pluginDefinition.json` file that this dataservice is a part of.
   - **server**: An object that contains information about the server's configuration. This includes the following:
     - **app**: Information about the product, which includes the productCode, such as ZLUX.

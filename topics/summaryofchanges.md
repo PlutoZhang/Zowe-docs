@@ -17,3 +17,15 @@ Learn about what is new, changed, and removed in Project Zoe.
 **Installation procedure**
 
   Project Zoe now provides an enhanced and simplified installation process to improve your installation experience. [Learn more](topics/zoeinstall.md).
+
+## Version 0.8.2 (June 2018)
+
+### What's new
+**zLUX application plug-in definition and Dataservices**
+
+  The following topics were added:
+
+   - [zLUX plug-in definition and structure](topics/mvd-zluxplugindefandstruct.md)
+   - [Configuration Dataservices](topics/mvd-configdataservice.md)
+   - [zLUX Dataservices](topics/mvd-zluxdataservices.md)  
+   - [zLUX virtual desktop and window management](topics/mvd-mvdandwindowmgt.md)
