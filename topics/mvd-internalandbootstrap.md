@@ -3,7 +3,7 @@
 
 Some Dataservices within plug-ins can take configuration that affects their behavior. This configuration is stored within the Configuration Dataservice structure, but is not accessible through the REST API.
 
-Within the deploy directory of a zLUX installation, each plug-in may optionally have an _internal directory. An example of such a path is:
+Within the deploy directory of a zLUX installation, each plug-in may optionally have an `_internal` directory. An example of such a path is:
 
 `deploy/instance/ZLUX/pluginStorage/<pluginName>/_internal`
 
