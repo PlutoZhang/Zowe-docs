@@ -6,7 +6,7 @@ Zoe distributions are released in a PAX file format.  To obtain a Zoe PAX file v
 
 Follow these steps to transfer the PAX file to z/OS and prepare it to install the Zoe runtime.
 
-1. Transfer the PAX file to z/OS using File Transfer Protocol (FTP)
+1. Transfer the PAX file to z/OS.
 
     a. Open a terminal in Mac OS/X, or command prompt in Windows OS, and navigate to the directory where you downloaded the Zoe PAX file.
 
@@ -64,4 +64,4 @@ Follow these steps to transfer the PAX file to z/OS and prepare it to install th
       ...
     ```
 
-     **Note**: The PAX file will expand into the current directory. A good practice is to keep the install directory apart from the install directory.  To do this, you can create a directory such as /zoe/paxes that contains the PAX files, and another such as /zoe/builds/.  SFTP transfer the Zoe PAX file into the /zoe/paxes directory, use the `cd` command to switch into /zoe/builds enter this folder and run the command `pax -ppf -rf ../../builds/zoe-0.8.1.pax`.  The /install folder will be created inside the current directory of zoe/builds from where the install can be launched.  
+     **Note**: The PAX file will expand into the current directory. A good practice is to keep the /install directory apart from the current directory.  To do this, you can create a directory such as /zoe/paxes that contains the PAX files, and another such as /zoe/builds/.  SFTP transfer the Zoe PAX file into the /zoe/paxes directory, use the `cd` command to switch into /zoe/builds and run the command `pax -ppx -rf ../../builds/zoe-0.8.1.pax`.  The /install folder will be created inside the current directory of zoe/builds from where the install can be launched.  

@@ -24,7 +24,7 @@ Ensure that your z/OS system meets the following requirements for z/OSMF to func
     The AXR (System REXX) component lets z/OS perform Incident Log tasks. It also lets REXX execs execute outside of conventional TSO and batch environments.
 - **CEA (Communications Enabled Applications) Server** -
     CEA server is a co-requisite for the CIM server. The CEA server lets z/OSMF deliver z/OS events to C-language clients.
-    - Start the CEA server before you start the start z/OSMF (the IZU* started tasks).
+    - Start the CEA server before you start the z/OSMF (the IZU* started tasks).
     - Set up CEA server in Full Function Mode and assign the TRUSTED attribute to the CEA started task.
     - For more information, see Customizing for CEA on the IBM Knowledge Center.
 - **CIM (Common Information Model) Server** -
