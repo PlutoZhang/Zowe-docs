@@ -80,6 +80,7 @@
         -  [Brightside CLI Command groups](topics/cli-commandgroups.md)
         -  [Enabling and disabling experimental commands](topics/cli-enabledisablexperimentalcommands.md)
         -  [Brightside CLI scenarios](topics/cli-scenarios.md)
+-  [Extending Project Zoe](topics/zoe_extending.md)
 -  [Notices](topics/notices_toc.md)
     -  [IBM notices](topics/atlas-notices.md)
     -  [Rocket Software notices](topics/mvd-zluxlegalnotices.md)
