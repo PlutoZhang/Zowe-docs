@@ -2,7 +2,7 @@
 
 1.  Environment variables
 
-    To prepare the environment for the Zoe runtime, a number of ZFS folders need to be located for prerequisites on the platform that Zoe needs in order to operate.   These can be set as environment variables before the script is run.  If the environment variables are not set, the install script will attempt to locate default values.
+    To prepare the environment for the Zoe runtime, a number of ZFS folders need to be located for prerequisites on the platform that Zoe needs in order to operate. These can be set as environment variables before the script is run.  If the environment variables are not set, the install script will attempt to locate default values.
 
      - `ZOE_ZOSMF_PATH`: The path where z/OSMF is installed.  Defaults to `/usr/lpp/zosmf/lib/defaults/servers/zosmfServer`
      - `ZOE_JAVA_HOME`:  The path where 64 bit Java 8 or later is installed.  Defaults to `/usr/lpp/java/J8.0_64`

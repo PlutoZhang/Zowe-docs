@@ -1,4 +1,4 @@
-# Starting and stopping the Zoe runtime
+# Starting and stopping the Zoe runtime on z/OS
 
 Zoe has two runtime components on z/OS, the explorer server and the zLUX server.
 

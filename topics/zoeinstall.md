@@ -77,4 +77,4 @@
     chmod u+x zoe-install.sh.
     ```
 
-    When the `zoe-install.sh` script runs, it performs a number of steps broken down into sections. These are covered more in the section  [Troubleshooting installing the Zoe runtime](zoeinstalltroubleshoot.md).
+    When the `zoe-install.sh` script runs, it performs a number of steps broken down into sections. These are covered more in the section [Troubleshooting installing the Zoe runtime](zoeinstalltroubleshoot.md).
