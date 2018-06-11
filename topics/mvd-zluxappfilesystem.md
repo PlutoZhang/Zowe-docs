@@ -2,7 +2,7 @@
 
 A zLUX application can be loaded from a filesystem accessible to the zLUX application server, or dynamically at runtime.
 
-When accessed from a filesystem, there are important considerations for both the developer and the end-user as to where files must be placed for proper build, packaging, and operation.
+When accessed from a filesystem, there are important considerations for both the developer and the user as to where files must be placed for proper build, packaging, and operation.
 
 # Root files and directories
 At the root of an application's directory, the following content is found:

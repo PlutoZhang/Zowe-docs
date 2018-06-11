@@ -34,7 +34,7 @@
       zssPort=8542
     ```
 
-    If all of these port values are OK then you do not need to change them.  These ports must not already being used for the Zoe runtime servers to be able to allocate them.  
+    If all of these port values are OK then you do not need to change them. These ports must not be already in use for the Zoe runtime servers to be able to allocate them.  
 
     To determine which ports are not available, follow these steps:
 
