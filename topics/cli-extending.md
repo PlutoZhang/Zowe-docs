@@ -32,7 +32,7 @@ environment provides users with extensive functionality while saving
 both technical and time resources. 
 
 For more information, see [CA Brightside Plug-in for CA Endevor
-SCM](CA-Brightside-Plug-in-for-CA-Endevor-SCM_475935700.html).
+SCM](cli-endevorplugin.md).
 
 ## CA Brightside Plug-in for CA File Master™ Plus 
 
