@@ -1,6 +1,6 @@
 # zLUX Dataservices
 
-Dataservices are a dynamic component of the backend of a zLUX App. Dataservices are optional, because the proxy server might only serve static content for a particular application. However, when included in an application, a dataservice defines a URL space for which the server will execute the extensible code from the application. Dataservices are primarily intended to be used to create REST APIs and Websocket channels.
+Dataservices are a dynamic component of the backend of a zLUX application. Dataservices are optional, because the proxy server might only serve static content for a particular application. However, when included in an application, a dataservice defines a URL space for which the server will execute the extensible code from the application. Dataservices are primarily intended to be used to create REST APIs and Websocket channels.
 
 ## Defining a Dataservice
 Observe a simple application: [sample-app](https://github.com/gizafoundation/sample-app). 
