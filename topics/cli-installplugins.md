@@ -17,14 +17,13 @@ the use of third-party plug-ins.
 
 Before you install or update plug-ins, direct NPM to target the Zoe Brightside registry by issuing the following command: 
 
-``` ca-code-default
+```
 npm config set @brightside:registry https://api.bintray.com/npm/ca/brightside
 ```
 
-
 The following plug-ins are available to install from the Zoe Brightside registry:
 
-  - **CA Endevor **  
+  - **CA Endevor**  
     Use `@brightside/endevor` in your command syntax to install, update,
     and validate the CA Endevor plug-in. 
   - **CA File Master Plus**  
@@ -38,9 +37,9 @@ The following plug-ins are available to install from the Zoe Brightside registr
 
 Ensure that you meet the prerequisites for a plug-in before you install
 the plug-in to Zoe Brightside. For documentation related to each plug-in,
-see [Extending](Extending_475935698.html).
+see [Extending](cli-extending.md).
 
-<span style="font-size: 20.0px;">Install Plug-ins</span>
+## Install Plug-ins
 
 Issue an `install `command to install plug-ins to Zoe Brightside. The
 `install` command contains the following syntax:
@@ -69,19 +68,11 @@ bright plugins install [plugin...] [--registry <registry>]
     specify a specific version of a plug-in to install. For example,`
     bright plugin install
     pluginName@^1.0.0`.
-    
-    <div class="confluence-information-macro confluence-information-macro-tip">
-    
-    <span class="aui-icon aui-icon-small aui-iconfont-approve confluence-information-macro-icon"></span>
-    
-    <div class="confluence-information-macro-body">
+  
     
     **Tip:** You can install multiple plug-ins with one command. For
     example, issue `bright plugin install plugin1 plugin2 plugin3`
     
-    </div>
-    
-    </div>
 
   - **`[--registry <registry>]`**  
     (Optional) Specifies a registry URL from which to install a plug-in
