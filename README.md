@@ -79,8 +79,6 @@
         -  [Enabling and disabling experimental commands](topics/cli-enabledisablexperimentalcommands.md)
         -  [Brightside CLI scenarios](topics/cli-scenarios.md)
 -  [Extending Project Zoe](topics/zoe_extending.md)
-    - [zLUX Dataservices](topics/mvd-zluxdataservices.md)  
-    - [zLUX virtual desktop and window management](topics/mvd-mvdandwindowmgt.md)
 -  [Notices](topics/notices_toc.md)
     -  [IBM notices](topics/atlas-notices.md)
     -  [Rocket Software notices](topics/mvd-zluxlegalnotices.md)
