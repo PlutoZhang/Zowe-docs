@@ -26,7 +26,7 @@ without the need to establish several mainframe sessions. This
 environment provides users with extensive functionality while saving
 both technical and time resources. 
 
-For more information, see [Zoe Brightside Plug-in for CA EndevorSCM](cli-endevorplugin.md).
+For more information, see [Zoe Brightside Plug-in for CA Endevor SCM](cli-endevorplugin.md).
 
 ## Zoe Brightside plug-in for CA File Master™ Plus 
 
