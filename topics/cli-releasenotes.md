@@ -54,18 +54,6 @@ You can install plug-ins to extend the capabilities of Zoe Brightside. Plug-ins 
 
 For more information, see [Install Plug-ins](cli-installplugins.md).
 
-<<<<<<< HEAD
-=======
-## Participate in the Zoe Brightside Community
-We want to know what you think about Zoe Brightside. You can participate in the Zoe Brightside community by posting to public forums such as reddit and Slack. With reddit and Slack you can:
-
-  - Tell us what you think about the product. 
-  - Ask questions and share your ideas about product enhancements with Zoe Brightside developers and the product management team.
-
-**More Information:**
-  - [Additional Resources](cli-additionalresources.md)
-
->>>>>>> 6d844b520e8f48076f1e6c82b01225112d7f0240
 ## Known Issues 
 
 The following issues are known to exist in this release of CA
