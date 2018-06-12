@@ -1,5 +1,5 @@
 
-# Zoe Brightside Release Notes </span>
+# Release notes </span>
 Zoe Brightside is a command-line interface that lets application developers interact with the mainframe in a familiar format. Zoe Brightside helps to increase overall productivity, reduce the learning curve for developing mainframe applications, and exploit the ease-of-use of off-platform tools. Zoe Brightside lets application developers use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development. It provides a set of utilities and services for application developers that want to become efficient in supporting and building z/OS applications quickly.
 
 Zoe Brightside provides the following benefits:
@@ -9,8 +9,7 @@ Zoe Brightside provides the following benefits:
   - Ensure that business critical applications running on z/OS can be maintained and supported by existing and generally available software development resources.
   - Provides a more streamlined way to build software that integrates with z/OS. 
 
-The following sections explain the key features and details for CA
-Brightside:
+The following sections explain the key features and details for Zoe Brightside:
 
   - [Zoe Brightside Capabilities](#zoe-brightside-capabilities)
   - [Overview Video](#overview-video)
@@ -20,10 +19,10 @@ Brightside:
   - [Report Defects and Issues](#report-defects-and-issues)
   - [Third-Party Software Agreements](#third-party-software-agreements)
 
-**Note:** For information about prerequisites, software requirements, installing and upgrading CA Brightside, see
+**Note:** For information about prerequisites, software requirements, installing and upgrading Zoe Brightside, see
 [Installing Zoe Brightside](cli-installcli.md).
 
-## Zoe Brightside Capabilities
+## Zoe Brightside capabilities
 
 With Zoe Brightside, you can interact with z/OS remotely in the following
 ways:
@@ -57,7 +56,7 @@ You can install plug-ins to extend the capabilities of Zoe Brightside. Plug-ins 
 For more information, see [Install Plug-ins](cli-installplugins.md).
 
 ## Participate in the Zoe Brightside Community
-We want to know what you think about CA Brightside. You can participate in the Zoe Brightside community by posting to public forums such as reddit and Slack. With reddit and Slack you can:
+We want to know what you think about Zoe Brightside. You can participate in the Zoe Brightside community by posting to public forums such as reddit and Slack. With reddit and Slack you can:
 
   - Tell us what you think about the product. 
   - Ask questions and share your ideas about product enhancements with Zoe Brightside developers and the product management team.
@@ -138,7 +137,7 @@ file](attachments/473021281/475943312.zip).
 **More Information:**
 
   - [Zoe Brightside Prerequisites](cli-precli.md)
-  - [Install Zoe CA Brightside](cli-installcli.md)
+  - [Install Zoe Zoe Brightside](cli-installcli.md)
   - [Create a Profile](cli-createaprofile.md)
   - [Test Connection to z/OSMF](cli-validateInstallation.md)
 
