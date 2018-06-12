@@ -1,7 +1,7 @@
 # Configure z/OS Management Facility security
 
 As a security administrator, complete the following z/OSMF security
-configuration tasks for your Brightside CLI implementation:
+configuration tasks for your Zoe Brightside implementation:
 
   - [Configure z/OS REST services SAF security](#configure-zos-rest-services-saf-security)
   - [Configure z/OS console REST interface](#configure-zos-console-rest-interface)
@@ -9,15 +9,15 @@ configuration tasks for your Brightside CLI implementation:
   - [Configure z/OSMF plug-in security](#configure-zosmf-plug-in-security)
 
 **Important!** The [IBM® z/OS Management Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
-guide on the IBM Knowledge Center is your primary source of information about how to install and configure z/OSMF. Throughout the IBM procedures, we provide Brightside CLI-specific tips or requirements. We recommend that you open IBM documentation in a separate browser tab.
+guide on the IBM Knowledge Center is your primary source of information about how to install and configure z/OSMF. Throughout the IBM procedures, we provide Zoe Brightside-specific tips or requirements. We recommend that you open IBM documentation in a separate browser tab.
 
 ## Configure z/OS REST services SAF security 
 
-A security administrator must configure security to allow z/OSMF System Authorization Authority (SAF) access to the resources that Brightside CLI requires. Brightside CLI uses REST endpoints that are associated with each z/OSMF REST API. After you complete all z/OSMF and z/OSMF cloud provisioning configurations, you can [issue the validate profile command](cli-validateInstallationcorrectproblems.md) to verify that Brightside CLI can communicate with z/OS systems through the REST APIs. 
+A security administrator must configure security to allow z/OSMF System Authorization Authority (SAF) access to the resources that Zoe Brightside requires. Zoe Brightside uses REST endpoints that are associated with each z/OSMF REST API. After you complete all z/OSMF and z/OSMF cloud provisioning configurations, you can [issue the validate profile command](cli-validateInstallationcorrectproblems.md) to verify that Zoe Brightside can communicate with z/OS systems through the REST APIs. 
 
-**Important!** Before you allow users to issue z/OS console commands with Brightside CLI, security administrators should ensure that they provide access to commands that are appropriate for their organization.
+**Important!** Before you allow users to issue z/OS console commands with Zoe Brightside, security administrators should ensure that they provide access to commands that are appropriate for their organization.
 
-The following table details the required z/OSMF REST services and examples of the Brightside CLI features they enable. If the profile validation command returns any errors, use this table to find IBM documentation for the z/OSMF REST APIs.
+The following table details the required z/OSMF REST services and examples of the Zoe Brightside features they enable. If the profile validation command returns any errors, use this table to find IBM documentation for the z/OSMF REST APIs.
 
 <div class="table-wrap">
 
@@ -140,4 +140,4 @@ Ensure that you implement all the required security for the plug-ins. For more i
 **Notes:**
 
   - For systems that are secured by RACF, ensure that the TRUSTED attribute is assigned to the CEA started task.
-  - If you want to implement the use of certificates to access Brightside CLI, security administrators can configure the certificates for Brightside CLI users. For more information, see [Using the z/OSMF REST services](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua700/IZUHPINFO_RESTServices.htm).
+  - If you want to implement the use of certificates to access Zoe Brightside, security administrators can configure the certificates for Zoe Brightside users. For more information, see [Using the z/OSMF REST services](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izua700/IZUHPINFO_RESTServices.htm).
