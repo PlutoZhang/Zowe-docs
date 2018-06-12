@@ -8,14 +8,16 @@ Learn about what is new, changed, and removed in Project Zoe.
 ## Version 0.8.2 (June 2018)
 
 ### What's new
-**zLUX application plug-in definition and Dataservices**
+**zLUX application plug-in definition and Confguration Dataservices**
 
   The following topics were added:
 
-   - [zLUX plug-in definition and structure](topics/mvd-zluxplugindefandstruct.md)
-   - [Configuration Dataservices](topics/mvd-configdataservice.md)
-   - [zLUX Dataservices](topics/mvd-zluxdataservices.md)  
-   - [zLUX virtual desktop and window management](topics/mvd-mvdandwindowmgt.md)
+   - [zLUX plug-in definition and structure](mvd-zluxplugindefandstruct.md)
+   - [Configuration Dataservices](mvd-configdataservice.md)
+  
+**zLUX terminal application plug-in initial configuration steps**
+
+  Steps to initially configure the zLUX terminal application plug-ins were added. [Learn more](mvd-configterminalappports.md).
    
 ### What's changed
 **Installation procedure**
