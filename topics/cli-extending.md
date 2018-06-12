@@ -30,8 +30,7 @@ without the need to establish several mainframe sessions. This
 environment provides users with extensive functionality while saving
 both technical and time resources. 
 
-For more information, see [Zoe Brightside Plug-in for CA Endevor
-SCM](cli-endevorplugin.md).
+For more information, see [Zoe Brightside Plug-in for CA EndevorSCM](cli-endevorplugin.md).
 
 ## Zoe Brightside plug-in for CA File Master™ Plus 
 
@@ -42,12 +41,10 @@ method (VSAM), sequential, and partitioned data sets. The CA File Master
 Plus plug-in also supports symbolic access to data with layouts and data
 manipulation such as selection of records in data sets.
 
-For more information, see [Zoe Brightside Plug-in for CA File Master
-Plus](cli-fmpplugin.md).
+For more information, see [Zoe Brightside Plug-in for CA File MasterPlus](cli-fmpplugin.md).
 
 ## Zoe Brightside plug-in for IBM® Db2® Database 
 
 The Zoe Brightside plug-in for Db2 enables you to interact with IBM Db2 Database on z/OS to perform tasks with modern development tools to automate typical workloads more efficiently. The plug-in also enables you to interact with IBM Db2 to foster continuous integration to validate product quality and stability.
 
-For more information, see [Zoe Brightside Plug-in for IBM Db2
-Database](cli-db2plugin.md).
+For more information, see [Zoe Brightside Plug-in for IBM Db2Database](cli-db2plugin.md).
