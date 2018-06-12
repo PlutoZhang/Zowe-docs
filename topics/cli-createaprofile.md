@@ -14,4 +14,4 @@ unless you specify a specific profile name on that command.
     bright profiles create zosmf-profile --help
     ```
     
-**Note:** After you create a profile, verify that it can communicate with z/OSMF. For more information, see [Test Connection to z/OSMF](cli-validateInstalltion.md).
+**Note:** After you create a profile, verify that it can communicate with z/OSMF. For more information, see [Test Connection to z/OSMF](cli-validateInstallation.md).
