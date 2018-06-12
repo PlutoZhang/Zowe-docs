@@ -43,4 +43,4 @@ For more information, see [Zoe Brightside Plug-in for CA File MasterPlus](cli-fm
 
 The Zoe Brightside plug-in for Db2 enables you to interact with IBM Db2 Database on z/OS to perform tasks with modern development tools to automate typical workloads more efficiently. The plug-in also enables you to interact with IBM Db2 to foster continuous integration to validate product quality and stability.
 
-For more information, see [Zoe Brightside Plug-in for IBM Db2Database](cli-db2plugin.md).
+For more information, see [Zoe Brightside Plug-in for IBM Db2 Database](cli-db2plugin.md).
