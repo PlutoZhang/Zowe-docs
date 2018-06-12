@@ -56,8 +56,6 @@
           -   [Internal and bootstrapping](topics/mvd-internalandbootstrap.md)
           -   [Plug-in definition](topics/mvd-cfgdataplugindef.md)
           -   [Aggregation policies](topics/mvd-aggregatepolicies.md)
-        - [zLUX Dataservices](topics/mvd-zluxdataservices.md)  
-        - [zLUX virtual desktop and window management](topics/mvd-mvdandwindowmgt.md)
         - [zLUX logging](topics/mvd-zluxlogging.md)
     -   [Using APIs](topics/usingapis.md)
         -   [Using explorer server REST APIs](topics/atlas-usingatlasrestapis.md)

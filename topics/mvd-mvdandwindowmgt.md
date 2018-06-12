@@ -28,7 +28,7 @@ The following are functions you can use on the Plug-in Manager:
   * Accepts a string of a unique plugin ID, and returns the Plug-in Definition Object (DesktopPluginDefinition) associated with it, if found.
 
 
-# Application Management
+# Application management
 Applications within a Window Manager are created and acted upon in part by an Application Manager. The Application Manager can facilitate communication between applications, but formal application-to-application communication should be performed by calls to the Dispatcher. The Application Manager is not normally accessible directly by applications, instead used by the Window Manager.
 
 The following are functions of an Application Manager:
@@ -61,7 +61,7 @@ In the case of the Virtual Desktop, this framework-specific wrapping is handled 
 
 # Viewport Manager
 
-Viewports encapsulate an instance of an App's web content, but otherwise do not add to the UI (they do not present chrome as a Window does).
+Viewports encapsulate an instance of an application's web content, but otherwise do not add to the UI (they do not present chrome as a Window does).
 Each instance of an application is associated with a viewport, and operations to act upon a particular application instance should be done by specifying a viewport for an application, to differentiate which instance is the target of an action. Actions performed against viewports should be performed through the Viewport Manager.
 
 The following are functions of the Viewport Manager:
