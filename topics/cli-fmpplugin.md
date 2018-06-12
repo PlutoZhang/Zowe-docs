@@ -1,53 +1,6 @@
-<div id="page">
 
-<div id="main" class="aui-page-panel">
 
-<div class="aui-page-panel-nav">
-
-<div class="aui-navgroup-inner">
-
-<div id="tabs-nav" class="aui-tabs horizontal-tabs">
-
-  - [**Contents**](#tabs-navigation)
-  - [**Search**](#tabs-search)
-
-<div id="tabs-navigation" class="tabs-pane active-pane" data-current-page-id="475935701">
-
-</div>
-
-<div id="tabs-search" class="tabs-pane">
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="section aui-page-panel-content">
-
-<div id="main-header">
-
-<div id="breadcrumb-section">
-
-1.  <span> [CA Brightside Community Edition](index.html) </span>
-2.  <span> [Extending](Extending_475935698.html)
-</span>
-
-</div>
-
-# <span id="title-text"> CA Brightside Community Edition : CA Brightside Plug-in for CA File Master Plus </span>
-
-</div>
-
-<div id="content" class="view">
-
-<div class="page-metadata">
-
-</div>
-
-<div id="main-content" class="wiki-content group">
+# ZoeBrightside Community Edition : CA Brightside Plug-in for CA File Master Plus </span>
 
 The CA Brightside plug-in for CA File Master Plus is a file management
 and data manipulation tool. CA Brightside speeds up file creation and
@@ -60,7 +13,6 @@ CA Brightside allows you to perform commands on multiple mainframe
 applications at once from one command line window, without the need to
 establish several mainframe sessions.
 
-<div class="toc-macro rbtoc1528725936523">
 
   - [Plug-in
     Overview](#CABrightsidePlug-inforCAFileMasterPlus-Plug-inOverview)

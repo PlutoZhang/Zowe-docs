@@ -7,11 +7,12 @@ legitimately during the execution of every command. Install third-party
 plug-ins at your own risk. We make no warranties regarding
 the use of third-party plug-ins.
 
-  - [Set the Registry](#InstallPlug-ins-SettheRegistry)
-  - [Meet the Prerequisites](#InstallPlug-ins-MeetthePrerequisites)
-  - [Validate Plug-ins](#InstallPlug-ins-ValidatePlug-ins)
-  - [Update Plug-ins](#InstallPlug-ins-UpdatePlug-ins)
-  - [Uninstall Plug-ins](#InstallPlug-ins-UninstallPlug-ins)
+  - [Set the Registry](#set-the-registry)
+  - [Meet the Prerequisites](#meet-the-Prerequisites)
+  - [Install Plug-ins](#install-plug-ins-1)
+  - [Validate Plug-ins](#validate-plug-ins)
+  - [Update Plug-ins](#update-plug-ins)
+  - [Uninstall Plug-ins](#uninstall-plug-ins)
 
 ## Set the Registry
 
@@ -53,12 +54,9 @@ bright plugins install [plugin...] [--registry <registry>]
     pointer to a (local or remote) URL. When you do not specify a
     plug-in version, the command installs the latest plug-in version and
     specifies the prefix that is stored in npm save-prefix. For more
-    information, see [npm save
-    prefix](https://docs.npmjs.com/misc/config#save-prefix). For more
-    information about npm semantic versioning, see [npm
-    semver](https://docs.npmjs.com/misc/semver). Optionally, you can
-    specify a specific version of a plug-in to install. For example, `
-    bright plugin install pluginName@^1.0.0`.
+    information, see [npm save prefix](https://docs.npmjs.com/misc/config#save-prefix). For more
+    information about npm semantic versioning, see [npm semver](https://docs.npmjs.com/misc/semver). Optionally, you can
+    specify a specific version of a plug-in to install. For example, `bright plugin install pluginName@^1.0.0`.
   
     **Tip:** You can install multiple plug-ins with one command. For
     example, issue `bright plugin install plugin1 plugin2 plugin3`
@@ -85,10 +83,9 @@ bright plugins install [plugin...] [--registry <registry>]
 
 ## Validate Plug-ins
 
-Issue the plug-in validation command to run tests against all plug-ins (or against a plug-in that you specify) to verify that the plug-ins integrate properly with Zoe Brightside . The tests confirm that the plug-in does not conflict with existing command groups in the base application. The command response provides you with details or error messages about how the plug-ins integrate with Zoe Brightside. 
+Issue the plug-in validation command to run tests against all plug-ins (or against a plug-in that you specify) to verify that the plug-ins integrate properly with Zoe Brightside. The tests confirm that the plug-in does not conflict with existing command groups in the base application. The command response provides you with details or error messages about how the plug-ins integrate with Zoe Brightside. 
 
-Perform validation after you install the plug-ins to help ensure that it
-integrates with Zoe Brightside.
+Perform validation after you install the plug-ins to help ensure that it integrates with Zoe Brightside.
 
 The `validate` command has the following syntax:
 
@@ -164,8 +161,7 @@ application. After the uninstall process completes successfully,
 the product no longer contains the plug-in
 configuration.
 
-**Tip:** The command is equivalent to using [npm
-uninstall](https://docs.npmjs.com/cli/uninstall) to uninstall a package.
+**Tip:** The command is equivalent to using [npm uninstall](https://docs.npmjs.com/cli/uninstall) to uninstall a package.
 
 The `uninstall` command contains the following syntax:
 
