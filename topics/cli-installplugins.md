@@ -1,4 +1,4 @@
-# Install Plug-ins 
+# Install plug-ins 
 
 Use commands in the plugins command group to install and manage plug-ins for Zoe Brightside.
 
@@ -7,14 +7,14 @@ legitimately during the execution of every command. Install third-party
 plug-ins at your own risk. We make no warranties regarding
 the use of third-party plug-ins.
 
-  - [Set the Registry](#set-the-registry)
-  - [Meet the Prerequisites](#meet-the-Prerequisites)
-  - [Install Plug-ins](#install-plug-ins-1)
-  - [Validate Plug-ins](#validate-plug-ins)
-  - [Update Plug-ins](#update-plug-ins)
-  - [Uninstall Plug-ins](#uninstall-plug-ins)
+  - [Set the registry](#set-the-registry)
+  - [Meet the prerequisites](#meet-the-Prerequisites)
+  - [Install plug-ins](#install-plug-ins-1)
+  - [Validate plug-ins](#validate-plug-ins)
+  - [Update plug-ins](#update-plug-ins)
+  - [Uninstall plug-ins](#uninstall-plug-ins)
 
-## Set the Registry
+## Set the registry
 
 Before you install or update plug-ins, direct NPM to target the registry by issuing the following command: 
 
@@ -34,13 +34,13 @@ The following plug-ins are available to install from the Zoe Brightside registr
     Use `@brightside/db2` in your command syntax to install, update, and
     validate the IBM Db2 Database plug-in. 
 
-## Meet the Prerequisites
+## Meet the prerequisites
 
 Ensure that you meet the prerequisites for a plug-in before you install
 the plug-in to Zoe Brightside. For documentation related to each plug-in,
 see [Extending](cli-extending.md).
 
-## Install Plug-ins
+## Install plug-ins
 
 Issue an `install `command to install plug-ins to Zoe Brightside. The
 `install` command contains the following syntax:
@@ -65,7 +65,7 @@ bright plugins install [plugin...] [--registry <registry>]
     (Optional) Specifies a registry URL from which to install a plug-in
     when you do not use `npm config set` to set the registry initially. 
 
-**Examples: Install Plug-ins**
+**Examples: Install plug-ins**
 
   - The following example illustrates the syntax to use to install a
     plug-in that is named "my-plugin" from a specified registry:
@@ -81,7 +81,7 @@ bright plugins install [plugin...] [--registry <registry>]
      bright plugins install @brightside/my-plugin@"^1.2.3"
     ```
 
-## Validate Plug-ins
+## Validate plug-ins
 
 Issue the plug-in validation command to run tests against all plug-ins (or against a plug-in that you specify) to verify that the plug-ins integrate properly with Zoe Brightside. The tests confirm that the plug-in does not conflict with existing command groups in the base application. The command response provides you with details or error messages about how the plug-ins integrate with Zoe Brightside. 
 
@@ -99,7 +99,7 @@ bright plugins validate [plugin]
     validates all installed plug-ins. The name of the plug-in is not
     always the same as the name of the NPM package.
 
-**Examples: Validate Plug-ins**
+**Examples: Validate plug-ins**
 
   - The following example illustrates the syntax to use to validate a
     specified installed plug-in:
@@ -115,7 +115,7 @@ bright plugins validate [plugin]
     bright plugins validate
     ```
 
-## Update Plug-ins
+## Update plug-ins
 
 Issue the `update` command to install the latest version or a specific
 version of a plug-in that you installed previously. The `update` command
@@ -138,7 +138,7 @@ bright plugins update [plugin...] [--registry <registry>]
     (Optional) Specifies a registry URL that is different from the
     registry URL of the original installation. 
 
-**Examples: Update Plug-ins**
+**Examples: Update plug-ins**
 
   - The following example illustrates the syntax to use to update an
     installed plug-in to the latest version:
@@ -154,7 +154,7 @@ bright plugins update [plugin...] [--registry <registry>]
     bright plugins update @brightside/my-plugin@"^1.2.3"
     ```
 
-## Uninstall Plug-ins
+## Uninstall plug-ins
 
 Issue the `uninstall` command to uninstall plug-ins from a base
 application. After the uninstall process completes successfully,
@@ -172,7 +172,7 @@ bright plugins uninstall [plugin]
   - **`[plugin]`**   
     Specifies the plug-in name to uninstall.
 
-**Example: Uninstall Plug-ins**
+**Example: Uninstall plug-ins**
 
 - The following example illustrates the syntax to use to uninstall a plug-in:
 

@@ -48,7 +48,7 @@ Master Plus REST API is installed, configured, and running.
 ## Installation
 
 For information about how to install a plug-in to CA Brightside,
-see [Install Plug-ins](https://docops.ca.com/display/CMFAAS10/Install+Plug-ins).
+see [Install Plug-ins](cli-installplugins).
 
 ## Profile setup
 
@@ -60,25 +60,29 @@ the following steps:
 
 ### Create a profile
 
-The `profiles create fmp `command lets you create a CA
+The `profiles create fmp` command lets you create a CA
 Brightside profile for CA File Master Plus.
 
 **Note:** For more information about `profiles create fmp` syntax,
 actions, and options, open CA Brightside, and issue the following
 command:
 
-`bright profiles create fmp -h`
+```
+bright profiles create fmp -h
+```
 
 ### Validate a profile
 
-The `profiles validate fmp `command lets you validate a CA
+The `profiles validate fmp` command lets you validate a CA
 Brightside profile.
 
 **Note:** For more information about `profiles validate fmp` syntax,
 actions, and options, open CA Brightside, and issue the following
 command:
 
-`bright profiles validate fmp -h`
+```
+bright profiles validate fmp -h
+```
 
 ## Commands
 
@@ -99,7 +103,9 @@ criteria.
 **Note:** For more information about `fmp copy ds` syntax, actions, and
 options, open CA Brightside, and issue the following command:
 
-`bright fmp copy ds -h`
+```
+bright fmp copy ds -h
+```
 
 ### Delete a data set
 
@@ -108,7 +114,9 @@ The `fmp delete ds` command lets you delete a data set.
 **Note:** For more information about `fmp delete ds` syntax, actions,
 and options, open CA Brightside, and issue the following command:
 
-`bright fmp delete ds -h`
+```
+bright fmp delete ds -h
+```
 
 ### Populate a data set
 
@@ -118,7 +126,9 @@ records.
 **Note:** For more information about `fmp populate ds` syntax, actions,
 and options, open CA Brightside, and issue the following command:
 
-`bright fmp populate ds -h`
+```
+bright fmp populate ds -h
+```
 
 ### Rename a data set
 
@@ -128,5 +138,7 @@ set.
 **Note:** For more information about `fmp rename ds` syntax, actions,
 and options, open CA Brightside, and issue the following command:
 
-`bright fmp rename ds -h`
+```
+bright fmp rename ds -h
+```
 
