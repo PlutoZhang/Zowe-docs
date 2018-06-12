@@ -11,7 +11,7 @@
   - [**Contents**](#tabs-navigation)
   - [**Search**](#tabs-search)
 
-<div id="tabs-navigation" class="tabs-pane active-pane" data-current-page-id="473021291">
+<div id="tabs-navigation" class="tabs-pane active-pane" data-current-page-id="473021297">
 
 </div>
 
@@ -31,13 +31,12 @@
 
 <div id="breadcrumb-section">
 
-1.  <span> [CA Brightside Community Edition](index.html) </span>
-2.  <span> [Installing](Installing_473021284.html)
+1.  <span> [CA Brightside Community Edition](index.html)
 </span>
 
 </div>
 
-# <span id="title-text"> CA Brightside Community Edition : Test Connection to z/OSMF </span>
+# <span id="title-text"> CA Brightside Community Edition : Additional Resources </span>
 
 </div>
 
@@ -49,88 +48,75 @@
 
 <div id="main-content" class="wiki-content group">
 
-After you configure a CA Brightside `zosmf` profile to connect to z/OSMF
-on your mainframe systems, you can issue a command at any time to
-receive diagnostic information from the server and confirm that your
-profile can communicate with
-z/OSMF.
+CA Brightside provides you with the following resources to help you use
+the product.
 
-<div class="confluence-information-macro confluence-information-macro-tip">
+<div class="table-wrap">
 
-<span class="aui-icon aui-icon-small aui-iconfont-approve confluence-information-macro-icon"></span>
-
+<table>
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 65%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Resource</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><div class="content-wrapper">
+<p><a href="https://cabrightside.slack.com" class="external-link">CA Brightside Slack workspace</a></p>
+</div></td>
+<td><div class="content-wrapper">
+<p><span>Communicate with your peers and CA Technologies subject matter experts. You must create an account to join, view, and participate in the CA Brightside Slack workspace.</span></p>
+<div class="confluence-information-macro confluence-information-macro-warning">
+<span class="aui-icon aui-icon-small aui-iconfont-error confluence-information-macro-icon"></span>
 <div class="confluence-information-macro-body">
-
-**Tip:** In this documentation we provide command syntax to help you
-create a basic profile. We recommend that you append` --help` to the end
-of commands in the product to see the complete set of commands and
-options available to you. For example, issue `bright profiles --help` to
-learn more about how to list profiles, switch your default profile, or
-create different profile types.
-
+<p><strong>Important!</strong> CA Technologies does not officially support Slack workspaces. They are managed completely by the members of the Slack workspace community.</p>
 </div>
-
 </div>
-
-After you create a profile, run a test to verify that CA Brightside can
-communicate properly with z/OSMF. You can test your default profile and
-any other CA Brightside profile that you created.
-
-**Default Profile**
-
-  - Verify that you can use your default profile to communicate with
-    z/OSMF by issuing the following command:
-    
-    <div class="code panel caCodePanel">
-    
-    <div class="codeContent panelContent">
-    
-    ``` ca-code-default
-    bright zosmf check status
-    ```
-    
-    </div>
-    
-    </div>
-
-**Specific Profile**
-
-  - Verify that you can use a specific profile to communicate with
-    z/OSMF by issuing the following command: 
-    
-    <div class="code panel caCodePanel">
-    
-    <div class="codeContent panelContent">
-    
-    ``` ca-code-default
-    bright zosmf check status --zosmf-profile <profile_name>
-    ```
-    
-    </div>
-    
-    </div>
-
-The commands return a success or failure message and display information
-about your z/OSMF server. For example, the z/OSMF version number and a
-list of installed plug-ins. Report any failure to your systems
-administrator and use the information for diagnostic
-purposes.
-
-<div class="confluence-information-macro confluence-information-macro-information">
-
-<span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon"></span>
-
+</div></td>
+</tr>
+<tr class="even">
+<td><a href="https://www.reddit.com/r/cabrightside/" class="external-link">CA Brightside subreddit</a></td>
+<td><div class="content-wrapper">
+<p>Communicate with your peers and CA Technologies subject matter experts. You must create an account to participate in the CA Brightside subreddit.</p>
+<div class="confluence-information-macro confluence-information-macro-warning">
+<span class="aui-icon aui-icon-small aui-iconfont-error confluence-information-macro-icon"></span>
 <div class="confluence-information-macro-body">
-
-**More Information:**
-
-  - [Create a Profile](Create-a-Profile_473021290.html)
+<p><strong>Important!</strong> CA Technologies does not officially support subreddit forums. They are managed completely by the members of the subreddit community.</p>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class="odd">
+<td><a href="https://support.ca.com/us/product-content/status/compatibility-matrix/ca-brightside-compatibility-matrix.html" class="external-link">CA Brightside Compatibility Matrix</a></td>
+<td>View information about CA Brightside 1.0 and CA Brightside Community Edition compatibilities.</td>
+</tr>
+<tr class="even">
+<td><div class="content-wrapper">
+<p>Connect with CA Brightside Information Engineers</p>
+</div></td>
+<td><div class="content-wrapper">
+<p>When you have a question or want to report an issue that relates to our CA Brightside documentation, add your comments to the bottom of any article in this DocOps Platform and we will get back to you as soon as possible.</p>
+</div></td>
+</tr>
+<tr class="odd">
+<td><a href="https://www.youtube.com/user/catechnologies" class="external-link">CA Technologies YouTube channel</a></td>
+<td><div class="content-wrapper">
+<p>Watch videos about CA Brightside, other CA Technologies products, and more!</p>
+</div></td>
+</tr>
+<tr class="even">
+<td><a href="https://www.ca.com/us/why-ca/mainframe/mainframe-product-portfolio.html" class="external-link">Mainframe Product Portfolio</a></td>
+<td>Read the latest information about other CA Technologies mainframe products.</td>
+</tr>
+</tbody>
+</table>
 
 </div>
-
-</div>
-
-  
 
 </div>
 

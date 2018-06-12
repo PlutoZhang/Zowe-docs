@@ -11,7 +11,7 @@
   - [**Contents**](#tabs-navigation)
   - [**Search**](#tabs-search)
 
-<div id="tabs-navigation" class="tabs-pane active-pane" data-current-page-id="473021291">
+<div id="tabs-navigation" class="tabs-pane active-pane" data-current-page-id="473021290">
 
 </div>
 
@@ -37,7 +37,7 @@
 
 </div>
 
-# <span id="title-text"> CA Brightside Community Edition : Test Connection to z/OSMF </span>
+# <span id="title-text"> CA Brightside Community Edition : Create a Profile </span>
 
 </div>
 
@@ -49,88 +49,49 @@
 
 <div id="main-content" class="wiki-content group">
 
-After you configure a CA Brightside `zosmf` profile to connect to z/OSMF
-on your mainframe systems, you can issue a command at any time to
-receive diagnostic information from the server and confirm that your
-profile can communicate with
-z/OSMF.
+Profiles are a CA Brightside function that lets you store configuration
+information for use on multiple commands. You can create a profile that
+contains your username, password, and connection details for a
+particular mainframe system, then reuse that profile to avoid typing it
+again on every command. You can switch between profiles to quickly
+target different mainframe
+subsystems.
 
-<div class="confluence-information-macro confluence-information-macro-tip">
+<div class="confluence-information-macro confluence-information-macro-note">
 
-<span class="aui-icon aui-icon-small aui-iconfont-approve confluence-information-macro-icon"></span>
+<span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span>
 
 <div class="confluence-information-macro-body">
 
-**Tip:** In this documentation we provide command syntax to help you
-create a basic profile. We recommend that you append` --help` to the end
-of commands in the product to see the complete set of commands and
-options available to you. For example, issue `bright profiles --help` to
-learn more about how to list profiles, switch your default profile, or
-create different profile types.
+**Important\!** A  `zosmf` profile is required to issue most CA
+Brightside commands. The first profile that you create becomes your
+default profile. When you issue any command that requires
+a `zosmf` profile, the command executes using your default profile
+unless you specify a specific profile name on that command.
 
 </div>
 
 </div>
 
-After you create a profile, run a test to verify that CA Brightside can
-communicate properly with z/OSMF. You can test your default profile and
-any other CA Brightside profile that you created.
+**Follow these steps:**
 
-**Default Profile**
-
-  - Verify that you can use your default profile to communicate with
-    z/OSMF by issuing the following command:
+1.  To create a `zosmf` profile, issue the following command. Refer to
+    the available options in the help text to define your profile:
     
     <div class="code panel caCodePanel">
     
     <div class="codeContent panelContent">
     
     ``` ca-code-default
-    bright zosmf check status
+    bright profiles create zosmf-profile --help
     ```
     
     </div>
     
     </div>
 
-**Specific Profile**
-
-  - Verify that you can use a specific profile to communicate with
-    z/OSMF by issuing the following command: 
-    
-    <div class="code panel caCodePanel">
-    
-    <div class="codeContent panelContent">
-    
-    ``` ca-code-default
-    bright zosmf check status --zosmf-profile <profile_name>
-    ```
-    
-    </div>
-    
-    </div>
-
-The commands return a success or failure message and display information
-about your z/OSMF server. For example, the z/OSMF version number and a
-list of installed plug-ins. Report any failure to your systems
-administrator and use the information for diagnostic
-purposes.
-
-<div class="confluence-information-macro confluence-information-macro-information">
-
-<span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon"></span>
-
-<div class="confluence-information-macro-body">
-
-**More Information:**
-
-  - [Create a Profile](Create-a-Profile_473021290.html)
-
-</div>
-
-</div>
-
-  
+After you create a profile, verify that it can communicate with z/OSMF.
+For more information, see [Test Connection to z/OSMF](473021291.html).
 
 </div>
 
