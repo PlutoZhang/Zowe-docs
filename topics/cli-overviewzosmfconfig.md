@@ -38,25 +38,6 @@ configurations.
 <li>Configure z/OSMF Plugin Security</li>
 </ul></td>
 </tr>
-<tr class="odd">
-<td><p>Systems Programmers</p></td>
-<td><a href="cli-configzosmfcloudprovisioning.md">Configure z/OS Management Facility Cloud Provisioning</a></td>
-<td><p>Describes how systems programmers perform the following <span>z/OSMF</span> cloud provisioning configuration tasks:</p>
-<ul>
-<li>Install and Configure the IBM z/OS Provisioning Toolkit</li>
-<li>Configure z/OSMF Cloud Provisioning</li>
-<li>Set Up the z/OSMF Cloud Provisioning Service</li>
-<li><span class="sv-ti-done">Implement the z/OS Cloud Portal Plug-in</span></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Security Administrators</td>
-<td><a href="cli-configzosmfcloudprovisioningsecurity.md">Configure z/OS Management Facility Cloud Provisioning Security</a></td>
-<td><p>Describes how systems programmers perform the following <span>z/OSMF</span> cloud provisioning security configuration tasks:</p>
-<ul>
-<li>Configure z/OSMF Cloud Provisioning to Use RACF Security</li>
-</ul></td>
-</tr>
 </tbody>
 </table>
 
