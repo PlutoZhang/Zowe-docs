@@ -11,8 +11,7 @@ the use of third-party plug-ins.
 
 The following plug-ins are available:
 
-  - [Zoe Brightside Plug-in for CA Endevor® Software Change
-    Manager ](#Extending-CABrightsidePlug-inforCAEndevor®SoftwareChangeManager)
+  - [Zoe Brightside Plug-in for CA Endevor® Software Change Manager ](#Zoe-Brightside-Plug-in-for-CA-Endevor®-Software-Change-Manager)
   - [Zoe Brightside Plug-in for CA File Master™
     Plus ](#Extending-CABrightsidePlug-inforCAFileMaster™Plus)
   - [Zoe Brightside Plug-in for IBM® Db2®
