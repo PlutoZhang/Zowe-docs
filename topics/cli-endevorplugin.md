@@ -16,7 +16,7 @@ between different environments when you create a single code package.
   - [Prerequisites](#prerequisites)
   - [Zoe Brightside plug-in for CA Endevor](#zoe-brightside-plug-in-for-ca-endevor)
   - [Use cases](#use-cases)
-  - [Zoe Brightside commands](#zoe-brightside-commands)
+  - [Commands](#zoe-brightside-commands)
 
 ## Plug-in overview
 
@@ -55,7 +55,7 @@ To install the Zoe Brightside plug-in, see [Install Plug-ins](cli-installplugin
   - Code packaging and promotion as part of a CI/CD pipeline
   - Approval workflows in response to events in other DevOps tools
 
-## Zoe Brightside commands
+## Commands
 
 To obtain a current list of the CA Endevor syntax, actions, and options, open Zoe Brightside and enter the following command:
 
