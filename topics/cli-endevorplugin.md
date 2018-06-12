@@ -1,4 +1,4 @@
-# Zoe Brightside Plug-in for CA Endevor SCM
+# Zoe Brightside plug-in for CA Endevor SCM
 
 As a modern application developer or DevOps Admin, it is helpful to be
 able to script DevOps processes using a command-line interface (CLI).
@@ -14,11 +14,11 @@ between different environments when you create a single code package.
 
   - [Plug-in Overview](#plug-in-overview)
   - [Prerequisites](#prerequisites)
-  - [Zoe Brightside Plug-in for CA Endevor](#CABrightsidePlug-inforCAEndevorSCM-CAEndevorPluginforCABrightside)
-  - [Use Cases](#use-cases)
-  - [Zoe Brightside Commands](#zoe-brightside-commands)
+  - [Zoe Brightside plug-in for CA Endevor](#zoe-brightside-plug-in-for-ca-endevor)
+  - [Use cases](#use-cases)
+  - [Zoe Brightside commands](#zoe-brightside-commands)
 
-## Plug-in Overview
+## Plug-in overview
 
 The CA Endevor plug-in for Zoe Brightside allows you to perform commands
 on multiple mainframe applications at once from one terminal window,
@@ -40,11 +40,11 @@ interface:
   - CA Endevor instance configured within Endevor web services.
   - Endevor web services installed and running.
 
-## Zoe Brightside Plug-in for CA Endevor
+## Zoe Brightside plug-in for CA Endevor
 
 To install the Zoe Brightside plug-in, see [Install Plug-ins](cli-installplugins.md).
 
-## Use Cases
+## Use cases
 
   - Zoe Brightside commands interact with CA Endevor build actions, enabling more modern interaction with CA Endevor.
   - Zoe Brightside commands interact with CA Endevor application lifecycle actions, allowing easy scripting from CI/CD pipelines.
@@ -55,7 +55,7 @@ To install the Zoe Brightside plug-in, see [Install Plug-ins](cli-installplugin
   - Code packaging and promotion as part of a CI/CD pipeline
   - Approval workflows in response to events in other DevOps tools
 
-## Zoe Brightside Commands
+## Zoe Brightside commands
 
 To obtain a current list of the CA Endevor syntax, actions, and options, open Zoe Brightside and enter the following command:
 
