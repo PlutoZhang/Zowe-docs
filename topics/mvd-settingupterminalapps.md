@@ -4,7 +4,7 @@ Follow these optional steps to configure the default connection to open for the 
 
 ## Setting up the TN3270 mainframe terminal application plug-in
 
-`_defaultTN3270.json` is a file in `zlux-example-server/build`, which is deployed during setup. Within this file, you can specify the following parameters to configure the terminal connection:
+`_defaultTN3270.json` is a file in `tn3270-ng2/`, which is deployed during setup. Within this file, you can specify the following parameters to configure the terminal connection:
     
       "host": <hostname>
       "port": <port>
@@ -14,7 +14,7 @@ Follow these optional steps to configure the default connection to open for the 
     
 ## Setting up the VT Terminal application plug-in
 
-`_defaultVT.json` is a file in `zlux-example-server/build`, which is deployed during setup. Within this file, you can specify the following parameters to configure the terminal connection:
+`_defaultVT.json` is a file in `vt-ng2/`, which is deployed during setup. Within this file, you can specify the following parameters to configure the terminal connection:
  
     “host”:<hostname>
     “port”:<port>
