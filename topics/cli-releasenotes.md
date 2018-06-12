@@ -15,7 +15,6 @@ Brightside:
   - [Zoe Brightside Capabilities](#zoe-brightside-capabilities)
   - [Overview Video](#overview-video)
   - [Extend Zoe Brightside](#extend-zoe-brightside)
-  - [Participate in the Zoe Brightside Community](#participate-in-the-zoe-brightside-community)
   - [Known Issues](#known-issues)
   - [Report Defects and Issues](#report-defects-and-issues)
   - [Third-Party Software Agreements](#third-party-software-agreements)
@@ -55,15 +54,6 @@ You can install plug-ins to extend the capabilities of Zoe Brightside. Plug-ins 
   - IBM Db2 Database plug-in
 
 For more information, see [Install Plug-ins](cli-installplugins.md).
-
-## Participate in the Zoe Brightside Community
-We want to know what you think about CA Brightside. You can participate in the Zoe Brightside community by posting to public forums such as reddit and Slack. With reddit and Slack you can:
-
-  - Tell us what you think about the product. 
-  - Ask questions and share your ideas about product enhancements with Zoe Brightside developers and the product management team.
-
-**More Information:**
-  - [Additional Resources](cli-additionalresources.md)
 
 ## Known Issues 
 
