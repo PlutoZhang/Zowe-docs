@@ -8,7 +8,7 @@ Zoe Brightside contains a help system that is embedded directly into the comman
 ## Display top-level help
 To begin using the product, open a command line window and issue the following command to view the top-level help descriptions:
 
-``` ca-code-default
+```ca-code-default 
 bright --help
 ```
 **Tip:** The command `bright` initiates the product on a command line. All Zoe Brightside commands begin with `bright.`
