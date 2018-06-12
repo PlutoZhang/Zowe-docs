@@ -1,4 +1,4 @@
-# Zoe Brightside Community Edition : Prerequisites
+# Zoe Brightside Prerequisites
 Review and meet the following prerequisites before you install and
 use Zoe Brightside:
 
