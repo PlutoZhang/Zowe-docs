@@ -7,7 +7,7 @@ To use Zoe Brightside, systems programmers and security administrators set up a
   - [z/OSMF Configuration Overview](cli-overviewzosmfconfig.md)
   - [Install Zoe Brightside](cli-installcli.md)
   - [Create a Profile](cli-createaprofile.md)
-  - [Test Connection to z/OSMF](validateInstallation.md)
+  - [Test Connection to z/OSMF](cli-validateInstallation.md)
   - [Uninstall Zoe Brightside](cli-uninstall.md)
 
 <div class="WordSection1">
