@@ -1,42 +1,40 @@
-# How to display Brightside CLI help
-Brightside CLI contains a help system that is embedded directly into the CLI. When you want help with Brightside CLI, you issue various help commands that provide you with information about Brightside CLI, the usage, syntax, actions, and options. You can also display all help, group-level help, and information about the structure of Brightside CLI syntax.
+# Display Zoe Brightside help
+Zoe Brightside contains a help system that is embedded directly into the command-line interface. When you want help with Zoe Brightside, you issue help commands that provide you with information about the product, syntax, and usage.
 
-## Get started with Brightside CLI syntax
-If you are using Brightside CLI for first time and want to learn more about how to use the syntax (and how Brightside CLI works), open a command line window and issue the following command:
+  - [Display top-level help](#display-top-level-help)
+  - [Help structure](#help-structure)
+  - [Display command group, action, and object help](#display-command-group-action-and-object-help)
 
-```
-bright help explain brightside
-```
-To learn how to perform a specific task, or if you want to search for information about a specific command, issue the following command:
-```
-bright help search all <term>
-```
-With this command, Brightside CLI searches and displays help for
-information about commands, syntax, descriptions, options, and so on.
-
-**Example:**
-```
-bright help search all console
-```
 ## Display top-level help
-To to display top-level Brightside CLI help, open a command line window and issue the following command:
-```
+To begin using the product, open a command line window and issue the following command to view the top-level help descriptions:
+
+``` ca-code-default
 bright --help
 ```
-(Optional) Issue the following command to display top-level Brightside CLI help using the alias for the help command:
+**Tip:** The command `bright` initiates the product on a command line. All Zoe Brightside commands begin with `bright.`
+
+## Help structure
+The help displays the following types of information:
+  - **Description**  
+    An explanation of the functionality for the command
+    group, action, or option that you specified in a `--help` command.
+  - **Usage**  
+    The syntax for the command. Refer to usage to determine the expected hierarchical structure of a command.
+  - **Options**  
+    Flags that you can append to the end of a command to specify particular values or booleans. For example, the volume size
+    for a data set that you want to create. 
+  - **Global Options**  
+    Flags that you can append to any command in Zoe Brightside. For example, the `--help` flag is a global option. 
+
+## Display command group, action, and object help
+You can use the `--help` global option get more information about a specific command group, action, or object. Use the following syntax to display group-level help and learn more about specific command groups (for example, *zos-jobs* and *zos-files*):
+
+``` ca-code-default
+bright <group, action, or object name> --help
 ```
-bright -h
+``` ca-code-default
+bright zos-files create --help
 ```
-## Display group-level help
-You can use group-level help to get more information about a specific command group. Use the following syntax to display group-level help and learn more about specific command groups (for example, zos-jobs and zos-files):
-```
-bright <group name> --help
-```
-**Example:**
-```
-bright zos-files --help
-```
-(Optional) Issue the following command to view Brightside CLI group-level help using the alias for the help command:
-```
-bright compiler -h
-```
+**More Information:**
+
+  - [Command Groups](cli-commandgroups.md)
