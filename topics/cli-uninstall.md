@@ -35,7 +35,7 @@ The following steps describe how to list the profiles that you created, delete t
     ``` ca-code-default
     bright profiles delete <profileType> <profileName> --force  
     ```
-        **Example:**
+      **Example:**
     
     ``` ca-code-default
     bright profiles delete zosmf SMITH-123 --force
