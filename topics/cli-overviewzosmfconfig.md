@@ -1,23 +1,11 @@
 # Overview of the z/OS Management Facility configuration process
+Before application developers can use Zoe Brightside to interact with z/OS systems, systems programmers and security  administrators must install and configure IBM z/OS Management Facility (z/OSMF) in your environment.
 
-Before application developers can use Brightside CLI to interact with
-z/OS systems, systems programmers and security administrators must
-install and configure IBM z/OS
-Management Facility (z/OSMF) in your environment.
+z/OSMF provides remote system management functions so that you can use Zoe Brightside to more easily manage the operations and administration of your z/OS systems.
 
-z/OSMF provides remote system management functions so that you can use
-Brightside CLI to more easily manage the operations and administration
-of your z/OS
-systems.
+**Important!** The [IBM z/OS Management Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm) guide on the IBM Knowledge Center is your primary source of information about how to install and configure z/OSMF. Throughout the IBM procedures, we provide Zoe Brightside-specific tips or requirements. We recommend that you open IBM documentation in a separate browser tab.
 
-**Important!** The [IBM z/OS Management Facility](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.2.0/com.ibm.zos.v2r2.izu/izu.htm)
-guide on the IBM Knowledge Center is your primary source of information
-about how to install and configure z/OSMF. Throughout the IBM
-procedures, we provide Brightside CLI-specific tips or requirements. We
-recommend that you open IBM documentation in a separate browser tab.
-
-The following table describes the recommended configurations and the
-role of the individual that is most suited to perform the
+The following table describes the recommended configurations and the role of the individual that is most suited to perform the
 configurations.
 
 <div class="table-wrap">
