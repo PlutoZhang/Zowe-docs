@@ -37,16 +37,16 @@ Install CA Brightside on PCs that are running a Windows, Linux, or macOS opera
 
 4.  Create a `zosmf` profile so that you can issue commands that communicate with z/OSMF.
     
-    **Note:** For information about how to create a profile, see [Create a profile](Create-a-Profile_473021290.html).
+    **Note:** For information about how to create a profile, see [Create a profile](cli-createaprofile.md).
     
     **Tip:** Zoe Brightside profiles contain information that is required
     for the product to interact with remote systems. For example, host
     name, port, and user ID. Profiles let you target unique systems,
     regions, or instances for a command. Most CA Brightside [command
-    groups](Command-Groups_473021296.html) require a Zoe Brightside
+    groups](cli-commandgroups.md) require a Zoe Brightside
     `zosmf` profile.
 
-After you install and configure CA Brightside, you can issue the `bright --help` command to view a list of available commands. For moreinformation, see [Display Help](Display-Help_473021295.html).
+After you install and configure CA Brightside, you can issue the `bright --help` command to view a list of available commands. For moreinformation, see [Display Help](cli-howtodisplaybrightsidehelp.md).
 
 
 ## Alternative method to install Zoe Brightside
@@ -72,19 +72,19 @@ If your PC is connected to the internet, you can use the following method to ins
     
     **Note:** For information about how to create a profile, see [Create
     a
-    Profile](Create-a-Profile_473021290.html).
+    Profile](cli-createaprofile.md).
     
     
     **Tip:** Zoe Brightside profiles contain information that is required
     for the product to interact with remote systems. For example, host
     name, port, and user ID. Profiles let you target unique systems,
     regions, or instances for a command. Most CA Brightside [command
-    groups](Command-Groups_473021296.html) require a Zoe Brightside
+    groups](cli-commandgroups.md) require a Zoe Brightside
     `zosmf` profile.
     
 
 After you install and configure CA Brightside, you can issue the `bright
---help` command to view a list of available commands. For more information, see [Display Help](Display-Help_473021295.html).
+--help` command to view a list of available commands. For more information, see [Display Help](cli-howtodisplaybrightsidehelp.md).
 
-  - [Uninstall Zoe Brightside](Uninstall-CA-Brightside_473021293.html)
+  - [Uninstall Zoe Brightside](cli-uninstallcli.md)
 

@@ -25,6 +25,7 @@ The following steps describe how to list the profiles that you created, delete t
     smith-123@SMITH-123-W7 C:\Users\SMITH-123
     $
     ```
+    
 3.  Delete all of the profiles that are listed for the command group by issuing the following command: 
     
     **Tip:** For this command, use the results of the `list`
@@ -41,23 +42,27 @@ The following steps describe how to list the profiles that you created, delete t
     bright profiles delete zosmf SMITH-123 --force
     ```
   
-4.  Repeat Steps 2 and 3 for all Zoe Brightside command groups and
-    profiles.
+4.  Repeat Steps 2 and 3 for all Zoe Brightside command groups and profiles.
 
-5.  Uninstall Zoe Brightside by issuing the following command:
-    
-    ``` 
-    npm uninstall --global @brightside/core
-    ```
-    The uninstall process removes all Zoe Brightside installation
-    directories and files from your PC.
+5.  Uninstall Zoe Brightside by issuing one of the following commands:
 
-6.  Delete the following directory on your PC. The directory contains the Zoe Brightside log files and other miscellaneous files that were generated when you used the product.
-    
+    - If you installed Zoe Brightside from the package, issue the following command
+        ``` 
+        npm uninstall --global @brightside/core
+        ```
+
+    - If you installed Zoe Brightside from the online registry, issue the following command: 
+        ``` 
+        npm uninstall --global brightside
+        ```
+
+        The uninstall process removes all Zoe Brightside installation directories and files from your PC.
+
+6. Delete the following directory on your PC. The directory contains the Zoe Brightside log files and other miscellaneous files that were generated when you used the product.
 
     **Tip:** Deleting the `C:\Users\<user_name>\.brightside`  directory does not harm your PC.
     
-7.  Issue the following command to clear your scoped npm registry:
+1.  If you installed Zoe Brightside from the online registry, issue the following command to clear your scoped npm registry:
     
     ``` 
     npm config set @brightside:registry

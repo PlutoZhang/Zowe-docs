@@ -35,7 +35,7 @@
     -   [Uninstalling Project Zoe](topics/uninstall.md)
         -   [Uninstalling zLUX](topics/mvd-uninstallingzlux.md)
         -   [Uninstalling explorer server](topics/atlas-uninstall)
-        -   [Uninstalling Zoe Brightside](topics/cli-uninstall.md)
+        -   [Uninstalling Zoe Brightside](topics/cli-uninstallcli.md)
 -   [Using Project Zoe](topics/using.md)
     -   [Using zLUX](topics/usingmvd.md)
         - [Navigating MVD](topics/navigatingmvd.md)
