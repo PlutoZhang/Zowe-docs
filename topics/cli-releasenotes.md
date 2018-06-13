@@ -84,13 +84,14 @@ software:
 
 **Note:** All trademarks, trade names, service marks, and logos referenced herein belong to their respective companies.
 
-To read each complete license, [download the attached zip
-file](attachments/473021281/475943312.zip).
+To read each complete license, navigate to the GitHub repository and download the file named
+Zoe_Brightside_TPSRs.zip. The .zip file contains the licenses for all of the third-party components that
+Zoe Brightside uses. 
 
 **More Information:**
 
-  - [Zoe Brightside Prerequisites](cli-precli.md)
+  - [Zoe Brightside prerequisites](cli-precli.md)
   - [Install Zoe Zoe Brightside](cli-installcli.md)
-  - [Create a Profile](cli-createaprofile.md)
-  - [Test Connection to z/OSMF](cli-validateInstallation.md)
+  - [Create a profile](cli-createaprofile.md)
+  - [Test connection to z/OSMF](cli-validateInstallation.md)
 

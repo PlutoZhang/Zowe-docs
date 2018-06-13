@@ -5,4 +5,4 @@ Before installing Project Zoe, verify that your environment meets all of the pre
 -   **[Prerequisites for z/OSMF configuration](../topics/prezosmf.md)**  
 -   **[Prerequisites for zLUX](../topics/premvd.md)**  
 -   **[Prerequisites for explorer server](../topics/atlas-prereqs.md)**  
--   **[Prerequisites for CLI](../topics/precli.md)**  
+-   **[Prerequisites for Zoe Brightside](../topics/cli-precli.md)**  

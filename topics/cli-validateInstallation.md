@@ -26,4 +26,4 @@ The commands return a success or failure message and display information about y
 
 **More information:**
 
-  - [Create a Zoe Brightside Profile](cli-createaprofile.md)
+  - [Create a Zoe Brightside profile](cli-createaprofile.md)
