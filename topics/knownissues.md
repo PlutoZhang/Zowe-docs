@@ -5,5 +5,3 @@ When you initially open the MVD, a security message alerts you that you are atte
 NOTE: If you clear the browser cache, you must add the URL to your trusted sites again.
 
 zLUX APIs exist but are under development. Features might be reorganized if it simplifies and clarifies the API, and features might be added if applications can benefit from them.
-
-While zLUX Authorization tuning allows for settings such as GET from Instance to work without login, **User** and **Group** Scope queries will be rejected if not logged in because they must obtain resources from a specific user. Because of this, **User** and **Group** Scopes will not be functional until the Security Framework is available. For more information, see [Resource Scopes](mvd-resourcescope.md).
