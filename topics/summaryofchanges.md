@@ -42,8 +42,9 @@ This release of Zoe Brightside (Version 0.8.2) contains the following new featur
 
 **Zoe Brightside**
 
-This release of Zoe Brightside (Version 0.8.3) no longer contains Experimental Command Groups.  
-
+This release of Zoe Brightside (Version 0.8.3) contains the following changes:
+- *CA Brightside* was renamed to *Zoe Brightside*.
+- Zoe Brightside no longer contains Experimental Command Groups.
 
 ## Version 0.8.1 (May 2018)
 
