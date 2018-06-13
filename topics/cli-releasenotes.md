@@ -1,5 +1,5 @@
 
-# Zoe Brightside
+# Zoe Brightside overview
 Zoe Brightside is a command-line interface that lets application developers interact with the mainframe in a familiar format. Zoe Brightside helps to increase overall productivity, reduce the learning curve for developing mainframe applications, and exploit the ease-of-use of off-platform tools. Zoe Brightside lets application developers use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development. It provides a set of utilities and services for application developers that want to become efficient in supporting and building z/OS applications quickly.
 
 Zoe Brightside provides the following benefits:
@@ -11,11 +11,9 @@ Zoe Brightside provides the following benefits:
 
 The following sections explain the key features and details for Zoe Brightside:
 
-  - [Zoe Brightside Capabilities](#zoe-brightside-capabilities)
-  - [Overview Video](#overview-video)
+  - [Zoe Brightside capabilities](#zoe-brightside-capabilities)
   - [Extend Zoe Brightside](#extend-zoe-brightside)
-  - [Known Issues](#known-issues)
-  - [Report Defects and Issues](#report-defects-and-issues)
+  - [Report defects and issues](#report-defects-and-issues)
   - [Third-Party Software Agreements](#third-party-software-agreements)
 
 **Note:** For information about prerequisites, software requirements, installing and upgrading Zoe Brightside, see
@@ -49,6 +47,9 @@ You can install plug-ins to extend the capabilities of Zoe Brightside. Plug-ins 
   - IBM Db2 Database plug-in
 
 For more information, see [Install Plug-ins](cli-installplugins.md).
+
+## Report Defects and Issues
+To report problems that you might encounter while using the product, enter issues in the [Brightside GitHub repository](https://github.com/gizafoundation/brightside/issues).
 
 ## Third-Party Software Agreements
 

@@ -12,12 +12,12 @@ You can use Zoe Brightside with the following platforms:
 
   - **Local workstations:**    
   You can install Zoe Brightside on any Windows or Linux operating system. For more information about known
-    issues and workarounds, see [Known Issues](cli-releasenotes.md#known-issues).
+    issues and workarounds, see [Troubleshooting installing Zoe Brightside](cli-troubleshootinginstallingcli.nd).
   - **Mainframe systems:**   
     Zoe Brightside was designed and tested to integrate with IBM z/OS Management Facility (z/OSMF) running on IBM z/OS version 2.2 or higher.
        
     **Important\!** Before you can use Zoe Brightside to interact with the mainframe, systems programmers must install and configure IBM z/OSMF in your environment. The IBM z/OS Management Facility guide on the IBM Knowledge Center is the primary source of information about how systems programmers can install and configure z/OSMF. We provide supplemental information about Zoe Brightside-specific tips or requirements to which systems programmers can refer. For more
-    information, see [z/OSMF Configuration Overview](overviewzosmfconfig.md).
+    information, see [Prerequisites for z/OSMF configuration](prezosmf.md).
     
 ## Free disk space
 
@@ -90,7 +90,7 @@ Linux  operating systems require the following software:
 
 **More information:**
 
-  - [Product Overview](cli-releasenotes.md)
+  - [Product overview](cli-releasenotes.md)
   - [Install Zoe Brightside](cli-installcli.md)
-  - [Create a Profile](cli-createaprofile.md)
-  - [Test Connection to z/OSMF](cli-validateInstallation.md)
+  - [Create a profile](cli-createaprofile.md)
+  - [Test connection to z/OSMF](cli-validateInstallation.md)
