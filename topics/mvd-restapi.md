@@ -5,7 +5,8 @@ When reaching the Configuration Service through a REST API, HTTP methods are use
 
 The HTTP URL scheme for the configuration dataservice is: 
 
-**`<Server>/plugins/com.rs.configjs/services/data/<plugin ID>/<Scope>/<resource>/<optional subresources>?<query>`**
+**`<Server>/plugins/com.rs.configjs/services/data/<plugin ID>/`
+  `<Scope>/<resource>/<optional subresources>?<query>`**
 
 Where the resources are one or more levels deep, using as many layers of subresources as needed.
 
@@ -22,9 +23,11 @@ Below is an explanation of each type of REST call.
 Each API call includes an example request and response against a hypothetical application: the "code editor".
 
 ### GET
-**GET `/plugins/com.rs.configjs/services/data/<plugin>/<scope>/<resource>?name=<element>`**
+**GET `/plugins/com.rs.configjs/services/data/<plugin>/<scope>/`
+      `<resource>?name=<element>`**
   * This returns JSON with the attribute "content" being a JSON resource that is the entire configuration requested.
-  * Example: ```/plugins/com.rs.configjs/services/data/org.openmainframe.zoe.codeeditor/user/sessions/default?name=tabs```
+  * Example: ```/plugins/com.rs.configjs/services/data/org.openmainframe.zoe.codeeditor/```
+	```user/sessions/default?name=tabs```
   * The parts of the URL are:
     * Plugin: org.openmainframe.zoe.codeeditor
     * Scope: user
@@ -64,7 +67,8 @@ Each API call includes an example request and response against a hypothetical ap
 **PUT `/plugins/com.rs.configjs/services/data/<plugin>/<scope>/<resource>?name=<element>`**
   * Stores a single element (must be a JSON object {...}) within the requested scope, ignoring aggregation policies, provided the privilege of the user permits this.
 
-  * Example: ```/plugins/com.rs.configjs/services/data/org.openmainframe.zoe.codeeditor/user/sessions/default?name=tabs```
+  * Example: ```/plugins/com.rs.configjs/services/data/org.openmainframe.zoe.codeeditor/```
+	          ```user/sessions/default?name=tabs```
   * Body:
 ```
         {
