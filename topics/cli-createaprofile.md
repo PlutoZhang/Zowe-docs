@@ -10,7 +10,7 @@ unless you specify a specific profile name on that command.
 
 1.  To create a `zosmf` profile, issue the following command.  
   Refer to the available options in the help text to define your profile:   
-    ``` ca-code-default 
+    ```
     bright profiles create zosmf-profile --help
     ```
     

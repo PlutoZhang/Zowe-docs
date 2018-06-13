@@ -8,7 +8,7 @@ Zoe Brightside contains a help system that is embedded directly into the comman
 ## Display top-level help
 To begin using the product, open a command line window and issue the following command to view the top-level help descriptions:
 
-```ca-code-default 
+```
 bright --help
 ```
 **Tip:** The command `bright` initiates the product on a command line. All Zoe Brightside commands begin with `bright.`
@@ -29,10 +29,10 @@ The help displays the following types of information:
 ## Display command group, action, and object help
 You can use the `--help` global option get more information about a specific command group, action, or object. Use the following syntax to display group-level help and learn more about specific command groups (for example, *zos-jobs* and *zos-files*):
 
-``` ca-code-default
+``` 
 bright <group, action, or object name> --help
 ```
-``` ca-code-default
+``` 
 bright zos-files create --help
 ```
 **More Information:**

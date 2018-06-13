@@ -1,4 +1,4 @@
-# Enabling and Disabling Experimental Commands
+# Enabling and disabling experimental Commands
 
 Brightside CLI includes experimental commands, which are currently in development and are not ready for general availability. You can enable or disable these commands. The experimental commands are disabled by default.
 

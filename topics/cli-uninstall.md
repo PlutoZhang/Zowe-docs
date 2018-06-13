@@ -14,11 +14,11 @@ The following steps describe how to list the profiles that you created, delete t
 2.  List all profiles that you created for a [Command Group](commandgroups.md) by issuing the following command:
   
     ```
-    ca-code-default bright profiles list <profileType>
+     bright profiles list <profileType>
     ```
     **Example:**
     
-    ``` ca-code-default
+    ``` 
     $ bright profiles list zosmf
     The following profiles were found for the module zosmf:
     'SMITH-123' (DEFAULT)
@@ -32,12 +32,12 @@ The following steps describe how to list the profiles that you created, delete t
     **Note:** When you issue the `delete` command, it deletes the
     specified profile and its credentials from the credential vault in your PC's operating system.
     
-    ``` ca-code-default
+    ``` 
     bright profiles delete <profileType> <profileName> --force  
     ```
       **Example:**
     
-    ``` ca-code-default
+    ``` 
     bright profiles delete zosmf SMITH-123 --force
     ```
   
@@ -46,7 +46,7 @@ The following steps describe how to list the profiles that you created, delete t
 
 5.  Uninstall Zoe Brightside by issuing the following command:
     
-    ``` ca-code-default
+    ``` 
     npm uninstall --global @brightside/core
     ```
     The uninstall process removes all Zoe Brightside installation
@@ -59,7 +59,7 @@ The following steps describe how to list the profiles that you created, delete t
     
 7.  Issue the following command to clear your scoped npm registry:
     
-    ``` ca-code-default
+    ``` 
     npm config set @brightside:registry
     ```
     
