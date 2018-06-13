@@ -37,3 +37,47 @@ Brightside CLI provides the following benefits:
   - Fosters the development of new and innovative tools from a personal computer that can interact with z/OS operating systems.
   - Ensure that business critical applications running on z/OS can be maintained and supported by existing and generally available software development resources.
   - Provides a more streamlined way to build software that integrates with z/OS platforms.
+
+## Third-party software agreements
+
+Brightside CLI uses the following third-party software:
+- ag-grid
+- body-parser
+- chalk
+- cli-table2
+- csv
+- definitelytyped
+- express
+- filewatcher
+- getmdl-select
+- glob
+- i18n
+- jsonschema
+- js-yaml
+- levenshtein
+- lodash
+- log4js
+- material-design-lite
+- mustache
+- Nested-property
+- node.js
+- node-forge
+- node-progress
+- node-tmp
+- opn
+- prettyjson
+- prompt
+- reflect-metadata
+- rimraf
+- simple-ssh
+- stack-trace
+- string-argv
+- wrap-ansi
+- yamljs
+- yargs
+
+**Note:** All trademarks, trade names, service marks, and logos referenced herein belong to their respective
+companies.
+
+To read each complete license, navigate to the [GitHub repository](https://github.com/gizafoundation/Downloads/releases) and download the file named
+`Brightside_CLI_TPSRs.zip`. The .zip file contains the licenses for all of the third-party components that Brightside CLI uses.
