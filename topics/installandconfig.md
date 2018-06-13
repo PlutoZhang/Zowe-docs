@@ -8,7 +8,7 @@ To install Project Zoe, follow these steps:
 
 3. Allocate enough space for the installation.
 
-     For successful installation of Project Zoe, your PC must contain the required space. The installation process requires approximately 1 GB of available space. Once installed, zLUX requires approximately 50 MB of space before configuration, explorer server requires approximately 200 MB, and Brightside CLI requires approximately 25 MB.
+     For successful installation of Project Zoe, your PC must contain the required space. The installation process requires approximately 1 GB of available space. Once installed, zLUX requires approximately 50 MB of space before configuration, explorer server requires approximately 200 MB, and Zoe Brightside requires approximately 25 MB.
 
 4. Install components of Project Zoe. For details, see [Installing the Zoe runtime on z/OS](../topics/zoeinstall.md).
 

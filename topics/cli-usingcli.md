@@ -4,5 +4,3 @@ This section contains the following articles about using Zoe Brightside:
 
 - [How to display Zoe Brightside help](cli-howtodisplaybrightsidehelp.md)
 - [Zoe Brightside command groups](cli-commandgroups.md)
-- [Enabling and disabling experimental commands](cli-enabledisablexperimentalcommands.md)
-- [Zoe Brightside scenarios](cli-scenarios.md)

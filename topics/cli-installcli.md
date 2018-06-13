@@ -1,9 +1,6 @@
 # Installing Brightside CLI
 As a systems programmer or application developer, you install Brightside
-CLI on your PC. You can install Brightside CLI on any
-PC that is running a Windows, Linux, macOS operating
-system that supports Node.js version 6 or
-later. 
+CLI on your PC. 
 
 Before you install Brightside CLI, ensure that you meet the [Prerequisites](precli.md).
 
