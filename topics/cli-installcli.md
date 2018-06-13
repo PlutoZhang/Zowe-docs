@@ -1,21 +1,20 @@
-# Installing Brightside CLI
-As a systems programmer or application developer, you install Brightside
-CLI on your PC. 
+# Installing Zoe Brightside
+As a systems programmer or application developer, you install Brightside CLI on your PC. 
 
-Before you install Brightside CLI, ensure that you meet the [Prerequisites](precli.md).
+Before you install Zoe Brightside, ensure that you meet the [Prerequisites](cli-precli.md).
 
 **Note:** You might encounter problems when you attempt to install
-Brightside CLI depending on your operating system and
-environment. For more information and workarounds, see [Troubleshooting Installing Brightside CLI](cli-troubleshootinginstallingcli.md).
+Zoe Brightside depending on your operating system and
+environment. For more information and workarounds, see [Troubleshooting Installing Zoe Brightside](cli-troubleshootinginstallingcli.md).
 
-## Install Brightside CLI
+## Install Zoe Brightside
 
-To use Brightside CLI on your PC, install the product from that is available at your site. 
+To use Zoe Brightside on your PC, install the product from that is available at your site. 
 
 **Follow these steps:**
 
 1. [Obtain the Project Zoe installation media](installing.md), which includes the brightside.tgz file. Use FTP to distribute the brightside.tgz file to client workstations.
-    Users can now install Brightside CLI on their PC.
+    Users can now install Zoe Brightside on their PC.
 
 4.  Open a command line window. Browse to the directory where you
     downloaded the Brightside CLI installation package (.tgz file). Issue the
@@ -27,7 +26,7 @@ To use Brightside CLI on your PC, install the product from that is available at 
     
     **Note:** On Linux systems, you might need to append `sudo` to your
     `npm` commands so that you can issue the install and uninstall
-    commands. For more information, see [Troubleshooting Installing Brightside CLI](cli-troubleshootinginstallingcli.md).
+    commands. For more information, see [Troubleshooting Installing Zoe Brightside](cli-troubleshootinginstallingcli.md).
     
     Brightside CLI is installed on your PC.
 
@@ -59,4 +58,4 @@ To use Brightside CLI on your PC, install the product from that is available at 
     see [Validating Installation](cli-validateInstallation.md).
 
 After you install and configure Brightside CLI, issue the `bright --help` command to view a list of available commands. For more
-information, see [How to Display Brightside CLI Help](cli-howtodisplaybrightsidehelp.md).
+information, see [How to Display Zoe Brightside Help](cli-howtodisplaybrightsidehelp.md).
