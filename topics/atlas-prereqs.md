@@ -1,4 +1,4 @@
-# Prerequisites for explorer server
+# System requirements for explorer server
 
 Before installing the explorer server, check whether your environment meets the following requirements to ensure a successful installation.
 

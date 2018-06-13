@@ -1,4 +1,4 @@
-# Prerequisites for z/OSMF configuration
+# z/OSMF configuration
 
 IBM z/OS Management Facility (z/OSMF) is a prerequisite for the Project Zoe microservice that must be installed and running before you use Project Zoe. This article consists of the following information:
 

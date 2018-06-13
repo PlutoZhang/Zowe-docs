@@ -22,66 +22,64 @@ http://submit.boulder.ibm.com/infocenter/idwb/v3r8m4/topic/com.ibm.ditaref.doc/d
 <ibmfrontmatter>
 <editionnotices format="md" href="topics/editionnotice.md"
 navtitle="Edition notice"></editionnotices>
-<preface format="md" href="topics/aboutthisbook.md" navtitle="About this book" scope="local"/>
+<preface format="md" href="topics/aboutthisbook.md" navtitle="About this documentation"
+scope="local"/>
 <topicref format="md" href="topics/summaryofchanges.md"
 navtitle="Summary of changes" scope="local"></topicref>
 <topicref format="md" href="topics/knownissues.md" navtitle="Known issues" scope="local"/><?Pub Caret -1?>
 </ibmfrontmatter>
-<chapter format="md" href="topics/introduction.md" navtitle="Project Zoe overview" scope="local">
-<topicref format="md" href="topics/whatis.md" navtitle="What is Project Zoe" scope="local"/>
-<topicref format="md" href="topics/componentoverview.md" navtitle="Components overview"
-scope="local">
-<topicref format="md" href="topics/mvd-overview.md" navtitle="zLux overview" scope="local"/>
-<topicref format="md" href="topics/atlas-overview.md" navtitle="Explorer server overview"
-scope="local"/>
-<topicref format="md" href="topics/cli-releasenotes.md" navtitle="Brightside CLI overview"
-scope="local"/>
-</topicref>
+<chapter format="md" href="topics/zoe-introduction.md" navtitle="Project Zoe overview" scope="local">
+<topicref format="md" href="topics/mvd-overview.md" navtitle="zLux" scope="local"/>
+<topicref format="md" href="topics/atlas-overview.md" navtitle="Explorer server" scope="local"/>
+<topicref format="md" href="topics/cli-releasenotes.md" navtitle="Brightside CLI" scope="local"/>
 </chapter>
 <chapter format="md" href="topics/installandconfig.md" navtitle="Installing Project Zoe"
 scope="local">
-<topicref format="md" href="topics/zoegettingstarted.md" navtitle="Obtaining the Zoe runtime"
-scope="local"/>
-<topicref format="md" href="topics/planinstall.md" navtitle="Prerequisites" scope="local">
-<topicref format="md" href="topics/prezosmf.md" navtitle="Prerequisites for z/OSMF configuration"
-scope="local"/>
-<topicref format="md" href="topics/premvd.md" navtitle="Prerequisites for zLUX" scope="local">
+<topicref format="md" href="topics/installroadmap.md" navtitle="Installation roadmap" scope="local"/>
+<topicref format="md" href="topics/planinstall.md" navtitle="System requirements" scope="local">
+<topicref format="md" href="topics/prezosmf.md" navtitle="z/OSMF configuration" scope="local"/>
+<topicref format="md" href="topics/premvd.md" navtitle="System requirements for zLUX" scope="local">
 <topicref format="md" href="topics/mvd-instconfirmnodejsinstalled.md"
 navtitle="Confirming that Node.js is installed" scope="local"/>
+<topicref format="md" href="topics/mvd-configterminalappports.md"
+navtitle="Configuring ports for the zLUX terminal application plug-ins" scope="local"/>
 </topicref>
-<topicref format="md" href="topics/atlas-prereqs.md" navtitle="Prerequisites for explorer server"
-scope="local"/>
-<topicref format="md" href="topics/precli.md" navtitle="Prerequisites for Brightside CLI"
+<topicref format="md" href="topics/atlas-prereqs.md"
+navtitle="System requirements for explorer server" scope="local"/>
+<topicref format="md" href="topics/precli.md" navtitle="System requirements for Brightside CLI"
 scope="local"/>
 </topicref>
+<topicref format="md" href="topics/zoegettingstarted.md" navtitle="Obtaining installation files"
+scope="local"/>
+<topicref format="md" href="topics/zoeinstall-zos.md" navtitle="Installing zLUX and explorer server"
+scope="local">
 <topicref format="md" href="topics/zoeinstall.md" navtitle="Installing Zoe runtime on z/OS"
 scope="local"/>
-<topicref format="md" href="topics/zoeinstalltroubleshoot.md"
-navtitle="Troubleshooting installing the Zoe runtime" scope="local"/>
 <topicref format="md" href="topics/zoestartstop.md" navtitle="Starting and stopping the Zoe runtime"
-scope="local"/>
-<topicref format="md" href="topics/mvd-settingupterminalapps.md"
-navtitle="Setting up terminal application plug-ins" scope="local"/>
-<topicref format="md" href="topics/cli-installcli.md" navtitle="Installing Brightside CLI"
 scope="local"/>
 <topicref format="md" href="topics/verify.md" navtitle="Verifying installation" scope="local">
 <topicref format="md" href="topics/mvd-instopendesktopbrowser.md"
-navtitle="Verifying zLUX installation" scope="local"/>
+navtitle="Verifying zLUX installation" scope="local">
+<topicref format="md" href="topics/mvd-settingupterminalapps.md"
+navtitle="Setting up terminal application plug-ins" scope="local"/>
+</topicref>
 <topicref format="md" href="topics/atlas-verifyinstall.md"
 navtitle="Verifying explorer server installation" scope="local"/>
-<topicref format="md" href="topics/cli-validateInstallation.md"
-navtitle="Validating Brightside CLI installation" scope="local">
-<topicref format="md" href="topics/cli-validateInstallationcorrectproblems.md"
-navtitle="Identifying and correcting problems detected by the validate profile command"
-scope="local"/>
 </topicref>
-</topicref>
-<topicref format="md" href="topics/troubleshoot.md" navtitle="Troubleshooting installation"
-scope="local">
+<topicref format="md" href="topics/zoeinstalltroubleshoot.md"
+navtitle="Troubleshooting installing the Zoe runtime" scope="local">
 <topicref format="md" href="topics/mvd-troubleshoot.md" navtitle="Troubleshooting installing zLUX"
 scope="local"/>
 <topicref format="md" href="topics/atlas-troubleshoot.md"
 navtitle="Troubleshooting installing explorer server" scope="local"/>
+</topicref>
+</topicref>
+<topicref format="md" href="topics/cli-installcli.md" navtitle="Installing Brightside CLI"
+scope="local">
+<topicref format="md" href="topics/cli-validateInstallation.md"
+navtitle="Validating Brightside CLI installation" scope="local"/>
+<topicref format="md" href="topics/cli-validateInstallationcorrectproblems.md"
+navtitle="Correcting problems detected by the validate profile command" scope="local"/>
 <topicref format="md" href="topics/cli-troubleshootinginstallingcli.md"
 navtitle="Troubleshooting installing Brightside CLI" scope="local"/>
 </topicref>
@@ -111,13 +109,27 @@ navtitle="Using the zLUX sample application plug-in" scope="local"/>
 <topicref format="md" href="topics/mvd-zluxplugindefandstruct.md"
 navtitle="zLUX plug-ins definition and structure" scope="local">
 <topicref format="md" href="topics/mvd-zluxpluginfilesystem.md"
-navtitle="zLUX application plug-in filesystem structure" scope="local"/>
+navtitle="Plug-in filesystem structure" scope="local"/>
 <topicref format="md" href="topics/mvd-pluginsdir.md"
 navtitle="Location of plug-in files" scope="local"/>
 <topicref format="md" href="topics/mvd-plugindeffile.md"
 navtitle="Plug-in definition file" scope="local"/>
-<topicref format="md" href="topics/mvd-pluginattributes.md"
-navtitle="Attributes" scope="local"/>
+<topicref format="md" href="topics/mvd-pluginattributes.md" navtitle="Plug-in attributes"
+scope="local"/>
+<topicref format="md" href="topics/mvd-zluxappfilesystem.md"
+navtitle="zLUX application filesystem structure" scope="local"/>
+</topicref>
+<topicref format="md" href="topics/mvd-configdataservice.md" navtitle="Configuration Dataservices"
+scope="local">
+<topicref format="md" href="topics/mvd-resourcescope.md" navtitle="Resource scope" scope="local"/>
+<topicref format="md" href="topics/mvd-restapi.md" navtitle="REST API" scope="local"/>
+<topicref format="md" href="topics/mvd-appapi.md" navtitle="Application API" scope="local"/>
+<topicref format="md" href="topics/mvd-internalandbootstrap.md"
+navtitle="Internal and bootstrapping" scope="local"/>
+<topicref format="md" href="topics/mvd-cfgdataplugindef.md" navtitle="Plug-in definition"
+scope="local"/>
+<topicref format="md" href="topics/mvd-aggregatepolicies.md" navtitle="Aggregation policies"
+scope="local"/>
 </topicref>
 <topicref format="md" href="topics/mvd-zluxlogging.md"
 navtitle="zLUX logging" scope="local"></topicref>

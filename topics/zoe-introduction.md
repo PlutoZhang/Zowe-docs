@@ -4,8 +4,10 @@ Project Zoe offers modern interfaces to interact with z/OS and allows you to wor
 
 Project Zoe consists of the following three main components. Each component provides a different interface.
 
-- zLUX, which contains a browser-based user interface (UI) that provides a full screen interactive experience
-- Explorer server, which enables you to access z/OS data, jobs, and subsystems through REST APIs
-- Brightside Command Line Interface (Brightside CLI), which provides a command line interface that allows interactive access to those same data, jobs, and subsystem, but extends the capability in additional ways.
+- zLUX, which contains a browser-based user interface (UI) that provides a full screen interactive experience. It includes all interactions that exist in 3270 terminals and web interfaces like z/OSMF.
+
+- Explorer server, which provides a range of APIs for the management of jobs, data sets, z/OS UNIX System Services files, and persistent data.
+
+- Brightside Command Line Interface (Brightside CLI), which provides a command line interface that lets you interact with the mainframe remotely and use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development.
 
 For details of each component, see the corresponding section.
