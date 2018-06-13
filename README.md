@@ -23,6 +23,7 @@
     -   [Starting and stopping the Zoe runtime](topics/zoestartstop.md)
     -   [Setting up the terminal application plug-ins](topics/mvd-settingupterminalapps.md)
     -   [Installing Zoe Brightside](topics/cli-installcli.md)
+    -   [Creating a Zoe Brightside profile](topics/cli-createaprofile.md)
     -   [Verifying installation](topics/verify.md)
         - [Verifying zLUX installation](topics/mvd-instopendesktopbrowser.md)
         - [Verifying explorer server installation](topics/atlas-verifyinstall.md)
