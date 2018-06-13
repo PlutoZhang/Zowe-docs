@@ -1,35 +1,35 @@
-# Zoe Brightside Prerequisites
+# System requirements for Zoe Brightside
 Review and meet the following prerequisites before you install and
 use Zoe Brightside:
 
-  - [Supported Platforms](#supported-platforms)
-  - [Free Disk Space](#free-disk-space)
-  - [Prerequisite Software](#prerequisite-software)
+  - [Supported platforms](#supported-platforms)
+  - [Free disk space](#free-disk-space)
+  - [Prerequisite software](#prerequisite-software)
 
-## Supported Platforms
+## Supported platforms
 
 You can use Zoe Brightside with the following platforms:
 
-  - **Local Workstations:**    
+  - **Local workstations:**    
   You can install Zoe Brightside on any Windows or Linux operating system. For more information about known
     issues and workarounds, see [Known Issues](cli-releasenotes.md#known-issues).
-  - **Mainframe Systems:**   
+  - **Mainframe systems:**   
     Zoe Brightside was designed and tested to integrate with IBM z/OS Management Facility (z/OSMF) running on IBM z/OS version 2.2 or higher.
        
     **Important\!** Before you can use Zoe Brightside to interact with the mainframe, systems programmers must install and configure IBM z/OSMF in your environment. The IBM z/OS Management Facility guide on the IBM Knowledge Center is the primary source of information about how systems programmers can install and configure z/OSMF. We provide supplemental information about Zoe Brightside-specific tips or requirements to which systems programmers can refer. For more
     information, see [z/OSMF Configuration Overview](overviewzosmfconfig.md).
     
-## Free Disk Space
+## Free disk space
 
 Zoe Brightside requires approximately **100 MB** of free disk space. The actual quantity of free disk space consumed might vary
 depending on the operating system on which you install Zoe Brightside.
 
-## Prerequisite Software
+## Prerequisite software
 The following software is required before you can install and use the product on your PC: 
 
-**Note:** CA Technologies does not maintain the prerequisite software that Zoe Brightside requires. You are responsible for updating Node.js and other prerequisites on your PC. We recommend that you update Node.js regularly to the latest Long Term Support (LTS) version.
+**Note:** We do not maintain the prerequisite software that Zoe Brightside requires. You are responsible for updating Node.js and other prerequisites on your PC. We recommend that you update Node.js regularly to the latest Long Term Support (LTS) version.
 
-### Windows Operating Systems
+### Windows operating systems
 Windows operating systems require the following software:
 - **Node.js v8.0 or higher:**   
   Click here to [Download Node.js](https://nodejs.org/en/download/)   
@@ -41,7 +41,7 @@ Windows operating systems require the following software:
   From an administrator command prompt, issue the following command:  
   ``npm install --global --production --add-python-to-path windows-build-tools``
 
-### Mac Operating Systems
+### Mac operating systems
  Mac operating systems require the following software:
 - **Node.js v8.0 or higher:**   
   Click here to [Download Node.js](https://nodejs.org/en/download/)   
@@ -53,7 +53,7 @@ Windows operating systems require the following software:
 - **C ++ Compiler**  
   The gcc compiler is included with MacOS. To confirm that you have the compiler, enter the command `gcc –help`. If you do not have the compiler installed, you can acquire gcc through a Google search.
 
-### Linux Operating Systems
+### Linux operating systems
 Linux  operating systems require the following software:
 - **Node.js v8.0 or higher:**   
   Click here to [Download Node.js](https://nodejs.org/en/download/)   
@@ -79,10 +79,18 @@ Linux  operating systems require the following software:
     `sudo apt-get install libsecret-1-dev`
   - **Arch Linux**  
     `sudo pacman -S libsecret`
+- **Make**  
+  Make is included with most Linux distributions. To confirm that Make is installed, enter the command `make –-version`. If Make is not installed, you can enter one of the following commands:
+  - **Red Hat**  
+    `sudo yum install devtoolset-7`
+  - **Debian/Ubuntu**  
+    `sudo apt-get install build-essential` 
+  - **Arch Linux**  
+    `sudo pacman -S base-devel`
 
-**More Information:**
+**More information:**
 
-  - [Release Notes](cli-releasenotes.md)
+  - [Product Overview](cli-releasenotes.md)
   - [Install Zoe Brightside](cli-installcli.md)
   - [Create a Profile](cli-createaprofile.md)
   - [Test Connection to z/OSMF](cli-validateInstallation.md)
