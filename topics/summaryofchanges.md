@@ -25,15 +25,15 @@ This release of Zoe Brightside (Version 0.8.2) contains the following new featur
   - Zoe Brightside plug-in for CA File Master™ Plus
   - Zoe Brightside plug-in for IBM® Db2® Database   
 
-  **Note:** For more information, see [Extending Zoe Brightside](cli-extending.md).
+ For more information, see [Extending Zoe Brightside](cli-extending.md)..
 
   The new framework also improves the stability and quality of Zoe Brightside.
 
 - You can now install Zoe Brightside using simplified and flexible installation process. You can now install Zoe Brightside using either of the following methods:
-  - Install Zoe Brightside using the installation package that is contained on the Project Zoe Downloads repository.
-  - Install Zoe Brightside using the Node.js Package Manager (npm).
+    - Install Zoe Brightside using the installation package that is contained on the Project Zoe Downloads repository.
+    - Install Zoe Brightside using the Node.js Package Manager (npm).
 
-  **Note:** For more information, see [Installing Zoe Brightside](cli-installcli.md).
+For more information, see [Installing Zoe Brightside](cli-installcli.md).
 
 ### What's changed
 **Installation procedure**
@@ -42,9 +42,9 @@ This release of Zoe Brightside (Version 0.8.2) contains the following new featur
 
 **Zoe Brightside**
 
-This release of Zoe Brightside (Version 0.8.3) contains the following changes:
-- *CA Brightside* was renamed to *Zoe Brightside*.
-- Zoe Brightside no longer contains Experimental Command Groups.
+This release of Zoe Brightside (Version 0.8.2) contains the following changes:
+  - *CA Brightside* was renamed to *Zoe Brightside*.
+  - Zoe Brightside no longer contains Experimental Command Groups.
 
 ## Version 0.8.1 (May 2018)
 

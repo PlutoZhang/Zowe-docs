@@ -46,12 +46,12 @@ command:
 bright plugins validate db2
 ```
 
-Successful validation of the Db2 plug-in returns the
+Successful validation of the IBM Db2 plug-in returns the
 response: `Successfully validated`
 
 ## Profile setup
 
-Before you start using the Db2 plug-in, create a profile.
+Before you start using the IBM Db2 plug-in, create a profile.
 
 ### Creating a profile
 
