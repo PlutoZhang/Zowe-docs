@@ -16,6 +16,8 @@ the use of third-party plug-ins.
 
 ## Setting the registry
 
+If you installed Brightside via brightside-bundle.zip distributed with the Zoe PAX, proceed to the Install step(#install-plug-ins-1).
+
 Before you install or update plug-ins, direct NPM to target the registry by issuing the following command: 
 
 ```
@@ -67,6 +69,14 @@ bright plugins install [plugin...] [--registry <registry>]
 
 **Examples: Install plug-ins**
 
+  - The following example illustrates the syntax to use to install a 
+    plug-in that is distributed with Zoe's brightside-bundle.zip.
+    If using brightside-bundle.zip, issue this command for every plugin tgz present.
+    
+    ```
+    bright plugins install ./brightside-db2-1.0.0.tgz
+    ```
+
   - The following example illustrates the syntax to use to install a
     plug-in that is named "my-plugin" from a specified registry:
 
@@ -80,6 +90,7 @@ bright plugins install [plugin...] [--registry <registry>]
     ```
      bright plugins install @brightside/my-plugin@"^1.2.3"
     ```
+    
 
 ## Validating plug-ins
 
