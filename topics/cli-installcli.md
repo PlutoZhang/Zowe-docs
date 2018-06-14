@@ -71,14 +71,9 @@ If your PC is connected to the Internet, you can use the following method to ins
     npm install -g @brightside/core@latest
     ```
 
-    Zoe Brightside is installed on your PC.
+    Zoe Brightside is installed on your PC. For information about plug-ins for Zoe Brightside, see [Extending](cli-extending.md).
 
-3.  Create a `zosmf` profile so that you can issue commands that communicate with z/OSMF.
-
-    **Note:** For information about how to create a profile, see [Create
-    a
-    Profile](cli-createaprofile.md).
-
+1.  Create a `zosmf` profile so that you can issue commands that communicate with z/OSMF. For information about how to create a profile, see [Create a Profile](cli-createaprofile.md).
 
     **Tip:** Zoe Brightside profiles contain information that is required
     for the product to interact with remote systems. For example, host
@@ -87,14 +82,13 @@ If your PC is connected to the Internet, you can use the following method to ins
     groups](cli-commandgroups.md) require a Zoe Brightside
     `zosmf` profile.
 
-
 After you install and configure CA Brightside, you can issue the `bright
 --help` command to view a list of available commands. For more information, see [How to display Zoe Brightside help](cli-howtodisplaybrightsidehelp.md).
-
-  - [Uninstalling Zoe Brightside](cli-uninstallcli.md)
-
 
 
 **Note:** You might encounter problems when you attempt to install
 Zoe Brightside depending on your operating system and
 environment. For more information and workarounds, see [Troubleshooting Installing Zoe Brightside](cli-troubleshootinginstallingcli.md).
+
+**More information:**
+  - [Uninstalling Zoe Brightside](cli-uninstallcli.md)
