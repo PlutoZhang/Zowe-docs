@@ -4,17 +4,17 @@ If explorer server REST APIs do not work, check the following items:
 
 -   Check whether your Liberty explorer server is running.
 
-    You can check this in the Display Active \(DA\) panel of SDSF under ISPF. The FEKATLS task should be running. If the FEKATLS task is not running, start the explorer server by using the following `START` operator command:
+    You can check this in the Display Active \(DA\) panel of SDSF under ISPF. The ZOESVR started task should be running. If the ZOESVR task is not running, start the explorer server by using the following `START` operator command:
 
     ```
-    S FEKATLS
+    /S ZOESVR
     ```
 
-    You can also use the operator command `D A, ATLAS` to verify whether the task is active, which alleviates the need for SDSF. If the started task is not running, ensure that your FEKATLS procedure resides in a valid PROCLIB data set, and check the task’s job output for errors.
+    You can also use the operator command `/D A,ZOESVR` to verify whether the task is active, which alleviates the need for the \(DA\) panel of SDSF. If the started task is not running, ensure that your ZOESVR procedure resides in a valid PROCLIB data set, and check the task’s job output for errors.
 
 -   Check whether the explorer server is started without errors.
 
-    In the Display Active \(DA\) panel of SDSF under ISPF, select the FEKATLS job to view the started task output. If the explorer server is started without errors, you can see the following messages:
+    In the Display Active \(DA\) panel of SDSF under ISPF, select the ZOESVR job to view the started task output. If the explorer server is started without errors, you can see the following messages:
 
     ```
     CWWKE0001I: The server Atlas has been launched.
@@ -24,7 +24,7 @@ If explorer server REST APIs do not work, check the following items:
     CWWKF0011I: The server Atlas is ready to run a smarter planet.
     ```
 
-    If you see error messages that are prefixed with "ERROR" or stack traces in the FEKATLS job output, respond to them.
+    If you see error messages that are prefixed with "ERROR" or stack traces in the ZOESVR job output, respond to them.
 
 -   Check whether the URL that you use to call explorer server REST APIs is correct. For example: https://your.server:atlasport/Atlas/api/system/version. The URL is case-sensitive.
 -   Ensure that you enter a valid z/OS® user ID and password when initially connecting to the explorer server.
