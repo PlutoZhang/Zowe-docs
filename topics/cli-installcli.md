@@ -8,7 +8,7 @@ Before you install Zoe Brightside, ensure that you meet the [Prerequisites](cli-
 Zoe Brightside depending on your operating system and
 environment. For more information and workarounds, see [Troubleshooting Installing Zoe Brightside](cli-troubleshootinginstallingcli.md).
 
-  - [Install Zoe Brightside from local package](#install-zoe-brightside-from-local-package)
+  - [Install Zoe Brightside from local package](#installzoe-brightside-from-local-package)
   - [Install Zoe Brightside from Bintray registry](#install-zoe-brightside-from-bintray-registry)
 
 ## Install Zoe Brightside from local package
