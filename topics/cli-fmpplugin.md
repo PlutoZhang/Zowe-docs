@@ -58,7 +58,7 @@ the following steps:
   - [Create a profile](#create-a-profile)
   - [Validate a profile](#validate-a-profile)
 
-### Create a profile
+### Creating a profile
 
 The `profiles create fmp` command lets you create a CA Brightside profile for CA File Master Plus.
 
@@ -70,7 +70,7 @@ command:
 bright profiles create fmp -h
 ```
 
-### Validate a profile
+### Validating a profile
 
 The `profiles validate fmp` command lets you validate a CA
 Brightside profile.
@@ -93,7 +93,7 @@ Master Plus for MVS:
   - [Populate a data set with data](#populate-a-data-set-with-data)
   - [Rename a data set](#rename-a-data-set)
 
-### Copy a data set
+### Copying a data set
 
 The `fmp copy ds` command lets you copy a data set with or without
 applying layout or selection
@@ -106,7 +106,7 @@ options, open Zoe Brightside, and issue the following command:
 bright fmp copy ds -h
 ```
 
-### Delete a data set
+### Deleting a data set
 
 The `fmp delete ds` command lets you delete a data set.
 
@@ -117,7 +117,7 @@ and options, open Zoe Brightside, and issue the following command:
 bright fmp delete ds -h
 ```
 
-### Populate a data set
+### Populating a data set
 
 The `fmp populate ds` command lets you populate a data set with
 records.
@@ -129,7 +129,7 @@ and options, open Zoe Brightside, and issue the following command:
 bright fmp populate ds -h
 ```
 
-### Rename a data set
+### Renaming a data set
 
 The `fmp rename ds` command lets you rename a data
 set.
@@ -140,4 +140,3 @@ and options, open Zoe Brightside, and issue the following command:
 ```
 bright fmp rename ds -h
 ```
-

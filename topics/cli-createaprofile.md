@@ -1,4 +1,4 @@
-# Create a Zoe Brightside profile
+# Creating a Zoe Brightside profile
 Profiles are a Zoe Brightside function that lets you store configuration information for use on multiple commands. You can create a profile that contains your username, password, and connection details for a particular mainframe system, then reuse that profile to avoid typing it again on every command. You can switch between profiles to quickly target different mainframe
 subsystems.
 
@@ -13,5 +13,5 @@ unless you specify a specific profile name on that command.
     ```
     bright profiles create zosmf-profile --help
     ```
-    
+
 **Note:** After you create a profile, verify that it can communicate with z/OSMF. For more information, see [Test Connection to z/OSMF](cli-validateInstallation.md).

@@ -17,7 +17,7 @@ Zoe Brightside Plug-in for IBM Db2 Database lets you execute SQL statements agai
 ## Use cases
 
 Example use cases for Zoe Brightside Db2 plug-in include:
-  - Execute SQL and interact with databases 
+  - Execute SQL and interact with databases
   - Execute a file with SQL statements
   - Export tables to a local file on your PC in SQL format
   - Call a stored procedure and pass parameters
@@ -42,7 +42,7 @@ bright plugins install @brightside/db2 
 To validate the installed plug-in, issue the following
 command:
 
-``` 
+```
 bright plugins validate db2
 ```
 
@@ -53,7 +53,7 @@ response: `Successfully validated`
 
 Before you start using the Db2 plug-in, create a profile.
 
-### Create a profile
+### Creating a profile
 
 Issue the command `-DISPLAY DDF` in the SPUFI or ask your DBA for the following information:
 
@@ -74,7 +74,7 @@ bright profiles create db2 <profile name> -H <host> -P <port> -d <database> -u <
 The profile is created successfully with the following
 output:
 
-``` 
+```
 Profile created successfully! Path:
 /home/user/.brightside/profiles/db2/<profile name>.yaml
 type: db2
@@ -97,10 +97,10 @@ plug-in:
   - [Execute an SQL statement](#execute-an-sql-statement)
 
   - [Export a table in SQL format](#export-a-table-in-sql-format)
-    
+
 **Tip:** At any point, you can issue the help command `-h` to see a list of available commands.
 
-### Call a stored procedure
+### Calling a stored procedure
 
 Issue the following command to call a stored procedure that returns a result set:
 
@@ -110,7 +110,7 @@ $ bright db2 call sp "DEMOUSER.EMPBYNO('000120')"
 
 Issue the following command to call a stored procedure and pass parameters:
 
-``` 
+```
 $ bright db2 call sp "DEMOUSER.SUM(40, 2, ?)" --parameters 0
 ```
 
@@ -120,32 +120,32 @@ Issue the following command to call a stored procedure and pass a placeholder bu
 $ bright db2 call sp "DEMOUSER.TIME1(?)" --parameters "....placeholder..
 ```
 
-### Execute an SQL statement 
+### Executing an SQL statement 
 
 Issue the following command to count rows in the EMP table:
 
-``` 
+```
 $ bright db2 execute sql -q "SELECT COUNT(*) AS TOTAL FROM DSN81210.EMP;"
 ```
 
 Issue the following command to get a department name by ID:
 
-``` 
+```
 $ bright db2 execute sql -q "SELECT DEPTNAME FROM DSN81210.DEPT WHERE DEPTNO='D01'
 ```
 
-### Export a table in SQL format
+### Exporting a table in SQL format
 
 Issue the following command to export the `PROJ` table and save the generated SQL
 statements:
 
-``` 
+```
 $ bright db2 export table DSN81210.PROJ
 ```
 
 Issue the following command to export the `PROJ` table and save the output to a file:
 
-``` 
+```
 $ bright db2 export table DSN81210.PROJ --outfile projects-backup.sql 
 ```
 

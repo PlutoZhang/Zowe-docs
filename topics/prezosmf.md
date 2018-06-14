@@ -33,7 +33,7 @@ Ensure that your z/OS system meets the following requirements for z/OSMF to func
 - **Console Command** -
     The CONSOLE and CONSPROF commands must exist in the authorized command table.
 - **IBM z/OS Provisioning Toolkit** -
-    The IBM® z/OS® Provisioning Toolkit is a command line utility that lets you provision z/OS development environments. The product is required if you want to provision CICS or Db2 environments with Brightside CLI.
+    The IBM® z/OS® Provisioning Toolkit is a command line utility that lets you provision z/OS development environments. The product is required if you want to provision CICS or Db2 environments with Zoe Brightside.
 - **Java version** -
     IBM® 64-bit SDK for z/OS®, Java Technology Edition V7.1 or higher is required.
     - For more information, see Software prerequisites for z/OSMF on the IBM Knowledge Center.
@@ -64,17 +64,17 @@ For more information about configuring each z/OSMF plug-in and the related secur
 Ensure that the following REST services are configured and available when you run Project Zoe:
 
 - **Cloud provisioning services** -
-    Cloud provisioning for development environments. Cloud provisioning services are required for the Brightside CLI cics and db2 command groups to function properly. Endpoints begin with `/zosmf/provisioning/`
+    Cloud provisioning for development environments. Cloud provisioning services are required for the Zoe Brightside cics and db2 command groups to function properly. Endpoints begin with `/zosmf/provisioning/`
 - **TSO/E address space services** -
-    Required to issue TSO commands in Brightside CLI. Endpoints begin with `/zosmf/tsoApp`
+    Required to issue TSO commands in Zoe Brightside. Endpoints begin with `/zosmf/tsoApp`
 - **z/OS console** -
-    Required to issue console commands in Brightside CLI. Endpoints begin with `/zosmf/restconsoles/`
+    Required to issue console commands in Zoe Brightside. Endpoints begin with `/zosmf/restconsoles/`
 - **z/OS data set and file interface** -
-    Required to work with mainframe data sets and USS files in Brightside CLI. Endpoints begin with `/zosmf/restfiles/`
+    Required to work with mainframe data sets and USS files in Zoe Brightside. Endpoints begin with `/zosmf/restfiles/`
 - **z/OS jobs interface** -
-    Required to use the zos-jobs command group in Brightside CLI. Endpoints begin with `/zosmf/restjobs/`
+    Required to use the zos-jobs command group in Zoe Brightside. Endpoints begin with `/zosmf/restjobs/`
 - **z/OSMF workflow services** -
-    Cloud provisioning for development environments. Cloud provisioning services are required for the Brightside CLI cics and db2 command groups to function properly. Endpoints begin with `/zosmf/workflow/`
+    Cloud provisioning for development environments. Cloud provisioning services are required for the Zoe Brightside cics and db2 command groups to function properly. Endpoints begin with `/zosmf/workflow/`
 
 Additionally, Project Zoe uses z/OSMF configuration by using symbolic links to the
 z/OSMF `bootstrap.properties`, `jvm.security.override.properties`, and the
@@ -254,13 +254,13 @@ To verify that IBM z/OSMF REST services are configured correctly in your environ
 
 - Your browser should return you a status code 200 with a list of all jobs on your z/OS system. The list is in raw JSON format.
 
-### Optional method for verifying z/OSMF configuration with Brightside CLI    
+### Optional method for verifying z/OSMF configuration with Zoe Brightside    
 
-To verify that IBM z/OSMF is configured correctly, follow these steps to create and validate a profile in Brightside CLI:
+To verify that IBM z/OSMF is configured correctly, follow these steps to create and validate a profile in Zoe Brightside:
 
-1. [Meet the prerequisites for Brightside CLI](precli.md).
-2. [Install Brightside CLI](cli-installcli.md).
-3. Create a zosmf profile in Brightside CLI. Issue the `bright help explain profiles` command to learn more about creating profiles in Brightside CLI. See [How to display Brightside CLI help](cli-howtodisplaybrightsidehelp.md) for more information.
+1. [Meet the prerequisites for Zoe Brightside](cli-precli.md).
+2. [Install Zoe Brightside](cli-installcli.md).
+3. Create a zosmf profile in Zoe Brightside. Issue the `bright help explain profiles` command to learn more about creating profiles in Zoe Brightside. See [How to display Zoe Brightside help](cli-howtodisplaybrightsidehelp.md) for more information.
 4. [Validate your profile](cli-validateInstallation.md).
 5. [Use the profile validation report to identify and correct errors](cli-validateInstallationcorrectproblems.md) with your z/OSMF configuration.
     If you recieve a perfect score on the validation report, Project Zoe can communicate with z/OSMF properly.

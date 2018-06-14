@@ -8,6 +8,6 @@ Project Zoe consists of the following three main components. Each component prov
 
 - Explorer server, which provides a range of APIs for the management of jobs, data sets, z/OS UNIX System Services files, and persistent data.
 
-- Brightside Command Line Interface (Brightside CLI), which provides a command line interface that lets you interact with the mainframe remotely and use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development.
+- Zoe Brightside, which provides a command line interface that lets you interact with the mainframe remotely and use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development.
 
 For details of each component, see the corresponding section.

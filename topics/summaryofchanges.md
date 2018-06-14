@@ -2,9 +2,6 @@
 
 Learn about what is new, changed, and removed in Project Zoe.
 
-- [Version 0.8.2 (June 2018)](summaryofchanges.md#version-082-june-2018)
-- [Version 0.8.1 (May 2018)](summaryofchanges.md#version-081-may-2018)
-
 ## Version 0.8.2 (June 2018)
 
 ### What's new
@@ -14,12 +11,13 @@ Learn about what is new, changed, and removed in Project Zoe.
 
    - [zLUX plug-in definition and structure](mvd-zluxplugindefandstruct.md)
    - [Configuration Dataservices](mvd-configdataservice.md)
-  
+
 **zLUX terminal application plug-in initial configuration steps**
 
   Steps to initially configure the zLUX terminal application plug-ins were added. [Learn more](mvd-configterminalappports.md).
-   
-**Zoe Brightside**  
+
+**Zoe Brightside**
+
 This release of Zoe Brightside (Version 0.8.2) contains the following new features and functionality:
 
 - Zoe Brightside is now built on a framework that lets you extend the capabilities of the product. For example, you can now extend the capabilities of Zoe Brightside by installing plug-ins. With Zoe Brightside, you can install the following plug-ins:
@@ -32,8 +30,8 @@ This release of Zoe Brightside (Version 0.8.2) contains the following new featur
   The new framework also improves the stability and quality of Zoe Brightside.
 
 - You can now install Zoe Brightside using simplified and flexible installation process. You can now install Zoe Brightside using either of the following methods:
-  - Install Zoe Brightside using the installation package that is contained on the Project Zoe Downloads repository. 
-  - Install Zoe Brightside using the Node.js Package Manager (npm). 
+  - Install Zoe Brightside using the installation package that is contained on the Project Zoe Downloads repository.
+  - Install Zoe Brightside using the Node.js Package Manager (npm).
 
   **Note:** For more information, see [Installing Zoe Brightside](cli-installcli.md).
 
@@ -63,4 +61,3 @@ This release of Zoe Brightside (Version 0.8.3) contains the following changes:
 **Installation procedure**
 
   Project Zoe now provides an enhanced and simplified installation process to improve your installation experience. [Learn more](zoeinstall.md).
-

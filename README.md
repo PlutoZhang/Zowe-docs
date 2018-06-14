@@ -31,7 +31,6 @@
     -  [Installing Zoe Brightside](topics/cli-installcli.md)
         -  [Creating a Zoe Brightside profile](topics/cli-createaprofile.md)
         -  [Verifying Zoe Brightside connection to z/OSMF](topics/cli-validateInstallation.md)
-        -  [Troubleshooting installing Brightside CLI](topics/cli-troubleshootinginstallingcli.md)
         -  [Troubleshooting installing Zoe Brightside](topics/cli-troubleshootinginstallingcli.md)          
     -   [Uninstalling Project Zoe](topics/uninstall.md)
         -   [Uninstalling zLUX](topics/mvd-uninstallingzlux.md)

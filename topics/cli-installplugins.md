@@ -1,4 +1,4 @@
-# Install plug-ins 
+# Installing plug-ins
 
 Use commands in the plugins command group to install and manage plug-ins for Zoe Brightside.
 
@@ -14,7 +14,7 @@ the use of third-party plug-ins.
   - [Update plug-ins](#update-plug-ins)
   - [Uninstall plug-ins](#uninstall-plug-ins)
 
-## Set the registry
+## Setting the registry
 
 Before you install or update plug-ins, direct NPM to target the registry by issuing the following command: 
 
@@ -34,13 +34,13 @@ The following plug-ins are available to install from the Zoe Brightside registr
     Use `@brightside/db2` in your command syntax to install, update, and
     validate the IBM Db2 Database plug-in. 
 
-## Meet the prerequisites
+## Meeting the prerequisites
 
 Ensure that you meet the prerequisites for a plug-in before you install
 the plug-in to Zoe Brightside. For documentation related to each plug-in,
 see [Extending](cli-extending.md).
 
-## Install plug-ins
+## Installing plug-ins
 
 Issue an `install `command to install plug-ins to Zoe Brightside. The
 `install` command contains the following syntax:
@@ -57,10 +57,10 @@ bright plugins install [plugin...] [--registry <registry>]
     information, see [npm save prefix](https://docs.npmjs.com/misc/config#save-prefix). For more
     information about npm semantic versioning, see [npm semver](https://docs.npmjs.com/misc/semver). Optionally, you can
     specify a specific version of a plug-in to install. For example, `bright plugin install pluginName@^1.0.0`.
-  
+
     **Tip:** You can install multiple plug-ins with one command. For
     example, issue `bright plugin install plugin1 plugin2 plugin3`
-    
+
   - **`[--registry <registry>]`**  
     (Optional) Specifies a registry URL from which to install a plug-in
     when you do not use `npm config set` to set the registry initially. 
@@ -69,7 +69,7 @@ bright plugins install [plugin...] [--registry <registry>]
 
   - The following example illustrates the syntax to use to install a
     plug-in that is named "my-plugin" from a specified registry:
-    
+
     ```
     bright plugins install @brightside/my-plugin
     ```
@@ -81,7 +81,7 @@ bright plugins install [plugin...] [--registry <registry>]
      bright plugins install @brightside/my-plugin@"^1.2.3"
     ```
 
-## Validate plug-ins
+## Validating plug-ins
 
 Issue the plug-in validation command to run tests against all plug-ins (or against a plug-in that you specify) to verify that the plug-ins integrate properly with Zoe Brightside. The tests confirm that the plug-in does not conflict with existing command groups in the base application. The command response provides you with details or error messages about how the plug-ins integrate with Zoe Brightside. 
 
@@ -103,19 +103,19 @@ bright plugins validate [plugin]
 
   - The following example illustrates the syntax to use to validate a
     specified installed plug-in:
-    
-    ``` 
+
+    ```
     bright plugins validate @brightside/my-plugin
     ```
 
   - The following example illustrates the syntax to use to validate all
     installed plug-ins:
-    
+
     ```
     bright plugins validate
     ```
 
-## Update plug-ins
+## Updating plug-ins
 
 Issue the `update` command to install the latest version or a specific
 version of a plug-in that you installed previously. The `update` command
@@ -126,15 +126,15 @@ bright plugins update [plugin...] [--registry <registry>]
 ```
 
   - **`[plugin...]`** 
-    
+
     Specifies the name of an installed plug-in that you want to update.
     The name of the plug-in is not always the same as the name of the
     NPM package. You can use npm semantic versioning to specify a
     plug-in version to which to update. For more information,
     see [npm semver](https://docs.npmjs.com/misc/semver).
-  
+
   - **`[--registry <registry>]`**
-    
+
     (Optional) Specifies a registry URL that is different from the
     registry URL of the original installation. 
 
@@ -142,19 +142,19 @@ bright plugins update [plugin...] [--registry <registry>]
 
   - The following example illustrates the syntax to use to update an
     installed plug-in to the latest version:
-    
+
     ```
     bright plugins update @brightside/my-plugin@latest
     ```
 
   - The following example illustrates the syntax to use to update a
     plug-in to a specific version:
-    
+
     ```
     bright plugins update @brightside/my-plugin@"^1.2.3"
     ```
 
-## Uninstall plug-ins
+## Uninstalling plug-ins
 
 Issue the `uninstall` command to uninstall plug-ins from a base
 application. After the uninstall process completes successfully,

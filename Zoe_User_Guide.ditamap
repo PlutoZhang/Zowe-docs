@@ -31,7 +31,7 @@ navtitle="Summary of changes" scope="local"></topicref>
 <chapter format="md" href="topics/zoe-introduction.md" navtitle="Project Zoe overview" scope="local">
 <topicref format="md" href="topics/mvd-overview.md" navtitle="zLux" scope="local"/>
 <topicref format="md" href="topics/atlas-overview.md" navtitle="Explorer server" scope="local"/>
-<topicref format="md" href="topics/cli-releasenotes.md" navtitle="Brightside CLI" scope="local"/>
+<topicref format="md" href="topics/cli-releasenotes.md" navtitle="Zoe Brightside" scope="local"/>
 </chapter>
 <chapter format="md" href="topics/installandconfig.md" navtitle="Installing Project Zoe"
 scope="local">
@@ -46,7 +46,7 @@ navtitle="Configuring ports for the zLUX terminal application plug-ins" scope="l
 </topicref>
 <topicref format="md" href="topics/atlas-prereqs.md"
 navtitle="System requirements for explorer server" scope="local"/>
-<topicref format="md" href="topics/precli.md" navtitle="System requirements for Brightside CLI"
+<topicref format="md" href="topics/cli-precli.md" navtitle="System requirements for Zoe Brightside"
 scope="local"/>
 </topicref>
 <topicref format="md" href="topics/zoegettingstarted.md" navtitle="Obtaining installation files"
@@ -74,21 +74,21 @@ scope="local"/>
 navtitle="Troubleshooting installing explorer server" scope="local"/>
 </topicref>
 </topicref>
-<topicref format="md" href="topics/cli-installcli.md" navtitle="Installing Brightside CLI"
+<topicref format="md" href="topics/cli-installcli.md" navtitle="Installing Zoe Brightside"
 scope="local">
+<topicref format="md" href="topics/cli-createaprofile.md"
+navtitle="Creating a Zoe Brightside profile" scope="local"/>
 <topicref format="md" href="topics/cli-validateInstallation.md"
-navtitle="Validating Brightside CLI installation" scope="local"/>
-<topicref format="md" href="topics/cli-validateInstallationcorrectproblems.md"
-navtitle="Correcting problems detected by the validate profile command" scope="local"/>
+navtitle="Verifying Zoe Brightside connection to z/OSMF" scope="local"/>
 <topicref format="md" href="topics/cli-troubleshootinginstallingcli.md"
-navtitle="Troubleshooting installing Brightside CLI" scope="local"/>
+navtitle="Troubleshooting installing Zoe Brightside" scope="local"/>
 </topicref>
 <topicref format="md" href="topics/uninstall.md" navtitle="Uninstalling Project Zoe" scope="local">
 <topicref format="md" href="topics/mvd-uninstallingzlux.md" navtitle="Uninstalling zLUX"
 scope="local"/>
 <topicref format="md" href="topics/atlas-uninstall.md" navtitle="Uninstalling explorer server"
 scope="local"/>
-<topicref format="md" href="topics/cli-uninstallcli.md" navtitle="Uninstalling Brightside CLI"
+<topicref format="md" href="topics/cli-uninstallcli.md" navtitle="Uninstalling Zoe Brightside"
 scope="local"/>
 </topicref>
 </chapter>
@@ -161,15 +161,24 @@ navtitle="Using explorer server WebSocket services" scope="local">
 navtitle="Programming explorer server WebSocket services" scope="local"/>
 </topicref>
 </topicref>
-<topicref format="md" href="topics/cli-usingcli.md" navtitle="Using Brightside CLI" scope="local">
+<topicref format="md" href="topics/cli-usingcli.md" navtitle="Using Zoe Brightside" scope="local">
 <topicref format="md" href="topics/cli-howtodisplaybrightsidehelp.md"
-navtitle="How to display Brightside CLI help" scope="local"/>
-<topicref format="md" href="topics/cli-commandgroups.md" navtitle="Brightside CLI Command groups"
+navtitle="How to display Zoe Brightside help" scope="local"/>
+<topicref format="md" href="topics/cli-commandgroups.md" navtitle="Zoe Brightside  command groups"
 scope="local"/>
-<topicref format="md" href="topics/cli-enabledisablexperimentalcommands.md"
-navtitle="Enabling and disabling experimental commands" scope="local"/>
-<topicref format="md" href="topics/cli-scenarios.md" navtitle="Brightside CLI scenarios"
+</topicref>
+</chapter>
+<chapter format="md" href="topics/zoe_extending.md" navtitle="Extending Project Zoe" scope="local">
+<topicref format="md" href="topics/cli-extending.md" navtitle="Extending Zoe Brightside"
+scope="local">
+<topicref format="md" href="topics/cli-installplugins.md" navtitle="Installing plug-ins"
 scope="local"/>
+<topicref format="md" href="topics/cli-endevorplugin.md"
+navtitle="Zoe Brightside plug-in for CA Endevor SCM" scope="local"/>
+<topicref format="md" href="topics/cli-fmpplugin.md"
+navtitle="Zoe Brightside plug-in for CA File Master Plus" scope="local"/>
+<topicref format="md" href="topics/cli-db2plugin.md"
+navtitle="Zoe Brightside plug-in for IBM Db2 Database" scope="local"/>
 </topicref>
 </chapter>
 <ibmbackmatter>
