@@ -2,35 +2,35 @@
 
 As a systems programmer or application developer, you install Zoe Brightside on your PC.
 
-Before you install Zoe Brightside, ensure that you meet the [Prerequisites](cli-precli.md).
-
-**Note:** You might encounter problems when you attempt to install
-Zoe Brightside depending on your operating system and
-environment. For more information and workarounds, see [Troubleshooting Installing Zoe Brightside](cli-troubleshootinginstallingcli.md).
-
   - [Install Zoe Brightside from local package](#installzoe-brightside-from-local-package)
   - [Install Zoe Brightside from Bintray registry](#install-zoe-brightside-from-bintray-registry)
 
 ## Install Zoe Brightside from local package
 
-Install CA Brightside on PCs that are running a Windows, Linux, or macOS operating system.
+Install Zoe Brightside on PCs that are running a Windows, Linux, or macOS operating system.
 
 **Follow these steps:**
 
 1. [Address the prerequisites](cli-precli.md).
 
-2. [Obtain the Project Zoe installation files](zoegettingstarted.md), which includes the brightside-bundle.zip file. Use FTP to distribute the brightside-bundle.zip file to client workstations. Client workstations will require access to one public internet endpoint to complete the Zoe Brightside installation - https://registry.npmjs.org . 
-    Users can now install Zoe Brightside on their PC.
+2. [Obtain the Project Zoe installation files](zoegettingstarted.md), which includes the brightside-bundle.zip file. Use FTP to distribute the brightside-bundle.zip file to client workstations. 
 
-3.  Open a command line window. For example, Windows Command Prompt. Browse to the directory where you downloaded the Zoe Brightside installation bundle (.zip file). Issue the following commands to install Brightside CLI on your PC:
+3.  Open a command line window. For example, Windows Command Prompt. Browse to the directory where you downloaded the Zoe Brightside installation bundle (.zip file). Issue the following command to unzip the files:
 
     ```
     unzip brightside-bundle.zip
     ```
-    This command will expand 4 TGZ packages into your working directory - Brightside and 3 plug-ins.
+    The command expands 4 TGZ packages into your working directory - Zoe Brightside and 3 plug-ins. 
+
+4. Client workstations require access to one public internet endpoint to complete the Zoe Brightside installation. Issue the following command to set your npm registry:
 
     ```
-    npm set registry https://registry.npmjs.org
+    npm config set registry https://registry.npmjs.org
+    ```  
+
+5. Issue the following command to install CA Brightside on your PC:
+
+    ```
     npm install -g brightside-core-1.0.1.tgz
     ```
 
@@ -38,9 +38,9 @@ Install CA Brightside on PCs that are running a Windows, Linux, or macOS opera
     `npm` commands so that you can issue the install and uninstall
     commands. For more information, see [Troubleshooting Installing Zoe Brightside](cli-troubleshootinginstallingcli.md).
 
-    Brightside CLI is installed on your PC.
+    Brightside CLI is installed on your PC. See [Install Plug-ins]() for information about the commands for installing plug-ins from the package. 
 
-4.  Create a `zosmf` profile so that you can issue commands that communicate with z/OSMF.
+6.  Create a `zosmf` profile so that you can issue commands that communicate with z/OSMF.
 
     **Note:** For information about how to create a profile, see [Create a profile](cli-createaprofile.md).
 
@@ -92,3 +92,9 @@ After you install and configure CA Brightside, you can issue the `bright
 --help` command to view a list of available commands. For more information, see [How to display Zoe Brightside help](cli-howtodisplaybrightsidehelp.md).
 
   - [Uninstalling Zoe Brightside](cli-uninstallcli.md)
+
+
+
+**Note:** You might encounter problems when you attempt to install
+Zoe Brightside depending on your operating system and
+environment. For more information and workarounds, see [Troubleshooting Installing Zoe Brightside](cli-troubleshootinginstallingcli.md).
