@@ -27,7 +27,7 @@ Install CA Brightside on PCs that are running a Windows, Linux, or macOS opera
     ```
     unzip brightside-bundle.zip
     ```
-    This command will expand 4 TGZ packages into your working directory.
+    This command will expand 4 TGZ packages into your working directory - Brightside and 3 plug-ins.
 
     ```
     npm set registry https://registry.npmjs.org
