@@ -12,8 +12,8 @@ Learn about what is new, changed, and removed in Project Zoe.
 
   The following topics were added:
 
-   - [zLUX plug-in definition and structure](mvd-zluxplugindefandstruct.md)
-   - [Configuration Dataservices](mvd-configdataservice.md)
+   - Information about the plug-in definition file and the zLUX application plug-in filesystem structure was added. [Learn more](mvd-zluxplugindefandstruct.md).
+   - Information about Configuration Dataservices that enable you to set plug-in default behavior was added. [Learn more](mvd-configdataservice.md)
   
 **zLUX terminal application plug-in initial configuration steps**
 
