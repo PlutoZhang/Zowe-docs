@@ -16,7 +16,7 @@ the use of third-party plug-ins.
 
 ## Setting the registry
 
-If you installed Brightside via brightside-bundle.zip distributed with the Zoe PAX, proceed to the Install step(#install-plug-ins-1).
+If you installed Brightside via brightside-bundle.zip distributed with the Zoe PAX, proceed to the [Install step](#install-plug-ins-1).
 
 Before you install or update plug-ins, direct NPM to target the registry by issuing the following command: 
 
