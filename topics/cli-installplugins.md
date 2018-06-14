@@ -41,7 +41,7 @@ npm config set @brightside:registry https://api.bintray.com/npm/ca/brightside
 
 Ensure that you meet the prerequisites for a plug-in before you install
 the plug-in to Zoe Brightside. For documentation related to each plug-in,
-see [Extending](cli-extending.md).
+see [Extending Zoe Brightside](cli-extending.md).
 
 ## Installing plug-ins
 

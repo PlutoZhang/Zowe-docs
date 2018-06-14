@@ -5,7 +5,7 @@ interact with Db2 for z/OS to perform tasks with modern development tools to au
   - [Plug-in overview](#plug-in-overview)
   - [Use cases](#use-cases)
   - [Prerequisites](#prerequisites)
-  - [Installation ](#installation)
+  - [Installing ](#installating)
   - [Profile setup](#profile-setup)
   - [Commands](#Commands)
 
@@ -30,7 +30,7 @@ Ensure that Zoe Brightside is installed.
 
   - [Install Zoe Brightside](cli-installcli.md)
 
-## Installation
+## Installing
 
 To install the Zoe Brightside Plug-in for IBM Db2 Database,
 issue the following command in the command shell:
