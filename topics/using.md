@@ -4,4 +4,4 @@ After you install and start Project Zoe, you can perform tasks with each compone
 
 -   **[Using zLUX](../topics/usingmvd.md)**
 -   **[Using APIs](../topics/usingapis.md)**
--   **[Using Brightside CLI](../topics/cli-usingcli.md)**
+-   **[Using Zoe Brightside](../topics/cli-usingcli.md)**

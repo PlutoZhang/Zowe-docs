@@ -7,4 +7,4 @@ Before installing Project Zoe, ensure that your environment meets all of the pre
 2. Review component specific requirements.
    -   [System requirements for zLUX](../topics/premvd.md)  
    -   [System requirements for explorer server](../topics/atlas-prereqs.md)
-   -   [System requirements for CLI](../topics/precli.md) 
+   -   [System requirements for Zoe Brightside](../topics/precli.md)

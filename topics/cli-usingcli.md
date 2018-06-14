@@ -1,8 +1,10 @@
-# Using Brightside CLI
+# Using Zoe Brightside
 
-This section contains the following articles about using Brightside CLI:
+This section contains the following articles about using Zoe Brightside:
 
-- [How to display Brightside CLI help](cli-howtodisplaybrightsidehelp.md)
-- [Brightside CLI command groups](cli-commandgroups.md)
-- [Enabling and disabling experimental commands](cli-enabledisablexperimentalcommands.md)
-- [Brightside CLI scenarios](cli-scenarios.md)
+- [How to display Zoe Brightside help](cli-howtodisplaybrightsidehelp.md)
+<<<<<<< HEAD
+- [Zoe Brightside command groups](cli-commandgroups.md)
+=======
+- [Zoe Brightside command groups](cli-commandgroups.md)
+>>>>>>> 796235c5149fb7ed935be9e912b9bdb1c81d72fb
