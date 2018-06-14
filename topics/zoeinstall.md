@@ -11,7 +11,7 @@
 
 2. Review zoe-install.yaml which contains the following properties.
 
-    - install:rootDir is the directory that Zoe will be installed into to create a Zoe runtime.  The default directory is `~/zoe/0.8.1`. The user's home directory is used as a default value to help ensure that the installing user has permission to create the directories needed for the install.  If the Zoe runtime is going to be used by different users it may be more appropriate to use another directory, such as `/var/zoe/v.r.m`.
+    - install:rootDir is the directory that Zoe will be installed into to create a Zoe runtime.  The default directory is `~/zoe/0.8.2`. The user's home directory is used as a default value to help ensure that the installing user has permission to create the directories needed for the install.  If the Zoe runtime is going to be used by different users it may be more appropriate to use another directory, such as `/var/zoe/v.r.m`.
 
        You may run the install multiple times with different values in the `zoe-install.yaml` file to create separate installations of the Zoe runtime.  The directory that Zoe is installed into must be empty. The install script will exit if the directory is not empty and create the directory if it does not exist.
 
@@ -21,7 +21,7 @@
 
     ```
     install:
-     rootDir=/var/zoe/0.8.1
+     rootDir=/var/zoe/0.8.2
 
     explorer-server:
       httpPort=7080
