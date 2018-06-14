@@ -1,6 +1,6 @@
 # Starting and stopping the Zoe runtime on z/OS
 
-Zoe has two runtime components on z/OS, the explorer server and the zLUX server.  When you run the ZOESVR PROC, it starts both these components.  
+Zoe has two runtime components on z/OS, the explorer server and the zLUX server.  When you run the ZOESVR PROC, it starts both these components.  The zLUX server startup script also starts the zSS server, so starting the ZOESVR PROC starts all 3 servers, and stopping it stops all 3.  
 
 **Starting the ZOESVR PROC**
 
@@ -43,4 +43,4 @@ If you prefer to use SDSF to stop Zoe, stop ZOESVR by issuing this operator comm
 ```
 /C ZOESVR  
 ```
-Either of these methods will stop the explorer server and the zLUX server.
+Either of these methods will stop the explorer server, the zLUX server and the zSS server.
