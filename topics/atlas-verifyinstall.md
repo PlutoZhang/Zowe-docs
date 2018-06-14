@@ -1,6 +1,6 @@
 # Verifying explorer server installation
 
-After explorer server is installed and the FEKATLS procedure is started, you can verify the installation from an Internet browser by using the following case-sensitive URL:
+After explorer server is installed and the ZOESVR procedure is started, you can verify the installation from an Internet browser by using the following case-sensitive URL:
 
 https://<your.server>:<atlasport>/Atlas/api/system/version
 
