@@ -4,7 +4,7 @@ As a modern application developer or DevOps Admin, it is helpful to be
 able to script DevOps processes using a command-line interface (CLI).
 
 Core CI/CD functions have traditionally been built around lifecycle
-capabilities of tools like CA Endevor. Using the CA Endevor plug-in for
+management software such as CA Endevor. Using the CA Endevor plug-in for
 Zoe Brightside, developers and DevOps admins can incorporate existing
 automation into CI/CD workflows, and leverage it from their laptop or
 integrated development environment (IDE). Zoe Brightside brings together
@@ -34,7 +34,7 @@ interface:
   - CA Endevor instance configured within Endevor web services.
   - Endevor web services installed and running.
 
-## Zoe Brightside plug-in for CA Endevor
+## Installing
 
 To install the Zoe Brightside plug-in, see [Installing Plug-ins](cli-installplugins.md).
 

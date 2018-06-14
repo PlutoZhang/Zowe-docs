@@ -22,7 +22,7 @@ Ensure that Zoe Brightside is installed.
 
   - [Installing Zoe Brightside](cli-installcli.md)
 
-## Installation
+## Installing
 
 To install the Zoe Brightside Plug-in for IBM Db2 Database,
 issue the following command in the command shell:

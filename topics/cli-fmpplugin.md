@@ -37,18 +37,18 @@ Master Plus REST API is installed, configured, and running.
   - [Installing the Eclipse User Interface and REST API](https://docops.ca.com/display/FMPLUS11/Installing+the+Eclipse+User+Interface+and+REST+API)
   - [Using the REST API](https://docops.ca.com/display/FMPLUS11/Using+the+REST+API)
 
-## Installation
+## Installing
 
 For information about how to install a plug-in to Zoe Brightside,
-see [Installing Plug-ins](cli-installplugins).
+see [Installing Plug-ins](cli-installplugins.md).
 
 ## Profile setup
 
 Before you start to use Zoe Brightside for CA File Master Plus, complete
 the following steps:
 
-  - [Create a profile](#create-a-profile)
-  - [Validate a profile](#validate-a-profile)
+  - [Creating a profile](#create-a-profile)
+  - [Validating a profile](#validate-a-profile)
 
 ### Creating a profile
 
