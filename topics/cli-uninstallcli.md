@@ -1,4 +1,4 @@
-# Uninstall Zoe Brightside
+# Uninstalling Zoe Brightside
 You can uninstall Zoe Brightside when you no longer want to use the product.
 
 **Important\!** The uninstall process does not delete the  profiles and credentials that you created when using the product from your PC. To delete the profiles from your PC, delete them before you uninstall Zoe Brightside.
@@ -30,6 +30,7 @@ The following steps describe how to list the profiles that you created, delete t
     
     **Tip:** For this command, use the results of the `list`
     command.    
+    
     **Note:** When you issue the `delete` command, it deletes the
     specified profile and its credentials from the credential vault in your PC's operating system.
     
@@ -70,4 +71,4 @@ The following steps describe how to list the profiles that you created, delete t
     
 **More Information:**
 
-  - [Install Zoe Brightside](cli-installcli.md)
+  - [Installing Zoe Brightside](cli-installcli.md)

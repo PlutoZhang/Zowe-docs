@@ -2,14 +2,6 @@
 The Zoe Brightside plug-in for IBM Db2 Database lets you
 interact with Db2 for z/OS to perform tasks with modern development tools to automate typical workloads more efficiently. The plug-in also enables you to interact with Db2 to advance continuous integration to validate product quality and stability.
 
-  - [Plug-in overview](#plug-in-overview)
-  - [Use cases](#use-cases)
-  - [Prerequisites](#prerequisites)
-  - [Installation ](#installation)
-  - [Profile setup](#profile-setup)
-  - [Commands](#Commands)
-
-
 ## Plug-in overview
 
 Zoe Brightside Plug-in for IBM Db2 Database lets you execute SQL statements against a Db2 region, export a Db2 table, and call a stored procedure.The plug-in also exposes its API so that the plug-in can be used directly in other products.
@@ -28,7 +20,7 @@ Ensure that Zoe Brightside is installed.
 
 **More Information:**
 
-  - [Install Zoe Brightside](cli-installcli.md)
+  - [Installing Zoe Brightside](cli-installcli.md)
 
 ## Installation
 

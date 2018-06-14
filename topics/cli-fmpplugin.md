@@ -11,13 +11,6 @@ Zoe Brightside allows you to perform commands on multiple mainframe
 applications at once from one command line window, without the need to
 establish several mainframe sessions.
 
-  - [Plug-in overview](#plug-in-overview)
-  - [Use cases](#use-cases)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Profile setup](#profile-setup)
-  - [Commands](#Commands)
-
 ## Plug-in overview
 
 Modern application developers and DevOps administrators can use a CLI to script DevOps processes that include VSAM file functions to enable continuous testing. The file functions that the CLI plug-in can invoke include copying, renaming and deleting files, and populating files with data.
@@ -47,7 +40,7 @@ Master Plus REST API is installed, configured, and running.
 ## Installation
 
 For information about how to install a plug-in to Zoe Brightside,
-see [Install Plug-ins](cli-installplugins).
+see [Installing Plug-ins](cli-installplugins).
 
 ## Profile setup
 

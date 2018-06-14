@@ -12,12 +12,6 @@ several environments within a single interface, and enables efficient,
 streamlined development by removing much of the usual need to switch
 between different environments when you create a single code package.
 
-  - [Plug-in Overview](#plug-in-overview)
-  - [Prerequisites](#prerequisites)
-  - [Zoe Brightside plug-in for CA Endevor](#zoe-brightside-plug-in-for-ca-endevor)
-  - [Use cases](#use-cases)
-  - [Commands](#zoe-brightside-commands)
-
 ## Plug-in overview
 
 The CA Endevor plug-in for Zoe Brightside allows you to perform commands
@@ -36,13 +30,13 @@ interface:
  
 ## Prerequisites
 
-  - Zoe Brightside installed and configured. For more information, see [Install Zoe Brightside](cli-installcli.md).
+  - Zoe Brightside installed and configured. For more information, see [Installing Zoe Brightside](cli-installcli.md).
   - CA Endevor instance configured within Endevor web services.
   - Endevor web services installed and running.
 
 ## Zoe Brightside plug-in for CA Endevor
 
-To install the Zoe Brightside plug-in, see [Install Plug-ins](cli-installplugins.md).
+To install the Zoe Brightside plug-in, see [Installing Plug-ins](cli-installplugins.md).
 
 ## Use cases
 

@@ -45,7 +45,7 @@ You can install plug-ins to extend the capabilities of Zoe Brightside. Plug-ins 
   - CA File Master™ Plus plug-in
   - IBM Db2 Database plug-in
 
-For more information, see [Install Plug-ins](cli-installplugins.md).
+For more information, see [Installing Plug-ins](cli-installplugins.md).
 
 ## Reporting defects and issues
 To report problems that you might encounter while using the product, enter issues in the [Brightside GitHub repository](https://github.com/gizafoundation/brightside/issues).

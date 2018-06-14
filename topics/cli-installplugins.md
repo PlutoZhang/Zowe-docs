@@ -7,15 +7,7 @@ legitimately during the execution of every command. Install third-party
 plug-ins at your own risk. We make no warranties regarding
 the use of third-party plug-ins.
 
-  - [Setting the registry](#setting-the-registry)
-  - [Meeting the prerequisites](#Meeting-the-prerequisites)
-  - [Installing plug-ins](#installing-plug-ins)
-  - [Validating plug-ins](#validating-plug-ins)
-  - [Updating plug-ins](#updating-plug-ins)
-  - [Uninstalling plug-ins](#uninstalling-plug-ins)
-
-
-The following plug-ins are available to install:
+You can install the following plug-ins:
 
   - **CA Endevor**  
     Use `@brightside/endevor` in your command syntax to install, update,
@@ -29,9 +21,9 @@ The following plug-ins are available to install:
 
 ## Setting the registry
 
-If you installed CA Brightside from the brightside-bundle.zip distributed with the Zoe PAX media, proceed to the [Install step](#installing-plug-ins).
+If you installed Zoe Brightside from the brightside-bundle.zip distributed with the Zoe PAX media, proceed to the [Install step](#installing-plug-ins).
 
-If you installed CA Brightside from a registry, confirm that NPM is set to target the registry by issuing the following command: 
+If you installed Zoe Brightside from a registry, confirm that NPM is set to target the registry by issuing the following command: 
 
 ```
 npm config set @brightside:registry https://api.bintray.com/npm/ca/brightside
@@ -41,7 +33,7 @@ npm config set @brightside:registry https://api.bintray.com/npm/ca/brightside
 
 Ensure that you meet the prerequisites for a plug-in before you install
 the plug-in to Zoe Brightside. For documentation related to each plug-in,
-see [Extending](cli-extending.md).
+see [Extending Zoe Brightside](cli-extending.md).
 
 ## Installing plug-ins
 

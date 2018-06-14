@@ -32,6 +32,8 @@ This release of Zoe Brightside (Version 0.8.2) contains the following new featur
 - You can now install Zoe Brightside using simplified and flexible installation process. You can now install Zoe Brightside using either of the following methods:
     - Install Zoe Brightside using the installation package that is contained on the Project Zoe Downloads repository.
     - Install Zoe Brightside using the Node.js Package Manager (npm).
+    
+    **Important!** Both of the installation methods require Internet access on client PCs.
 
 For more information, see [Installing Zoe Brightside](cli-installcli.md).
 
@@ -43,8 +45,8 @@ For more information, see [Installing Zoe Brightside](cli-installcli.md).
 **Zoe Brightside**
 
 This release of Zoe Brightside (Version 0.8.2) contains the following changes:
-  - *CA Brightside* was renamed to *Zoe Brightside*.
-  - Zoe Brightside no longer contains Experimental Command Groups.
+- **CA Brightside** was renamed to **Zoe Brightside**.
+- Zoe Brightside no longer contains experimental command groups.
 
 ## Version 0.8.1 (May 2018)
 
