@@ -16,7 +16,7 @@ establish several mainframe sessions.
   - [Prerequisites](#prerequisites)
   - [Installating](#installating)
   - [Profile setup](#profile-setup)
-  - [Commands](#Commands)
+  - [Commands](#commands)
 
 ## Plug-in overview
 
@@ -47,7 +47,7 @@ Master Plus REST API is installed, configured, and running.
 ## Installing
 
 For information about how to install a plug-in to Zoe Brightside,
-see [Installing Plug-ins](cli-installplugins).
+see [Installing Plug-ins](cli-installplugins.md).
 
 ## Profile setup
 
