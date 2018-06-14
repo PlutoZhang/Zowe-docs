@@ -2,10 +2,6 @@
 Review and meet the following prerequisites before you install and
 use Zoe Brightside:
 
-  - [Supported platforms](#supported-platforms)
-  - [Free disk space](#free-disk-space)
-  - [Prerequisite software](#prerequisite-software)
-
 ## Supported platforms
 
 You can use Zoe Brightside with the following platforms:
