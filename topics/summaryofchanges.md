@@ -20,7 +20,7 @@ Learn about what is new, changed, and removed in Project Zoe.
 
 This release of Zoe Brightside (Version 0.8.2) contains the following new features and functionality:
 
-- Zoe Brightside is now built on a framework that lets you extend the capabilities of the product. For example, you can now extend the capabilities of Zoe Brightside by installing plug-ins. With Zoe Brightside, you can install the following plug-ins:
+- Zoe Brightside is now built on a framework that lets you install plug-ins to extend the capabilities of the product. You can install the following plug-ins for Zoe Brightside:
   - Zoe Brightside plug-in for CA Endevor® Software Change Manager
   - Zoe Brightside plug-in for CA File Master™ Plus
   - Zoe Brightside plug-in for IBM® Db2® Database   

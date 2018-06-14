@@ -32,7 +32,7 @@ Ensure that Zoe Brightside is installed.
 
 ## Installation
 
-To install the CA Brightside Plug-in for IBM Db2 Database,
+To install the Zoe Brightside Plug-in for IBM Db2 Database,
 issue the following command in the command shell:
 
 ```

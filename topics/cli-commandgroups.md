@@ -22,8 +22,7 @@ Zoe Brightside contains the following command groups:
 ## plugins
 
 The plugins command group lets you install and manage third-party
-plug-ins for the product. Plug-ins extend the functionality of CA
-Brightside in the form of new commands. 
+plug-ins for the product. Plug-ins extend the functionality of Zoe Brightside in the form of new commands. 
 
 With the plugins command group, you can perform the following tasks:
 

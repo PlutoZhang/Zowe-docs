@@ -5,8 +5,7 @@ As a systems programmer or application developer, you install Zoe Brightside o
 Before you install Zoe Brightside, ensure that you meet the [Prerequisites](cli-precli.md).
 
 **Note:** You might encounter problems when you attempt to install
-Zoe Brightside depending on your operating system and
-environment. For more information and workarounds, see [Troubleshooting Installing Zoe Brightside](cli-troubleshootinginstallingcli.md).
+Zoe Brightside depending on your operating system and environment. For more information and workarounds, see [Troubleshooting Installing Zoe Brightside](cli-troubleshootinginstallingcli.md).
 
   - [Install Zoe Brightside from package](#install-zoe-brightside-from-package)
   - [Alternative method to install Zoe Brightside](#alternative-method-to-install-zoe-brightside)
@@ -14,7 +13,7 @@ environment. For more information and workarounds, see [Troubleshooting Installi
 
 ## Installing Zoe Brightside from package
 
-Install CA Brightside on PCs that are running a Windows, Linux, or macOS operating system.
+Install Zoe Brightside on PCs that are running a Windows, Linux, or macOS operating system.
 
 **Follow these steps:**
 
@@ -42,15 +41,15 @@ Install CA Brightside on PCs that are running a Windows, Linux, or macOS opera
     **Tip:** Zoe Brightside profiles contain information that is required
     for the product to interact with remote systems. For example, host
     name, port, and user ID. Profiles let you target unique systems,
-    regions, or instances for a command. Most CA Brightside [command
+    regions, or instances for a command. Most Zoe Brightside [command
     groups](cli-commandgroups.md) require a Zoe Brightside
     `zosmf` profile.
 
-After you install and configure CA Brightside, you can issue the `bright --help` command to view a list of available commands. For moreinformation, see [Display Help](cli-howtodisplaybrightsidehelp.md).
+After you install and configure Zoe Brightside, you can issue the `bright --help` command to view a list of available commands. For moreinformation, see [Display Help](cli-howtodisplaybrightsidehelp.md).
 
 
 ## Alternative method to install Zoe Brightside
-If your PC is connected to the Internet, you can use the following method to install Zoe Brightside from an npm registry.
+You can use the following procedure to install Zoe Brightside from an npm registry.
 
 **Follow these steps:**
 
@@ -78,12 +77,12 @@ If your PC is connected to the Internet, you can use the following method to ins
     **Tip:** Zoe Brightside profiles contain information that is required
     for the product to interact with remote systems. For example, host
     name, port, and user ID. Profiles let you target unique systems,
-    regions, or instances for a command. Most CA Brightside [command
+    regions, or instances for a command. Most Zoe Brightside [command
     groups](cli-commandgroups.md) require a Zoe Brightside
     `zosmf` profile.
 
 
-After you install and configure CA Brightside, you can issue the `bright
+After you install and configure Zoe Brightside, you can issue the `bright
 --help` command to view a list of available commands. For more information, see [How to display Zoe Brightside help](cli-howtodisplaybrightsidehelp.md).
 
   - [Uninstalling Zoe Brightside](cli-uninstallcli.md)

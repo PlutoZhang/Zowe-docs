@@ -1,4 +1,4 @@
-# Troubleshooting installing CLI
+# Troubleshooting installing Zoe Brightside
 
 The following issues are known to exist in this release of Zoe Brightside:
 
@@ -13,7 +13,7 @@ The following issues are known to exist in this release of Zoe Brightside:
     If you encounter this problem, some users report that repeatedly attempting to install Zoe Brightside yields success. Some users also report success using the following workarounds:
 
       - Issue the `npm cache clean` command.
-      - Uninstall and reinstall CA Brightside. For more information,
+      - Uninstall and reinstall Zoe Brightside. For more information,
         see [Install Zoe Brightside](cli-installcli.md).
       - Issue the `npm install -g brightside --no-optional` command.
 
