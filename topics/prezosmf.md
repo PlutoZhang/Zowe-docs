@@ -263,7 +263,7 @@ To verify that IBM z/OSMF is configured correctly, follow these steps to create 
 3. Create a zosmf profile in Zoe Brightside. Issue the `bright help explain profiles` command to learn more about creating profiles in Zoe Brightside. See [How to display Zoe Brightside help](cli-howtodisplaybrightsidehelp.md) for more information.
 4. [Validate your profile](cli-validateInstallation.md).
 5. [Use the profile validation report to identify and correct errors](cli-validateInstallationcorrectproblems.md) with your z/OSMF configuration.
-    If you recieve a perfect score on the validation report, Project Zoe can communicate with z/OSMF properly.
+    If you receive a perfect score on the validation report, Project Zoe can communicate with z/OSMF properly.
 
 **Note:** Before your run the profile validation, check that JES2 is accepting jobs with CLASS=C by issuing the following command in SDSF:
 
