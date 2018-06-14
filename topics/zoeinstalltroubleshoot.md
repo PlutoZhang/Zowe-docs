@@ -29,4 +29,10 @@
 
 4. Creating the PROCLIB to start and stop the Zoe runtime
 
-    At the end of the installation, a Unix file `ZOESVR.jcl` is created in the directory where the runtime was installed into. The contents of this file need to be part of the PROCLIB for the Zoe runtime to be executed as a started task.  A PROCLIB can be created by adding a member to `SYS1.PROCLIB` or `USER.PROCLIB` depending on the permission of the user.  The `oget` command can be used to transfer the `/var/zoe/v.r.m/ZOESVR.jcl` to the partitioned data set (PDS) containing the PROCLIB.  The name of the PROCLIB may vary depending on the standards in place at each z/OS site, however for this documentation we will assume that the PROCLIB PDS member is called `ZOESVR`.  
+    At the end of the installation, a Unix file `ZOESVR.jcl` is created in the directory where the runtime was installed into. The contents of this file need to be part of the PROCLIB for the Zoe runtime to be executed as a started task.  A PROCLIB can be created by adding a member to `SYS1.PROCLIB` or `USER.PROCLIB` depending on the permission of the user.  The `oget` command can be used to transfer the `/var/zoe/v.r.m/ZOESVR.jcl` to the partitioned data set (PDS) containing the PROCLIB.  The name of the PROCLIB may vary depending on the standards in place at each z/OS site, however for this documentation we will assume that the PROCLIB PDS member is called `ZOESVR`. 
+    
+5. Adding RACF authorizations for Zoe
+   
+   The install process will define RACF authorizations for Zoe. The following steps are performed.
+   1. Define the PROC named ZOESVR to be a started task.
+   2. Add the user who is performing the install to the IZUADMIN group.  
