@@ -82,7 +82,7 @@ Master Plus for MVS:
 
   - [Copying a data set](#copying-a-data-set)
   - [Deleting a data set](#deleting-a-data-set)
-  - [Populating a data set with data](#populating-a-data-set-with-data)
+  - [Populating a data set](#populating-a-data-set)
   - [Renaming a data set](#renaming-a-data-set)
 
 ### Copying a data set
