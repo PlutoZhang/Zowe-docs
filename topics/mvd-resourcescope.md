@@ -14,6 +14,7 @@ Scope is one of the following:
 * **Group**: Data shared between multiple users in a group (**Pending**)
 * **User**: Data for an individual user (**Pending**)
 
+**Note: While Authorization tuning can allow for settings such as GET from Instance to work without login, User and Group scope queries will be rejected if not logged in due to the requirement to pull resources from a specific user. Because of this, User and Group Scopes will not be functional until the Security Framework is available.**
 
 Where **Product** is the broadest scope and **User** is the narrowest scope.
 
