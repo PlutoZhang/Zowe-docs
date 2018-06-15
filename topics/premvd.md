@@ -1,8 +1,4 @@
-# Prerequisites for zLUX
-
-Before installing zLUX, check the following items.
-
-## System requirements for zLUX
+# System requirements for zLUX
 
 Your system must meet the software requirements for zLUX.
 
@@ -21,9 +17,9 @@ Confirm that the machine from which you plan to run zLUX runs one of the followi
 -   Firefox 44 or later
 -   Safari 11 or later
 -   Microsoft Edge
-        
+
 **Note:** Microsoft Internet Explorer is not yet supported at any version level.
-        
+
 To build zLUX applications, npm 5.4 or later is required. To update npm, issue the following command:
 
 ```

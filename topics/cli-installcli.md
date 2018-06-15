@@ -1,65 +1,89 @@
-# Installing Brightside CLI
-As a systems programmer or application developer, you install Brightside
-CLI on your PC. You can install Brightside CLI on any
-PC that is running a Windows, Linux, macOS operating
-system that supports Node.js version 6 or
-later. 
+# Installing Zoe Brightside
 
-Before you install Brightside CLI, ensure that you meet the [Prerequisites](precli.md).
+As a systems programmer or application developer, you install Zoe Brightside on your PC.
+
+Before you install Zoe Brightside, ensure that you meet the [Prerequisites](cli-precli.md).
 
 **Note:** You might encounter problems when you attempt to install
-Brightside CLI depending on your operating system and
-environment. For more information and workarounds, see [Troubleshooting Installing Brightside CLI](cli-troubleshootinginstallingcli.md).
+Zoe Brightside depending on your operating system and
+environment. For more information and workarounds, see [Troubleshooting Installing Zoe Brightside](cli-troubleshootinginstallingcli.md).
 
-## Install Brightside CLI
+  - [Install Zoe Brightside from package](#install-zoe-brightside-from-package)
+  - [Alternative method to install Zoe Brightside](#alternative-method-to-install-zoe-brightside)
+  - [Update Zoe Brightside](#update-zoe-brightside)
 
-To use Brightside CLI on your PC, install the product from that is available at your site. 
+## Installing Zoe Brightside from package
+
+Install CA Brightside on PCs that are running a Windows, Linux, or macOS operating system.
 
 **Follow these steps:**
 
-1. [Obtain the Project Zoe installation media](installing.md), which includes the brightside.tgz file. Use FTP to distribute the brightside.tgz file to client workstations.
-    Users can now install Brightside CLI on their PC.
+1. [Address the prerequisites](cli-precli.md).
 
-4.  Open a command line window. Browse to the directory where you
-    downloaded the Brightside CLI installation package (.tgz file). Issue the
-    following command to install Brightside CLI on your PC:
-    
+2. [Obtain the Project Zoe installation files](zoegettingstarted.md), which includes the brightside.tgz file. Use FTP to distribute the brightside.tgz file to client workstations.
+    Users can now install Zoe Brightside on their PC.
+
+3.  Open a command line window. For example, Windows Command Prompt. Browse to the directory where you downloaded the Zoe Brightside installation package (.tgz file). Issue the following command to install Brightside CLI on your PC:
+
     ```
     npm install -g <file_name>
     ```
-    
+
     **Note:** On Linux systems, you might need to append `sudo` to your
     `npm` commands so that you can issue the install and uninstall
-    commands. For more information, see [Troubleshooting Installing Brightside CLI](cli-troubleshootinginstallingcli.md).
-    
+    commands. For more information, see [Troubleshooting Installing Zoe Brightside](cli-troubleshootinginstallingcli.md).
+
     Brightside CLI is installed on your PC.
 
-5.  You must create a Brightside CLI profile before you can issue
-    Brightside CLI commands that communicate with z/OSMF on mainframe
-    systems. For more information about the available
-    commands and options for creating z/OSMF profiles, issue the `bright help explain profiles` and  `bright zosmf create bright-profile --help` commands.
-    
-    **Tip:** Brightside profiles contain information (for example, host
-    name, port, and user ID) that is required for Brightside to interact
-    with remote systems. Profiles allow you to "target" a system,
-    region, or instance for a command. You create and configure profiles
-    at the command group level. Most command groups require a "zosmf"
-    Brightside profile.    
+4.  Create a `zosmf` profile so that you can issue commands that communicate with z/OSMF.
 
-6.  To ensure that your Brightside CLI profile can communicate
-    with z/OSMF on mainframe systems, issue the following z/OSMF profile
-    validation command:    
-   
-    ```
-    bright zosmf validate profile
-    ```
-        
-    The command runs a series of tests and returns a report. If the
-    report returns any failures or warnings, send the report to your
-    systems programmer for analysis. Failures might indicate that your
-    Brightside CLI profile is not configured correctly for your
-    environment. For more information about how to use command,
-    see [Validating Installation](cli-validateInstallation.md).
+    **Note:** For information about how to create a profile, see [Create a profile](cli-createaprofile.md).
 
-After you install and configure Brightside CLI, issue the `bright --help` command to view a list of available commands. For more
-information, see [How to Display Brightside CLI Help](cli-howtodisplaybrightsidehelp.md).
+    **Tip:** Zoe Brightside profiles contain information that is required
+    for the product to interact with remote systems. For example, host
+    name, port, and user ID. Profiles let you target unique systems,
+    regions, or instances for a command. Most CA Brightside [command
+    groups](cli-commandgroups.md) require a Zoe Brightside
+    `zosmf` profile.
+
+After you install and configure CA Brightside, you can issue the `bright --help` command to view a list of available commands. For moreinformation, see [Display Help](cli-howtodisplaybrightsidehelp.md).
+
+
+## Alternative method to install Zoe Brightside
+If your PC is connected to the Internet, you can use the following method to install Zoe Brightside from an npm registry.
+
+**Follow these steps:**
+
+1.  Issue the following command to set the registry to the Zoe Brightside scoped package on Bintray:
+
+    ```
+    npm config set @brightside:registry https://api.bintray.com/npm/ca/brightside
+    ```
+
+2.  Issue the following command to install Zoe Brightside from the registry:
+
+    ```
+    npm install -g @brightside/core@latest
+    ```
+
+    Zoe Brightside is installed on your PC.
+
+3.  Create a `zosmf` profile so that you can issue commands that communicate with z/OSMF.
+
+    **Note:** For information about how to create a profile, see [Create
+    a
+    Profile](cli-createaprofile.md).
+
+
+    **Tip:** Zoe Brightside profiles contain information that is required
+    for the product to interact with remote systems. For example, host
+    name, port, and user ID. Profiles let you target unique systems,
+    regions, or instances for a command. Most CA Brightside [command
+    groups](cli-commandgroups.md) require a Zoe Brightside
+    `zosmf` profile.
+
+
+After you install and configure CA Brightside, you can issue the `bright
+--help` command to view a list of available commands. For more information, see [How to display Zoe Brightside help](cli-howtodisplaybrightsidehelp.md).
+
+  - [Uninstalling Zoe Brightside](cli-uninstallcli.md)
