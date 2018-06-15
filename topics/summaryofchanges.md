@@ -53,6 +53,7 @@ This release further enhances the installation process to improve your installat
 **Zoe Brightside**
 
 This release of Zoe Brightside (Version 0.8.2) contains the following changes:
+
 - **CA Brightside** was renamed to **Zoe Brightside**.
 - Zoe Brightside no longer contains experimental command groups.
 
