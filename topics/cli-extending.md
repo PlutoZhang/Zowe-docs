@@ -8,7 +8,7 @@ The following plug-ins are available:
 
 **Note:** For information about how to install, update, and validate a plug-in, see [Installing Plug-ins](cli-installplugins.md).
 
-# Zoe Brightside plug-in for CA Endevor Software Change Manager**
+**Zoe Brightside plug-in for CA Endevor Software Change Manager**
 
 The Zoe Brightside Plug-in for CA Endevor® SCM lets you perform commands on multiple mainframe applications at once from one terminal window, without the need to establish several mainframe sessions. This environment provides users with extensive functionality while saving
 both technical and time resources. 
