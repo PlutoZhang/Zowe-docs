@@ -259,7 +259,7 @@ To verify that IBM z/OSMF REST services are configured correctly in your environ
 To verify that IBM z/OSMF is configured correctly, follow these steps to create and validate a profile in Zoe Brightside:
 
 1. [Meet the prerequisites for Zoe Brightside](cli-precli.md).
-2. [Install Zoe Brightside](cli-installcli.md).
+2. [Installing Zoe Brightside](cli-installcli.md).
 3. Create a zosmf profile in Zoe Brightside. Issue the `bright help explain profiles` command to learn more about creating profiles in Zoe Brightside. See [How to display Zoe Brightside help](cli-howtodisplaybrightsidehelp.md) for more information.
 4. [Validate your profile](cli-validateInstallation.md).
 5. [Use the profile validation report to identify and correct errors](cli-validateInstallationcorrectproblems.md) with your z/OSMF configuration.

@@ -7,22 +7,7 @@ legitimately during the execution of every command. Install third-party
 plug-ins at your own risk. We make no warranties regarding
 the use of third-party plug-ins.
 
-  - [Set the registry](#set-the-registry)
-  - [Meet the prerequisites](#meet-the-Prerequisites)
-  - [Install plug-ins](#install-plug-ins-1)
-  - [Validate plug-ins](#validate-plug-ins)
-  - [Update plug-ins](#update-plug-ins)
-  - [Uninstall plug-ins](#uninstall-plug-ins)
-
-## Setting the registry
-
-Before you install or update plug-ins, direct NPM to target the registry by issuing the following command: 
-
-```
-npm config set @brightside:registry https://api.bintray.com/npm/ca/brightside
-```
-
-The following plug-ins are available to install from the Zoe Brightside registry:
+You can install the following plug-ins:
 
   - **CA Endevor**  
     Use `@brightside/endevor` in your command syntax to install, update,
@@ -34,11 +19,21 @@ The following plug-ins are available to install from the Zoe Brightside registr
     Use `@brightside/db2` in your command syntax to install, update, and
     validate the IBM Db2 Database plug-in. 
 
+## Setting the registry
+
+If you installed Zoe Brightside from the brightside-bundle.zip distributed with the Zoe PAX media, proceed to the [Install step](#installing-plug-ins).
+
+If you installed Zoe Brightside from a registry, confirm that NPM is set to target the registry by issuing the following command: 
+
+```
+npm config set @brightside:registry https://api.bintray.com/npm/ca/brightside
+```
+
 ## Meeting the prerequisites
 
 Ensure that you meet the prerequisites for a plug-in before you install
 the plug-in to Zoe Brightside. For documentation related to each plug-in,
-see [Extending](cli-extending.md).
+see [Extending Zoe Brightside](cli-extending.md).
 
 ## Installing plug-ins
 
@@ -67,6 +62,14 @@ bright plugins install [plugin...] [--registry <registry>]
 
 **Examples: Install plug-ins**
 
+  - The following example illustrates the syntax to use to install a 
+    plug-in that is distributed with the Zoe brightside-bundle.zip.
+    If you are using brightside-bundle.zip, issue the following command for each plug-in .tgz file:
+    
+    ```
+    bright plugins install ./brightside-db2-1.0.0.tgz
+    ```
+
   - The following example illustrates the syntax to use to install a
     plug-in that is named "my-plugin" from a specified registry:
 
@@ -80,6 +83,7 @@ bright plugins install [plugin...] [--registry <registry>]
     ```
      bright plugins install @brightside/my-plugin@"^1.2.3"
     ```
+    
 
 ## Validating plug-ins
 

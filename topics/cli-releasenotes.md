@@ -11,11 +11,6 @@ Zoe Brightside provides the following benefits:
 
 The following sections explain the key features and details for Zoe Brightside:
 
-  - [Zoe Brightside capabilities](#zoe-brightside-capabilities)
-  - [Extend Zoe Brightside](#extend-zoe-brightside)
-  - [Report defects and issues](#report-defects-and-issues)
-  - [Third-Party Software Agreements](#third-party-software-agreements)
-
 **Note:** For information about prerequisites, software requirements, installing and upgrading Zoe Brightside, see
 [Installing Project Zoe](installandconfig.md).
 
@@ -45,7 +40,7 @@ You can install plug-ins to extend the capabilities of Zoe Brightside. Plug-ins 
   - CA File Master™ Plus plug-in
   - IBM Db2 Database plug-in
 
-For more information, see [Install Plug-ins](cli-installplugins.md).
+For more information, see [Installing Plug-ins](cli-installplugins.md).
 
 ## Reporting defects and issues
 To report problems that you might encounter while using the product, enter issues in the [Brightside GitHub repository](https://github.com/gizafoundation/brightside/issues).

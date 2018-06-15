@@ -1,9 +1,9 @@
 # Zoe Brightside plug-in for CA File Master Plus
 
 The Zoe Brightside plug-in for CA File Master Plus is a file management
-and data manipulation tool. CA Brightside speeds up file creation and
+and data manipulation tool. Zoe Brightside speeds up file creation and
 manipulates virtual storage access method (VSAM), sequential and
-partitioned data sets. CA Brightside also supports symbolic access to
+partitioned data sets. Zoe Brightside also supports symbolic access to
 data with layouts, and data manipulation such as selection of records in
 data sets.
 
@@ -11,21 +11,13 @@ Zoe Brightside allows you to perform commands on multiple mainframe
 applications at once from one command line window, without the need to
 establish several mainframe sessions.
 
-  - [Plug-in overview](#plug-in-overview)
-  - [Use cases](#use-cases)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Profile setup](#profile-setup)
-  - [Commands](#Commands)
-
 ## Plug-in overview
 
-Modern application developers and DevOps administrators script, using CLI, DevOps
-processes that include VSAM file functions to enable Continuous Testing. The file functions that CLI can invoke include copying, renaming and deleting files, and populating files with data.
+Modern application developers and DevOps administrators can use a CLI to script DevOps processes that include VSAM file functions to enable continuous testing. The file functions that the CLI plug-in can invoke include copying, renaming and deleting files, and populating files with data.
 
 ## Use cases
 
-As a developer or DevOps admin, you can use Zoe Brightside for CA File
+As a developer or DevOps admin, you can use the Zoe Brightside plug-in for CA File
 Master Plus to:
 
   - **Populate:** Populate a VSAM file with newly constructed test data from the CLI interactively.
@@ -37,7 +29,7 @@ Master Plus to:
 
 ## Prerequisites
 
-To use the  CA Brightside plug-in for CA File Master Plus, ensure that the CA File
+To use the Zoe Brightside plug-in for CA File Master Plus, ensure that the CA File
 Master Plus REST API is installed, configured, and running.
 
 **More information:**
@@ -45,22 +37,22 @@ Master Plus REST API is installed, configured, and running.
   - [Installing the Eclipse User Interface and REST API](https://docops.ca.com/display/FMPLUS11/Installing+the+Eclipse+User+Interface+and+REST+API)
   - [Using the REST API](https://docops.ca.com/display/FMPLUS11/Using+the+REST+API)
 
-## Installation
+## Installing
 
-For information about how to install a plug-in to CA Brightside,
-see [Install Plug-ins](cli-installplugins).
+For information about how to install a plug-in to Zoe Brightside,
+see [Installing Plug-ins](cli-installplugins.md).
 
 ## Profile setup
 
-Before you start to use CA Brightside for CA File Master Plus, complete
+Before you start to use Zoe Brightside for CA File Master Plus, complete
 the following steps:
 
-  - [Create a profile](#create-a-profile)
-  - [Validate a profile](#validate-a-profile)
+  - [Creating a profile](#create-a-profile)
+  - [Validating a profile](#validate-a-profile)
 
 ### Creating a profile
 
-The `profiles create fmp` command lets you create a CA Brightside profile for CA File Master Plus.
+The `profiles create fmp` command lets you create a Zoe Brightside profile for CA File Master Plus.
 
 **Note:** For more information about `profiles create fmp` syntax,
 actions, and options, open Zoe Brightside, and issue the following
@@ -72,7 +64,7 @@ bright profiles create fmp -h
 
 ### Validating a profile
 
-The `profiles validate fmp` command lets you validate a CA
+The `profiles validate fmp` command lets you validate a Zoe
 Brightside profile.
 
 **Note:** For more information about `profiles validate fmp` syntax,

@@ -2,10 +2,6 @@
 Review and meet the following prerequisites before you install and
 use Zoe Brightside:
 
-  - [Supported platforms](#supported-platforms)
-  - [Free disk space](#free-disk-space)
-  - [Prerequisite software](#prerequisite-software)
-
 ## Supported platforms
 
 You can use Zoe Brightside with the following platforms:
@@ -34,7 +30,8 @@ The following software is required before you can install and use the product on
 Windows operating systems require the following software:
 
 - **Node.js v8.0 or higher:**   
-  Click here to [Download Node.js](https://nodejs.org/en/download/)   
+  Click here to [Download Node.js](https://nodejs.org/en/download/)       
+  
   **Note:** Npm is included with the Node.js installation.
 
 - **Node Package Manager (npm) v5.0 or higher**
@@ -54,6 +51,7 @@ Windows operating systems require the following software:
   **Note:** Npm is included with the Node.js installation.
 
 - **Node Package Manager (npm) v5.0 or higher**   
+  
   **Tip:** If you are installing Node.js a macOS operating system, we recommend that you install `nodejs` and `nodejs-legacy` using the instructions on the Nodejs website (using package manager). For example, you can install `nodejs-legacy` using the command `sudo apt install nodejs-legacy`. With `nodejs-legacy`, you can issue node commands rather than typing `nodejs`.
 
 - **Python v2.7**  

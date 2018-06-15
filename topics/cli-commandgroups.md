@@ -9,21 +9,10 @@ The commands available in the product are organized in a hierarchical structure.
 completed the steps in [Create a Zoe Brightside profile](cli-createaprofile.md) and [Test Connection to z/OSMF](cli-validateInstallation.md) to help ensure that Zoe Brightside can communicate with z/OS systems.
 
 Zoe Brightside contains the following command groups:
-
-  - [plugins](#plugins)
-  - [profiles](#profiles)
-  - [provisioning](#provisioning)
-  - [zos-console](#zos-console)
-  - [zos-files](#zos-files)
-  - [zos-jobs](#zos-jobs)
-  - [zos-tso](#zos-tso)
-  - [zosmf](#zosmf)
-
 ## plugins
 
 The plugins command group lets you install and manage third-party
-plug-ins for the product. Plug-ins extend the functionality of CA
-Brightside in the form of new commands. 
+plug-ins for the product. Plug-ins extend the functionality of Zoe Brightside in the form of new commands. 
 
 With the plugins command group, you can perform the following tasks:
 
@@ -146,4 +135,3 @@ options, open Zoe Brightside and issue the following command:
 **More Information:**
 
   - [Display Zoe Brightside help](cli-howtodisplaybrightsidehelp.md)
-
