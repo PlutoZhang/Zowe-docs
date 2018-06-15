@@ -122,6 +122,7 @@ navtitle="zLUX application filesystem structure" scope="local"/>
 <topicref format="md" href="topics/mvd-configdataservice.md" navtitle="Configuration Dataservices"
 scope="local">
 <topicref format="md" href="topics/mvd-resourcescope.md" navtitle="Resource scope" scope="local"/>
+<topicref format="md" href="topics/mvd-restapi.md" navtitle="REST API" scope="local"/>
 <topicref format="md" href="topics/mvd-appapi.md" navtitle="Application API" scope="local"/>
 <topicref format="md" href="topics/mvd-internalandbootstrap.md"
 navtitle="Internal and bootstrapping" scope="local"/>
