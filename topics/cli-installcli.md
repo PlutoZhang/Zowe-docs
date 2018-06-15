@@ -67,7 +67,7 @@ If your PC is connected to the Internet, you can use the following method to ins
 
     **Tip:** Zoe Brightside profiles contain information that is required for the product to interact with remote systems. For example, host name, port, and user ID. Profiles let you target unique systems, regions, or instances for a command. Most Zoe Brightside [command groups](cli-commandgroups.md) require a Zoe Brightside `zosmf` profile.
 
-After you install and configure CA Brightside, you can issue the `bright
+After you install and configure Zoe Brightside, you can issue the `bright
 --help` command to view a list of available commands. For more information, see [How to display Zoe Brightside help](cli-howtodisplaybrightsidehelp.md).
 
 
