@@ -5,7 +5,7 @@ To uninstall the explorer server, take the following steps:
 1.  Stop your Explorer Liberty server by running the following operator command:
 
     ```
-    P ZOESVR
+    C ZOESVR
     ```
 
 2.  Delete the ZOESVR member from your system PROCLIB data set.

@@ -26,7 +26,7 @@ By default, Zoe uses the runtime version that you most recently installed.  To s
 
 To test whether the explorer server is active, open the URL `https://<hostname>:7443/ui`.
 
-The port number 7443 is the default port and can be overridden through the `zoe-install.yaml` file before the `zoe-install.sh` script is run. See [Installing Zoe runtime on z/OS](topics/zoeinstall.md).
+The port number 7443 is the default port and can be overridden through the `zoe-install.yaml` file before the `zoe-install.sh` script is run. See [Installing Zoe runtime on z/OS](zoeinstall.md).
 
 **Stopping the ZOESVR PROC**
 

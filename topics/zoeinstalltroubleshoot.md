@@ -33,9 +33,17 @@
 
     At the end of the installation, a Unix file `ZOESVR.jcl` is created under the directory where the runtime was installed into, `$INSTALL_DIR/files/templates`. The contents of this file need to be tailored and placed in a JCL member of the PROCLIB concatenation for the Zoe runtime to be executed as a started task.  The install script does this automatically, trying data sets `USER.PROCLIB`, other PROCLIB data sets found in the PROCLIB concatenation and finally `SYS1.PROCLIB`.  
 
-    If this succeeds, you will see a message like `PROC ZOESVR placed in USER.PROCLIB`, otherwise you will see messages beginning `Failed to put ZOESVR.JCL in a PROCLIB dataset.` and you will need to copy the PROC manually. The TSO `oget` command can be used to copy the `ZOESVR.jcl` file to the preferred PROCLIB.  
+    If this succeeds, you will see a message like the following one:
 
-      ```oget '$INSTALL_DIR/files/templates/ZOESVR.jcl' 'MY.USER.PROCLIB(ZOESVR)'```
+     ```PROC ZOESVR placed in USER.PROCLIB```
+
+    Otherwise you will see messages beginning with the following information:  
+
+     ```Failed to put ZOESVR.JCL in a PROCLIB dataset.```
+
+    In this case, you need to copy the PROC manually. The TSO `oget` command can be used to copy the `ZOESVR.jcl` file to the preferred PROCLIB.  
+
+     ```oget '$INSTALL_DIR/files/templates/ZOESVR.jcl' 'MY.USER.PROCLIB(ZOESVR)'```
 
     You can place the PROC in any PROCLIB data set in the PROCLIB concatenation, but some data sets such as `SYS1.PROCLIB` may be restricted, depending on the permission of the user.  
 
@@ -45,7 +53,7 @@
 
     to replace the `/zoe/install/path` with the location of the Zoe runtime directory that contains the explorer server.  Otherwise you must specify that path on the START command when you start Zoe in SDSF:
 
-      ```/S ZOESVR,SRVRPATH='$ZOE_ROOT_DIR"/explorer-server'```
+      ```/S ZOESVR,SRVRPATH='$ZOE_ROOT_DIR/explorer-server'```
 
 5. Adding RACF authorizations for Zoe
 
