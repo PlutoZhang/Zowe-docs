@@ -78,12 +78,7 @@ bright profiles validate fmp -h
 ## Commands
 
 Zoe Brightside allows you to perform the following actions using CA File
-Master Plus for MVS:
-
-  - [Copying a data set](#copying-a-data-set)
-  - [Deleting a data set](#deleting-a-data-set)
-  - [Populating a data set](#populating-a-data-set)
-  - [Renaming a data set](#renaming-a-data-set)
+Master Plus for MVS.
 
 ### Copying a data set
 
