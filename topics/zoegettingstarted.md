@@ -50,8 +50,10 @@ Follow these steps to transfer the PAX file to z/OS and prepare it to install th
      ```
 
     Where _pax-file-name_ is a variable that indicates the full name of the PAX file you downloaded. For example, zoe-0.8.1.pax.
+    
+    **Note**: When your terminal is connected to z/OS through FTP or SFTP, you can prepend commands with `l` to have them issued against your desktop.  To list the contents of a directory on your desktop, type `lls` where `ls` will list contents of a directory on z/OS.  
 
-2. When the PAX file has transferred, expand the PAX file by issuing the following command.  
+2. When the PAX file has transferred, expand the PAX file by issuing the following command in an ssh session:
 
     ```
     pax -ppx -rf <pax-file-name>.pax
@@ -59,7 +61,7 @@ Follow these steps to transfer the PAX file to z/OS and prepare it to install th
 
     Where _pax-file-name_ is a variable that indicates the name of the PAX file you downloaded. For example, zoe-0.8.1.pax.
 
-    **Note**: When your terminal is connected to z/OS through FTP or SFTP, you can prepend commands with `l` to have them issued against your desktop.  To list the contents of a directory on your desktop, type `lls` where `ls` will list contents of a directory on z/OS.  
+
 
     This will expand to a file structure.
 
