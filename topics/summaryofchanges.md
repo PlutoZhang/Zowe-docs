@@ -24,9 +24,9 @@ Learn about what is new, changed, and removed in Project Zoe.
    - Zoe Brightside plug-in for CA File Master™ Plus
    - Zoe Brightside plug-in for IBM® Db2® Database   
 
- For more information, see [Extending Zoe Brightside](cli-extending.md)..
+   For more information, see [Extending Zoe Brightside](cli-extending.md).
 
-  The new framework also improves the stability and quality of Zoe Brightside.
+   The new framework also improves the stability and quality of Zoe Brightside.
 
 - You can now install Zoe Brightside using simplified and flexible installation process. You can now install Zoe Brightside using either of the following methods:
     - Install Zoe Brightside using the installation package that is contained on the Project Zoe Downloads repository.
@@ -34,7 +34,7 @@ Learn about what is new, changed, and removed in Project Zoe.
 
     **Important!** Both of the installation methods require Internet access on client PCs.
 
-For more information, see [Installing Zoe Brightside](cli-installcli.md).
+   For more information, see [Installing Zoe Brightside](cli-installcli.md).
 
 ### What's changed
 
