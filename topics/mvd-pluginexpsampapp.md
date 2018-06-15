@@ -11,6 +11,7 @@ To build the sample application plug-in, node and npm must be included in the PA
 - If you want to modify `sample-app`, you must run `_npm install_` in the virtual desktop and the `sample-app/webClient`. Then, you can run `_npm run build_` in `sample-app/webClient`.
 
 1.   Add an item to `sample-app`. The following figure shows an excerpt from `app.component.ts`:
+
      ```
       export class AppComponent {
          items = ['a', 'b', 'c', 'd']
