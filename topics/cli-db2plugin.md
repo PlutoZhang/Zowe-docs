@@ -84,11 +84,9 @@ Review the created profile and edit if necessary using the profile update comman
 The following commands can be issued with the Zoe Brightside Db2
 plug-in:
 
-  - [Call a stored procedure](#Call-a-stored-procedure)
-
-  - [Execute an SQL statement](#execute-an-sql-statement)
-
-  - [Export a table in SQL format](#export-a-table-in-sql-format)
+  - [Calling a stored procedure](#Calling-a-stored-procedure)
+  - [Executing an SQL statement](#executing an-sql-statement)
+  - [Exporting a table in SQL format](#exporting-a-table-in-sql-format)
 
 **Tip:** At any point, you can issue the help command `-h` to see a list of available commands.
 
