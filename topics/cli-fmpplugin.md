@@ -47,8 +47,8 @@ see [Installing Plug-ins](cli-installplugins.md).
 Before you start to use Zoe Brightside for CA File Master Plus, complete
 the following steps:
 
-  - [Creating a profile](#create-a-profile)
-  - [Validating a profile](#validate-a-profile)
+  - [Creating a profile](#creating-a-profile)
+  - [Validating a profile](#validating-a-profile)
 
 ### Creating a profile
 
@@ -78,12 +78,7 @@ bright profiles validate fmp -h
 ## Commands
 
 Zoe Brightside allows you to perform the following actions using CA File
-Master Plus for MVS:
-
-  - [Copy a data set](#copy-a-data-set)
-  - [Delete a data set](#delete-a-data-set)
-  - [Populate a data set with data](#populate-a-data-set-with-data)
-  - [Rename a data set](#rename-a-data-set)
+Master Plus for MVS.
 
 ### Copying a data set
 
