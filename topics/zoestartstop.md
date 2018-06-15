@@ -43,3 +43,19 @@ If you prefer to use SDSF to stop Zoe, stop ZOESVR by issuing the following oper
 /C ZOESVR  
 ```
 Either of the methods will stop the explorer server, the zLUX server, and the zSS server.
+
+When you stop the ZOESVR, you might get the following error message:
+
+```IEE842I ZOESVR DUPLICATE NAME FOUND- REENTER COMMAND WITH 'A='```
+
+This is because there is more than one started task named ZOESVR. To resolve the issue, stop the required ZOESVR instance by using one of the following methods:
+
+- Issue the following commands:
+
+  ```/C ZOESVR,A=asid```
+
+   You can obtain the _asid_ from the value of `A=asid` when you issue the following commands:
+
+   ```/D A,ZOESVR```
+
+- Select the instance in SDSF and type `C` for CANCEL in the NP column next to the job.
