@@ -61,7 +61,11 @@
 
      1. Define the PROC named ZOESVR to be a started task.
 
-        ```RDEFINE STARTED ZOESVR.* UACC(NONE) STDATA(USER(IZUSVR) GROUP(IZUADMIN) PRIVILEGED(NO) TRUSTED(NO) TRACE(YES))```
+        ```
+        RDEFINE STARTED ZOESVR.* UACC(NONE) STDATA(USER(IZUSVR) GROUP(IZUADMIN) PRIVILEGED(NO) TRUSTED(NO) TRACE(YES))
+        
+        SETROPTS REFRESH RACLIST(STARTED)
+        ```
 
      2. Add the user who is performing the install to the IZUADMIN group.  
 
