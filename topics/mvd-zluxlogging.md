@@ -9,7 +9,7 @@ Note that the Zoe Node Server logs and ZSS logs are timestamped in the format yy
 
 ## Controlling the zLUX logging location
 
-The server writes log information to a file and to the screen. (On Windows, logs are written to a file only.)
+The zLUX server writes log information to a file and to the screen. (On Windows, logs are written to a file only.)
 
 ### ZLUX_NODE_LOG_DIR and ZSS_LOG_DIR environment variables
 

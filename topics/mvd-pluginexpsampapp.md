@@ -6,7 +6,7 @@ To build the sample application plug-in, node and npm must be included in the PA
 
 **Note:** 
 
-- Be aware that whenever you change the source code for the sample application, you must rebuild it.
+- If you change the source code for the sample application, you must rebuild it.
 
 - If you want to modify `sample-app`, you must run `_npm install_` in the virtual desktop and the `sample-app/webClient`. Then, you can run `_npm run build_` in `sample-app/webClient`.
 
