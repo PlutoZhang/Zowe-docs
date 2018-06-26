@@ -2,7 +2,7 @@
 
 Brightside CLI contains command groups that focus on specific business processes that you (application developers and systems programmers) perform during your day-to-day activities. For example, the compiler command group lets you perform tasks that relate to compiling source code on mainframe systems. The projects command group lets you perform tasks that relate to managing source code that you store in version control systems, such as Git and CA Endevor. You can perform all the tasks that relate to these business processes using a unified command-line interface - Brightside CLI.
 
-The command groups contain commands that let you perform actions on specific objects. For each action on an object, you can specify options that you apply as the Brightside CLI commands execute.
+The command groups contain commands that let you perform actions on specific objects. For each action on an object, you can specify options that you apply as the Brightside CLI commands execute.   
 
 In this article, we review all the Brightside CLI command groups and provide you with a brief synopsis of the tasks that you can perform using the commands in each group. For more information see [How to display Brightside CLI help](cli-howtodisplaybrightsidehelp.md). 
 
@@ -48,7 +48,7 @@ With the compiler command group, you can perform the following tasks:
 
   - Build and compile COBOL (common business-oriented language) and HLASM (IBM High Level Assembler) source code on mainframe systems.
 
-**Note:** For more information about compiler syntax, actions, and options, open Brightside CLI, and issue the following command: 
+**Note:** For more information about compiler syntax, actions, and options, open Brightside CLI, and issue the following command:
 ```
 bright compiler -h
 ```
@@ -70,7 +70,7 @@ bright config -h
 
 ## contribute
 
-The contribute command group lets you generate code that you can contribute to help improve Brightside CLI. 
+The contribute command group lets you generate code that you can contribute to help improve Brightside CLI.
 
 With the contribute command group, you can perform the following tasks:
 
@@ -213,7 +213,7 @@ The zos-files command group lets you interact with USS files and data sets on z/
 
 With the zos-files command group, you can perform the following tasks:
 
-  - Create partitioned data sets (PDS) with members, physical sequential data sets (PS), and other types of data sets from templates. You can specify options to customize the data sets you create.   
+  - Create partitioned data sets (PDS) with members, physical sequential data sets (PS), and other types of data sets from templates. You can specify options to customize the data sets you create.  
   - Edit data sets locally in your preferred Integrated Development Environment (IDE). Your changes are reflected on the mainframe when you save the local file.
   - Download data sets or USS files from a mainframe to your local PC. 
   - Upload local files to mainframe data sets.
@@ -304,4 +304,3 @@ system.
 ```
 bright zosmf -h
 ```
-
