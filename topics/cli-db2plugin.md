@@ -24,22 +24,57 @@ Ensure that Zoe Brightside is installed.
 
 ## Installing
 
-To install the Zoe Brightside Plug-in for IBM Db2 Database,
-issue the following command in the command shell:
+There are **two methods** that you can use to install the Zoe Brightside Plug-in for IBM Db2 Database.
 
-```
-bright plugins install @brightside/db2 
-```
+**Method 1**
 
-To validate the installed plug-in, issue the following
-command:
+If you installed **Zoe Brightside** from **bintray**, complete the following steps:
 
-```
-bright plugins validate db2
-```
+1. Open a command line window and issue the following command:
 
-Successful validation of the IBM Db2 plug-in returns the
-response: `Successfully validated`
+    ```
+    bright plugins install @brightside/db2 
+    ```
+
+2. After the command execution completes, issue the following command to validate that the installation completed successfully. 
+
+    ```
+    bright plugins validate db2
+    ```
+
+    Successful validation of the IBM Db2 plug-in returns the response: `Successfully validated`.
+
+**Method 2**
+
+If you downloaded the **Project Zoe** installation package from **Github**, complete the following steps:
+
+1. Open the directory where you extracted the Project Zoe installation package (pax file). Within the directory is package named `brightside-bundle.zip` file. 
+
+2. Open the directory where you extracted the contents of the `brightside-bundle.zip` file.
+
+    **Note:** In the directory where you extracted `brightside-bundle.zip` file, there is a directory named `odbc_cli`. The plug-in requires you to set an environment variable in the `odbc_cli` directory.
+
+3. Open a command line window and Set the environment variable by issuing the following command:
+  
+    - Windows operating systems:
+      ```
+      set IBM_DB_INSTALLER_URL=%cd%\odbc_cli
+      ```
+    - Linux and Mac operating systems:
+      ```
+      export IBM_DB_INSTALLER_URL=`pwd`/odbc_cli
+      ```
+4. Issue the following command to install the plg-in:
+    ```
+    npm install brightside-db2.tgz
+    ```
+5. After the command execution completes, issue the following command to validate that the installation completed successfully. 
+
+    ```
+    bright plugins validate db2
+    ```
+
+    Successful validation of the IBM Db2 plug-in returns the response: `Successfully validated`.
 
 ## Profile setup
 
