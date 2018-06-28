@@ -2,8 +2,9 @@
 
 The following issues are known to exist in this release of Zoe Brightside:
 
-  - **Additional syntax required to complete macOS and Linux
-    installations.** Depending on how you configured Node.js on Linux or Mac, you might need to add the prefix `sudo `before the `npm install -g` command or the `npm uninstall -g` command. This step gives Node.js write access to the installation directory.
+  - **Additional syntax required to complete macOS and Linux installations.**
+
+    Depending on how you configured Node.js on Linux or Mac, you might need to add the prefix `sudo `before the `npm install -g` command or the `npm uninstall -g` command. This step gives Node.js write access to the installation directory.
 
   - **The  `npm install -g` command might fail several times due to an `EPERM` error (Windows).**
 
