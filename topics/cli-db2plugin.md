@@ -48,17 +48,13 @@ If you installed **Zoe Brightside** from **bintray**, complete the following ste
 
 If you downloaded the **Project Zoe** installation package from **Github**, complete the following steps:
 
-1. Open the directory where you extracted the Project Zoe installation package (pax file). Within the directory is package named `brightside-bundle.zip` file. 
+1. Open the directory where you extracted `brightside-bundle.zip` file. If you do not have the `brightside-bundle.zip` file, please refer to the topic **Install Zoe Brightside from local package** to obtain it.
 
-2. Open the directory where you extracted the contents of the `brightside-bundle.zip` file.
-
-    **Note:** In the directory where you extracted `brightside-bundle.zip` file, there is a directory named `odbc_cli`. The plug-in requires you to set an environment variable in the `odbc_cli` directory.
-
-3. Open a command line window and Set the environment variable by issuing the following command:
+2. Open a command line window and set the IBM_DB_INSTALLER_URL environment variable by issuing the following command:
   
     - Windows operating systems:
       ```
-      set IBM_DB_INSTALLER_URL=%cd%\odbc_cli
+      set IBM_DB_INSTALLER_URL=%cd%/odbc_cli
       ```
     - Linux and Mac operating systems:
       ```
