@@ -49,7 +49,7 @@ If your PC is connected to the Internet, you can use the following method to ins
 
 **Follow these steps:**
 
-1.  Issue the following command to set the registry to the Zoe Brightside scoped package on Bintray:
+1.  Issue the following command to set the registry to the Zoe Brightside scoped package on Bintray. In addition to setting the scoped registry, your non-scoped registry must be set to an npm registry that includes all of the dependencies for Zoe Brightside, such as the global npm registry:
 
     ```
     npm config set @brightside:registry https://api.bintray.com/npm/ca/brightside
