@@ -60,7 +60,7 @@ If you downloaded the **Project Zoe** installation package from **Github**, comp
       ```
       export IBM_DB_INSTALLER_URL=`pwd`/odbc_cli
       ```
-4. Issue the following command to install the plg-in:
+4. Issue the following command to install the plug-in:
     ```
     npm install brightside-db2.tgz
     ```
