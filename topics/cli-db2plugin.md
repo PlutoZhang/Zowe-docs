@@ -48,9 +48,9 @@ If you installed **Zoe Brightside** from **bintray**, complete the following ste
 
 If you downloaded the **Project Zoe** installation package from **Github**, complete the following steps:
 
-1. Open the directory where you extracted `brightside-bundle.zip` file. If you do not have the `brightside-bundle.zip` file, please refer to the topic **Install Zoe Brightside from local package** to obtain it.
+1. Open a command line window and change directory to the location where you extracted the `brightside-bundle.zip` file. If you do not have the `brightside-bundle.zip` file, please refer to the topic **Install Zoe Brightside from local package** to obtain and extract it.
 
-2. Open a command line window and set the IBM_DB_INSTALLER_URL environment variable by issuing the following command:
+2. In the command line window, set the IBM_DB_INSTALLER_URL environment variable by issuing the following command:
   
     - Windows operating systems:
       ```
