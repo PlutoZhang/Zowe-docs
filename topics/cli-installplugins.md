@@ -9,12 +9,6 @@ the use of third-party plug-ins.
 
 You can install the following plug-ins:
 
-  - **CA Endevor**  
-    Use `@brightside/endevor` in your command syntax to install, update,
-    and validate the CA Endevor plug-in. 
-  - **CA File Master Plus**  
-    Use `@brightside/filemasterplus` in your command syntax to install,
-    update, and validate the CA File Master Plus plug-in. 
   - **IBM Db2 Database**  
     Use `@brightside/db2` in your command syntax to install, update, and
     validate the IBM Db2 Database plug-in. 

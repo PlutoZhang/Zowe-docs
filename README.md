@@ -79,8 +79,6 @@
 -  [Extending Project Zoe](topics/zoe_extending.md)
      - [Extending Zoe Brightside](topics/cli-extending.md)
         - [Installing plug-ins](topics/cli-installplugins.md)
-        - [Zoe Brightside plug-in for CA Endevor SCM](topics/cli-endevorplugin.md)
-        - [Zoe Brightside plug-in for CA File Master Plus](topics/cli-fmpplugin.md)
         - [Zoe Brightside plug-in for IBM Db2 Database](topics/cli-db2plugin.md)
 -  [Notices](topics/notices_toc.md)
     -  [IBM notices](topics/atlas-notices.md)

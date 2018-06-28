@@ -6,8 +6,14 @@ use Zoe Brightside:
 
 You can use Zoe Brightside with the following platforms:
 
-  - **Local workstations:**    
-  You can install Zoe Brightside on any Windows or Linux operating system. For more information about known
+  - **Local workstations:**
+    
+    **Important!**
+   
+    - Zoe Brightside is not officially supported on Mac computers. However, Zoe Brightside *might* run successfully on some Mac computers.
+    - Oracle Linux 6 is not supported. 
+
+    You can install Zoe Brightside on any Windows or Linux operating system. For more information about known
     issues and workarounds, see [Troubleshooting installing Zoe Brightside](cli-troubleshootinginstallingcli.nd).
 
   - **Mainframe systems:**   
@@ -39,7 +45,7 @@ Windows operating systems require the following software:
 - **Python v2.7**   
   See the C++ Compiler prerequisite. The command that installs C++ Compiler also installs Python on Windows.
 
-- **C++ Compiler**  
+- **C++ Compiler (gcc 4.8.1 or later)**  
   From an administrator command prompt, issue the following command:  
   ``npm install --global --production --add-python-to-path windows-build-tools``
 
@@ -58,7 +64,7 @@ Windows operating systems require the following software:
 - **Python v2.7**  
   Click here to [Download Python 2.7](https://www.python.org/download/releases/2.7/)
 
-- **C ++ Compiler**  
+- **C ++ Compiler (gcc 4.8.1 or later)**  
   The gcc compiler is included with MacOS. To confirm that you have the compiler, enter the command `gcc –help`. If you do not have the compiler installed, you can acquire gcc through a Google search.
 
 ### Linux operating systems
@@ -76,7 +82,7 @@ Linux  operating systems require the following software:
 - **Python v2.7**  
   Included w/ most Linux distributions
 
-- **C ++ Compiler**  
+- **C ++ Compiler (gcc 4.8.1 or later)**  
   Gcc is included with most Linux distributions. To confirm that gcc is installed, enter the command `gcc –version`. If gcc is not installed, you can enter one of the following commands:
 
   - **Red Hat**  
