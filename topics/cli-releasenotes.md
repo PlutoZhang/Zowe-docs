@@ -36,8 +36,6 @@ For more information about the available functionality in Zoe Brightside, see 
 
 You can install plug-ins to extend the capabilities of Zoe Brightside. Plug-ins add functionality to the product in the form of new command groups, actions, objects, and options.  The following plug-ins are available:
 
-  - CA Endevor® SCM plug-in
-  - CA File Master™ Plus plug-in
   - IBM Db2 Database plug-in
 
 For more information, see [Installing Plug-ins](cli-installplugins.md).
@@ -49,31 +47,32 @@ To report problems that you might encounter while using the product, enter issue
 
 Zoe Brightside uses the following third-party software:
 
-| Third-party Software | Version |
-| ----------------- | ------- |
-| chalk             | 2.3.0  |
-| cli-table2        | 0.2.0  |
-| dataobject-parser | 1.2.1  |
-| find-up           | 2.1.0  |
-| glob              | 7.1.1  |
-| js-yaml           | 3.9.0  |
-| jsonschema        | 1.1.1  |
-| levenshtein       | 1.0.5  |
-| log4js            | 2.5.3  |
-| merge-objects     | 1.0.5  |
-| moment            | 2.20.1 |
-| mustache          | 2.3.0  |
-| node.js           | 6.11.1 |
-| node-ibm\_db      | 2.3.1  |
-| node-mkdirp       | 0.5.1  |
-| node-progress     | 2.0.0  |
-| prettyjson        | 1.2.1  |
-| rimraf            | 2.6.1  |
-| stack-trace       | 0.0.10 |
-| string-width      | 2.1.1  |
-| wrap-ansi         | 3.0.1  |
-| yamljs            | 0.3.0  |
-| yargs             | 8.0.2  |
+| Third-party Software | Version | File name             |
+| ----------------- | -------| ------------------------- |
+| chalk             | 2.3.0  | Legal_Doc_00002285_56.pdf |
+| cli-table2        | 0.2.0  | Legal_Doc_00002310_5.pdf  |
+| dataobject-parser | 1.2.1  | Legal_Doc_00002310_36.pdf |
+| find-up           | 2.1.0  | Legal_Doc_00002310_33.pdf |
+| glob              | 7.1.1  | Legal_Doc_00001713_45.pdf |
+| js-yaml           | 3.9.0  | Legal_Doc_00002310_16.pdf |
+| jsonfile          | 4.0.0  | Legal_Doc_00002310_40.pdf |
+| jsonschema        | 1.1.1  | Legal_Doc_00002310_17.pdf
+| levenshtein       | 1.0.5  | See [UNLICENSE](https://github.com/gf3/Levenshtein/blob/master/UNLICENSE) |
+| log4js            | 2.5.3  | Legal_Doc_00002310_37.pdf |
+| merge-objects     | 1.0.5  | Legal_Doc_00002310_34.pdf |
+| moment            | 2.20.1 | Legal_Doc_00002285_25.pdf |
+| mustache          | 2.3.0  | Legal_Doc_mustache.pdf    |
+| node.js           | 6.11.1 | Legal_Doc_nodejs.pdf      |
+| node-ibm\_db      | 2.3.1  | Legal_Doc_00002310_38.pdf |
+| node-mkdirp       | 0.5.1  | Legal_Doc_00002310_35.pdf |
+| node-progress     | 2.0.0  | Legal_Doc_00002310_7.pdf  |
+| prettyjson        | 1.2.1  | Legal_Doc_00002310_22.pdf |
+| rimraf            | 2.6.1  | Legal_Doc_00002310_8.pdf  |
+| stack-trace       | 0.0.10 | Legal_Doc_00002310_10.pdf |
+| string-width      | 2.1.1  | Legal_Doc_00002310_39.pdf |
+| wrap-ansi         | 3.0.1  | Legal_Doc_00002310_12.pdf |
+| yamljs            | 0.3.0  | Legal_Doc_00002310_13.pdf |
+| yargs             | 8.0.2  | Legal_Doc_00002310_1.pdf  |
 
 **Note:** All trademarks, trade names, service marks, and logos referenced herein belong to their respective companies.
 

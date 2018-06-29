@@ -2,6 +2,15 @@
 
 Learn about what is new, changed, and removed in Project Zoe.
 
+## Version 0.8.3 (June 2018)
+### What's changed
+
+**Zoe Brightside**
+
+The following plug-ins are no longer packaged with Zoe Brightside:
+  - Zoe Brightside Plug-in for CA Endevor® Software Change Manager
+  - Zoe Brightside Plug-in for CA File Master™ Plus
+
 ## Version 0.8.2 (June 2018)
 
 ### What's new
@@ -32,25 +41,34 @@ Zoe Brightside is now built on a framework that lets you install plug-ins to ext
 
 - Zoe Brightside installation
 
-    You can now install Zoe Brightside using simplified and flexible installation process. You can now install Zoe Brightside using either of the following methods:
+    You can now install Zoe Brightside using simplified and flexible installation process. You can use either of the following methods:
 
-      - Install Zoe Brightside using the installation package that is contained on the Project Zoe Downloads repository.
-      - Install Zoe Brightside using the Node.js Package Manager (npm).
+    - Install Zoe Brightside using the installation package that is contained on the Project Zoe Downloads repository.
+    - Install Zoe Brightside using the Node.js Package Manager (npm).
 
-      **Important!** Both of the installation methods require Internet access on client PCs.
+    **Important!** Both of the installation methods require Internet access on client PCs.
 
-      [Learn more](cli-installcli.md)
+    [Learn more](cli-installcli.md)
+
+
 
 **zLUX**
 
 - zLUX application plug-in definition and Configuration Dataservices
 
-    - Information about the plug-in definition file and the zLUX application plug-in filesystem structure was added. [Learn more](mvd-zluxplugindefandstruct.md)
-    - Information about Configuration Dataservices that enable you to set plug-in default behavior was added. [Learn more](mvd-configdataservice.md)
+    - Information about the plug-in definition file and the zLUX application plug-in filesystem structure was added. 
+    
+      [Learn more](mvd-zluxplugindefandstruct.md)
+    - Information about Configuration Dataservices that enable you to set plug-in default behavior was added.
+    
+      [Learn more](mvd-configdataservice.md)
 
 - zLUX terminal application plug-in initial configuration steps
 
-    Steps to initially configure the zLUX terminal application plug-ins were added. [Learn more](mvd-configterminalappports.md)
+    Steps to initially configure the zLUX terminal application plug-ins were added.
+    
+    [Learn more](mvd-configterminalappports.md)
+
 
 ### What's changed
 

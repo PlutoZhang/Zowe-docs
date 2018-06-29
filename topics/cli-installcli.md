@@ -17,15 +17,10 @@ Install Zoe Brightside on PCs that are running a Windows, Linux, or macOS oper
     ```
     unzip brightside-bundle.zip
     ```
-    The command expands four TGZ packages into your working directory - Zoe Brightside and three plug-ins.
 
-4. Client workstations require access to one public internet endpoint to complete the Zoe Brightside installation. Issue the following command to set your npm registry:
+    The command expands four TGZ packages into your working directory - Zoe Brightside, one plug-in, and the odbc_cli folder.
 
-    ```
-    npm config set registry https://registry.npmjs.org
-    ```  
-
-5. Issue the following command to install Zoe Brightside on your PC:
+4. Issue the following command to install Zoe Brightside on your PC:
 
     ```
     npm install -g brightside-core-1.0.1.tgz
@@ -35,7 +30,7 @@ Install Zoe Brightside on PCs that are running a Windows, Linux, or macOS oper
 
     Zoe Brightside is installed on your PC. See [Installing Plug-ins](cli-installplugins.md) for information about the commands for installing plug-ins from the package.
 
-6.  Create a `zosmf` profile so that you can issue commands that communicate with z/OSMF.
+5.  Create a `zosmf` profile so that you can issue commands that communicate with z/OSMF.
 
     **Note:** For information about how to create a profile, see [Creating a Zoe Brightside profile](cli-createaprofile.md).
 
@@ -49,7 +44,7 @@ If your PC is connected to the Internet, you can use the following method to ins
 
 **Follow these steps:**
 
-1.  Issue the following command to set the registry to the Zoe Brightside scoped package on Bintray:
+1.  Issue the following command to set the registry to the Zoe Brightside scoped package on Bintray. In addition to setting the scoped registry, your non-scoped registry must be set to an npm registry that includes all of the dependencies for Zoe Brightside, such as the global npm registry:
 
     ```
     npm config set @brightside:registry https://api.bintray.com/npm/ca/brightside
