@@ -69,6 +69,7 @@ Zoe Brightside is now built on a framework that lets you install plug-ins to ext
     
     [Learn more](mvd-configterminalappports.md)
 
+
 ### What's changed
 
 **Zoe Brightside**

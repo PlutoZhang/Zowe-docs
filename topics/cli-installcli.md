@@ -17,6 +17,7 @@ Install Zoe Brightside on PCs that are running a Windows, Linux, or macOS oper
     ```
     unzip brightside-bundle.zip
     ```
+
     The command expands four TGZ packages into your working directory - Zoe Brightside, one plug-in, and the odbc_cli folder.
 
 4. Issue the following command to install Zoe Brightside on your PC:
