@@ -7,9 +7,9 @@ Learn about what is new, changed, and removed in Project Zoe.
 
 **Zoe Brightside**
 
-The following plug-ins are no longer packaged with Zoe Brightside:
-  - Zoe Brightside Plug-in for CA Endevor® Software Change Manager
-  - Zoe Brightside Plug-in for CA File Master™ Plus
+The following plug-ins are no longer packaged with Zoe Brightside:    
+  - Zoe Brightside Plug-in for CA Endevor® Software Change Manager    
+  - Zoe Brightside Plug-in for CA File Master™ Plus    
 
 ## Version 0.8.2 (June 2018)
 
