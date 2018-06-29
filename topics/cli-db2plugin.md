@@ -62,7 +62,7 @@ If you downloaded the **Project Zoe** installation package from **Github**, comp
       ```
 4. Issue the following command to install the plug-in:
     ```
-    npm install brightside-db2.tgz
+    bright plugins install brightside-db2-1.0.0.tgz
     ```
 5. After the command execution completes, issue the following command to validate that the installation completed successfully. 
 
