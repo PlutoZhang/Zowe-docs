@@ -14,7 +14,7 @@ We value your feedback. If you have comments about this documentation, you can o
 
 To do this, complete the following steps.
 
-1. Go to the [Zoe](https://github.com/gizafoundation/Downloads/releases) repository in GitHub.
+1. Go to the [Project Zoe issues](https://github.com/gizafoundation/giza-issues) repository in GitHub.
 2. Select **Issues**.
 3. Click **New issue**.
 4. Provide a title and enter your comment on the documentation. Be sure to include the specific location of the text that you are commenting on, for example, the section heading.
