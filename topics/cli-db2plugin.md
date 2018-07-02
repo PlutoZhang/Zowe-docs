@@ -53,10 +53,12 @@ If you downloaded the **Project Zoe** installation package from **Github**, comp
 2. From the command line window, set the `IBM_DB_INSTALLER_URL` environment variable by issuing the following command:
   
     - Windows operating systems:
+      
       ```
       set IBM_DB_INSTALLER_URL=%cd%/odbc_cli
       ```
     - Linux and Mac operating systems:
+      
       ```
       export IBM_DB_INSTALLER_URL=`pwd`/odbc_cli
       ```
