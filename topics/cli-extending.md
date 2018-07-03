@@ -4,9 +4,9 @@ You can install plug-ins to extend the capabilities of Zoe Brightside. Plug-ins
 
 **Important!** Plug-ins can gain control of your CLI application legitimately during the execution of every command. Install third-party plug-ins at your own risk. We make no warranties regarding the use of third-party plug-ins.
 
-The following plug-ins are available:
-
 **Note:** For information about how to install, update, and validate a plug-in, see [Installing Plug-ins](cli-installplugins.md).
+
+The following plug-ins are available:
 
 **Zoe Brightside plug-in for IBM Db2 Database**
 
