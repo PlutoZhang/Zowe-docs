@@ -1,9 +1,9 @@
-# Troubleshooting installing CLI
+# Troubleshooting installing Zoe Brightside
 
 The following issues are known to exist in this release of Zoe Brightside:
 
-  - **Additional syntax required to complete macOS and Linux
-    installations.**  
+  - **Additional syntax required to complete macOS and Linux installations.**
+
     Depending on how you configured Node.js on Linux or Mac, you might need to add the prefix `sudo `before the `npm install -g` command or the `npm uninstall -g` command. This step gives Node.js write access to the installation directory.
 
   - **The  `npm install -g` command might fail several times due to an `EPERM` error (Windows).**
@@ -13,8 +13,8 @@ The following issues are known to exist in this release of Zoe Brightside:
     If you encounter this problem, some users report that repeatedly attempting to install Zoe Brightside yields success. Some users also report success using the following workarounds:
 
       - Issue the `npm cache clean` command.
-      - Uninstall and reinstall CA Brightside. For more information,
-        see [Install Zoe Brightside](cli-installcli.md).
+      - Uninstall and reinstall Zoe Brightside. For more information,
+        see [Installing Zoe Brightside](cli-installcli.md).
       - Issue the `npm install -g brightside --no-optional` command.
 
   - **The `npm install -g` command might fail due to an `npm ERR! Cannot read property 'pause' of undefined` error.**

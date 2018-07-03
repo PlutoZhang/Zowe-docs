@@ -2,16 +2,18 @@
 Review and meet the following prerequisites before you install and
 use Zoe Brightside:
 
-  - [Supported platforms](#supported-platforms)
-  - [Free disk space](#free-disk-space)
-  - [Prerequisite software](#prerequisite-software)
-
 ## Supported platforms
 
 You can use Zoe Brightside with the following platforms:
 
-  - **Local workstations:**    
-  You can install Zoe Brightside on any Windows or Linux operating system. For more information about known
+  - **Local workstations:**
+    
+    **Important!**
+   
+    - Zoe Brightside is not officially supported on Mac computers. However, Zoe Brightside *might* run successfully on some Mac computers.
+    - Oracle Linux 6 is not supported. 
+
+    You can install Zoe Brightside on any Windows or Linux operating system. For more information about known
     issues and workarounds, see [Troubleshooting installing Zoe Brightside](cli-troubleshootinginstallingcli.nd).
 
   - **Mainframe systems:**   
@@ -34,7 +36,8 @@ The following software is required before you can install and use the product on
 Windows operating systems require the following software:
 
 - **Node.js v8.0 or higher:**   
-  Click here to [Download Node.js](https://nodejs.org/en/download/)   
+  Click here to [Download Node.js](https://nodejs.org/en/download/)       
+
   **Note:** Npm is included with the Node.js installation.
 
 - **Node Package Manager (npm) v5.0 or higher**
@@ -42,7 +45,7 @@ Windows operating systems require the following software:
 - **Python v2.7**   
   See the C++ Compiler prerequisite. The command that installs C++ Compiler also installs Python on Windows.
 
-- **C++ Compiler**  
+- **C++ Compiler (gcc 4.8.1 or later)**  
   From an administrator command prompt, issue the following command:  
   ``npm install --global --production --add-python-to-path windows-build-tools``
 
@@ -50,32 +53,36 @@ Windows operating systems require the following software:
  Mac operating systems require the following software:
 
 - **Node.js v8.0 or higher:**   
-  Click here to [Download Node.js](https://nodejs.org/en/download/)   
+  Click here to [Download Node.js](https://nodejs.org/en/download/)  
+
   **Note:** Npm is included with the Node.js installation.
 
 - **Node Package Manager (npm) v5.0 or higher**   
+
   **Tip:** If you are installing Node.js a macOS operating system, we recommend that you install `nodejs` and `nodejs-legacy` using the instructions on the Nodejs website (using package manager). For example, you can install `nodejs-legacy` using the command `sudo apt install nodejs-legacy`. With `nodejs-legacy`, you can issue node commands rather than typing `nodejs`.
 
 - **Python v2.7**  
   Click here to [Download Python 2.7](https://www.python.org/download/releases/2.7/)
 
-- **C ++ Compiler**  
+- **C ++ Compiler (gcc 4.8.1 or later)**  
   The gcc compiler is included with MacOS. To confirm that you have the compiler, enter the command `gcc –help`. If you do not have the compiler installed, you can acquire gcc through a Google search.
 
 ### Linux operating systems
 Linux  operating systems require the following software:
 
 - **Node.js v8.0 or higher:**   
-  Click here to [Download Node.js](https://nodejs.org/en/download/)   
+  Click here to [Download Node.js](https://nodejs.org/en/download/)  
+
   **Note:** Npm is included with the Node.js installation.
 
 - **Node Package Manager (npm) v5.0 or higher**   
+
   **Tip:** If you are installing Node.js a Linux operating system, we recommend that you install `nodejs` and `nodejs-legacy` using the instructions on the Nodejs website (using package manager). For example, you can install `nodejs-legacy` using the command `sudo apt install nodejs-legacy`. With `nodejs-legacy`, you can issue node commands rather than typing `nodejs`.
 
 - **Python v2.7**  
   Included w/ most Linux distributions
 
-- **C ++ Compiler**  
+- **C ++ Compiler (gcc 4.8.1 or later)**  
   Gcc is included with most Linux distributions. To confirm that gcc is installed, enter the command `gcc –version`. If gcc is not installed, you can enter one of the following commands:
 
   - **Red Hat**  

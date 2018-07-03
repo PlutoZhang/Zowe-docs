@@ -29,32 +29,44 @@
 
 4. Creating the PROCLIB member to run the Zoe runtime
 
-Note:  The name of the PROCLIB member may vary depending on the standards in place at each z/OS site, however for this documentation we will assume that the PROCLIB member is called `ZOESVR`.
+    **Note:**  The name of the PROCLIB member may vary depending on the standards in place at each z/OS site, however for this documentation we assume that the PROCLIB member is called `ZOESVR`.
 
-At the end of the installation, a Unix file `ZOESVR.jcl` is created under the directory where the runtime was installed into, `$INSTALL_DIR/files/templates`. The contents of this file need to be tailored and placed in a JCL member of the PROCLIB concatenation for the Zoe runtime to be executed as a started task.  The install script does this automatically, trying datasets `USER.PROCLIB`, other PROCLIB datasets found in the PROCLIB concatenation and finally `SYS1.PROCLIB`.  
+    At the end of the installation, a Unix file `ZOESVR.jcl` is created under the directory where the runtime was installed into, `$INSTALL_DIR/files/templates`. The contents of this file need to be tailored and placed in a JCL member of the PROCLIB concatenation for the Zoe runtime to be executed as a started task.  The install script does this automatically, trying data sets `USER.PROCLIB`, other PROCLIB data sets found in the PROCLIB concatenation and finally `SYS1.PROCLIB`.  
 
-If this succeeds, you will see a message like `PROC ZOESVR placed in USER.PROCLIB`, otherwise you will see messages beginning `Failed to put ZOESVR.JCL in a PROCLIB dataset.` and you will need to copy the PROC manually. The TSO `oget` command can be used to copy the `ZOESVR.jcl` file to the preferred PROCLIB.  
+    If this succeeds, you will see a message like the following one:
 
- `oget '$INSTALL_DIR/files/templates/ZOESVR.jcl' 'MY.USER.PROCLIB(ZOESVR)'`
+     ```PROC ZOESVR placed in USER.PROCLIB```
 
-You can place the PROC in any PROCLIB dataset in the PROCLIB concatenation, but some datasets such as `SYS1.PROCLIB` may be restricted, depending on the permission of the user.  
+    Otherwise you will see messages beginning with the following information:  
 
-You can tailor the JCL at this line
+     ```Failed to put ZOESVR.JCL in a PROCLIB dataset.```
 
- `//ZOESVR   PROC SRVRPATH='/zoe/install/path/explorer-server'`
+    In this case, you need to copy the PROC manually. The TSO `oget` command can be used to copy the `ZOESVR.jcl` file to the preferred PROCLIB.  
 
-to replace the `/zoe/install/path` with the location of the Zoe runtime directory that contains the explorer server.  Otherwise you must specify that path on the START command when you start Zoe in SDSF:
+     ```oget '$INSTALL_DIR/files/templates/ZOESVR.jcl' 'MY.USER.PROCLIB(ZOESVR)'```
 
- `/S ZOESVR,SRVRPATH='$ZOE_ROOT_DIR"/explorer-server'`
+    You can place the PROC in any PROCLIB data set in the PROCLIB concatenation, but some data sets such as `SYS1.PROCLIB` may be restricted, depending on the permission of the user.  
+
+    You can tailor the JCL at this line
+
+      ```//ZOESVR   PROC SRVRPATH='/zoe/install/path/explorer-server'```
+
+    to replace the `/zoe/install/path` with the location of the Zoe runtime directory that contains the explorer server.  Otherwise you must specify that path on the START command when you start Zoe in SDSF:
+
+      ```/S ZOESVR,SRVRPATH='$ZOE_ROOT_DIR/explorer-server'```
 
 5. Adding RACF authorizations for Zoe
-   
-   To define RACF authorizations for Zoe, the following steps are required:
-   
-   1. Define the PROC named ZOESVR to be a started task.
-   
-   `RDEFINE STARTED ZOESVR.* UACC(NONE) STDATA(USER(IZUSVR) GROUP(IZUADMIN) PRIVILEGED(NO) TRUSTED(NO) TRACE(YES))`
-   
-   2. Add the user who is performing the install to the IZUADMIN group.  
-   
-   `CONNECT (userid) GROUP(IZUADMIN)`
+
+    To define RACF authorizations for Zoe, the following steps are required:
+
+     1. Define the PROC named ZOESVR to be a started task.
+
+        ```
+        RDEFINE STARTED ZOESVR.* UACC(NONE) STDATA(USER(IZUSVR) GROUP(IZUADMIN) PRIVILEGED(NO) TRUSTED(NO) TRACE(YES))
+        
+        SETROPTS REFRESH RACLIST(STARTED)
+        ```
+
+     2. Add the user who is performing the install to the IZUADMIN group.  
+
+        ```CONNECT (userid) GROUP(IZUADMIN)```

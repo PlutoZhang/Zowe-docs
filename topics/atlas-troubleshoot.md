@@ -46,7 +46,7 @@ If explorer server REST APIs do not work, check the following items:
     CWWKZ0001I: Application IzuManagementFacilityRestJobs started in n.nnn seconds.
     ```
 
-    You can also call z/OSMF RESTJOBS APIs directly from your internet browser with a URL, for example,
+    You can also call z/OSMF RESTJOBS APIs directly from your Internet browser with a URL, for example,
 
     https://your.server:securezosmfport/zosmf/restjobs/jobs
 
