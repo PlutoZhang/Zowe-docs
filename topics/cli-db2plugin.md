@@ -2,14 +2,6 @@
 The Zoe Brightside plug-in for IBM Db2 Database lets you
 interact with Db2 for z/OS to perform tasks with modern development tools to automate typical workloads more efficiently. The plug-in also enables you to interact with Db2 to advance continuous integration to validate product quality and stability.
 
-  - [Plug-in overview](#plug-in-overview)
-  - [Use cases](#use-cases)
-  - [Prerequisites](#prerequisites)
-  - [Installation ](#installation)
-  - [Profile setup](#profile-setup)
-  - [Commands](#Commands)
-
-
 ## Plug-in overview
 
 Zoe Brightside Plug-in for IBM Db2 Database lets you execute SQL statements against a Db2 region, export a Db2 table, and call a stored procedure.The plug-in also exposes its API so that the plug-in can be used directly in other products.
@@ -28,30 +20,63 @@ Ensure that Zoe Brightside is installed.
 
 **More Information:**
 
-  - [Install Zoe Brightside](cli-installcli.md)
+  - [Installing Zoe Brightside](cli-installcli.md)
 
-## Installation
+## Installing
 
-To install the CA Brightside Plug-in for IBM Db2 Database,
-issue the following command in the command shell:
+There are **two methods** that you can use to install the Zoe Brightside Plug-in for IBM Db2 Database.
 
-```
-bright plugins install @brightside/db2 
-```
+**Method 1**
 
-To validate the installed plug-in, issue the following
-command:
+If you installed **Zoe Brightside** from **bintray**, complete the following steps:
 
-```
-bright plugins validate db2
-```
+1. Open a command line window and issue the following command:
 
-Successful validation of the Db2 plug-in returns the
-response: `Successfully validated`
+    ```
+    bright plugins install @brightside/db2 
+    ```
+
+2. After the command execution completes, issue the following command to validate that the installation completed successfully. 
+
+    ```
+    bright plugins validate db2
+    ```
+
+    Successful validation of the IBM Db2 plug-in returns the response: `Successfully validated`.
+
+**Method 2**
+
+If you downloaded the **Project Zoe** installation package from **Github**, complete the following steps:
+
+1. Open a command line window and change the directory to the location where you extracted the `brightside-bundle.zip` file. If you do not have the `brightside-bundle.zip` file, see the topic **Install Zoe Brightside from local package** in [Installing Zoe Brightside](cli-installcli.md) for information about how to obtain and extract it.
+
+2. From the command line window, set the `IBM_DB_INSTALLER_URL` environment variable by issuing the following command:
+  
+    - Windows operating systems:
+      
+      ```
+      set IBM_DB_INSTALLER_URL=%cd%/odbc_cli
+      ```
+    - Linux and Mac operating systems:
+      
+      ```
+      export IBM_DB_INSTALLER_URL=`pwd`/odbc_cli
+      ```
+4. Issue the following command to install the plug-in:
+    ```
+    bright plugins install brightside-db2-1.0.0.tgz
+    ```
+5. After the command execution completes, issue the following command to validate that the installation completed successfully. 
+
+    ```
+    bright plugins validate db2
+    ```
+
+    Successful validation of the IBM Db2 plug-in returns the response: `Successfully validated`.
 
 ## Profile setup
 
-Before you start using the Db2 plug-in, create a profile.
+Before you start using the IBM Db2 plug-in, create a profile.
 
 ### Creating a profile
 
@@ -90,13 +115,7 @@ Review the created profile and edit if necessary using the profile update comman
 ## Commands  
 
 The following commands can be issued with the Zoe Brightside Db2
-plug-in:
-
-  - [Call a stored procedure](#Call-a-stored-procedure)
-
-  - [Execute an SQL statement](#execute-an-sql-statement)
-
-  - [Export a table in SQL format](#export-a-table-in-sql-format)
+plug-in.
 
 **Tip:** At any point, you can issue the help command `-h` to see a list of available commands.
 
