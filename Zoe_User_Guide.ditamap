@@ -176,10 +176,6 @@ scope="local"/>
 scope="local">
 <topicref format="md" href="topics/cli-installplugins.md" navtitle="Installing plug-ins"
 scope="local"/>
-<topicref format="md" href="topics/cli-endevorplugin.md"
-navtitle="Zoe Brightside plug-in for CA Endevor SCM" scope="local"/>
-<topicref format="md" href="topics/cli-fmpplugin.md"
-navtitle="Zoe Brightside plug-in for CA File Master Plus" scope="local"/>
 <topicref format="md" href="topics/cli-db2plugin.md"
 navtitle="Zoe Brightside plug-in for IBM Db2 Database" scope="local"/>
 </topicref>

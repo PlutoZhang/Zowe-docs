@@ -7,9 +7,10 @@ Learn about what is new, changed, and removed in Project Zoe.
 
 **Zoe Brightside**
 
-The following plug-ins are no longer packaged with Zoe Brightside:    
-  - Zoe Brightside Plug-in for CA Endevor® Software Change Manager    
-  - Zoe Brightside Plug-in for CA File Master™ Plus    
+The following plug-ins are no longer packaged with Zoe Brightside:
+
+  - Zoe Brightside Plug-in for CA Endevor® Software Change Manager
+  - Zoe Brightside Plug-in for CA File Master™ Plus
 
 ## Version 0.8.2 (June 2018)
 
@@ -56,17 +57,18 @@ Zoe Brightside is now built on a framework that lets you install plug-ins to ext
 
 - zLUX application plug-in definition and Configuration Dataservices
 
-    - Information about the plug-in definition file and the zLUX application plug-in filesystem structure was added. 
-    
+    - Information about the plug-in definition file and the zLUX application plug-in filesystem structure was added.
+
       [Learn more](mvd-zluxplugindefandstruct.md)
+      
     - Information about Configuration Dataservices that enable you to set plug-in default behavior was added.
-    
+
       [Learn more](mvd-configdataservice.md)
 
 - zLUX terminal application plug-in initial configuration steps
 
     Steps to initially configure the zLUX terminal application plug-ins were added.
-    
+
     [Learn more](mvd-configterminalappports.md)
 
 
