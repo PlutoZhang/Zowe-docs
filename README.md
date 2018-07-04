@@ -80,7 +80,6 @@
           -   [Internal and bootstrapping](topics/mvd-internalandbootstrap.md)
           -   [Plug-in definition](topics/mvd-cfgdataplugindef.md)
           -   [Aggregation policies](topics/mvd-aggregatepolicies.md) 
-        - [Configuring the zLUX Proxy Server and ZSS](topics/mvd-configzluxproxyandzss.md)
         - [URI Broker](topics/mvd-uribroker.md)
         - [Logging utility](topics/mvd-logutility.md)
      - [Extending Zoe Brightside](topics/cli-extending.md)

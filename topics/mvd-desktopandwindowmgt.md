@@ -7,13 +7,11 @@ The code for this software can be found in the [zlux-app-manager repository](htt
 The interface for building an alternative window manager is present in [zlux-platform](https://github.com/gizafoundation/zlux-platform/blob/master/interface/src/mvd-window-management.d.ts).
 
 
-Window Management acts upon Windows, which are visualizations of an Instance of an application plug-in. Application plug-in are plug-ins of the type "application", and therefore the Virtual Desktop operates around a collection of plug-ins.
+Window Management acts upon Windows, which are visualizations of an instance of an application plug-in. Application plug-in are plug-ins of the type "application", and therefore the Virtual Desktop operates around a collection of plug-ins.
 
 **NOTE:** 
 
 * Other objects and frameworks that can be utilized by application plug-ins, but not related to Window Management, such as application-to-application communication, Logging, URI lookup, and Auth are not covered here.
-
-* The APIs are under development and features may be reorganized if it simplifies and clarifies the API. Features may be added if application plug-ins can benefit from them.
 
 
 # Loading and presenting application plug-ins
