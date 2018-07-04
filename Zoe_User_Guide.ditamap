@@ -10,7 +10,7 @@ For information on the DITA tags, see:
 http://submit.boulder.ibm.com/infocenter/idwb/v3r8m4/topic/com.ibm.ditaref.doc/doc/DitaGuideTitle.htm-->
 <ibmbooktitle>
 <ibmbooklibrary><titleline>Closed Beta for Project Zoe</titleline></ibmbooklibrary>
-<ibmmainbooktitle><titleline>User's Guide</titleline></ibmmainbooktitle>
+<ibmmainbooktitle><titleline>Installation and User's Guide</titleline></ibmmainbooktitle>
 </ibmbooktitle>
 <bookmeta>
 <!--Reader's comment form-->
@@ -29,7 +29,7 @@ navtitle="Summary of changes" scope="local"></topicref>
 <topicref format="md" href="topics/knownissues.md" navtitle="Known issues" scope="local"/><?Pub Caret -1?>
 </ibmfrontmatter>
 <chapter format="md" href="topics/zoe-introduction.md" navtitle="Project Zoe overview" scope="local">
-<topicref format="md" href="topics/mvd-overview.md" navtitle="zLux" scope="local"/>
+<topicref format="md" href="topics/mvd-overview.md" navtitle="zLUX" scope="local"/>
 <topicref format="md" href="topics/atlas-overview.md" navtitle="Explorer server" scope="local"/>
 <topicref format="md" href="topics/cli-releasenotes.md" navtitle="Zoe Brightside" scope="local"/>
 </chapter>
@@ -156,9 +156,13 @@ scope="local"/>
 scope="local"/>
 <topicref format="md" href="topics/mvd-pluginattributes.md" navtitle="Plug-in attributes"
 scope="local"/>
+</topicref>
 <topicref format="md" href="topics/mvd-zluxappfilesystem.md"
 navtitle="zLUX application filesystem structure" scope="local"/>
-</topicref>
+<topicref format="md" navtitle="zLUX dataservices" scope="local"
+href="topics/mvd-zluxdataservices.md"/>
+<topicref format="md" navtitle="Desktop and window management" scope="local"
+href="topics/mvd-desktopandwindowmgt.md"/>
 <topicref format="md" href="topics/mvd-configdataservice.md" navtitle="Configuration Dataservices"
 scope="local">
 <topicref format="md" href="topics/mvd-resourcescope.md" navtitle="Resource scope" scope="local"/>
@@ -171,6 +175,8 @@ scope="local"/>
 <topicref format="md" href="topics/mvd-aggregatepolicies.md" navtitle="Aggregation policies"
 scope="local"/>
 </topicref>
+<topicref format="md" href="topics/mvd-uribroker.md" navtitle="URI Broker" scope="local"/>
+<topicref format="md" href="topics/mvd-logutility.md" navtitle="Logging utility" scope="local"/>
 </topicref>
 <topicref format="md" href="topics/cli-extending.md" navtitle="Extending Zoe Brightside"
 scope="local">
