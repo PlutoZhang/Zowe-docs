@@ -55,8 +55,6 @@
                 - [Sending a GET request in JavaScript](topics/atlas-getrequestsinjavascript.md)
                 - [Sending a POST request in JavaScript](topics/atlas-postrequestinjavascript.md)
                 - [Explorer API sample in JavaScript](topics/atlas-extendedapisample.md)
-        -   [Using explorer server WebSocket services](topics/atlas-websocket.md)
-            -   [Programming explorer server WebSocket services](topics/atlas-programwebsocket.md)
     -   [Using Zoe Brightside](topics/cli-usingcli.md)
         -  [How to display Zoe Brightside help](topics/cli-howtodisplaybrightsidehelp.md)
         -  [Zoe Brightside command groups](topics/cli-commandgroups.md)
