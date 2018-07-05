@@ -125,10 +125,7 @@ navtitle="Extended API sample in JavaScript" scope="local"/>
 </topicref>
 </topicref>
 <topicref format="md" href="topics/atlas-websocket.md"
-navtitle="Using explorer server WebSocket services" scope="local">
-<topicref format="md" href="topics/atlas-programwebsocket.md"
-navtitle="Programming explorer server WebSocket services" scope="local"/>
-</topicref>
+navtitle="Using explorer server WebSocket services" scope="local"/>
 </topicref>
 <topicref format="md" href="topics/cli-usingcli.md" navtitle="Using Zoe Brightside" scope="local">
 <topicref format="md" href="topics/cli-howtodisplaybrightsidehelp.md"
