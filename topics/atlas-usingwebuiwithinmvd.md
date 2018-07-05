@@ -7,12 +7,6 @@ The following views are available from the explorer server Web UI and are accesi
 
   Use this view to query JES jobs with filters, and view the related steps, files, and status. You can also purge jobs from this view.
 
-**Syslog**
-
-  Use this view to see the system log by using a web socket. Whenever messages are written, the view is refreshed automatically.
-
-  You can also open a JES spool file for an active job and view its content that is refreshed through a web socket.
-
 **Data set Explorer**
 
   Use this view to browse the MVS™ file system by using a high-level qualifier filter. With the Dataset Explorer, you can complete the following tasks:
