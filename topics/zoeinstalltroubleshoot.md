@@ -6,14 +6,13 @@
 
      - `ZOE_ZOSMF_PATH`: The path where z/OSMF is installed.  Defaults to `/usr/lpp/zosmf/lib/defaults/servers/zosmfServer`
      - `ZOE_JAVA_HOME`:  The path where 64 bit Java 8 or later is installed.  Defaults to `/usr/lpp/java/J8.0_64`
-     - `ZOE_SDSF_PATH`:  The path where SDSF is installed.  Defaults to `/usr/lpp/sdsf/java`
      - `ZOE_EXPLORER_HOST`: The IP address of where the explorer servers are launched from.  Defaults to running `hostname -c`
 
     The first time the script is run if it has to locate any of the environment variables, the script will add lines to the current user's home directory `.profile` file to set the variables.  This ensures that the next time the same user runs the install script, the previous values will be used.
 
      **Note**: If you wish to set the environment variables for all users, add the lines to assign the variables and their values to the file `/etc/.profile`.  
 
-    If the environment variables for `ZOE_ZOSMF_PATH`, `ZOE_JAVA_HOME`, or `ZOE_SDSF_PATH` are not set and the install script cannot determine a default location, the install script will prompt for their location.  The install script will not continue unless valid locations are provided.  
+    If the environment variables for `ZOE_ZOSMF_PATH`, `ZOE_JAVA_HOME` are not set and the install script cannot determine a default location, the install script will prompt for their location.  The install script will not continue unless valid locations are provided.  
 
 2. Expanding the PAX files
 
