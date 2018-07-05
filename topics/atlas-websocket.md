@@ -6,5 +6,4 @@ spool file for an active job and view its contents that refresh through a web so
 
 |Server Endpoint|Description|Prerequisites|
 |--------|-----------|-------------|
-|`/api/sockets/syslog`|Get current syslog content. Use this WSS endpoint to read the system log in real time.|SDSF|
 |`/api/sockets/jobs/{jobname}/ids/{jobid}/files/{fileid}`|Tail the output of an active job. Use this WSS endpoint to read the tail of an active job's output file in real time.|z/OSMF restjobs|

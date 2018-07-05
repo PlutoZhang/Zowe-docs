@@ -3,7 +3,6 @@
 -   z/OS® Version 2.2 or later.
 -   64-bit Java™ 8 JRE or later.
 -   [IBM® z/OS Management Facility \(z/OSMF\)](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.izu/izu.htm) must be installed and running. See [z/OSMF configuration](prezosmf.md).
--   \(Optional\) The System Display and Search Facility (SDSF) of z/OS must be installed to enable real-time access to SYSLOG.
 
 ## Pre-installation checklist
 
