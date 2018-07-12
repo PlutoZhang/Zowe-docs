@@ -5,7 +5,9 @@ zLUX generates log files in the following default locations:
 - Zoe Node Server: `zlux-example-server/log/nodeServer-yyyy-mm-dd-hh-mm.log`
 - ZSS: `zlux-example-server/log/zssServer-yyyy-mm-dd-hh-mm.log`
  
-Note that the Zoe Node Server logs and ZSS logs are timestamped in the format yyyy-mm-dd-hh-mm and older logs are deleted when a new log is created at server startup.
+The Zoe Node Server logs and ZSS logs are timestamped in the format yyyy-mm-dd-hh-mm and older logs are deleted when a new log is created at server startup.
+
+The log files contain processing messages and statistics.
 
 ## Controlling the zLUX logging location
 

@@ -16,9 +16,9 @@ zLUX consists of the following components:
 
     The Node.js server plus the Express.js as a webservices framework, and the proxy applications that communicate with the z/OS services and components.
 
-- **zLUX Secure Services address space**
+- **zSS Server**
 
-    A server that provides secure REST services to support the Zoe Node Server.
+    The zSS Server provides secure REST services to support the Zoe Node Server.
 
 - **Application plug-ins**
 
