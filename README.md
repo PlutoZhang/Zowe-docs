@@ -69,7 +69,6 @@
           -   [Location of plug-in files](topics/mvd-pluginsdir.md)
           -   [Plug-in definition file](topics/mvd-plugindeffile.md)
           -   [Plug-in attributes](topics/mvd-pluginattributes.md)  
-        - [zLUX application filesystem structure](topics/mvd-zluxappfilesystem.md)
         - [zLUX dataservices](topics/mvd-zluxdataservices.md)   
         - [Desktop and window management](topics/mvd-desktopandwindowmgt.md)     
         - [Configuration Dataservices](topics/mvd-configdataservice.md)
