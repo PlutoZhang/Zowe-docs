@@ -17,8 +17,6 @@ You can set the log level to adjust the level of detail that is written to log f
 ## Set the .brightside directory
 You can set the location on your PC where Zoe Brightside creates the *.brightside* directory, which contains log files, profiles, and plug-ins for the product:
 
-<div class="table-wrap">
-
 | Environmental Variable | Description | Values | Default |
 | ---------------------- | ----------- | ------ | ------- |
 | BRIGHTSIDE\_CLI\_HOME  | Zoe Brightside home directory location | Any valid path on your PC | Your PC default home directory |
