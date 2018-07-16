@@ -1,4 +1,4 @@
-# Set environmental variables for Zoe Brightside
+# Setting environmental variables for Zoe Brightside
 You can set environment variables on your operating system to modify Zoe Brightside behavior, such as the log level and the location of the *.brightside* directory, where the logs, profiles, and plug-ins are
 stored. Refer to your PC operating system documentation for information
 about how to set environmental variables.

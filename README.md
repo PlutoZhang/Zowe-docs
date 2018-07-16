@@ -32,6 +32,7 @@
         -  [Creating a Zoe Brightside profile](topics/cli-createaprofile.md)
         -  [Verifying Zoe Brightside connection to z/OSMF](topics/cli-validateInstallation.md)
         -  [Troubleshooting installing Zoe Brightside](topics/cli-troubleshootinginstallingcli.md)          
+        -  [Setting environmental variables for Zoe Brightside](topics/cli-setenvironmentvariables.md)
     -   [Uninstalling Project Zoe](topics/uninstall.md)
         -   [Uninstalling zLUX](topics/mvd-uninstallingzlux.md)
         -   [Uninstalling explorer server](topics/atlas-uninstall)
