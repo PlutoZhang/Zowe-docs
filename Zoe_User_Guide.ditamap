@@ -154,8 +154,6 @@ scope="local"/>
 <topicref format="md" href="topics/mvd-pluginattributes.md" navtitle="Plug-in attributes"
 scope="local"/>
 </topicref>
-<topicref format="md" href="topics/mvd-zluxappfilesystem.md"
-navtitle="zLUX application filesystem structure" scope="local"/>
 <topicref format="md" navtitle="zLUX dataservices" scope="local"
 href="topics/mvd-zluxdataservices.md"/>
 <topicref format="md" navtitle="Desktop and window management" scope="local"
