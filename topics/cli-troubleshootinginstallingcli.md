@@ -110,7 +110,7 @@ You attempt to issue node.js commands and you do not receive the expected  outpu
 There might be a program that is named *node* on your path. The Node.js installer automatically adds a program that is named *node* to your path. When there are pre-existing programs that are named *node* on your computer, the program that appears first in the path is used. To correct this behavior, change the order of the programs in the path so that Node.js appears first.
 
 
-## Installation Fails on Oracle Linux 6
+## Installation fails on Oracle Linux 6
 
 **Valid on Oracle Linux 6**
 
