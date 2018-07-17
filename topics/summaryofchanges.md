@@ -2,6 +2,14 @@
 
 Learn about what is new, changed, and removed in Project Zoe.
 
+## Version 0.8.4 (July 2018)
+
+### What's new
+
+### What's changed
+
+### What's removed
+
 ## Version 0.8.3 (June 2018)
 ### What's changed
 
@@ -60,7 +68,7 @@ Zoe Brightside is now built on a framework that lets you install plug-ins to ext
     - Information about the plug-in definition file and the zLUX application plug-in filesystem structure was added.
 
       [Learn more](mvd-zluxplugindefandstruct.md)
-      
+
     - Information about Configuration Dataservices that enable you to set plug-in default behavior was added.
 
       [Learn more](mvd-configdataservice.md)
