@@ -72,4 +72,5 @@ environment. For more information and workarounds, see [Troubleshooting Installi
 
 **More information:**
 
+  - [Setting environment variables for Zoe Brightside](cli-setenvironmentvariables.md)
   - [Uninstalling Zoe Brightside](cli-uninstallcli.md)

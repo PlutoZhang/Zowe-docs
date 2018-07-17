@@ -80,6 +80,9 @@ scope="local">
 navtitle="Creating a Zoe Brightside profile" scope="local"/>
 <topicref format="md" href="topics/cli-validateInstallation.md"
 navtitle="Verifying Zoe Brightside connection to z/OSMF" scope="local"/>
+<topicref format="md" href="topics/cli-setenvironmentvariables.md"
+navtitle="Setting environmental variables for Zoe Brightside" scope="local"/>
+</topicref>
 <topicref format="md" href="topics/cli-troubleshootinginstallingcli.md"
 navtitle="Troubleshooting installing Zoe Brightside" scope="local"/>
 </topicref>
