@@ -1,4 +1,4 @@
-# System requirements for explorer server
+# System requirements for mediation layer
 
 -   z/OS® Version 2.1 or later.
 -   64-bit Java™ 8 JRE or later.
