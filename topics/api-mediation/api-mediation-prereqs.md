@@ -1,4 +1,4 @@
-# System requirements for mediation layer
+# System requirements for API Mediation Layer
 
 -   z/OS® Version 2.1 or later.
 -   64-bit Java™ 8 JRE or later.
