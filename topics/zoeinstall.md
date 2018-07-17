@@ -15,6 +15,8 @@
 
        You may run the install multiple times with different values in the `zoe-install.yaml` file to create separate installations of the Zoe runtime.  The directory that Zoe is installed into must be empty. The install script will exit if the directory is not empty and create the directory if it does not exist.
 
+    - API Mediation has three ports - one HTTPS port for each micro-service. 
+    
     - explorer-server has two ports, one for HTTP and one for HTTPs.  The liberty server is used for the explorer-ui components.
 
     - zlux-server has three ports: the HTTP and HTTPs ports that are used by the zLUX window manager server, and the port that is used by the ZSS server.
@@ -22,6 +24,11 @@
     ```
     install:
      rootDir=/var/zoe/0.8.3
+     
+    api-mediation:
+      catalogHttpsPort=7552
+      discoveryHttpsPort=7553
+      gatewayHttpsPort=-7554 
 
     explorer-server:
       httpPort=7080
