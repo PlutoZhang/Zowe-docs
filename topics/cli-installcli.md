@@ -38,6 +38,10 @@ Install Zoe Brightside on PCs that are running a Windows, Linux, or macOS oper
 
 After you install and configure Zoe Brightside, you can issue the `bright --help` command to view a list of available commands. For moreinformation, see [Display Help](cli-howtodisplaybrightsidehelp.md).
 
+**More information:**
+
+  - [Setting environment variables for Zoe Brightside](cli-setenvironmentvariables.md)
+  - [Uninstalling Zoe Brightside](cli-uninstallcli.md)
 
 ## Install Zoe Brightside from Bintray registry
 If your PC is connected to the Internet, you can use the following method to install Zoe Brightside from an npm registry.
