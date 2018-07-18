@@ -8,7 +8,7 @@
       - [zLUX](topics/mvd-overview.md)
       - [Explorer server](topics/atlas-overview.md)
       - [Zoe Brightside](topics/cli-releasenotes.md)
-      - [API Mediation Layer](api-mediation-overview.md)
+      - [API Mediation Layer](topics/api-mediation/api-mediation-overview.md)
 -   [Installing Project Zoe](topics/installandconfig.md)
     -  [Installation roadmap](topics/installroadmap.md)
     -  [System requirements](topics/planinstall.md)
