@@ -1,6 +1,6 @@
-# System requirements for API Mediation Layer
+# System requirements for API Mediation
 
--   z/OS® Version 2.1 or later.
+-   z/OS® Version 2.2 or later.
 -   64-bit Java™ 8 JRE or later.
 
 ## Pre-installation checklist
@@ -12,4 +12,4 @@ The following information is required during the installation process. Make the 
 -   The API Mediation HTTP and HTTPS port numbers. You will be asked for 3 unique port numbers.
 -   The user ID that runs the Zoe started task.
 
-    **Tip:** Use the same user ID that runs the z/OSMF IZUSVR1 task, or a user ID with equivalent authorizations.
+    **Tip:** Use the same user ID that runs the z/OSMF `IZUSVR1` task, or a user ID with equivalent authorizations.

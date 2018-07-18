@@ -13,6 +13,7 @@
     -  [Installation roadmap](topics/installroadmap.md)
     -  [System requirements](topics/planinstall.md)
         -   [z/OSMF configuration](topics/prezosmf.md)
+        -   [System requirements for API Mediation Layer](topics/api-mediation/api-mediation-prereqs.md)
         -   [System requirements for zLUX](topics/premvd.md)
             -   [Confirming that Node.js is installed](topics/mvd-instconfirmnodejsinstalled.md)
             -   [Configuring ports for the zLUX terminal application plug-ins](topics/mvd-configterminalappports.md)
