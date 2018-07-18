@@ -1,6 +1,10 @@
 # Installing the Zoe runtime on z/OS
 
-1. Navigate to the directory where the install archive was unpacked into.  Locate the `/install` directory.
+To install API Mediation Layer, zLux, and explorer server, you install the Zoe runtime on z/OS.
+
+**Follow these steps:**
+
+1. Navigate to the directory where the install archive was unpacked.  Locate the `/install` directory.
 
     ```
          /install
@@ -9,26 +13,28 @@
 
     ```
 
-2. Review zoe-install.yaml which contains the following properties.
+2. Review the `zoe-install.yaml` file which contains the following properties.
 
-    - install:rootDir is the directory that Zoe will be installed into to create a Zoe runtime.  The default directory is `~/zoe/0.8.3`. The user's home directory is used as a default value to help ensure that the installing user has permission to create the directories needed for the install.  If the Zoe runtime is going to be used by different users it may be more appropriate to use another directory, such as `/var/zoe/v.r.m`.
+    - `install:rootDir` is the directory that Zoe will be installed into to create a Zoe runtime. The default directory is `~/zoe/0.8.3`. The user's home directory is the default value to ensure that the installing user has permission to create the directories that are required for the install. If the Zoe runtime will be maintained by multiple users it might be more appropriate to use another directory, such as `/var/zoe/v.r.m`.
 
-       You may run the install multiple times with different values in the `zoe-install.yaml` file to create separate installations of the Zoe runtime.  The directory that Zoe is installed into must be empty. The install script will exit if the directory is not empty and create the directory if it does not exist.
+        You can run the installation process multiple times with different values in the `zoe-install.yaml` file to create separate installations of the Zoe runtime. The directory that Zoe is installed into must be empty. The install script exits if the directory is not empty and creates the directory if it does not exist.
 
-    - API Mediation has three ports - one HTTPS port for each micro-service. 
+    - API Mediation Layer has three ports - one HTTPS port for each micro-service. 
     
-    - explorer-server has two ports, one for HTTP and one for HTTPs.  The liberty server is used for the explorer-ui components.
+    - Explorer-server has two ports - one for HTTP and one for HTTPS.  The liberty server is used for the explorer-ui components.
 
-    - zlux-server has three ports: the HTTP and HTTPs ports that are used by the zLUX window manager server, and the port that is used by the ZSS server.
+    - zLux-server has three ports: the HTTP and HTTPS ports that are used by the zLUX window manager server, and the port that is used by the ZSS server.
 
-    ```
+
+
+    ```yaml
     install:
      rootDir=/var/zoe/0.8.3
      
     api-mediation:
       catalogHttpsPort=7552
       discoveryHttpsPort=7553
-      gatewayHttpsPort=-7554 
+      gatewayHttpsPort=7554 
 
     explorer-server:
       httpPort=7080
@@ -41,7 +47,7 @@
       zssPort=8542
     ```
 
-    If all of these port values are OK then you do not need to change them. These ports must not be already in use for the Zoe runtime servers to be able to allocate them.  
+    If all of the default port values are acceptable then you do not need to change them. The ports must not be in use for the Zoe runtime servers to be able to allocate them.  
 
     To determine which ports are not available, follow these steps:
 
@@ -57,7 +63,7 @@
     TSO NETSTAT PORTLIST
     ```  
 
-    The zoe-install.yaml also contains the telnet and SSH port with defaults of 23 and 22.  If your z/OS LPAR is using different ports, edit the values.  This is to allow the TN3270 terminal desktop app to connect as well as the VT terminal desktop app.  Unlike the ports needed by the Zoe runtime for its zLUX and explorer server which must be unused, the terminal ports are expected to be in use.
+    The zoe-install.yaml also contains the telnet and SSH port with defaults of 23 and 22.  If your z/OS LPAR is using different ports, edit the values. This is to allow the TN3270 terminal desktop app to connect as well as the VT terminal desktop app.  Unlike the ports needed by the Zoe runtime for its zLUX and explorer server which must be unused, the terminal ports are expected to be in use.
 
     ```
     # Ports for the TN3270 and the VT terminal to connect to    
@@ -66,7 +72,7 @@
         telnetPort=23
     ```
 
-2. Execute the zoe-install.sh script
+3. Execute the zoe-install.sh script.
 
     With the current directory being the `/install` directory, execute the script `zoe-install.sh` by issuing the following command:
 
