@@ -25,3 +25,4 @@ To build zLUX applications, npm 5.4 or later is required. To update npm, issue t
 ```
   npm install -g npm
 ```
+The mainframe account under which the ZSS server runs must have UPDATE permission on the `BPX.DAEMON` and `BPX.SERVER` facility class profiles. 

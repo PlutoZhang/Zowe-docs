@@ -2,6 +2,13 @@
 
 Learn about what is new, changed, and removed in Project Zoe.
 
+## Version 0.8.4 (July 2018)
+### What's changed
+
+**zLUX**
+
+The mainframe account under which the ZSS server runs must have UPDATE permission on the `BPX.DAEMON` and `BPX.SERVER` facility class profiles. 
+
 ## Version 0.8.3 (June 2018)
 ### What's changed
 
