@@ -15,4 +15,4 @@ The following example illustrates how to use the **curl** utility to invoke API 
 $ curl -v -k --silent https://hostName:basePort/api/v1/caapicatalog/application/state 2>&1 | grep -Po '(?<=\"status\"\:\")[^\"]+'
 UP
 ```
-The response `UP` confirms that API Mediation Layer is running properly.
+The response `UP` confirms that API Mediation Layer was installed and is running properly.
