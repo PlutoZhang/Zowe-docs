@@ -1,9 +1,9 @@
 # System requirements for zLUX
 
-Your system must meet the software requirements for zLUX.
+Your system must meet the following software requirements for zLUX: 
 
 -   z/OS Version 2.2 or later.
--   Whatever maintenance is required by the Node.js and Java installations.
+-   Any maintenance that is required by the Node.js and Java installations.
 -   833 MB of HFS file space for the zLUX installation.
 
 To verify that the most recent version of Java Version 8 is installed on z/OS, issue the following command:
