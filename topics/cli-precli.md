@@ -7,15 +7,15 @@ use Zoe Brightside:
 You can use Zoe Brightside with the following platforms:
 
   - **Local workstations:**
+
+    You can install Zoe Brightside on any Windows or Linux operating system. For more information about known
+    issues and workarounds, see [Troubleshooting installing Zoe Brightside](cli-troubleshootinginstallingcli.nd).
     
     **Important!**
    
     - Zoe Brightside is not officially supported on Mac computers. However, Zoe Brightside *might* run successfully on some Mac computers.
     - Oracle Linux 6 is not supported. 
-
-    You can install Zoe Brightside on any Windows or Linux operating system. For more information about known
-    issues and workarounds, see [Troubleshooting installing Zoe Brightside](cli-troubleshootinginstallingcli.nd).
-
+    
   - **Mainframe systems:**   
     Zoe Brightside was designed and tested to integrate with IBM z/OS Management Facility (z/OSMF) running on IBM z/OS version 2.2 or higher.
 
