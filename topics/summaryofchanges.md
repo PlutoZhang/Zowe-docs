@@ -3,15 +3,11 @@
 Learn about what is new, changed, and removed in Project Zoe.
 
 ## Version 0.8.4 (July 2018)
-### What's changed
+### What's new
 
 **Project Zoe**
 
-Project Zoe now contains a component named API Mediation. You install API Mediation when you install the Zoe runtime on z/OS.
-
-**Zoe Brightside**
-
-We now provide information about how you can set environment variables on your operating system to modify Zoe Brightside behavior, such as the log level and the location of the .brightside directory where the logs, profiles, and plug-ins are stored. For more information, see [Setting environmental variables for Zoe Brightside](cli-setenvironmentvariables.md).
+Project Zoe now contains a component named API Mediation Layer. You install API Mediation Layer when you install the Zoe runtime on z/OS. For more information, see [API Mediation Layer](api-mediation/api-mediation-overview.md) and [Installing the Zoe runtime on z/OS](zoeinstall.md). 
 
 
 ## Version 0.8.3 (June 2018)
