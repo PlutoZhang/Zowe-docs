@@ -4,12 +4,12 @@ Project Zoe offers modern interfaces to interact with z/OS and allows you to wor
 
 Project Zoe consists of the following main components. Each component provides a different interface or functionality:
 
-- [API Mediation Layer](topics/api-mediation/api-mediation-overview.md), which provides an API abstraction layer through which APIs can be discovered, catalogued, and presented uniformly.
+- [API Mediation Layer](api-mediation/api-mediation-overview.md): Provides an API abstraction layer through which APIs can be discovered, catalogued, and presented uniformly.
 
-- [zLUX](topics/mvd-overview.md), which provides a browser-based user interface (UI) that provides a full screen interactive experience. The UI includes many interactions that exist in 3270 terminals and web interfaces such as IBM z/OSMF.
+- [zLUX](mvd-overview.md): Provides a browser-based user interface (UI) that provides a full screen interactive experience. The UI includes many interactions that exist in 3270 terminals and web interfaces such as IBM z/OSMF.
 
-- [Explorer server](topics/atlas-overview.md), which provides a range of APIs for the management of jobs, data sets, z/OS UNIX System Services files, and persistent data.
+- [Explorer server](atlas-overview.md): Provides a range of APIs for the management of jobs, data sets, z/OS UNIX System Services files, and persistent data.
 
-- [Zoe Brightside](topics/cli-releasenotes.md), which provides a command-line interface that lets you interact with the mainframe remotely and use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development. 
+- [Zoe Brightside](cli-releasenotes.md): Provides a command-line interface that lets you interact with the mainframe remotely and use common tools such as Integrated Development Environments (IDEs), shell commands, bash scripts, and build tools for mainframe development. 
 
 For details of each component, see the corresponding section.
