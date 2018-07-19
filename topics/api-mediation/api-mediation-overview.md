@@ -19,7 +19,7 @@ The following diagram illustrates the single point of access with the API Gatewa
 
 ![API Mediation Layer Architecture diagram](diagrams/image2018-2-26%2014_53_46.png)
 
-##Components
+## Components
 The API Layer is made up of the following four key components:
 
 * [API Gateway](#api-gateway)
