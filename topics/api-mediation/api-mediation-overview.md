@@ -20,10 +20,6 @@ The following diagram illustrates the single point of access with the API Gatewa
 ## Components
 The API Layer is made up of the following key components:
 
-* [API Gateway](#api-gateway)
-* [Discovery Service](#discovery-service)
-* [API Catalog](#api-catalog)
-
 ### API Gateway
 The microservices that are contained within the ecosystem are located behind a reverse proxy. Clients interact with the gateway layer (reverse proxy). This layer forwards API requests to the appropriate corresponding service through the microservice endpoint UI. The gateway is built using Netflix Zuul and Spring Boot technology.
 
