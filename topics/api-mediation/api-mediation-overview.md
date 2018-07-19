@@ -3,9 +3,7 @@
 The API Mediation Layer provides a single point of access for mainframe service REST APIs. The Layer offers enterprise, cloud-like features such as high-availability, scalability, dynamic API discovery, consistent security, a single sign-on experience, and documentation. The API Mediation Layer facilitates secure communication across loosely coupled microservices through the API Gateway. The API Mediation Layer includes an API Catalog which provides an easy interface to view all discovered microservices, their associated APIs, and Swagger documentation in a user-friendly manner. The Discovery Service makes it possible to determine the location and status of microservice instances running inside the ecosystem.  
 
 ## Key features  
-* Security in which the microservice Enterprise z/OS Security Manager (mESM) provides built-in Authentication and Authorization
 * High Availability of services in which application instances on a failing node are distributed among surviving nodes
-* Single Sign-On and Resource Level authorization that is supported by ESM
 * Microservice UIs available through the Gateway and Catalog by means of reverse proxying
 * Support for standardization and normalization of microservice URLs and routing to provide the API Mediation Layer user with a consistent way of accessing microservices.
 * Minimal effort to register a microservice with the Gateway (configuration over code)
