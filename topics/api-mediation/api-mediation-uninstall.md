@@ -1,6 +1,13 @@
-# Uninstalling API Mediation
+# Uninstalling API Mediation Layer
 
-To uninstall the API Mediation layer, take the following steps:
+You can uninstall API Mediation Layer when you no longer want to use the product.
+
+**Note:** Be aware of the following considerations:
+
+-   You might need super user authority to run this command.
+-   You must identify the API Mediation installation directory correctly. Running a recursive remove command with the wrong directory name can delete critical files.
+
+**Follow these steps:**
 
 1.  Stop your API Mediation services by running the following operator command:
 
@@ -8,7 +15,7 @@ To uninstall the API Mediation layer, take the following steps:
     C ZOESVR
     ```
 
-2.  Delete the ZOESVR member from your system PROCLIB data set.
+2.  Delete the `ZOESVR` member from your system `PROCLIB` data set.
 3.  Remove RACF® \(or equivalent\) definitions with the following command:
 
     ```
@@ -23,7 +30,4 @@ To uninstall the API Mediation layer, take the following steps:
     rm -R /var/zoe_install_directory/api-mediation #*Zoe Installation Directory*
     ```
 
-    **Notes:**
 
-    -   You might need super user authority to run this command.
-    -   You must identify the API Mediation installation directory correctly. Running a recursive remove command with the wrong directory name might delete critical files.
