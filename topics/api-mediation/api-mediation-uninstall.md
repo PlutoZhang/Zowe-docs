@@ -16,7 +16,7 @@ You can uninstall API Mediation Layer when you no longer want to use the product
     ```
 
 2.  Delete the `ZOESVR` member from your system `PROCLIB` data set.
-3.  Remove RACF® \(or equivalent\) definitions with the following command:
+3.  Remove RACF® \(or equivalent\) definitions using the following command:
 
     ```
     RDELETE STARTED (ZOESVR.*)
@@ -24,7 +24,7 @@ You can uninstall API Mediation Layer when you no longer want to use the product
     REMOVE (userid) GROUP(IZUUSER)
     ```
 
-4.  Delete the z/OS® UNIX™ System Services API Mediation directory and files from the API Mediation installation directory by issuing the following command:
+4.  Delete the z/OS® UNIX™ System Services API Mediation directory and files from the API Mediation installation directory using the following command:
 
     ```sh
     rm -R /var/zoe_install_directory/api-mediation #*Zoe Installation Directory*
