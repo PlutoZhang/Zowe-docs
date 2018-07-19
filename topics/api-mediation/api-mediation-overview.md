@@ -1,3 +1,38 @@
-# API Mediation Services
+# API Mediation Layer
 
-The API Mediation Layer consists of three microservices: the API Gateway, API Discovery Service, and API Catalog.
+The API Mediation Layer provides a single point of access for CA mainframe service REST APIs. The Layer offers enterprise, cloud-like features such as high-availability, scalability, dynamic API discovery, consistent security, a single sign-on experience, and documentation. The API Mediation Layer facilitates secure communication across loosely coupled microservices through the API Gateway. The API Mediation Layer includes an API Catalog which provides an easy interface to view all discovered microservices, their associated APIs, and Swagger documentation in a user-friendly manner. The Discovery Service makes it possible to determine the location and status of microservice instances running inside the ecosystem.  
+
+## Key features  
+* Security in which the microservice Enterprise z/OS Security Manager (mESM) provides built-in Authentication and Authorization
+* High Availability of services in which application instances on a failing node are distributed among surviving nodes
+* Single Sign-On and Resource Level authorization that is supported by ESM
+* Microservice UIs available through the Gateway and Catalog by means of reverse proxying
+* Support for standardization and normalization of microservice URLs and routing to provide the API Mediation Layer user with a consistent way of accessing microservices.
+* Minimal effort to register a microservice with the Gateway (configuration over code)
+* Runs on Windows, Linux, and z/OS (target platform)
+* Written in Java utilizing Spring Boot (2.x), Angular 5, and the Netflix CloudStack
+* Supports multiple client types for discovery (including Spring Boot, Java, NodeJS)
+* Enablers that allow for easy discovery and exposure of REST APIs and Swagger documentation of each microservice 
+
+## API Mediation Layer Architecture 
+The following diagram illustrates the single point of access with the API Gateway and the interactions between the API Gateway, API Catalog, and the Discovery Service:   
+
+![API Mediation Layer Architecture diagram](diagrams/image2018-2-26%2014_53_46.png)
+
+##Components
+The API Layer is made up of the following four key components:
+
+* [API Gateway](#api-gateway)
+* [Discovery service](#discovery-service)
+* [API Catalog](#api-catalog)
+
+### API Gateway
+The microservices that are contained within the MFaaS service ecosystem are located behind a reverse proxy. MFaaS clients interact with the MFaaS Gateway layer (reverse proxy). This layer forwards API requests to the appropriate corresponding service through the microservice endpoint UI. The gateway is built using Netflix Zuul and Spring Boot technology.
+
+### Discovery service
+The Discovery service is the central point in the API Gateway infrastructure that accepts "announcements of REST services" and serves as a repository of active services. Backend microservices register with this service either directly by using a Eureka client or, in the case of the non-Spring Boot applications, indirectly through a Sidecar. The Discovery service is built on Eureka and Spring Boot technology.
+
+### API Catalog
+The API Catalog is the catalog of published APIs and their associated documentation that are discoverable or can be available if provisioned from the service catalog. The API documentation is visualized using the Swagger UI. The API Catalog contains APIs of services available as versions of CA products. A service can be implemented by one or more service instances that provide exactly same service for high-availability or scalability. 
+
+
