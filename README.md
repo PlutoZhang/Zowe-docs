@@ -27,6 +27,7 @@
             - [Verifying zLUX installation](topics/mvd-instopendesktopbrowser.md)
               -   [Setting up the terminal application plug-ins](topics/mvd-settingupterminalapps.md)
             - [Verifying explorer server installation](topics/atlas-verifyinstall.md)
+            - [Verifying API Mediation Layer installation](topics/api-mediation/api-mediation-validate-install.md)
         -   [Troubleshooting installing the Zoe runtime](topics/zoeinstalltroubleshoot.md)
             -   [Troubleshooting installing zLUX](topics/mvd-troubleshoot.md)
             -   [Troubleshooting installing explorer server](topics/atlas-troubleshoot.md)
