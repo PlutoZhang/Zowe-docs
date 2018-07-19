@@ -32,6 +32,7 @@ navtitle="Summary of changes" scope="local"></topicref>
 <topicref format="md" href="topics/mvd-overview.md" navtitle="zLUX" scope="local"/>
 <topicref format="md" href="topics/atlas-overview.md" navtitle="Explorer server" scope="local"/>
 <topicref format="md" href="topics/cli-releasenotes.md" navtitle="Zoe Brightside" scope="local"/>
+<topicref format="md" href="topics/api-mediation/api-mediation-overview.md" navtitle="API Mediation Layer" scope="local"/>
 </chapter>
 <chapter format="md" href="topics/installandconfig.md" navtitle="Installing Project Zoe"
 scope="local">
@@ -46,6 +47,8 @@ navtitle="Configuring ports for the zLUX terminal application plug-ins" scope="l
 </topicref>
 <topicref format="md" href="topics/atlas-prereqs.md"
 navtitle="System requirements for explorer server" scope="local"/>
+<topicref format="md" href="topics/api-mediation/api-mediation-prereqs.md"
+navtitle="System requirements for API Mediation Layer" scope="local"/>
 <topicref format="md" href="topics/cli-precli.md" navtitle="System requirements for Zoe Brightside"
 scope="local"/>
 </topicref>
@@ -65,6 +68,9 @@ navtitle="Setting up terminal application plug-ins" scope="local"/>
 </topicref>
 <topicref format="md" href="topics/atlas-verifyinstall.md"
 navtitle="Verifying explorer server installation" scope="local"/>
+</topicref>
+<topicref format="md" href="topics/api-mediation/api-mediation-validate-install.md"
+navtitle="Verifying API Mediation Layer installation" scope="local"/>
 </topicref>
 <topicref format="md" href="topics/zoeinstalltroubleshoot.md"
 navtitle="Troubleshooting installing the Zoe runtime" scope="local">
@@ -89,6 +95,9 @@ scope="local"/>
 <topicref format="md" href="topics/atlas-uninstall.md" navtitle="Uninstalling explorer server"
 scope="local"/>
 <topicref format="md" href="topics/cli-uninstallcli.md" navtitle="Uninstalling Zoe Brightside"
+scope="local"/>
+</topicref>
+<topicref format="md" href="topics/api-mediation/api-mediation-uninstall.md" navtitle="Uninstalling API Mediation Layer"
 scope="local"/>
 </topicref>
 </chapter>
