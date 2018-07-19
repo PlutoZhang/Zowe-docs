@@ -5,7 +5,7 @@ You can uninstall API Mediation Layer when you no longer want to use the product
 **Note:** Be aware of the following considerations:
 
 -   You might need super user authority to run this command.
--   You must identify the API Mediation installation directory correctly. Running a recursive remove command with the wrong directory name can delete critical files.
+-   You must identify the API Mediation installation directory correctly. Running a recursive remove command with the incorrect directory name can delete critical files.
 
 **Follow these steps:**
 
