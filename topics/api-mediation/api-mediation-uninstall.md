@@ -9,7 +9,7 @@ You can uninstall API Mediation Layer when you no longer want to use the product
 
 **Follow these steps:**
 
-1.  Stop your API Mediation services by running the following operator command:
+1.  Stop your API Mediation services using the following command:
 
     ```
     C ZOESVR
