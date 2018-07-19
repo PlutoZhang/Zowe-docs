@@ -19,7 +19,7 @@ To install API Mediation Layer, zLux, and explorer server, you install the Zoe r
 
         You can run the installation process multiple times with different values in the `zoe-install.yaml` file to create separate installations of the Zoe runtime. The directory that Zoe is installed into must be empty. The install script exits if the directory is not empty and creates the directory if it does not exist.
 
-    - API Mediation Layer has three ports - one HTTPS port for each micro-service. 
+    - API Mediation Layer has three ports - two HTTP ports and one HTTPS port, each for a micro-service.
     
     - Explorer-server has two ports - one for HTTP and one for HTTPS.  The liberty server is used for the explorer-ui components.
 
@@ -32,8 +32,8 @@ To install API Mediation Layer, zLux, and explorer server, you install the Zoe r
      rootDir=/var/zoe/0.8.3
      
     api-mediation:
-      catalogHttpsPort=7552
-      discoveryHttpsPort=7553
+      catalogHttpPort=7552
+      discoveryHttpPort=7553
       gatewayHttpsPort=7554 
 
     explorer-server:
