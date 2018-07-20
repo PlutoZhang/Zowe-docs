@@ -54,8 +54,8 @@ scope="local"/>
 </topicref>
 <topicref format="md" href="topics/zoegettingstarted.md" navtitle="Obtaining installation files"
 scope="local"/>
-<topicref format="md" href="topics/zoeinstall-zos.md" navtitle="Installing zLUX and explorer server"
-scope="local">
+<topicref format="md" href="topics/zoeinstall-zos.md"
+navtitle="Installing API Mediation Layer, zLUX, and explorer server" scope="local">
 <topicref format="md" href="topics/zoeinstall.md" navtitle="Installing Zoe runtime on z/OS"
 scope="local"/>
 <topicref format="md" href="topics/zoestartstop.md" navtitle="Starting and stopping the Zoe runtime"
@@ -68,9 +68,9 @@ navtitle="Setting up terminal application plug-ins" scope="local"/>
 </topicref>
 <topicref format="md" href="topics/atlas-verifyinstall.md"
 navtitle="Verifying explorer server installation" scope="local"/>
-</topicref>
 <topicref format="md" href="topics/api-mediation/api-mediation-validate-install.md"
 navtitle="Verifying API Mediation Layer installation" scope="local"/>
+</topicref>
 </topicref>
 <topicref format="md" href="topics/zoeinstalltroubleshoot.md"
 navtitle="Troubleshooting installing the Zoe runtime" scope="local">
@@ -78,7 +78,6 @@ navtitle="Troubleshooting installing the Zoe runtime" scope="local">
 scope="local"/>
 <topicref format="md" href="topics/atlas-troubleshoot.md"
 navtitle="Troubleshooting installing explorer server" scope="local"/>
-</topicref>
 </topicref>
 <topicref format="md" href="topics/cli-installcli.md" navtitle="Installing Zoe Brightside"
 scope="local">
@@ -99,7 +98,6 @@ scope="local"/>
 </topicref>
 <topicref format="md" href="topics/api-mediation/api-mediation-uninstall.md" navtitle="Uninstalling API Mediation Layer"
 scope="local"/>
-</topicref>
 </chapter>
 <chapter format="md" href="topics/using.md" navtitle="Using Project Zoe" scope="local">
 <topicref format="md" href="topics/usingmvd.md" navtitle="Using zLUX" scope="local">
