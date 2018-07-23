@@ -7,7 +7,16 @@ Learn about what is new, changed, and removed in Project Zoe.
 
 **zLUX**
 
-The mainframe account under which the ZSS server runs must have UPDATE permission on the `BPX.DAEMON` and `BPX.SERVER` facility class profiles. 
+The mainframe account under which the ZSS server runs must have UPDATE permission on the `BPX.DAEMON` and `BPX.SERVER` facility class profiles.
+    
+**Explorer server**
+
+The System Display and Search Facility (SDSF) of z/OS is no longer a prerequisite for installing explorer server.
+
+### What's removed
+
+Removed all references to SYSLOG.
+
 
 ## Version 0.8.3 (June 2018)
 ### What's changed
