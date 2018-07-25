@@ -76,7 +76,9 @@
 
          ```
          SET CONTROL(GSO)
+
          INSERT STC.ZOESVR LOGONID(ZIUSVR) GROUP(IZUADMIN) STCID(ZOESVR)
+         
          F ACF2,REFRESH(STC)
          ```
       - For Top Secret
