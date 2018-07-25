@@ -69,3 +69,16 @@
      2. Add the user who is performing the install to the IZUADMIN group.  
 
         ```CONNECT (userid) GROUP(IZUADMIN)```
+        
+     **Note**: If you use ACF2 or Top Secret instead of RACF, to set the ZOESVR to use the IZUSVR user ID, issue the following commands: 
+
+      - For ACF2  
+
+         ```
+         SET CONTROL(GSO)
+         INSERT STC.ZOESVR LOGONID(ZIUSVR) GROUP(IZUADMIN) STCID(ZOESVR)
+         F ACF2,REFRESH(STC)
+         ```
+      - For Top Secret
+
+         ```TSS ADDTO(STC) PROCNAME(ZOESVR) ACID(IZUSVR)```    
